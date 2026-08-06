@@ -2,6 +2,8 @@
  * musicManifestFetch — fetch and parse `src/data/platform/manifest.json` for the music catalog.
  */
 
+import { assetFetchOptions, versionedAssetUrl } from '../../atlas-performance/runtimeAssetUrl.js';
+
 const getLogAssetLoad = () =>
     (typeof window !== 'undefined' && typeof window.logAssetLoad === 'function')
         ? window.logAssetLoad
@@ -14,14 +16,10 @@ export async function fetchMusicManifest() {
     const logAssetLoad = getLogAssetLoad();
     logAssetLoad('MUSIC', 'Loading manifest.json (PRIORITY)');
 
-    const cacheBuster = `${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
-    const response = await fetch(`src/data/platform/manifest.json?v=${cacheBuster}`, {
-        cache: 'no-store',
-        headers: {
-            'Cache-Control': 'no-cache, no-store, must-revalidate',
-            'Pragma': 'no-cache'
-        }
-    });
+    const response = await fetch(
+        versionedAssetUrl('src/data/platform/manifest.json'),
+        assetFetchOptions(),
+    );
     if (!response.ok) {
         throw new Error(`manifest.json HTTP ${response.status}`);
     }

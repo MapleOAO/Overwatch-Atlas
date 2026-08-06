@@ -44,7 +44,9 @@ class SoundEffectsService {
     _registerClip(name, path, { volumeMultiplier = 1, playbackRate = null } = {}) {
         try {
             const audio = new Audio(path);
-            audio.preload = 'auto';
+            // SFX are short and only needed after an interaction. Creating
+            // them at boot must not trigger a request for every clip.
+            audio.preload = 'none';
             audio.volume = this.volume * volumeMultiplier;
             if (playbackRate != null) audio.playbackRate = playbackRate;
             audio.addEventListener('error', (e) => {

@@ -7,6 +7,7 @@ import {
     resolveCodexRepoApiUrl
 } from '../../codex-canvas/bridge/CodexAppBridge.js';
 import { FILES } from '../../../../data/registry.js';
+import { assetFetchOptions, versionedAssetUrl } from '../../../universal-features/atlas-performance/runtimeAssetUrl.js';
 
 function countCodexNodes(data) {
     if (!data) return 0;
@@ -19,7 +20,10 @@ function countCodexNodes(data) {
 
 async function fetchStaticCodexJson() {
     try {
-        const r = await fetch(`${FILES.connectionCodex.codexLabels}?v=${Date.now()}`);
+        const r = await fetch(
+            versionedAssetUrl(FILES.connectionCodex.codexLabels),
+            assetFetchOptions(),
+        );
         if (!r.ok) return { ok: false };
         const data = await r.json();
         return { ok: true, data };

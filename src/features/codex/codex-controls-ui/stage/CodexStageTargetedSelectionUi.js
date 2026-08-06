@@ -13,6 +13,7 @@ import {
     reapplyCodexTargetedSelectionIfActive,
     resolveCodexNodeIdFromNameQuery
 } from './CodexTargetedSelection.js';
+import { optimizeImagePath } from '../../../universal-features/atlas-performance/runtimeAssetUrl.js';
 
 /** @type {Set<string>} */
 let draftSeedIds = new Set();
@@ -84,11 +85,11 @@ function appendTargetSuggestionRow(list, row, onPick) {
 
     let detailText = kind;
     if (kind === 'hero') {
-        img.src = `src/assets/images/Filters/Heroes/${encodeURIComponent(name)}.png`;
+        img.src = optimizeImagePath(`src/assets/images/Filters/Heroes/${encodeURIComponent(name)}.png`);
         img.className += ' filter-autocomplete-item-icon--hero';
         detailText = 'Hero';
     } else if (kind === 'npc') {
-        img.src = `src/assets/images/Filters/NPCs/${encodeURIComponent(name)}.png`;
+        img.src = optimizeImagePath(`src/assets/images/Filters/NPCs/${encodeURIComponent(name)}.png`);
         img.className += ' filter-autocomplete-item-icon--npc';
         detailText = 'NPC';
     } else if (kind === 'country') {
@@ -97,7 +98,7 @@ function appendTargetSuggestionRow(list, row, onPick) {
         detailText = 'Country';
     } else if (kind === 'faction' && node) {
         const fn = node.factionFilename || name;
-        img.src = `src/assets/images/Filters/Factions/${encodeURIComponent(fn)}.png`;
+        img.src = optimizeImagePath(`src/assets/images/Filters/Factions/${encodeURIComponent(fn)}.png`);
         img.className += ' filter-autocomplete-item-icon--faction';
         detailText = 'Faction';
     }

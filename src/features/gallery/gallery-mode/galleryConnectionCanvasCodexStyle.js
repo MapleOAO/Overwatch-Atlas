@@ -3,6 +3,7 @@
  */
 
 import { FILES } from '../../../data/registry.js';
+import { assetFetchOptions, versionedAssetUrl } from '../../universal-features/atlas-performance/runtimeAssetUrl.js';
 
 /** @type {object[]|null} */
 let codexNodesCache = null;
@@ -19,9 +20,10 @@ export async function loadCodexNodesForGalleryStyle() {
 
     codexNodesLoadPromise = (async () => {
         try {
-            const res = await fetch(`${FILES.connectionCodex.codexLabels}?v=${Date.now()}`, {
-                cache: 'no-store',
-            });
+            const res = await fetch(
+                versionedAssetUrl(FILES.connectionCodex.codexLabels),
+                assetFetchOptions(),
+            );
             if (res.ok) {
                 const data = await res.json();
                 codexNodesCache = Array.isArray(data?.nodes) ? data.nodes : [];

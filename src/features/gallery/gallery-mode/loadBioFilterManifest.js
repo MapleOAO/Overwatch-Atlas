@@ -4,6 +4,7 @@
 
 import { getHeroDisplayName, getFilterKeyAndDisplayName } from '../../system-interface/interface-filter-menu/buttons/filterKeyMapping.js';
 import { normalizeBioBiographyCategory } from './bioBiographyCategories.js';
+import { assetFetchOptions, versionedAssetUrl } from '../../universal-features/atlas-performance/runtimeAssetUrl.js';
 
 /**
  * @typedef {import('./bioBiographyCategories.js').BioBiographyArchiveCategory} BioBiographyArchiveCategory
@@ -14,14 +15,10 @@ let manifestCache = null;
 
 async function loadPlatformManifest() {
     if (manifestCache) return manifestCache;
-    const cacheBuster = `${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
-    const response = await fetch(`src/data/platform/manifest.json?v=${cacheBuster}`, {
-        cache: 'no-store',
-        headers: {
-            'Cache-Control': 'no-cache, no-store, must-revalidate',
-            Pragma: 'no-cache',
-        },
-    });
+    const response = await fetch(
+        versionedAssetUrl('src/data/platform/manifest.json'),
+        assetFetchOptions(),
+    );
     if (!response.ok) {
         throw new Error(`manifest.json HTTP ${response.status}`);
     }

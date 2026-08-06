@@ -4,6 +4,7 @@ import { s } from '../../codex-canvas/core/canvasSession.js';
 import { getEventManager, getEventsFromEventManager, getGlobeController, getStandaloneEventSlide, playSoundEffect, updateAppStatus } from '../../codex-canvas/bridge/CodexAppBridge.js';
 import { CODEX_ALLOWED_COUNTRY_KEYS, codexCountryFlagSrc } from '../placement/CodexNodePortraitMetrics.js';
 import { capOpts, DOUBLE_RIGHT_MS, CODEX_JUNCTION_PREVIEW_DATA_URI, MAX_SUGGEST, CODEX_DEBUG_UI_PREF_KEY_LEGACY, CODEX_MODE_PREF_KEY } from '../../codex-canvas/core/canvasConstants.js';
+import { optimizeImagePath } from '../../../universal-features/atlas-performance/runtimeAssetUrl.js';
 
 
 function openPickerAtRootPoint(worldX, worldY, anchorClientX, anchorClientY) {
@@ -239,12 +240,12 @@ function appendSuggestionRow(list, kind, heroName, faction, onPick, countryMeta 
     if (kind === 'hero') {
         labelText = i18n ? i18n.displayName(heroName, { kind: 'hero' }) : heroName;
         detailText = 'Hero';
-        img.src = `src/assets/images/Filters/Heroes/${encodeURIComponent(heroName)}.png`;
+        img.src = optimizeImagePath(`src/assets/images/Filters/Heroes/${encodeURIComponent(heroName)}.png`);
         img.className += ' filter-autocomplete-item-icon--hero';
     } else if (kind === 'npc') {
         labelText = i18n ? i18n.displayName(heroName, { kind: 'npc' }) : heroName;
         detailText = 'NPC';
-        img.src = `src/assets/images/Filters/NPCs/${encodeURIComponent(heroName)}.png`;
+        img.src = optimizeImagePath(`src/assets/images/Filters/NPCs/${encodeURIComponent(heroName)}.png`);
         img.className += ' filter-autocomplete-item-icon--npc';
     } else if (kind === 'country' && countryMeta) {
         const rawCountry = countryMeta.label || countryMeta.key;
@@ -255,7 +256,7 @@ function appendSuggestionRow(list, kind, heroName, faction, onPick, countryMeta 
     } else {
         labelText = i18n ? i18n.displayName(faction.displayName, { kind: 'faction', id: faction.id }) : faction.displayName;
         detailText = 'Faction';
-        img.src = `src/assets/images/Filters/Factions/${encodeURIComponent(faction.filename)}.png`;
+        img.src = optimizeImagePath(`src/assets/images/Filters/Factions/${encodeURIComponent(faction.filename)}.png`);
         img.className += ' filter-autocomplete-item-icon--faction';
     }
 

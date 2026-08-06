@@ -2,6 +2,8 @@
  * musicGridButtons — build the catalog track grid and keep the selected tile in sync.
  */
 
+import { optimizeImagePath, versionedAssetUrl } from '../../atlas-performance/runtimeAssetUrl.js';
+
 /**
  * @param {Array<{ filename: string, name: string }>} musicFiles
  * @param {HTMLElement} musicGrid
@@ -25,17 +27,22 @@ export function renderMusicGridButtons(musicFiles, musicGrid, currentSong, onSon
 
         const img = document.createElement('img');
         const iconName = song.filename.replace(/\.(mp3|wav|ogg)$/i, '');
-        const imageCacheBuster = `${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
         const encodedIconName = encodeURIComponent(iconName);
-        img.src = `src/assets/images/Music/${encodedIconName}.png?v=${imageCacheBuster}`;
+        const iconPath = optimizeImagePath(`src/assets/images/Music/${encodedIconName}.png`);
+        img.src = versionedAssetUrl(iconPath);
         img.alt = song.name;
+        img.loading = 'lazy';
+        img.decoding = 'async';
         img.onerror = function () {
             const originalSrc = this.src;
             console.warn(`[DEBUG] Image failed to load: ${originalSrc}`);
 
             const altEncoded = iconName.replace(/\s+/g, '%20');
-            if (this.src !== `src/assets/images/Music/${altEncoded}.png?v=${imageCacheBuster}`) {
-                this.src = `src/assets/images/Music/${altEncoded}.png?v=${imageCacheBuster}`;
+            const altPath = versionedAssetUrl(
+                optimizeImagePath(`src/assets/images/Music/${altEncoded}.png`),
+            );
+            if (this.src !== altPath) {
+                this.src = altPath;
                 return;
             }
 

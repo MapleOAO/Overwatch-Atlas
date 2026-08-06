@@ -10,38 +10,39 @@
  */
 
 import { FILTER_IMAGE_PATHS, generateCacheBuster } from './filterImagePaths.js';
+import { optimizeImagePath } from '../../../universal-features/atlas-performance/runtimeAssetUrl.js';
 
 const RETRY_DELAY_SHORT_MS = 300;
 
 function buildRetryUrl(type, filterKey, folder, cacheBuster) {
     if (type === 'music') {
         const iconName = filterKey.replace(/\.(mp3|wav|ogg)$/i, '');
-        return `${FILTER_IMAGE_PATHS.MUSIC}/${encodeURIComponent(iconName)}.png?v=${cacheBuster}`;
+        return `${optimizeImagePath(`${FILTER_IMAGE_PATHS.MUSIC}/${encodeURIComponent(iconName)}.png`)}?v=${cacheBuster}`;
     }
     if (type === 'countries') {
         const raw = String(filterKey || '').startsWith('country:')
             ? String(filterKey).slice('country:'.length).trim()
             : String(filterKey || '').trim();
         const segs = raw.split('/').map(s => encodeURIComponent(s));
-        return `${folder}/${segs.join('/')}?v=${cacheBuster}`;
+        return `${optimizeImagePath(`${folder}/${segs.join('/')}`)}?v=${cacheBuster}`;
     }
     /* heroes / npcs / factions all share the same encoded basename pattern. */
-    return `${folder}/${encodeURIComponent(filterKey)}.png?v=${cacheBuster}`;
+    return `${optimizeImagePath(`${folder}/${encodeURIComponent(filterKey)}.png`)}?v=${cacheBuster}`;
 }
 
 function buildAltEncodedUrl(type, filterKey, folder, cacheBuster) {
     if (type === 'music') {
         const iconName = filterKey.replace(/\.(mp3|wav|ogg)$/i, '');
-        return `${FILTER_IMAGE_PATHS.MUSIC}/${iconName.replace(/\s+/g, '%20')}.png?v=${cacheBuster}`;
+        return `${optimizeImagePath(`${FILTER_IMAGE_PATHS.MUSIC}/${iconName.replace(/\s+/g, '%20')}.png`)}?v=${cacheBuster}`;
     }
     if (type === 'countries') {
         const raw = String(filterKey || '').startsWith('country:')
             ? String(filterKey).slice('country:'.length).trim()
             : String(filterKey || '').trim();
         const segs = raw.split('/').map(s => encodeURIComponent(s.replace(/\s+/g, '%20')));
-        return `${folder}/${segs.join('/')}?v=${cacheBuster}`;
+        return `${optimizeImagePath(`${folder}/${segs.join('/')}`)}?v=${cacheBuster}`;
     }
-    return `${folder}/${filterKey.replace(/\s+/g, '%20')}.png?v=${cacheBuster}`;
+    return `${optimizeImagePath(`${folder}/${filterKey.replace(/\s+/g, '%20')}.png`)}?v=${cacheBuster}`;
 }
 
 function onFinalImageLoadFailure(img, type, filterKey, folder) {

@@ -20,7 +20,13 @@
 
     var R = window.__FlagFileResolver;
     var B = window.__SlideBioConnections;
-    var H = window.__RelevancyRowFilterHighlight;
+   var H = window.__RelevancyRowFilterHighlight;
+
+    function optimizeFilterImagePath(path) {
+        return typeof window.atlasOptimizeImagePath === 'function'
+            ? window.atlasOptimizeImagePath(path)
+            : path;
+    }
 
     function clonePlaceRowObjects(arr) {
         if (!Array.isArray(arr)) return [];
@@ -81,7 +87,7 @@
         if (kind === 'heroes') {
             var hk = B.resolveHeroImageKey(t);
             var canon = hk || t;
-            src = 'src/assets/images/Filters/Heroes/' + encodeURIComponent(canon) + '.png';
+            src = optimizeFilterImagePath('src/assets/images/Filters/Heroes/' + encodeURIComponent(canon) + '.png');
             var dataEnc = encodeURIComponent(canon);
             return (
                 '<img class="event-slide-filter-token-img event-slide-filter-token-img--heroes event-slide-filter-token-img--clickable-hero" ' +
@@ -93,7 +99,7 @@
         }
         if (kind === 'npcs') {
             var nk = B.resolveNpcImageKey(t);
-            src = 'src/assets/images/Filters/NPCs/' + encodeURIComponent(nk || t) + '.png';
+            src = optimizeFilterImagePath('src/assets/images/Filters/NPCs/' + encodeURIComponent(nk || t) + '.png');
             var dataNpcTok = encodeURIComponent(nk || t);
             return (
                 '<img class="event-slide-filter-token-img event-slide-filter-token-img--npcs event-slide-filter-token-img--clickable-npc" ' +
@@ -106,7 +112,7 @@
         if (kind === 'factions') {
             var ff = B.resolveFactionImageFilename(t);
             if (!ff) return '';
-            src = 'src/assets/images/Filters/Factions/' + encodeURIComponent(ff) + '.png';
+            src = optimizeFilterImagePath('src/assets/images/Filters/Factions/' + encodeURIComponent(ff) + '.png');
             var dataFacTok = encodeURIComponent(t);
             return (
                 '<img class="event-slide-filter-token-img event-slide-filter-token-img--factions event-slide-filter-token-img--clickable-faction" ' +
