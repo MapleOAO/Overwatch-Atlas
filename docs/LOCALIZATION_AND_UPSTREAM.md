@@ -21,6 +21,14 @@ node src/server.js
 
 没有运行本地服务器时，维护页仍可编辑，但会下载 JSON 文件；请把下载结果放回对应目录后提交。
 
+当前 `content.json` 已按稳定 ID 覆盖仓库内全部事件和实体：名称 495/495，非空描述 228/228。首次从英文源批量导入时可运行：
+
+```bash
+npm run i18n:seed:content
+```
+
+该命令用于重新生成当前源数据的中文初始稿；日常纠错应优先使用 `translations.html`，并将人工确认的条目标记为 `reviewed`。目前仍有少量专有名词保留 `draft` 状态，方便依据国服资料逐项核对，不会被误认为已经完成官方术语审核。
+
 ## 远程仓库关系
 
 `origin` 必须是自己的仓库，`upstream` 只用于读取 Diego 的原仓库：
@@ -58,7 +66,8 @@ npm run sync:upstream
 ```bash
 npm run content:ids:check
 npm run i18n:check
+npm run i18n:check:strict
 npm run build:pages
 ```
 
-普通 `i18n:check` 会报告尚未翻译的内容但不阻断同步，因为上游可能随时新增英文资料；发布前若要强制所有条目完成译文，可运行 `npm run i18n:check:strict`。
+普通 `i18n:check` 会报告上游新增、源文本变更和待核对条目但不阻断同步；发布前运行 `npm run i18n:check:strict`，确保当前源数据没有缺失或过期译文。上游新增内容会通过稳定 ID 和 `sourceHash` 被识别，随后在维护页补译即可。
