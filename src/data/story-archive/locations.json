@@ -2,7 +2,8 @@
   "events": [
     {
       "name": "Numbani",
-      "description": ""
+      "description": "",
+      "id": "location-8e5fcf53ca7d"
     }
   ]
 }

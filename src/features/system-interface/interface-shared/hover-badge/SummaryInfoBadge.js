@@ -200,14 +200,16 @@ function positionBadge() {
 }
 
 /** Plain-text event title for hover preview (strips HTML from name). */
-export function getPlainEventTitleForHover(eventObj) {
+export function getPlainEventTitleForHover(eventObj, options = {}) {
     if (!eventObj) return '';
     const raw = (eventObj.name != null ? String(eventObj.name) : '').trim();
     if (!raw) return '';
     const tmp = document.createElement('div');
     tmp.innerHTML = raw;
     const t = (tmp.textContent || tmp.innerText || '').trim();
-    return t || raw.replace(/<[^>]+>/g, '');
+    const plain = t || raw.replace(/<[^>]+>/g, '');
+    const i18n = typeof window !== 'undefined' ? window.AtlasI18n : null;
+    return i18n ? i18n.displayName(plain, { kind: 'event', id: eventObj.id, variantIndex: options.variantIndex }) : plain;
 }
 
 /**
@@ -276,7 +278,7 @@ export function getHoverPreviewLines(eventObj, options) {
     const variants = Array.isArray(eventObj.variants) ? eventObj.variants : [];
 
     if (variants.length === 0) {
-        const single = getPlainEventTitleForHover(eventObj);
+        const single = getPlainEventTitleForHover(eventObj, options);
         const vi = options && options.variantIndex !== undefined ? options.variantIndex : undefined;
         const primaryRowFlag = buildRowFlagEntry(eventObj, vi, getLN, lh);
         return {
@@ -289,7 +291,7 @@ export function getHoverPreviewLines(eventObj, options) {
         };
     }
     const variantTitles = variants.map((v, i) => {
-        const t = v ? getPlainEventTitleForHover(v) : '';
+        const t = v ? getPlainEventTitleForHover(eventObj, { variantIndex: i }) : '';
         return t && t.trim() ? t.trim() : `Variant ${i + 1}`;
     });
     const parentName = getPlainEventTitleForHover(eventObj);

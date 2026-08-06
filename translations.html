@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>翻译维护 · 守望先锋档案馆</title>
+    <style>
+        :root { color-scheme: dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+        * { box-sizing: border-box; }
+        body { margin: 0; min-height: 100vh; color: #e9f3ff; background: #08111d; }
+        a { color: #73c9ff; }
+        button, input, textarea, select { font: inherit; color: inherit; }
+        button { cursor: pointer; border: 1px solid #2e5f82; background: #102a40; border-radius: 4px; padding: 8px 12px; }
+        button:hover { border-color: #72c9ff; background: #163a55; }
+        input, textarea, select { width: 100%; border: 1px solid #31516b; border-radius: 4px; background: #071521; padding: 8px; }
+        textarea { min-height: 130px; resize: vertical; line-height: 1.55; }
+        header { display: flex; align-items: center; gap: 16px; padding: 16px 22px; border-bottom: 1px solid #1b3d56; background: #0b1b2a; position: sticky; top: 0; z-index: 3; }
+        header h1 { font-size: 20px; margin: 0; flex: 1; }
+        .status { font-size: 12px; padding: 5px 8px; border: 1px solid #31516b; border-radius: 99px; }
+        .status.ok { color: #a9f3c1; border-color: #3f9560; }
+        .status.warn { color: #ffd58a; border-color: #a8772e; }
+        main { max-width: 1500px; margin: 0 auto; padding: 18px; }
+        .toolbar { display: grid; grid-template-columns: 170px minmax(180px, 1fr) 150px auto auto auto; gap: 8px; margin-bottom: 14px; }
+        .stats { color: #9bb5c9; font-size: 13px; margin: 4px 0 12px; }
+        .layout { display: grid; grid-template-columns: minmax(280px, 0.8fr) minmax(480px, 1.6fr); gap: 14px; align-items: start; }
+        .panel { border: 1px solid #1c405a; border-radius: 6px; background: rgba(9, 25, 39, .92); overflow: hidden; }
+        .list { max-height: calc(100vh - 150px); overflow: auto; }
+        .list-item { display: block; width: 100%; text-align: left; border: 0; border-bottom: 1px solid #17344a; border-radius: 0; background: transparent; padding: 11px 13px; }
+        .list-item:hover, .list-item.selected { background: #10304a; }
+        .list-item strong { display: block; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .list-item small { display: block; margin-top: 4px; color: #8da7ba; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .list-item .pill { float: right; margin-left: 6px; }
+        .pill { font-size: 10px; padding: 2px 5px; border-radius: 99px; border: 1px solid #496274; color: #b9cad7; }
+        .pill.reviewed { color: #a9f3c1; border-color: #3f9560; }
+        .pill.draft { color: #ffd58a; border-color: #a8772e; }
+        .pill.missing { color: #ff9d9d; border-color: #984b4b; }
+        .editor { padding: 18px; }
+        .editor h2 { margin: 0 0 5px; font-size: 18px; }
+        .editor .source-id { color: #7592a5; font: 12px ui-monospace, SFMono-Regular, Consolas, monospace; word-break: break-all; margin-bottom: 16px; }
+        .field { margin: 13px 0; }
+        .field label { display: block; color: #a8c2d5; font-size: 12px; margin-bottom: 5px; }
+        .field .source { color: #d2e2ec; border-color: #24435a; background: #0b1a27; white-space: pre-wrap; line-height: 1.5; padding: 9px; border-radius: 4px; max-height: 180px; overflow: auto; }
+        .row { display: grid; grid-template-columns: 1fr 180px; gap: 10px; }
+        .variant { border: 1px solid #1e445d; border-radius: 5px; padding: 10px; margin: 8px 0; }
+        .variant-title { color: #89c8eb; font-size: 12px; margin-bottom: 7px; }
+        .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; padding-top: 14px; border-top: 1px solid #1b3d56; }
+        .empty { padding: 28px 16px; color: #8da7ba; text-align: center; }
+        .hint { color: #8da7ba; font-size: 12px; line-height: 1.5; }
+        @media (max-width: 900px) {
+            .toolbar { grid-template-columns: 1fr 1fr; }
+            .toolbar input { grid-column: span 2; }
+            .layout { grid-template-columns: 1fr; }
+            .list { max-height: 35vh; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">← 返回档案馆</a>
+        <h1>翻译维护</h1>
+        <span id="serverStatus" class="status">正在连接本地服务器…</span>
+    </header>
+    <main>
+        <div class="toolbar">
+            <select id="datasetSelect" aria-label="翻译类别">
+                <option value="event">事件</option>
+                <option value="hero">英雄</option>
+                <option value="faction">阵营</option>
+                <option value="npc">NPC</option>
+                <option value="location">地点</option>
+                <option value="ui">界面文案</option>
+                <option value="glossary">术语表</option>
+            </select>
+            <input id="searchInput" type="search" placeholder="搜索原文、译文或 ID…" autocomplete="off">
+            <select id="statusFilter" aria-label="翻译状态">
+                <option value="all">全部状态</option>
+                <option value="missing">未翻译</option>
+                <option value="draft">草稿/待核对</option>
+                <option value="reviewed">已审核</option>
+            </select>
+            <button id="reloadButton" type="button">重新加载</button>
+            <button id="saveButton" type="button">保存当前</button>
+            <button id="exportButton" type="button">导出文件</button>
+        </div>
+        <div id="stats" class="stats"></div>
+        <div class="layout">
+            <section class="panel"><div id="recordList" class="list"></div></section>
+            <section class="panel"><div id="editor" class="editor"><div class="empty">请选择左侧条目开始维护。</div></div></section>
+        </div>
+    </main>
+    <script type="module" src="src/features/localization/translation-workbench.js"></script>
+</body>
+</html>

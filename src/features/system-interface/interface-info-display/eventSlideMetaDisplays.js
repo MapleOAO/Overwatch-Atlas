@@ -8,6 +8,12 @@ import {
     getHeroBirthdayRawFromEntry
 } from '../interface-shared/bio-archive/HeroBirthdayAge.js';
 
+function localizeUi(value) {
+    const text = String(value ?? '');
+    const i18n = typeof window !== 'undefined' ? window.AtlasI18n : null;
+    return i18n ? i18n.t(text) : text;
+}
+
 function getCandidateEventLists(dataModel) {
     const lists = [];
     const push = (arr) => {
@@ -93,7 +99,7 @@ export function updateEventSlideFactionTypeDisplay(eventData, variantIndex) {
               ? String(raw).trim()
               : 'None';
 
-    el.textContent = `Faction type: ${label}`;
+    el.textContent = `${localizeUi('Faction type')}: ${localizeUi(label)}`;
     el.removeAttribute('hidden');
     el.style.display = '';
 }
@@ -166,7 +172,7 @@ export function updateEventSlideNpcCategoryDisplay(eventData, variantIndex) {
               ? String(raw).trim()
               : 'Other';
 
-    el.textContent = `NPC category: ${label}`;
+    el.textContent = `${localizeUi('NPC category')}: ${localizeUi(label)}`;
     el.removeAttribute('hidden');
     el.style.display = '';
 }
@@ -223,10 +229,10 @@ export function updateEventSlideHeroRoleDisplay(eventData, variantIndex) {
         hro && typeof hro.normalizeHeroArchiveSubrole === 'function'
             ? hro.normalizeHeroArchiveSubrole(rawSub, roleNorm)
             : '';
-    let line = `Role: ${label}`;
+    let line = `${localizeUi('Role')}: ${localizeUi(label)}`;
     if (subNorm && hro && typeof hro.displayLabelForHeroArchiveSubrole === 'function') {
         const subDisp = hro.displayLabelForHeroArchiveSubrole(rawSub, roleNorm);
-        if (subDisp && subDisp !== 'None') line = `Role: ${label} · ${subDisp}`;
+        if (subDisp && subDisp !== 'None') line = `${localizeUi('Role')}: ${localizeUi(label)} · ${localizeUi(subDisp)}`;
     }
     el.textContent = line;
     el.removeAttribute('hidden');
@@ -271,7 +277,7 @@ export function updateEventSlideHeroBirthdayDisplay(eventData, variantIndex) {
         el.style.display = 'none';
         return;
     }
-    el.textContent = `Birthday: ${display.birthdayText}\nAge: ${display.age}`;
+    el.textContent = `${localizeUi('Birthday')}: ${display.birthdayText}\n${localizeUi('Age')}: ${display.age}`;
     el.removeAttribute('hidden');
     el.style.display = '';
 }

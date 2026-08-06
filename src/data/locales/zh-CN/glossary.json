@@ -1,0 +1,816 @@
+{
+  "locale": "zh-CN",
+  "version": 1,
+  "terms": {
+    "Ana": {
+      "target": "安娜",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Ana Amari": {
+      "target": "安娜·阿玛莉",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Anran": {
+      "target": "安燃",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Ashe": {
+      "target": "艾什",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Baptiste": {
+      "target": "巴蒂斯特",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Bastion": {
+      "target": "堡垒",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Brigitte": {
+      "target": "布丽吉塔",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Cassidy": {
+      "target": "卡西迪",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "D.mon": {
+      "target": "D.Va",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "D.va": {
+      "target": "D.Va",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Domina": {
+      "target": "多米娜",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Doomfist": {
+      "target": "末日铁拳",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Echo": {
+      "target": "回声",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Emre": {
+      "target": "埃姆雷",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Freja": {
+      "target": "弗蕾娅",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Genji": {
+      "target": "源氏",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Hanzo": {
+      "target": "半藏",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Hazard": {
+      "target": "骇灾",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Illari": {
+      "target": "伊拉莉",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Jetpack Cat": {
+      "target": "喷气背包猫",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "Junker Queen": {
+      "target": "渣客女王",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Junkrat": {
+      "target": "狂鼠",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Juno": {
+      "target": "朱诺",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Kiriko": {
+      "target": "雾子",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Lifeweaver": {
+      "target": "生命之梭",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Lúcio": {
+      "target": "卢西奥",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Mauga": {
+      "target": "毛加",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Mei": {
+      "target": "小美",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Mercy": {
+      "target": "天使",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Mizuki": {
+      "target": "瑞穗",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "Moira": {
+      "target": "莫伊拉",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Orisa": {
+      "target": "奥丽莎",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Pharah": {
+      "target": "法老之鹰",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Ramattra": {
+      "target": "拉玛刹",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Reaper": {
+      "target": "死神",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Reinhardt": {
+      "target": "莱因哈特",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Roadhog": {
+      "target": "路霸",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Shion": {
+      "target": "诗音",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "Sigma": {
+      "target": "西格玛",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Sojourn": {
+      "target": "索杰恩",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Soldier 76": {
+      "target": "士兵：76",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Sombra": {
+      "target": "黑影",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Symmetra": {
+      "target": "秩序之光",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Torbjörn": {
+      "target": "托比昂",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Tracer": {
+      "target": "猎空",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Vendetta": {
+      "target": "维德塔",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "Venture": {
+      "target": "探奇",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Widowmaker": {
+      "target": "黑百合",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Winston": {
+      "target": "温斯顿",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Wrecking Ball": {
+      "target": "破坏球",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Wuyang": {
+      "target": "无漾",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Zarya": {
+      "target": "查莉娅",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Zenyatta": {
+      "target": "禅雅塔",
+      "status": "reviewed",
+      "source": "国服英雄名称"
+    },
+    "Overwatch": {
+      "target": "守望先锋",
+      "status": "reviewed",
+      "source": "国服阵营名称"
+    },
+    "Null Sector": {
+      "target": "智械危机",
+      "status": "reviewed",
+      "source": "国服阵营名称"
+    },
+    "Deadlock Rebels": {
+      "target": "死锁帮",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "Shimada Clan": {
+      "target": "岛田家族",
+      "status": "reviewed",
+      "source": "国服阵营名称"
+    },
+    "Hashimoto Clan": {
+      "target": "桥本组",
+      "status": "reviewed",
+      "source": "国服阵营名称"
+    },
+    "Yokai Gang": {
+      "target": "妖怪帮",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "Junker Monarchy": {
+      "target": "渣客王国",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "Los Muertos": {
+      "target": "亡者",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "Blackwatch": {
+      "target": "黑爪",
+      "status": "reviewed",
+      "source": "国服阵营名称"
+    },
+    "Shambali Order": {
+      "target": "香巴里寺",
+      "status": "reviewed",
+      "source": "国服阵营名称"
+    },
+    "Vishkar Corporation": {
+      "target": "维斯卡公司",
+      "status": "reviewed",
+      "source": "国服阵营名称"
+    },
+    "Omnica Corporation": {
+      "target": "全智机械公司",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "Volskaya Industries": {
+      "target": "沃斯卡娅工业",
+      "status": "reviewed",
+      "source": "国服阵营名称"
+    },
+    "M.E.K.A Squad": {
+      "target": "MEKA 小队",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "The Gwishin": {
+      "target": "鬼神",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "Anubis Directives": {
+      "target": "阿努比斯指令",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "Talon Empire": {
+      "target": "黑爪帝国",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "Search & Rescue": {
+      "target": "搜索与救援",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "Space Station (ISS)": {
+      "target": "国际空间站（ISS）",
+      "status": "reviewed",
+      "source": "通用术语"
+    },
+    "Red Promise Escape Ship": {
+      "target": "红色承诺逃生舰",
+      "status": "draft",
+      "source": "待国服核对"
+    },
+    "Moon": {
+      "target": "月球",
+      "status": "reviewed",
+      "source": "通用术语"
+    },
+    "Mars": {
+      "target": "火星",
+      "status": "reviewed",
+      "source": "通用术语"
+    },
+    "Talon": {
+      "target": "黑爪",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "The Chernobog Conspiracy": {
+      "target": "切尔诺博格阴谋",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "IJC": {
+      "target": "国际正义委员会",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "The Sombra Collective": {
+      "target": "黑影集体",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "The Phreaks": {
+      "target": "Phreaks帮",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "La Coterie": {
+      "target": "同盟会",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Crusader Initiative": {
+      "target": "十字军计划",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Inti Warriors": {
+      "target": "因蒂勇士",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Caribbean Coalition": {
+      "target": "加勒比联盟",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Deep Sea Raiders": {
+      "target": "深海掠夺者",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Colloseo Gladiatori": {
+      "target": "斗兽场角斗士",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Helix Securities": {
+      "target": "赫利克斯安保",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "The Anubis Omnic Crisis": {
+      "target": "阿努比斯智械危机",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Ironclad Guild": {
+      "target": "铁甲公会",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Lucheng Interstellar": {
+      "target": "路城国际",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Oasis Ministries": {
+      "target": "绿洲部门",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Pacific Energy Solutions": {
+      "target": "太平洋能源方案",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "The Martins Collective": {
+      "target": "马丁斯集团",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Lumérico Incorporated": {
+      "target": "卢梅里科公司",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Heliotech Industries": {
+      "target": "赫利俄斯科技",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Wuxing University": {
+      "target": "五行大学",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Yamagami Blades": {
+      "target": "山神刀刃",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Wayfinder Society": {
+      "target": "探路者协会",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Ecopoints": {
+      "target": "生态监测站",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Numbani": {
+      "target": "努巴尼",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Casino": {
+      "target": "卡西诺",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Dae-Hyun": {
+      "target": "大贤",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "King": {
+      "target": "金",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Overlord": {
+      "target": "霸王",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Boomslang": {
+      "target": "树蛇",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Jackdaw": {
+      "target": "寒鸦",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Revel": {
+      "target": "雷维尔",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Susannah": {
+      "target": "苏珊娜",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Touch Up": {
+      "target": "补妆",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "B.O.B": {
+      "target": "B.O.B",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Bars": {
+      "target": "巴斯",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Bez": {
+      "target": "贝兹",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Frankie": {
+      "target": "弗兰基",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "The Triplets": {
+      "target": "三胞胎",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Chisaka": {
+      "target": "千坂",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Nobuto": {
+      "target": "信人",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Ryota": {
+      "target": "良太",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Sakura": {
+      "target": "樱",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Asa": {
+      "target": "朝",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Kamori-san": {
+      "target": "鸭森先生",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Sojiro": {
+      "target": "宗次郎",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Toshiro": {
+      "target": "敏郎",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Geiger": {
+      "target": "盖格",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Mason": {
+      "target": "梅森",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Meri": {
+      "target": "梅里",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Chao": {
+      "target": "赵",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Harold": {
+      "target": "哈罗德",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Jiayi": {
+      "target": "嘉怡",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Adawe": {
+      "target": "阿达维",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Athena": {
+      "target": "雅典娜",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Claudio": {
+      "target": "克劳迪奥",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Efi": {
+      "target": "伊菲",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Gérard": {
+      "target": "杰拉德",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Hector": {
+      "target": "赫克托",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Liao": {
+      "target": "廖",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Adeyemi": {
+      "target": "阿德耶米",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Antonio": {
+      "target": "安东尼奥",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Maximillien": {
+      "target": "马克西米利安",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Ngumi": {
+      "target": "恩古米",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Sanjay": {
+      "target": "桑杰",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Vialli": {
+      "target": "维亚利",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Alisa": {
+      "target": "阿丽莎",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Anubis": {
+      "target": "阿努比斯",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Aurora": {
+      "target": "奥罗拉",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Balderich": {
+      "target": "巴尔德里希",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Bhatt": {
+      "target": "巴特",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Katya": {
+      "target": "卡佳",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Mondatta": {
+      "target": "蒙达塔",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Naughton": {
+      "target": "诺顿",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Osai": {
+      "target": "奥赛",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Portero": {
+      "target": "波特罗",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Emily": {
+      "target": "艾米丽",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Iggy": {
+      "target": "伊吉",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Ingrid": {
+      "target": "英格丽德",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Kendra": {
+      "target": "肯德拉",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Lanet": {
+      "target": "拉内特",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Lynx 17": {
+      "target": "山猫17",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Nameless": {
+      "target": "无名",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Sven": {
+      "target": "斯文",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Vincent": {
+      "target": "文森特",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Zera": {
+      "target": "泽拉",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Kace": {
+      "target": "凯斯",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    }
+  }
+}

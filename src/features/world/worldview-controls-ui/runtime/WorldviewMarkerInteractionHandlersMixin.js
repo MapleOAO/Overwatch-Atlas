@@ -221,10 +221,32 @@
                         const eventData = events[eventIndex];
                         const eventName = eventData?.name || 'Event';
                         const eventDescription = eventData?.description || '';
+                        const i18n = typeof window !== 'undefined' ? window.AtlasI18n : null;
+                        const localizedEventName = i18n
+                            ? i18n.displayName(eventName, {
+                                kind: 'event',
+                                id: eventData?.id,
+                                variantIndex: clickedMarker.userData?.variantIndex,
+                            })
+                            : eventName;
+                        const localizedEventDescription = i18n
+                            ? i18n.displayText(eventDescription, {
+                                kind: 'event',
+                                id: eventData?.id,
+                                field: 'description',
+                                variantIndex: clickedMarker.userData?.variantIndex,
+                            })
+                            : eventDescription;
                         const imagePath = window.eventManager?.getEventImagePath
                             ? window.eventManager.getEventImagePath(eventData.name, eventData.image, 'story')
                             : null;
-                        window.globeController.uiView.showEventSlide(eventName, imagePath, eventDescription, clickedMarker, eventData);
+                        window.globeController.uiView.showEventSlide(
+                            localizedEventName,
+                            imagePath,
+                            localizedEventDescription,
+                            clickedMarker,
+                            eventData,
+                        );
                     }
                     // Play sound effect
                     if (window.SoundEffectsManager?.play) {
