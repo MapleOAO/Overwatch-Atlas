@@ -86,11 +86,13 @@ if (isProductionEnv()) {
 function openBootOverlay() {
     setRunOperation(true);
     showLoadingOverlay();
+    setBootBusy(true);
     setBootProgress(0);
 }
 
 function dropBootOverlay() {
     setBootProgress(100);
+    setBootBusy(false);
     setRunOperation(false);
     setTimeout(function () {
         hideLoadingOverlay();
@@ -102,6 +104,12 @@ function setBootProgress(percent) {
     if (!progressBar) return;
     const value = Math.max(0, Math.min(100, Number(percent) || 0));
     progressBar.style.width = `${value}%`;
+}
+
+function setBootBusy(isBusy) {
+    const progressBar = document.getElementById('loadingProgressBar');
+    if (!progressBar) return;
+    progressBar.classList.toggle('is-busy', Boolean(isBusy));
 }
 
 function writeOverlayStatus(message) {
