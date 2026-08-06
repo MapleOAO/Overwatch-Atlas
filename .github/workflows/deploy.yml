@@ -6,6 +6,8 @@
 # is often a transient outage or queue issue. Check https://www.githubstatus.com/
 # and re-run the workflow (Actions tab → failed run → Re-run, or use
 # "Run workflow" when workflow_dispatch is enabled).
+# The workflow is intentionally push-driven on main so every published commit
+# receives the same Pages build and validation path.
 
 name: Deploy to GitHub Pages
 
