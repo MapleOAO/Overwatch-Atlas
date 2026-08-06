@@ -12,6 +12,7 @@ import {
     getHeroBirthdayRawFromEntry
 } from '../../system-interface/interface-shared/bio-archive/HeroBirthdayAge.js';
 import { normalizeBioBiographyCategory } from './bioBiographyCategories.js';
+import { assetFetchOptions, versionedAssetUrl } from '../../universal-features/atlas-performance/runtimeAssetUrl.js';
 
 /** @typedef {import('./bioBiographyCategories.js').BioBiographyArchiveCategory} BioBiographyArchiveCategory */
 
@@ -86,7 +87,7 @@ export async function loadBioArchiveEvents(category) {
 
     const fileUrl = FILES.storyArchive[cat];
     try {
-        const res = await fetch(`${fileUrl}?v=${Date.now()}`, { cache: 'no-store' });
+        const res = await fetch(versionedAssetUrl(fileUrl), assetFetchOptions());
         if (res.ok) {
             const data = await res.json();
             const events = Array.isArray(data?.events) ? data.events : [];

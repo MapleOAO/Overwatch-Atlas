@@ -51,7 +51,7 @@ export function scheduleWelcomeSoundForStartupTheme() {
         applyStartupWelcomeMusicDefaults();
         try {
             const audio = new Audio(WELCOME_SFX_URL);
-            audio.preload = 'auto';
+            audio.preload = 'none';
             const sfx = typeof window !== 'undefined' ? window.SoundEffectsManager : null;
             const base =
                 sfx && typeof sfx.volume === 'number' && !isNaN(sfx.volume)

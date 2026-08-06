@@ -1,5 +1,6 @@
 import { shouldEventBeLocked } from '../../system-interface/interface-globe-markers/filtering/shouldEventBeLocked.js';
 import { getMarkerColor } from '../../system-interface/interface-globe-markers/styling/markerColors.js';
+import { optimizeImagePath } from '../../universal-features/atlas-performance/runtimeAssetUrl.js';
 
 export function readPaletteKey() {
     const saved = typeof localStorage !== 'undefined' ? localStorage.getItem('colorPalette') : null;
@@ -10,10 +11,10 @@ export function readPaletteKey() {
 }
 
 export function texturePathForPalette(key) {
-    if (key === 'gray') return 'src/assets/images/Maps/Earth%20Textures/MAP Black.png';
-    if (key === 'crimson') return 'src/assets/images/Maps/Earth%20Textures/MAP Crimson.png';
-    if (key === 'nulled') return 'src/assets/images/Maps/Earth%20Textures/MAP Nulled.png';
-    return 'src/assets/images/Maps/Earth%20Textures/MAP Blue.png';
+    if (key === 'gray') return optimizeImagePath('src/assets/images/Maps/Earth%20Textures/MAP Black.png');
+    if (key === 'crimson') return optimizeImagePath('src/assets/images/Maps/Earth%20Textures/MAP Crimson.png');
+    if (key === 'nulled') return optimizeImagePath('src/assets/images/Maps/Earth%20Textures/MAP Nulled.png');
+    return optimizeImagePath('src/assets/images/Maps/Earth%20Textures/MAP Blue.png');
 }
 
 export function resolveEventImagePath(displayEvent, eventName) {
@@ -23,7 +24,7 @@ export function resolveEventImagePath(displayEvent, eventName) {
     let eventImage = displayEvent.image || null;
     if (!eventImage || !String(eventImage).trim()) {
         const normalizedName = eventName.replace(/\s+/g, ' ').trim();
-        return `src/assets/images/Archive/Events/${encodeURIComponent(normalizedName)}.png`;
+        return optimizeImagePath(`src/assets/images/Archive/Events/${encodeURIComponent(normalizedName)}.png`);
     }
     return String(eventImage).trim();
 }

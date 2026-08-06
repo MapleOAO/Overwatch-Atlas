@@ -22,7 +22,13 @@
 (function () {
     'use strict';
 
-    var R = window.__FlagFileResolver;
+   var R = window.__FlagFileResolver;
+
+    function optimizeFilterImagePath(path) {
+        return typeof window.atlasOptimizeImagePath === 'function'
+            ? window.atlasOptimizeImagePath(path)
+            : path;
+    }
 
     var ICON_HERO_CAT = 'src/assets/images/Icons/Filter%20Icons/Heroes%20Icon.png';
     var ICON_FACTION_CAT = 'src/assets/images/Icons/Filter%20Icons/Factions%20Icon.png';
@@ -101,7 +107,7 @@
         if (k === 'hero') {
             var hk = resolveHeroImageKey(t);
             var canon = hk || t;
-            var src = 'src/assets/images/Filters/Heroes/' + encodeURIComponent(canon) + '.png';
+            var src = optimizeFilterImagePath('src/assets/images/Filters/Heroes/' + encodeURIComponent(canon) + '.png');
             var dataEnc = encodeURIComponent(canon);
             return (
                 '<img class="event-slide-filter-token-img event-slide-filter-token-img--heroes event-slide-filter-token-img--clickable-hero event-slide-bio-connections__portrait" ' +
@@ -113,7 +119,7 @@
         }
         if (k === 'npc') {
             var nk = resolveNpcImageKey(t);
-            var srcN = 'src/assets/images/Filters/NPCs/' + encodeURIComponent(nk || t) + '.png';
+            var srcN = optimizeFilterImagePath('src/assets/images/Filters/NPCs/' + encodeURIComponent(nk || t) + '.png');
             var dataNpc = encodeURIComponent(nk || t);
             return (
                 '<img class="event-slide-filter-token-img event-slide-filter-token-img--npcs event-slide-filter-token-img--clickable-npc event-slide-bio-connections__portrait" ' +
@@ -131,7 +137,7 @@
                 '" alt="" width="52" height="52" decoding="async" draggable="false" />'
             );
         }
-        var srcF = 'src/assets/images/Filters/Factions/' + encodeURIComponent(ff) + '.png';
+        var srcF = optimizeFilterImagePath('src/assets/images/Filters/Factions/' + encodeURIComponent(ff) + '.png');
         var dataFac = encodeURIComponent(t);
         return (
             '<img class="event-slide-filter-token-img event-slide-filter-token-img--factions event-slide-filter-token-img--clickable-faction event-slide-bio-connections__portrait" ' +

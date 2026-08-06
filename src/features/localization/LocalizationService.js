@@ -6,6 +6,8 @@
  * never changes asset paths, filter keys, Codex matching, or upstream data.
  */
 
+import { assetFetchOptions, versionedAssetUrl } from '../universal-features/atlas-performance/runtimeAssetUrl.js';
+
 const DEFAULT_LOCALE = 'zh-CN';
 const LOCALE_STORAGE_KEY = 'atlasLocale';
 const LOCALE_ROOT = 'src/data/locales';
@@ -372,7 +374,7 @@ class AtlasLocalization {
 
     async _loadJson(path, fallback) {
         try {
-            const response = await fetch(`${path}?v=${Date.now()}`, { cache: 'no-store' });
+            const response = await fetch(versionedAssetUrl(path), assetFetchOptions());
             if (!response.ok) throw new Error(`HTTP ${response.status}`);
             return await response.json();
         } catch (_) {

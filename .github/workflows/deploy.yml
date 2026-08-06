@@ -39,6 +39,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install build dependencies
+        run: npm ci
+
       - name: Validate Chinese localization before deployment
         run: |
           npm run content:ids:check

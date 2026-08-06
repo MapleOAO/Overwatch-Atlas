@@ -12,6 +12,8 @@
  * tests can stub `generateCacheBuster` if needed.
  */
 
+import { getAtlasBuildVersion, optimizeImagePath } from '../../../universal-features/atlas-performance/runtimeAssetUrl.js';
+
 export const FILTER_IMAGE_PATHS = {
     HEROES: 'src/assets/images/Filters/Heroes',
     FACTIONS: 'src/assets/images/Filters/Factions',
@@ -21,6 +23,8 @@ export const FILTER_IMAGE_PATHS = {
 };
 
 export function generateCacheBuster() {
+    const buildVersion = getAtlasBuildVersion();
+    if (buildVersion) return buildVersion;
     return `${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
 }
 
@@ -33,17 +37,17 @@ export function generateCacheBuster() {
  */
 export function buildFilterImagePath(item, type, folder) {
     if (type === 'factions') {
-        return `${folder}/${encodeURIComponent(item.filename)}.png`;
+        return optimizeImagePath(`${folder}/${encodeURIComponent(item.filename)}.png`);
     }
     if (type === 'countries') {
         const fn = (item && item.flagFile != null) ? String(item.flagFile).trim() : '';
         if (!fn) return `${folder}/`;
-        return `${folder}/${fn.split('/').map(s => encodeURIComponent(s)).join('/')}`;
+        return optimizeImagePath(`${folder}/${fn.split('/').map(s => encodeURIComponent(s)).join('/')}`);
     }
     if (type === 'music') {
         const iconName = item.filename.replace(/\.(mp3|wav|ogg)$/i, '');
-        return `${FILTER_IMAGE_PATHS.MUSIC}/${encodeURIComponent(iconName)}.png`;
+        return optimizeImagePath(`${FILTER_IMAGE_PATHS.MUSIC}/${encodeURIComponent(iconName)}.png`);
     }
     /* heroes / npcs: item is a plain string id. */
-    return `${folder}/${encodeURIComponent(item)}.png`;
+    return optimizeImagePath(`${folder}/${encodeURIComponent(item)}.png`);
 }

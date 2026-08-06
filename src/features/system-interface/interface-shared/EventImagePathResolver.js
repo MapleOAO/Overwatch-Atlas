@@ -12,6 +12,13 @@ class EventImagePathResolver {
         this.eventManager = eventManager;
     }
 
+    _optimizeImagePath(path) {
+        if (typeof window !== 'undefined' && typeof window.atlasOptimizeImagePath === 'function') {
+            return window.atlasOptimizeImagePath(path);
+        }
+        return path;
+    }
+
     _getArchiveImageBaseWeb(archiveOverride) {
         const ds = this.eventManager?.dataService;
         const src =
@@ -59,7 +66,7 @@ class EventImagePathResolver {
                 const parts = path.split(/Event(?:%20| )Images\//);
                 if (parts.length === 2) {
                     const filename = fullyDecode(parts[1]);
-                    return `${storyEventsWebBase}${encodeURIComponent(filename)}`;
+                    return this._optimizeImagePath(`${storyEventsWebBase}${encodeURIComponent(filename)}`);
                 }
             }
             const lastSlash = path.lastIndexOf('/');
@@ -67,14 +74,14 @@ class EventImagePathResolver {
                 let folder = path.substring(0, lastSlash + 1);
                 folder = rewriteLegacyEventFolder(folder);
                 const filename = fullyDecode(path.substring(lastSlash + 1));
-                return folder + encodeURIComponent(filename);
+                return this._optimizeImagePath(folder + encodeURIComponent(filename));
             }
             const decoded = fullyDecode(path);
-            return encodeURIComponent(decoded);
+            return this._optimizeImagePath(encodeURIComponent(decoded));
         };
 
         if (providedPath && providedPath.trim()) {
-            return encodeImagePath(providedPath.trim());
+            return this._optimizeImagePath(encodeImagePath(providedPath.trim()));
         }
 
         let normalizedName = eventName.replace(/\s+/g, ' ').trim();
@@ -88,7 +95,7 @@ class EventImagePathResolver {
         normalizedName = uniqueVariations[0];
 
         const encodedFileName = encodeURIComponent(normalizedName);
-        return `${activeImagesWebBase}${encodedFileName}.png`;
+        return this._optimizeImagePath(`${activeImagesWebBase}${encodedFileName}.png`);
     }
 }
 

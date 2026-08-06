@@ -13,6 +13,7 @@
  * The picked row calls `onPick()` (and stops propagation) so the host caller can write the
  * chosen value back into the input — the pick text is intentionally not decided here.
  */
+import { optimizeImagePath } from '../../../../../universal-features/atlas-performance/runtimeAssetUrl.js';
 
 export function renderTokenPickRow(listEl, { matchHeroName, matchFaction, matchNpcName, matchCountry, onPick }) {
     const row = document.createElement('button');
@@ -31,17 +32,17 @@ export function renderTokenPickRow(listEl, { matchHeroName, matchFaction, matchN
     if (matchHeroName != null) {
         labelText = matchHeroName;
         detailText = 'Hero';
-        img.src = `src/assets/images/Filters/Heroes/${encodeURIComponent(matchHeroName)}.png`;
+        img.src = optimizeImagePath(`src/assets/images/Filters/Heroes/${encodeURIComponent(matchHeroName)}.png`);
         img.className += ' filter-autocomplete-item-icon--hero';
     } else if (matchFaction != null) {
         labelText = matchFaction.displayName;
         detailText = 'Faction';
-        img.src = `src/assets/images/Filters/Factions/${encodeURIComponent(matchFaction.filename)}.png`;
+        img.src = optimizeImagePath(`src/assets/images/Filters/Factions/${encodeURIComponent(matchFaction.filename)}.png`);
         img.className += ' filter-autocomplete-item-icon--faction';
     } else if (matchNpcName != null) {
         labelText = matchNpcName;
         detailText = 'NPC';
-        img.src = `src/assets/images/Filters/NPCs/${encodeURIComponent(matchNpcName)}.png`;
+        img.src = optimizeImagePath(`src/assets/images/Filters/NPCs/${encodeURIComponent(matchNpcName)}.png`);
         img.className += ' filter-autocomplete-item-icon--npc';
     } else if (matchCountry != null) {
         labelText = matchCountry;

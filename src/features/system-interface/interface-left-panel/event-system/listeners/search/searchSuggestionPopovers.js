@@ -26,6 +26,7 @@ import {
     getTokenCandidates,
 } from './searchIndexes.js';
 import { getCurrentTokenInfo } from './searchTokenUtils.js';
+import { optimizeImagePath } from '../../../../../universal-features/atlas-performance/runtimeAssetUrl.js';
 
 /**
  * Build the filter (hero/faction/npc) popover for the orchestration `ctx`.
@@ -58,12 +59,12 @@ export function createFilterSuggestionPopover(ctx) {
             img.className = 'events-search-suggestion-flag events-search-suggestion-flag--filter-icon';
             img.alt = '';
             if (item.kind === 'faction' && item.factionFilename) {
-                img.src = `src/assets/images/Filters/Factions/${encodeURIComponent(item.factionFilename)}.png`;
+                img.src = optimizeImagePath(`src/assets/images/Filters/Factions/${encodeURIComponent(item.factionFilename)}.png`);
             } else if (item.kind === 'npc' && item.npcKey) {
-                img.src = `src/assets/images/Filters/NPCs/${encodeURIComponent(item.npcKey)}.png`;
+                img.src = optimizeImagePath(`src/assets/images/Filters/NPCs/${encodeURIComponent(item.npcKey)}.png`);
             } else {
                 const hk = item.heroKey || item.label;
-                img.src = `src/assets/images/Filters/Heroes/${encodeURIComponent(hk)}.png`;
+                img.src = optimizeImagePath(`src/assets/images/Filters/Heroes/${encodeURIComponent(hk)}.png`);
             }
             img.decoding = 'async';
             img.onerror = () => { img.style.visibility = 'hidden'; };

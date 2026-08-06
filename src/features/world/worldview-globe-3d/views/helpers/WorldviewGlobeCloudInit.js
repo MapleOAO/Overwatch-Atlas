@@ -2,6 +2,7 @@
  * Cloud layers (procedural + atlas) for globe and flat map.
  */
 import { loadTexture } from './WorldviewGlobeTextures.js';
+import { optimizeImagePath } from '../../../../universal-features/atlas-performance/runtimeAssetUrl.js';
 
 /** 0 = neutral white clouds, 1 = full rim/palette color (keep low so atlases stay natural). */
 const GLOBE_CLOUD_PALETTE_BLEND = 0.34;
@@ -37,11 +38,11 @@ export function applyGlobeCloudPaletteTint(mesh, tintHex) {
  * @type {{ path: string }[]}
  */
 export const GLOBE_CLOUD_ATLAS_VARIANTS = [
-    { path: `src/assets/images/Maps/Cloud%20Textures/${encodeURIComponent('Cloud Map 1.png')}` },
-    { path: `src/assets/images/Maps/Cloud%20Textures/${encodeURIComponent('Cloud Map 2.png')}` },
-    { path: `src/assets/images/Maps/Cloud%20Textures/${encodeURIComponent('Cloud Map 3.png')}` },
-    { path: `src/assets/images/Maps/Cloud%20Textures/${encodeURIComponent('Cloud Map 4.png')}` },
-    { path: `src/assets/images/Maps/Cloud%20Textures/${encodeURIComponent('Cloud Map 5.jpg')}` }
+    { path: `src/assets/images/Maps/Cloud%20Textures/${encodeURIComponent(optimizeImagePath('Cloud Map 1.png'))}` },
+    { path: `src/assets/images/Maps/Cloud%20Textures/${encodeURIComponent(optimizeImagePath('Cloud Map 2.png'))}` },
+    { path: `src/assets/images/Maps/Cloud%20Textures/${encodeURIComponent(optimizeImagePath('Cloud Map 3.png'))}` },
+    { path: `src/assets/images/Maps/Cloud%20Textures/${encodeURIComponent(optimizeImagePath('Cloud Map 4.png'))}` },
+    { path: `src/assets/images/Maps/Cloud%20Textures/${encodeURIComponent(optimizeImagePath('Cloud Map 5.jpg'))}` }
 ];
 
 function cloudMeshShouldDisplay() {

@@ -7,6 +7,7 @@
  */
 
 import { FILES } from '../../../../data/registry.js';
+import { assetFetchOptions, versionedAssetUrl } from '../../../universal-features/atlas-performance/runtimeAssetUrl.js';
 
 const ARCHIVE_URLS = {
     heroes: FILES.storyArchive.heroes,
@@ -100,13 +101,12 @@ export function orderFactionsByArchive(manifestFactions, archiveNames) {
 
 export async function fetchStoryArchiveCategoryOrders() {
     const result = { heroes: [], factions: [], npcs: [] };
-    const buster = `v=${Date.now()}`;
     const keys = /** @type {(keyof typeof ARCHIVE_URLS)[]} */ (Object.keys(ARCHIVE_URLS));
     await Promise.all(
         keys.map(async (key) => {
-            const url = `${ARCHIVE_URLS[key]}?${buster}`;
+            const url = versionedAssetUrl(ARCHIVE_URLS[key]);
             try {
-                const res = await fetch(url, { cache: 'no-store' });
+                const res = await fetch(url, assetFetchOptions());
                 if (!res.ok) return;
                 const json = await res.json();
                 result[key] = extractArchiveOrderFromJson(json);

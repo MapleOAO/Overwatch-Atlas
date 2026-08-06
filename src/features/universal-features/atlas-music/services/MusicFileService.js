@@ -56,18 +56,11 @@ export class MusicFileService {
         }
     }
 
-    preloadAllMusic(encodeMusicPath) {
-        this.musicFiles.forEach((song) => {
-            const encodedFilename = encodeURIComponent(song.filename);
-            const audio = new Audio(`src/assets/audio/music/${encodedFilename}`);
-            audio.preload = 'auto';
-
-            const iconName = song.filename.replace(/\.(mp3|wav|ogg)$/i, '');
-            const iconImg = new Image();
-            const imageCacheBuster = `${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
-            const encodedIconName = encodeURIComponent(iconName);
-            iconImg.src = `src/assets/images/Music/${encodedIconName}.png?v=${imageCacheBuster}`;
-        });
+    preloadAllMusic() {
+        // Kept as a compatibility no-op because the boot sequence still calls
+        // this hook. Audio is loaded by the single shared audio element when
+        // the current track is played; creating 80+ auto-preload elements here
+        // consumed the majority of the first-load bandwidth.
     }
 
     createMusicButtons(musicGrid, currentSong, onSongClick, matchesSongPath) {

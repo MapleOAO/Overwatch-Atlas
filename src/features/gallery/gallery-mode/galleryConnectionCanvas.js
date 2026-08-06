@@ -29,6 +29,7 @@ import {
     snapshotGalleryConnectionCanvas,
 } from './galleryConnectionCanvasModel.js';
 import { hexToRgba, loadCodexNodesForGalleryStyle } from './galleryConnectionCanvasCodexStyle.js';
+import { optimizeImagePath } from '../../universal-features/atlas-performance/runtimeAssetUrl.js';
 import {
     enrichGalleryCanvasNodeEntity,
     resolveGalleryFactionFilename,
@@ -572,18 +573,18 @@ export function createGalleryConnectionCanvas(mountEl, opts = {}) {
         if (kind === 'hero') {
             const key = node.portraitKey || name;
             el.dataset.codexHero = key;
-            imgSrc = `src/assets/images/Filters/Heroes/${encodeURIComponent(key)}.png`;
+            imgSrc = optimizeImagePath(`src/assets/images/Filters/Heroes/${encodeURIComponent(key)}.png`);
         } else if (kind === 'npc') {
             const key = node.portraitKey || name;
             el.dataset.codexNpc = key;
-            imgSrc = `src/assets/images/Filters/NPCs/${encodeURIComponent(key)}.png`;
+            imgSrc = optimizeImagePath(`src/assets/images/Filters/NPCs/${encodeURIComponent(key)}.png`);
         } else {
             const ff = node.factionFilename || resolveGalleryFactionFilename(name);
             const display = node.factionDisplay || name;
             el.dataset.codexFactionDisplay = display;
             el.dataset.codexFactionFile = ff || name;
             imgSrc = ff
-                ? `src/assets/images/Filters/Factions/${encodeURIComponent(ff)}.png`
+                ? optimizeImagePath(`src/assets/images/Filters/Factions/${encodeURIComponent(ff)}.png`)
                 : 'src/assets/images/Icons/Filter Icons/Faction Icon.png';
         }
 

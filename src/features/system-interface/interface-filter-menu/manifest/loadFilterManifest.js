@@ -12,17 +12,14 @@
  */
 
 import { applyStoryArchiveOrderFromNetwork } from './storyArchiveFilterOrder.js';
+import { assetFetchOptions, versionedAssetUrl } from '../../../universal-features/atlas-performance/runtimeAssetUrl.js';
 
 export async function loadFilterManifest(createFilterButtons, updateFilterCounts, preloadImages) {
     try {
-        const cacheBuster = `${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
-        const response = await fetch(`src/data/platform/manifest.json?v=${cacheBuster}`, {
-            cache: 'no-store',
-            headers: {
-                'Cache-Control': 'no-cache, no-store, must-revalidate',
-                'Pragma': 'no-cache'
-            }
-        });
+        const response = await fetch(
+            versionedAssetUrl('src/data/platform/manifest.json'),
+            assetFetchOptions(),
+        );
         const manifest = await response.json();
 
         let heroes = manifest.heroes ? [...manifest.heroes] : [];

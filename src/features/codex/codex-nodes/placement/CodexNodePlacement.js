@@ -11,6 +11,7 @@ import { redrawCodexEdges } from '../../codex-node-drawing/redraw/CodexEdgeRedra
 import { hexToRgba } from '../../codex-node-drawing/svg/CodexPresentationUtils.js';
 import { scheduleUpdateCodexVirtualScroll } from '../../codex-node-drawing/virtual-scroll/CodexVirtualScroll.js';
 import { capOpts, DOUBLE_RIGHT_MS } from '../../codex-canvas/core/canvasConstants.js';
+import { optimizeImagePath } from '../../../universal-features/atlas-performance/runtimeAssetUrl.js';
 
 function findCodexDuplicatePortraitNodeId(kind, heroName, faction, countryKey) {
     if (!Array.isArray(s.codexAllNodes)) return '';
@@ -112,17 +113,17 @@ function createCodexNodeElement(x, y, kind, heroName, faction, opts = {}) {
     let imgSrc = '';
     let imgAlt = '';
     if (kind === 'hero') {
-        imgSrc = `src/assets/images/Filters/Heroes/${encodeURIComponent(heroName)}.png`;
+        imgSrc = optimizeImagePath(`src/assets/images/Filters/Heroes/${encodeURIComponent(heroName)}.png`);
         imgAlt = heroName || 'Hero';
     } else if (kind === 'npc') {
-        imgSrc = `src/assets/images/Filters/NPCs/${encodeURIComponent(heroName)}.png`;
+        imgSrc = optimizeImagePath(`src/assets/images/Filters/NPCs/${encodeURIComponent(heroName)}.png`);
         imgAlt = heroName || 'NPC';
     } else if (kind === 'country') {
         const ck = el.dataset.codexCountryKey || '';
         imgSrc = codexCountryFlagSrc(ck);
         imgAlt = ck || 'Country';
     } else {
-        imgSrc = `src/assets/images/Filters/Factions/${encodeURIComponent(faction.filename)}.png`;
+        imgSrc = optimizeImagePath(`src/assets/images/Filters/Factions/${encodeURIComponent(faction.filename)}.png`);
         imgAlt = faction.displayName || '';
     }
 

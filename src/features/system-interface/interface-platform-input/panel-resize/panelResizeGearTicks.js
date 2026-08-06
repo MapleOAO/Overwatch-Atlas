@@ -39,7 +39,7 @@ function getGearTickPool() {
         gearTickPool = [];
         for (let i = 0; i < GEAR_TICK_POOL_SIZE; i++) {
             const a = new Audio(GEAR_TICK_SRC);
-            a.preload = 'auto';
+            a.preload = 'none';
             a.volume = gearTickEffectiveVolume();
             gearTickPool.push(a);
         }

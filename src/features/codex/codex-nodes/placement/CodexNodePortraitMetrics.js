@@ -2,6 +2,8 @@
  * Portrait dimensions, asset paths, country whitelist, and default scales for Codex nodes.
  */
 
+import { optimizeImagePath } from '../../../universal-features/atlas-performance/runtimeAssetUrl.js';
+
 export const CODEX_IMG_BASE_PX = 144;
 export const CODEX_FRAME_PATH = 'src/assets/images/Codex/Node';
 /** Luminance mask base path for variant-specific alpha images (Alpha Node1/2/3.png) */
@@ -40,7 +42,7 @@ export function normalizeCodexCountryKey(raw) {
 export function codexCountryFlagSrc(canonicalKey) {
     const mapped = CODEX_COUNTRY_IMAGE_SRC_BY_KEY[canonicalKey];
     if (mapped) return mapped;
-    return `src/assets/images/Filters/Flags/${encodeURIComponent(canonicalKey)}.png`;
+    return optimizeImagePath(`src/assets/images/Filters/Flags/${encodeURIComponent(canonicalKey)}.png`);
 }
 
 /**
