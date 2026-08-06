@@ -57,6 +57,7 @@ import {
     updateEventSlideFactionTypeDisplay,
     updateEventSlideHeroRoleDisplay
 } from '../../../interface-info-display/eventSlideMetaDisplays.js';
+import { applyEventNameWhenLocaleReady } from '../../../../localization/runtimeDisplay.js';
 
 export function runWireNumberButtons(slide, pageEvents, pageNum, allEvents) {
         const buttons = document.querySelectorAll('#eventNumberButtons .event-number-btn');
@@ -119,18 +120,25 @@ export function runWireNumberButtons(slide, pageEvents, pageNum, allEvents) {
             
             // Get plain name
             const plainName = displayEvent.name || event.name || `Event ${globalEventIndex + 1}`;
-            if (nameEl) {
-                if (window.GlitchTextService) {
-                    nameEl.innerHTML = window.GlitchTextService.getDisplayEventName(plainName);
-                } else {
-                    nameEl.textContent = plainName;
-                }
-            }
-            
             // Unfinished indicator: same predicate as the dock-thumb / list rule
             const hasDescription = !eventSlotMissingDescription(displayEvent);
             newBtn.classList.toggle('event-number-btn--unfinished', !hasDescription);
-            newBtn.title = hasDescription ? plainName : `${plainName} — Unfinished: missing description`;
+            applyEventNameWhenLocaleReady({
+                event,
+                sourceName: plainName,
+                variantIndex: isMultiEvent ? 0 : null,
+                isCurrent: () => newBtn.isConnected && newBtn.dataset.eventIndex === String(globalEventIndex),
+                apply: (localizedName) => {
+                    if (nameEl) {
+                        if (window.GlitchTextService) {
+                            nameEl.innerHTML = window.GlitchTextService.getDisplayEventName(localizedName);
+                        } else {
+                            nameEl.textContent = localizedName;
+                        }
+                    }
+                    newBtn.title = hasDescription ? localizedName : `${localizedName} — Unfinished: missing description`;
+                },
+            });
             
             // Get image path using helper
             let imagePath = null;
@@ -270,7 +278,13 @@ export function runWireNumberButtons(slide, pageEvents, pageNum, allEvents) {
                         
                         // Update name to show variant name
                         if (nameEl && variantDisplayEvent.name) {
-                            nameEl.textContent = variantDisplayEvent.name;
+                            applyEventNameWhenLocaleReady({
+                                event: targetEvent,
+                                sourceName: variantDisplayEvent.name,
+                                variantIndex: nextVariant,
+                                isCurrent: () => newBtn.isConnected && newBtn.dataset.eventIndex === String(globalEventIndex),
+                                apply: (localizedName) => { nameEl.textContent = localizedName; },
+                            });
                         }
                     }
                     
@@ -467,4 +481,3 @@ export function runWireNumberButtons(slide, pageEvents, pageNum, allEvents) {
             };
         });
 }
-
