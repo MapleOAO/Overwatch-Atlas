@@ -26,8 +26,8 @@ An interactive 3D timeline visualization of the Overwatch universe, featuring a 
 git clone https://github.com/MapleOAO/Overwatch-Atlas.git
 cd Overwatch-Atlas
 ```
-If your `origin` still points at the old repository name after a rename, run:  
-`git remote set-url origin https://github.com/DiegoSolanoC/Overwatch-Atlas.git`
+If your `origin` is not your own repository after a rename, run:
+`git remote set-url origin https://github.com/MapleOAO/Overwatch-Atlas.git`
 
 2. Install dependencies (if any):
 ```bash
@@ -102,9 +102,9 @@ After enabling GitHub Pages, your site will be available at:
 https://<your-username>.github.io/<repository-name>/
 ```
 
-For example (project site):
+For this repository (project site):
 ```
-https://diegosolanoc.github.io/Overwatch-Atlas/
+https://mapleoao.github.io/Overwatch-Atlas/
 ```
 GitHub serves the site under **`/<repository-name>/`**, so renaming the repository updates that path. The old URL usually redirects for a while after a rename.
 
