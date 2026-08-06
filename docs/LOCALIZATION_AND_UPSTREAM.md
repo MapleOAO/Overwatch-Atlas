@@ -6,6 +6,7 @@
 src/data/locales/zh-CN/ui.json
 src/data/locales/zh-CN/glossary.json
 src/data/locales/zh-CN/content.json
+src/data/locales/zh-CN/official-terms.json
 ```
 
 ## 本地维护译文
@@ -18,6 +19,8 @@ node src/server.js
 ```
 
 打开 `http://localhost:8000/translations.html`。维护页支持事件、英雄、阵营、NPC、地点、界面文案、新闻标题和术语表；保存操作只写入 locale 文件，不会改写原始英文资料。`reviewed` 表示已人工审核，`draft` / `needs-review` 表示仍需复核。新闻标题是项目自创文案，使用 `headlines.json` 独立维护，便于逐条纠错。
+
+`official-terms.json` 是国服术语登记表：每条 `reviewed` 术语都记录了暴雪中国官网来源，并且必须与 `glossary.json` 的 target 一致。确认新的国服译法时，同时维护这两个文件；发布前的 `npm run i18n:official:check` 会拦截旧译名、来源不合规或两份文件不一致的情况。
 
 没有运行本地服务器时，维护页仍可编辑，但会下载 JSON 文件；请把下载结果放回对应目录后提交。
 
@@ -68,6 +71,8 @@ npm run sync:upstream
 npm run content:ids:check
 npm run i18n:check
 npm run i18n:check:strict
+npm run i18n:official:check
+npm run i18n:visible:check
 npm run build:pages
 ```
 

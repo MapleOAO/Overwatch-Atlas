@@ -53,9 +53,10 @@
       "source": "国服英雄名称"
     },
     "Domina": {
-      "target": "多米娜",
+      "target": "金驭",
       "status": "reviewed",
-      "source": "国服英雄名称"
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/domina/"
     },
     "Doomfist": {
       "target": "末日铁拳",
@@ -98,9 +99,10 @@
       "source": "国服英雄名称"
     },
     "Jetpack Cat": {
-      "target": "喷气背包猫",
-      "status": "draft",
-      "source": "待国服核对"
+      "target": "飞天猫",
+      "status": "reviewed",
+      "source": "国服官方文章 / 英雄列表",
+      "reference": "https://ow.blizzard.cn/news/24246206/index.html"
     },
     "Junker Queen": {
       "target": "渣客女王",
@@ -148,9 +150,10 @@
       "source": "国服英雄名称"
     },
     "Mizuki": {
-      "target": "瑞穗",
-      "status": "draft",
-      "source": "待国服核对"
+      "target": "瑞稀",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/mizuki/"
     },
     "Moira": {
       "target": "莫伊拉",
@@ -188,9 +191,10 @@
       "source": "国服英雄名称"
     },
     "Shion": {
-      "target": "诗音",
-      "status": "draft",
-      "source": "待国服核对"
+      "target": "死怨",
+      "status": "reviewed",
+      "source": "国服官方文章 / 英雄列表",
+      "reference": "https://ow.blizzard.cn/news/24246206/index.html"
     },
     "Sigma": {
       "target": "西格玛",
@@ -228,9 +232,10 @@
       "source": "国服英雄名称"
     },
     "Vendetta": {
-      "target": "维德塔",
-      "status": "draft",
-      "source": "待国服核对"
+      "target": "斩仇",
+      "status": "reviewed",
+      "source": "国服补丁说明 / 英雄相关内容",
+      "reference": "https://ow.blizzard.cn/news/patch-notes/"
     },
     "Venture": {
       "target": "探奇",
@@ -275,12 +280,14 @@
     "Null Sector": {
       "target": "归零者",
       "status": "reviewed",
-      "source": "国服阵营名称"
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/ramattra/"
     },
     "Deadlock Rebels": {
       "target": "死局帮",
-      "status": "draft",
-      "source": "待国服核对"
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/ashe/"
     },
     "Shimada Clan": {
       "target": "岛田家族",
@@ -293,9 +300,10 @@
       "source": "国服阵营名称"
     },
     "Yokai Gang": {
-      "target": "妖怪帮",
-      "status": "draft",
-      "source": "待国服核对"
+      "target": "妖怪团",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/kiriko/"
     },
     "Junker Monarchy": {
       "target": "渣客王国",
@@ -310,7 +318,8 @@
     "Blackwatch": {
       "target": "暗影守望",
       "status": "reviewed",
-      "source": "国服阵营名称"
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/reaper/"
     },
     "Shambali Order": {
       "target": "香巴里寺",
@@ -318,9 +327,10 @@
       "source": "国服阵营名称"
     },
     "Vishkar Corporation": {
-      "target": "维斯卡公司",
+      "target": "费斯卡集团",
       "status": "reviewed",
-      "source": "国服阵营名称"
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/symmetra/"
     },
     "Omnica Corporation": {
       "target": "全智机械公司",
@@ -333,14 +343,17 @@
       "source": "国服阵营名称"
     },
     "M.E.K.A Squad": {
-      "target": "MEKA 小队",
-      "status": "draft",
-      "source": "待国服核对"
+      "target": "MEKA小队",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/dva/"
     },
     "The Gwishin": {
-      "target": "鬼神",
-      "status": "draft",
-      "source": "待国服核对"
+      "target": "鬼神智械",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "note": "实体/阵营标签采用官网的“鬼神智械”；故事正文中的“鬼神”保留官网叙述用法。",
+      "reference": "https://ow.blizzard.cn/heroes/dva/"
     },
     "Anubis Directives": {
       "target": "阿努比斯指令",
@@ -379,8 +392,9 @@
     },
     "Talon": {
       "target": "黑爪",
-      "status": "draft",
-      "source": "自动初译，待国服核对"
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/reaper/"
     },
     "The Chernobog Conspiracy": {
       "target": "切尔诺博格阴谋",
@@ -398,14 +412,17 @@
       "source": "自动初译，待国服核对"
     },
     "The Phreaks": {
-      "target": "朋克帮",
-      "status": "draft",
-      "source": "自动初译，待国服核对"
+      "target": "躯体改造者们",
+      "status": "reviewed",
+      "source": "国服英雄页用语",
+      "note": "官网中文页面将 Phreaks 描述为“躯体改造者们”，未给出独立中文阵营名，因此不使用自创的“朋克帮”。",
+      "reference": "https://ow.blizzard.cn/heroes/hazard/"
     },
     "Sierra": {
-      "target": "塞拉",
-      "status": "draft",
-      "source": "自动初译，待国服核对"
+      "target": "西拉",
+      "status": "reviewed",
+      "source": "国服英雄列表 / 官方文章",
+      "reference": "https://ow.blizzard.cn/heroes/heroes/"
     },
     "La Coterie": {
       "target": "同盟会",
@@ -454,8 +471,10 @@
     },
     "Lucheng Interstellar": {
       "target": "星际旅程集团",
-      "status": "draft",
-      "source": "自动初译，待国服核对"
+      "status": "reviewed",
+      "source": "当前国服英雄页",
+      "note": "国服 2025 年开发者文章曾使用“漓江集团”；当前朱诺和温斯顿英雄页使用“星际旅程集团”，本项目按当前英雄页统一。",
+      "reference": "https://ow.blizzard.cn/heroes/juno/"
     },
     "Oasis Ministries": {
       "target": "绿洲部门",
@@ -499,8 +518,9 @@
     },
     "Ecopoints": {
       "target": "生态监测站",
-      "status": "draft",
-      "source": "自动初译，待国服核对"
+      "status": "reviewed",
+      "source": "国服官方文章",
+      "reference": "https://ow.blizzard.cn/news/24065547/index.html"
     },
     "Numbani": {
       "target": "努巴尼",
@@ -816,6 +836,1421 @@
       "target": "凯斯",
       "status": "draft",
       "source": "自动初译，待国服核对"
+    },
+    "Sierra Turner Woods": {
+      "target": "西拉·特纳·伍兹",
+      "status": "reviewed",
+      "source": "国服英雄列表 / 官方文章",
+      "reference": "https://ow.blizzard.cn/heroes/heroes/"
+    },
+    "Mizuki Kawano": {
+      "target": "河野瑞稀",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/mizuki/"
+    },
+    "Horizon Lunar Colony": {
+      "target": "“地平线”月球基地",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/winston/"
+    },
+    "Lijiang Tower": {
+      "target": "漓江塔",
+      "status": "reviewed",
+      "source": "国服官方文章",
+      "reference": "https://ow.blizzard.cn/news/24107757/index.html"
+    },
+    "Vishwakarma Bhatt": {
+      "target": "费斯瓦卡玛·巴特",
+      "status": "reviewed",
+      "source": "国服官方文章",
+      "reference": "https://ow.blizzard.cn/news/24246206/index.html"
+    },
+    "Vaira Singhania": {
+      "target": "瓦伊拉·辛加尼亚",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Aatlis": {
+      "target": "阿特利斯",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Akihabara": {
+      "target": "秋叶原",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Taito": {
+      "target": "台东",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Tokyo": {
+      "target": "东京",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Annecy": {
+      "target": "阿讷西",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Antarctica": {
+      "target": "南极洲",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Antartci Peninsula": {
+      "target": "南极半岛",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Antartica": {
+      "target": "南极",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Apia": {
+      "target": "阿皮亚",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Appalachian Virginia": {
+      "target": "阿巴拉契亚山脉（弗吉尼亚州）",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Asuncion": {
+      "target": "亚松森",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Atlantic Arcology": {
+      "target": "大西洋生态城",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Austin": {
+      "target": "奥斯汀",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Baltic Sea": {
+      "target": "波罗的海",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Bellaire": {
+      "target": "贝莱尔",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Bengaluru": {
+      "target": "班加罗尔",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Berlin": {
+      "target": "柏林",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Black Forest": {
+      "target": "黑森林",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Bloomington": {
+      "target": "布卢明顿",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Bogota": {
+      "target": "波哥大",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Bogotá": {
+      "target": "波哥大",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Boklovo": {
+      "target": "博克洛沃",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Kurjikstan": {
+      "target": "库尔吉克斯坦",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "British Columbia": {
+      "target": "不列颠哥伦比亚省",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Bucharest": {
+      "target": "布加勒斯特",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Buenos Aires": {
+      "target": "布宜诺斯艾利斯",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Busan": {
+      "target": "釜山",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Cairo": {
+      "target": "开罗",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Camp Hale": {
+      "target": "黑尔营地",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Capetown": {
+      "target": "开普敦",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Cape Town": {
+      "target": "开普敦",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Castillo": {
+      "target": "卡斯蒂略",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Chengdu": {
+      "target": "成都",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Chiang Mai City": {
+      "target": "清迈市",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Chicago": {
+      "target": "芝加哥",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Chongqing": {
+      "target": "重庆",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "City State of Numbani": {
+      "target": "努巴尼城邦",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Colosseo": {
+      "target": "斗兽场",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Congo Basin": {
+      "target": "刚果盆地",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Coral Sea": {
+      "target": "珊瑚海",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Deadlock Gorge": {
+      "target": "死局峡谷",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Detroit": {
+      "target": "底特律",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Dorado": {
+      "target": "多拉多",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Dublin": {
+      "target": "都柏林",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "East China Sea": {
+      "target": "东海",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Ecoopint Antartica": {
+      "target": "南极生态监测站",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Ecopoint Antartica": {
+      "target": "南极生态监测站",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Ecopoint Monterrey": {
+      "target": "蒙特雷生态监测站",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Eichenwalde": {
+      "target": "艾兴瓦尔德",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Eichenwalde Castle": {
+      "target": "艾兴瓦尔德城堡",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Esperança": {
+      "target": "埃斯佩兰萨",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Geneva": {
+      "target": "日内瓦",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Glasgow": {
+      "target": "格拉斯哥",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Gothenburg": {
+      "target": "哥德堡",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Great Basin": {
+      "target": "大盆地",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Gwishin": {
+      "target": "鬼神智械",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Gwishin Omnium": {
+      "target": "鬼神智械工厂",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Hanamura": {
+      "target": "花村",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Helsinki": {
+      "target": "赫尔辛基",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Honolulu": {
+      "target": "檀香山",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Houston": {
+      "target": "休斯顿",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Hyderabad": {
+      "target": "海得拉巴",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Ibadan": {
+      "target": "伊巴丹",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Ilios": {
+      "target": "伊利奥斯",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Illios": {
+      "target": "伊利奥斯",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Interstellar Journey Space Station": {
+      "target": "星际旅程空间站",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Istanbul": {
+      "target": "伊斯坦布尔",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Jakarta": {
+      "target": "雅加达",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Junkertown": {
+      "target": "渣客镇",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Kanezaka": {
+      "target": "神崎",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Kyoto": {
+      "target": "京都",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Lagos": {
+      "target": "拉各斯",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Las Vegas": {
+      "target": "拉斯维加斯",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Lijiang": {
+      "target": "漓江",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Lijiang City": {
+      "target": "漓江市",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Llano County": {
+      "target": "拉诺县",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "London": {
+      "target": "伦敦",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Los Angeles": {
+      "target": "洛杉矶",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Manhattan": {
+      "target": "曼哈顿",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Melbourne": {
+      "target": "墨尔本",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Mexico City": {
+      "target": "墨西哥城",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Monte Cristi": {
+      "target": "蒙特克里斯蒂",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Monte-Carlo": {
+      "target": "蒙特卡洛",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Moscow": {
+      "target": "莫斯科",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Mount Logan": {
+      "target": "洛根山",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Nampula": {
+      "target": "楠普拉",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Necropolis": {
+      "target": "墓园",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "New Mexico": {
+      "target": "新墨西哥州",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "New York City": {
+      "target": "纽约市",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Nova Scotia": {
+      "target": "新斯科舍省",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Novoanskoye": {
+      "target": "新沃扬斯科耶",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Oasis University": {
+      "target": "绿洲大学",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Outback Wasteland": {
+      "target": "荒地",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Oymyakon": {
+      "target": "奥伊米亚康",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Oyo": {
+      "target": "奥约",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Panola Mountain": {
+      "target": "帕诺拉山",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Paris": {
+      "target": "巴黎",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "París": {
+      "target": "巴黎",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Petra": {
+      "target": "佩特拉",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Port-de-Paix": {
+      "target": "和平港",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Red Promise Colony": {
+      "target": "红色承诺殖民地",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Riyadh": {
+      "target": "利雅得",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Roshani": {
+      "target": "罗沙尼",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Roud 66": {
+      "target": "66号公路",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Route 66": {
+      "target": "66号公路",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Runasapi": {
+      "target": "鲁纳斯皮",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Saint Petersburg": {
+      "target": "圣彼得堡",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Secret Omnium": {
+      "target": "秘密智械工厂",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Serenza": {
+      "target": "塞伦扎",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Shambali": {
+      "target": "香巴里",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Shambali Monastery": {
+      "target": "香巴里寺",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Stuttgrat": {
+      "target": "斯图加特",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Stuttgart": {
+      "target": "斯图加特",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Suravasa": {
+      "target": "苏拉瓦萨",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "The Hague": {
+      "target": "海牙",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "The Outback": {
+      "target": "澳大利亚内陆",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Tiveden": {
+      "target": "提韦登",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Toronto": {
+      "target": "多伦多",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Tortuga Island": {
+      "target": "海龟岛",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Tortuga": {
+      "target": "海龟",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Utopea": {
+      "target": "乌托邦",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Venice": {
+      "target": "威尼斯",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Warsaw": {
+      "target": "华沙",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Watchpoint Gibraltar": {
+      "target": "直布罗陀监测站",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Watchpoint Grand Mesa": {
+      "target": "大梅沙监测站",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Watchpoint Grímsvötn": {
+      "target": "格陵姆斯沃特监测站",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Watchpoint: Gibraltar": {
+      "target": "直布罗陀监测站",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Watchpoint: Grand Mesa": {
+      "target": "大梅沙监测站",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Wheeler County": {
+      "target": "惠勒县",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Xi'an": {
+      "target": "西安",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Xining": {
+      "target": "西宁",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Zurich": {
+      "target": "苏黎世",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Argentina": {
+      "target": "阿根廷",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Australia": {
+      "target": "澳大利亚",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Brazil": {
+      "target": "巴西",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Canada": {
+      "target": "加拿大",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "China": {
+      "target": "中国",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Colombia": {
+      "target": "哥伦比亚",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Costa Rica": {
+      "target": "哥斯达黎加",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Cuba": {
+      "target": "古巴",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Dominica": {
+      "target": "多米尼克",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Dominican Republic": {
+      "target": "多米尼加共和国",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Egypt": {
+      "target": "埃及",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "El Salvador": {
+      "target": "萨尔瓦多",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "England": {
+      "target": "英格兰",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Finland": {
+      "target": "芬兰",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "France": {
+      "target": "法国",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Germany": {
+      "target": "德国",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Greece": {
+      "target": "希腊",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Guatemala": {
+      "target": "危地马拉",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Guyana": {
+      "target": "圭亚那",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Haiti": {
+      "target": "海地",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Honduras": {
+      "target": "洪都拉斯",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Iceland": {
+      "target": "冰岛",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "India": {
+      "target": "印度",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Indonesia": {
+      "target": "印度尼西亚",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Ireland": {
+      "target": "爱尔兰",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Italy": {
+      "target": "意大利",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Japan": {
+      "target": "日本",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Jordan": {
+      "target": "约旦",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Mexico": {
+      "target": "墨西哥",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Mongolia": {
+      "target": "蒙古",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Morocco": {
+      "target": "摩洛哥",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Mozambique": {
+      "target": "莫桑比克",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Nepal": {
+      "target": "尼泊尔",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Netherlands": {
+      "target": "荷兰",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "New Zealand": {
+      "target": "新西兰",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Nicaragua": {
+      "target": "尼加拉瓜",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Nigeria": {
+      "target": "尼日利亚",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Norway": {
+      "target": "挪威",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Oceania": {
+      "target": "大洋洲",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Panama": {
+      "target": "巴拿马",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Pakistan": {
+      "target": "巴基斯坦",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Paraguay": {
+      "target": "巴拉圭",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Peru": {
+      "target": "秘鲁",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Poland": {
+      "target": "波兰",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Portugal": {
+      "target": "葡萄牙",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Romania": {
+      "target": "罗马尼亚",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Russia": {
+      "target": "俄罗斯",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Samoa": {
+      "target": "萨摩亚",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Saudi Arabia": {
+      "target": "沙特阿拉伯",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Scotland": {
+      "target": "苏格兰",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Singapore": {
+      "target": "新加坡",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "South Africa": {
+      "target": "南非",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "South Korea": {
+      "target": "韩国",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Spain": {
+      "target": "西班牙",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Sweden": {
+      "target": "瑞典",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Switzerland": {
+      "target": "瑞士",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Thailand": {
+      "target": "泰国",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Turkey": {
+      "target": "土耳其",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "United Kingdom": {
+      "target": "英国",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "United States": {
+      "target": "美国",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Venezuela": {
+      "target": "委内瑞拉",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Hawaii": {
+      "target": "夏威夷",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Texas": {
+      "target": "得克萨斯州",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "French Southern and Antarctic Lands": {
+      "target": "法属南部和南极领地",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Democratic Republic of the Congo": {
+      "target": "刚果民主共和国",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "British Virgin Islands": {
+      "target": "英属维尔京群岛",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Caribbean Netherlands": {
+      "target": "荷兰加勒比区",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Cayman Islands": {
+      "target": "开曼群岛",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Curaçao": {
+      "target": "库拉索",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Grenada": {
+      "target": "格林纳达",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Guadeloupe": {
+      "target": "瓜德罗普",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Jamaica": {
+      "target": "牙买加",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Martinique": {
+      "target": "马提尼克",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Montserrat": {
+      "target": "蒙特塞拉特",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Puerto Rico": {
+      "target": "波多黎各",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Saint Barthélemy": {
+      "target": "圣巴泰勒米",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Saint Kitts and Nevis": {
+      "target": "圣基茨和尼维斯",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Saint Lucia": {
+      "target": "圣卢西亚",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Saint Martin": {
+      "target": "法属圣马丁",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Saint Vincent and the Grenadines": {
+      "target": "圣文森特和格林纳丁斯",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Sint Maarten": {
+      "target": "荷属圣马丁",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Trinidad and Tobago": {
+      "target": "特立尼达和多巴哥",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Turks and Caicos Islands": {
+      "target": "特克斯和凯科斯群岛",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "United States Virgin Islands": {
+      "target": "美属维尔京群岛",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Collective": {
+      "target": "集团",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Conspiracy": {
+      "target": "阴谋",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Deadlock": {
+      "target": "死局",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Hashimoto": {
+      "target": "桥本组",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Ironclad": {
+      "target": "铁甲公会",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Junkers": {
+      "target": "渣客",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Lucheng": {
+      "target": "星际旅程集团",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Oasis": {
+      "target": "绿洲",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Phreaks": {
+      "target": "躯体改造者们",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Vishkar": {
+      "target": "费斯卡",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Wayfinders": {
+      "target": "探路者协会",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Yokai": {
+      "target": "妖怪",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Omniums Worldwide": {
+      "target": "全球智械工厂",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Overwatch Strike Team": {
+      "target": "守望先锋突击小队",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Pacific Islanders": {
+      "target": "太平洋岛民",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Copenhagen": {
+      "target": "哥本哈根",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Fukuoka": {
+      "target": "福冈",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Havana": {
+      "target": "哈瓦那",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "New York": {
+      "target": "纽约",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Oslo": {
+      "target": "奥斯陆",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Rio de Janeiro": {
+      "target": "里约热内卢",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Rome": {
+      "target": "罗马",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Sydney": {
+      "target": "悉尼",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Iraq": {
+      "target": "伊拉克",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Monaco": {
+      "target": "摩纳哥",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Denmark": {
+      "target": "丹麦",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Anguilla": {
+      "target": "安圭拉",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Antigua and Barbuda": {
+      "target": "安提瓜和巴布达",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Bahamas": {
+      "target": "巴哈马",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Barbados": {
+      "target": "巴巴多斯",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Crisis": {
+      "target": "危机",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Crusaders": {
+      "target": "十字军",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Cook Islands": {
+      "target": "库克群岛",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Gibraltar": {
+      "target": "直布罗陀",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Livre Tournois": {
+      "target": "里弗尔·图尔努瓦",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Lumerico": {
+      "target": "卢梅里科",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Shimada": {
+      "target": "岛田家族",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Mitzuki": {
+      "target": "瑞稀",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Syria": {
+      "target": "叙利亚",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Volskaya": {
+      "target": "沃斯卡娅",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Max's Vault": {
+      "target": "马克西的金库",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Aruba": {
+      "target": "阿鲁巴",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Belize": {
+      "target": "伯利兹",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Australian Outback": {
+      "target": "澳大利亚内陆",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Conemara": {
+      "target": "康尼马拉",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "God Programs world wide": {
+      "target": "全球神级程序",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Monterrey Bay": {
+      "target": "蒙特雷湾",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Okeechobee": {
+      "target": "奥基乔比",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Osa Peninsula": {
+      "target": "奥萨半岛",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Secret New Mexico Facility": {
+      "target": "新墨西哥州秘密设施",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Zealandian Ocean": {
+      "target": "新西兰海域",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Other God Program Hosts": {
+      "target": "其他神级程序宿主",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Other Known Missions": {
+      "target": "其他已知任务",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Caribbean Island Nations and Continental Latin America": {
+      "target": "加勒比岛国和拉丁美洲大陆",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Cameron Excursion Destinations": {
+      "target": "卡梅隆远征目的地",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Lake Tarapoto": {
+      "target": "塔拉波托湖",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Overwatch Strike Team and Sojourn": {
+      "target": "守望先锋突击小队与索杰恩",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Overwatch Strike Tea,": {
+      "target": "守望先锋突击小队，",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Soldier: 00": {
+      "target": "士兵：00",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
+    },
+    "Soldier: 76 and Soldier: 24": {
+      "target": "士兵：76与士兵：24",
+      "status": "needs-review",
+      "source": "通用地名译法，待国服核对"
     }
   }
 }

@@ -281,10 +281,14 @@ function renderCanonicalEditor(row) {
 }
 
 function renderSimpleEditor(row, title, sourceLabel, noteLabel) {
+    const officialReference = row.type === 'glossary' && row.entry?.reference
+        ? `<div class="hint">官方来源：<a href="${htmlEscape(row.entry.reference)}" target="_blank" rel="noreferrer">${htmlEscape(row.entry.reference)}</a></div>`
+        : '';
     return `<h2>${htmlEscape(title)}</h2>
         <div class="source-id">键：${htmlEscape(row.id)}</div>
         ${fieldHtml(sourceLabel, row.name, row.targetName, 'name')}
-        <div class="row"><div class="field"><label>翻译状态</label><select data-field="status"><option value="draft" ${row.status === 'draft' ? 'selected' : ''}>草稿 / 待核对</option><option value="needs-review" ${row.status === 'needs-review' ? 'selected' : ''}>需要复核</option><option value="reviewed" ${row.status === 'reviewed' ? 'selected' : ''}>已审核</option></select></div><div class="field"><label>${htmlEscape(noteLabel)}</label><input data-field="note" value="${htmlEscape(row.note || row.sourceNote || '')}"></div></div>`;
+        <div class="row"><div class="field"><label>翻译状态</label><select data-field="status"><option value="draft" ${row.status === 'draft' ? 'selected' : ''}>草稿 / 待核对</option><option value="needs-review" ${row.status === 'needs-review' ? 'selected' : ''}>需要复核</option><option value="reviewed" ${row.status === 'reviewed' ? 'selected' : ''}>已审核</option></select></div><div class="field"><label>${htmlEscape(noteLabel)}</label><input data-field="note" value="${htmlEscape(row.note || row.sourceNote || '')}"></div></div>
+        ${officialReference}`;
 }
 
 function renderEditor() {
@@ -405,7 +409,12 @@ async function saveCurrent() {
         const terms = { ...(glossary.terms || {}) };
         const target = readField('name');
         if (target) {
-            terms[row.id] = { target, status, source: note || row.sourceNote || '人工维护' };
+            terms[row.id] = {
+                ...(terms[row.id] || {}),
+                target,
+                status,
+                source: note || row.sourceNote || '人工维护',
+            };
         } else {
             delete terms[row.id];
         }

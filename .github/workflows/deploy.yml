@@ -39,6 +39,13 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Validate Chinese localization before deployment
+        run: |
+          npm run content:ids:check
+          npm run i18n:check:strict
+          npm run i18n:official:check
+          npm run i18n:visible:check
+
       - name: Build static site (manifest + _site/)
         run: npm run build:pages
 

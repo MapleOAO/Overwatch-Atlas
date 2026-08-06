@@ -102,6 +102,8 @@ try {
     run('git', ['merge', '--no-edit', REF]);
     run('node', ['scripts/ensure-content-ids.mjs']);
     run('node', ['scripts/i18n-check.mjs']);
+    run('node', ['scripts/check-official-terms.mjs']);
+    run('node', ['scripts/check-visible-chinese.mjs']);
     if (!NO_BUILD) run('npm', ['run', 'build:pages']);
 
     console.log('\n[sync] 同步完成。请检查译文与冲突解决结果，然后提交并推送当前分支到 origin。');

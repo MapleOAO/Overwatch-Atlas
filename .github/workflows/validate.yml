@@ -24,6 +24,10 @@ jobs:
         run: npm run content:ids:check
       - name: Report translation coverage
         run: npm run i18n:check
+      - name: Validate official Chinese terminology
+        run: npm run i18n:official:check
+      - name: Validate visible Chinese location labels
+        run: npm run i18n:visible:check
       - name: Validate JavaScript syntax
         shell: bash
         run: |
