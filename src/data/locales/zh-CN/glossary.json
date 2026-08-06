@@ -398,7 +398,12 @@
       "source": "自动初译，待国服核对"
     },
     "The Phreaks": {
-      "target": "Phreaks帮",
+      "target": "朋克帮",
+      "status": "draft",
+      "source": "自动初译，待国服核对"
+    },
+    "Sierra": {
+      "target": "塞拉",
       "status": "draft",
       "source": "自动初译，待国服核对"
     },
