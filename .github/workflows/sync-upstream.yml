@@ -44,6 +44,8 @@ jobs:
         run: |
           node scripts/ensure-content-ids.mjs
           node scripts/i18n-check.mjs
+          node scripts/check-official-terms.mjs
+          node scripts/check-visible-chinese.mjs
 
       - name: Build Pages output
         run: npm run build:pages

@@ -11,6 +11,8 @@
     "content:ids:check": "node scripts/ensure-content-ids.mjs --check",
     "i18n:check": "node scripts/i18n-check.mjs",
     "i18n:check:strict": "node scripts/i18n-check.mjs --strict",
+    "i18n:official:check": "node scripts/check-official-terms.mjs",
+    "i18n:visible:check": "node scripts/check-visible-chinese.mjs",
     "i18n:seed": "node scripts/seed-cn-glossary.mjs",
     "i18n:seed:content": "node scripts/seed-cn-content.mjs",
     "i18n:seed:headlines": "node scripts/seed-cn-headlines.mjs",

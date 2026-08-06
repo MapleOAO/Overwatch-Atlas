@@ -1,0 +1,142 @@
+{
+  "locale": "zh-CN",
+  "version": 1,
+  "description": "国服术语核对登记表。target 必须与 glossary.json 中同名术语一致；reference 仅登记暴雪中国官网或国服页面。",
+  "terms": {
+    "Domina": {
+      "target": "金驭",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/domina/"
+    },
+    "Vendetta": {
+      "target": "斩仇",
+      "status": "reviewed",
+      "source": "国服补丁说明 / 英雄相关内容",
+      "reference": "https://ow.blizzard.cn/news/patch-notes/"
+    },
+    "Sierra": {
+      "target": "西拉",
+      "status": "reviewed",
+      "source": "国服英雄列表 / 官方文章",
+      "reference": "https://ow.blizzard.cn/heroes/heroes/"
+    },
+    "Sierra Turner Woods": {
+      "target": "西拉·特纳·伍兹",
+      "status": "reviewed",
+      "source": "国服英雄列表 / 官方文章",
+      "reference": "https://ow.blizzard.cn/heroes/heroes/"
+    },
+    "Jetpack Cat": {
+      "target": "飞天猫",
+      "status": "reviewed",
+      "source": "国服官方文章 / 英雄列表",
+      "reference": "https://ow.blizzard.cn/news/24246206/index.html"
+    },
+    "Mizuki": {
+      "target": "瑞稀",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/mizuki/"
+    },
+    "Mizuki Kawano": {
+      "target": "河野瑞稀",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/mizuki/"
+    },
+    "Shion": {
+      "target": "死怨",
+      "status": "reviewed",
+      "source": "国服官方文章 / 英雄列表",
+      "reference": "https://ow.blizzard.cn/news/24246206/index.html"
+    },
+    "Vishkar Corporation": {
+      "target": "费斯卡集团",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/symmetra/"
+    },
+    "Yokai Gang": {
+      "target": "妖怪团",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/kiriko/"
+    },
+    "M.E.K.A Squad": {
+      "target": "MEKA小队",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/dva/"
+    },
+    "The Gwishin": {
+      "target": "鬼神智械",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/dva/",
+      "note": "实体/阵营标签采用官网的“鬼神智械”；故事正文中的“鬼神”保留官网叙述用法。"
+    },
+    "The Phreaks": {
+      "target": "躯体改造者们",
+      "status": "reviewed",
+      "source": "国服英雄页用语",
+      "reference": "https://ow.blizzard.cn/heroes/hazard/",
+      "note": "官网中文页面将 Phreaks 描述为“躯体改造者们”，未给出独立中文阵营名，因此不使用自创的“朋克帮”。"
+    },
+    "Horizon Lunar Colony": {
+      "target": "“地平线”月球基地",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/winston/"
+    },
+    "Lijiang Tower": {
+      "target": "漓江塔",
+      "status": "reviewed",
+      "source": "国服官方文章",
+      "reference": "https://ow.blizzard.cn/news/24107757/index.html"
+    },
+    "Lucheng Interstellar": {
+      "target": "星际旅程集团",
+      "status": "reviewed",
+      "source": "当前国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/juno/",
+      "note": "国服 2025 年开发者文章曾使用“漓江集团”；当前朱诺和温斯顿英雄页使用“星际旅程集团”，本项目按当前英雄页统一。"
+    },
+    "Deadlock Rebels": {
+      "target": "死局帮",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/ashe/"
+    },
+    "Blackwatch": {
+      "target": "暗影守望",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/reaper/"
+    },
+    "Null Sector": {
+      "target": "归零者",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/ramattra/"
+    },
+    "Talon": {
+      "target": "黑爪",
+      "status": "reviewed",
+      "source": "国服英雄页",
+      "reference": "https://ow.blizzard.cn/heroes/reaper/"
+    },
+    "Ecopoints": {
+      "target": "生态监测站",
+      "status": "reviewed",
+      "source": "国服官方文章",
+      "reference": "https://ow.blizzard.cn/news/24065547/index.html"
+    },
+    "Vishwakarma Bhatt": {
+      "target": "费斯瓦卡玛·巴特",
+      "status": "reviewed",
+      "source": "国服官方文章",
+      "reference": "https://ow.blizzard.cn/news/24246206/index.html"
+    }
+  }
+}
