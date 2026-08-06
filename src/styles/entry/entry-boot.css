@@ -146,6 +146,33 @@ body:not(.app-booted) > *:not(.loading-overlay) {
     border-radius: 4px;
 }
 
+/* Keep the boot bar visibly alive while an async stage is in flight. The
+ * width still represents the last completed stage; the moving highlight only
+ * communicates that the browser is working and prevents a convincing-looking
+ * frozen 0% bar during slow network or WebGL startup. */
+.loading-progress-bar.is-busy {
+    min-width: 12%;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.72) 0%,
+        #ffffff 45%,
+        rgba(255, 255, 255, 0.72) 100%
+    );
+    background-size: 220% 100%;
+    animation: atlas-loading-progress-shimmer 1.15s linear infinite;
+}
+
+@keyframes atlas-loading-progress-shimmer {
+    from { background-position: 100% 0; }
+    to { background-position: -120% 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .loading-progress-bar.is-busy {
+        animation: none;
+    }
+}
+
 .loading-status-overlay #overlayStatusContent {
     width: 100%;
     min-height: 40px;
