@@ -25,7 +25,9 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  # Only the newest main commit should occupy the Pages runner. This avoids
+  # publishing an older queued artifact after a burst of maintenance commits.
+  cancel-in-progress: true
 
 jobs:
   deploy:
