@@ -21,6 +21,8 @@ class NewsTickerService {
         this.currentHeadlines = [];
         this.animationId = null;
         this._handlersAttached = false;
+        this._lastEvents = [];
+        this._i18nRefreshAttached = false;
     }
 
     /** Create the footer ticker container + one-time delegated click/keydown. */
@@ -146,6 +148,7 @@ class NewsTickerService {
 
     /** @param {Array} events Events currently displayed on the page. */
     updateTicker(events) {
+        this._lastEvents = Array.isArray(events) ? events : [];
         if (!this.tickerContainer || !this.tickerContent) {
             this.init();
             if (!this.tickerContainer || !this.tickerContent) return;
@@ -168,6 +171,13 @@ class NewsTickerService {
 
         this.tickerContainer.style.display = 'block';
 
+        if (!this._i18nRefreshAttached && window.AtlasI18nReady?.then) {
+            this._i18nRefreshAttached = true;
+            window.AtlasI18nReady.then(() => {
+                if (this._lastEvents.length) this.updateTicker(this._lastEvents);
+            }).catch(() => {});
+        }
+
         const allEvents = (window.eventManager && window.eventManager.events)
             ? window.eventManager.events
             : window.globeController?.dataModel?.getAllEvents?.() || [];
@@ -175,14 +185,20 @@ class NewsTickerService {
         headlines.forEach((headlineObj, index) => {
             const tickerItem = document.createElement('span');
             tickerItem.className = 'news-ticker-item';
-            tickerItem.textContent = headlineObj.text;
+            const displayHeadline = window.AtlasI18n?.displayText?.(headlineObj.text, {
+                kind: 'event',
+                id: headlineObj.sourceEvent?.id,
+                field: 'headline',
+                variantIndex: headlineObj.variantIndex,
+            }) || '（新闻标题待翻译）';
+            tickerItem.textContent = displayHeadline;
 
             const eventIndex = allEvents.indexOf(headlineObj.sourceEvent);
             tickerItem.dataset.eventIndex = String(eventIndex);
             tickerItem.dataset.variantIndex = String(headlineObj.variantIndex ?? -1);
             tickerItem.tabIndex = 0;
             tickerItem.setAttribute('role', 'button');
-            tickerItem.setAttribute('aria-label', `Open event: ${headlineObj.text}`);
+            tickerItem.setAttribute('aria-label', `打开事件：${displayHeadline}`);
             this.tickerContent.appendChild(tickerItem);
 
             if (index < headlines.length - 1) {

@@ -1,0 +1,1579 @@
+{
+  "locale": "zh-CN",
+  "version": 1,
+  "readme": "新闻句子为项目自创文案；专有名词按国服术语表处理，可在翻译维护页逐条纠错。",
+  "entries": {
+    "Canada Approves plans for Experimental Prosthetics": {
+      "source": "Canada Approves plans for Experimental Prosthetics",
+      "target": "加拿大批准实验性义体方案",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Another wave of Yellow Fever hits Several States in the US": {
+      "source": "Another wave of Yellow Fever hits Several States in the US",
+      "target": "美国多个州再次爆发黄热病",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Fears of another world wide pandemic increase online after recent pathogen outbreaks": {
+      "source": "Fears of another world wide pandemic increase online after recent pathogen outbreaks",
+      "target": "近期病原体疫情暴发后，全球再次大流行的恐慌在网络上升温",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Concerns about viability of AI development cause world wide political divide": {
+      "source": "Concerns about viability of AI development cause world wide political divide",
+      "target": "人工智能发展的可行性引发全球政治分歧",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Record breaking draughts in Africa force hundreds to migrate after loosing their homes": {
+      "source": "Record breaking draughts in Africa force hundreds to migrate after loosing their homes",
+      "target": "非洲创纪录的旱灾迫使数百人背井离乡",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Nano filtration machines become available to buy for home use": {
+      "source": "Nano filtration machines become available to buy for home use",
+      "target": "纳米过滤设备开始面向家庭销售",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Experts declare it will take a miracle to revert climate change, reducing the carbon foot print is no longer enough": {
+      "source": "Experts declare it will take a miracle to revert climate change, reducing the carbon foot print is no longer enough",
+      "target": "专家称扭转气候变化需要奇迹，减少碳足迹已经不够",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Electric Seaweed becomes the new trend across rural Latin America": {
+      "source": "Electric Seaweed becomes the new trend across rural Latin America",
+      "target": "电海藻成为拉丁美洲乡村新潮流",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Wind Energy gets a massive boost from recent Super Storms": {
+      "source": "Wind Energy gets a massive boost from recent Super Storms",
+      "target": "近期超级风暴让风能得到巨大推动",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Scandal follows after Hawaii seceeds the United States": {
+      "source": "Scandal follows after Hawaii seceeds the United States",
+      "target": "夏威夷脱离美国的丑闻持续发酵",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Pacific Nations form Socio economic alliance after international controversy": {
+      "source": "Pacific Nations form Socio economic alliance after international controversy",
+      "target": "国际争议后，太平洋国家组建社会经济联盟",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Cybernetic research proves sucessful and promises a new age to prostetics": {
+      "source": "Cybernetic research proves sucessful and promises a new age to prostetics",
+      "target": "义体研究取得成功，预示着义肢技术的新时代",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Medical Advances promise to exterminate most common ilnesses by the next decade": {
+      "source": "Medical Advances promise to exterminate most common ilnesses by the next decade",
+      "target": "医疗进步有望在未来十年消灭最常见的疾病",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Scientist Claims its now possible to extract water out of tin air": {
+      "source": "Scientist Claims its now possible to extract water out of tin air",
+      "target": "科学家声称如今可以从空气中提取水分",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Nuclear Energy push finally breaks through on Fision development": {
+      "source": "Nuclear Energy push finally breaks through on Fision development",
+      "target": "核能推进终于在裂变技术上取得突破",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnica Corporation quick to adopt new nuclear energy": {
+      "source": "Omnica Corporation quick to adopt new nuclear energy",
+      "target": "全智机械公司迅速采用新型核能",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Artificial Coral is to be released into Polynesian waters": {
+      "source": "Artificial Coral is to be released into Polynesian waters",
+      "target": "人工珊瑚将被投放到波利尼西亚水域",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Solar Farming becomes a popular side hussle for farmers in the Australian Outback": {
+      "source": "Solar Farming becomes a popular side hussle for farmers in the Australian Outback",
+      "target": "太阳能农业成为澳大利亚内陆农民的热门副业",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Portugal builds a massive wall across its coastline": {
+      "source": "Portugal builds a massive wall across its coastline",
+      "target": "葡萄牙沿海修建巨型海墙",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Super coral grows out of control, massive island like structures rise from the sea": {
+      "source": "Super coral grows out of control, massive island like structures rise from the sea",
+      "target": "超级珊瑚失控生长，海上升起巨型岛状结构",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Borda Algae  can now be found in nearly all major bodies of fresh water according to study": {
+      "source": "Borda Algae  can now be found in nearly all major bodies of fresh water according to study",
+      "target": "研究显示，波尔达藻如今几乎遍布所有主要淡水水体",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Indigenous Peruvians invent new form of solar powered devices": {
+      "source": "Indigenous Peruvians invent new form of solar powered devices",
+      "target": "秘鲁原住民发明新型太阳能设备",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Genetics research becomes pivotal for development of new crops after worsening climate": {
+      "source": "Genetics research becomes pivotal for development of new crops after worsening climate",
+      "target": "气候恶化后，遗传学研究成为培育新作物的关键",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Ogundimu Synergies Inc rises as a major competitor in the cybernetics field": {
+      "source": "Ogundimu Synergies Inc rises as a major competitor in the cybernetics field",
+      "target": "奥古迪姆联合公司成为义体领域的重要竞争者",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Chronically ill child undergoes surgery to replace most of her organs with cybernetics": {
+      "source": "Chronically ill child undergoes surgery to replace most of her organs with cybernetics",
+      "target": "慢性病患儿接受手术，以义体替换大部分器官",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Climate Change worsens inspite of a decade worth of ecological effords": {
+      "source": "Climate Change worsens inspite of a decade worth of ecological effords",
+      "target": "尽管投入十年生态努力，气候变化仍在恶化",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Wuxing University Opens its doors to the public": {
+      "source": "Wuxing University Opens its doors to the public",
+      "target": "五行大学向公众开放",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Chinese College makes the rounds online due to its unique new structure": {
+      "source": "Chinese College makes the rounds online due to its unique new structure",
+      "target": "中国一所大学因独特的新建筑结构在网络走红",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnica Coorporation starts to roll out its first robotic helped Omnic units": {
+      "source": "Omnica Coorporation starts to roll out its first robotic helped Omnic units",
+      "target": "全智机械公司开始推出首批机器人辅助智械单位",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Construciton of Omnium factories is approved for several cities world wide": {
+      "source": "Construciton of Omnium factories is approved for several cities world wide",
+      "target": "全球多个城市批准建设智械工厂",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Arbalest annual profits report above expectations": {
+      "source": "Arbalest annual profits report above expectations",
+      "target": "阿尔巴莱斯年度利润高于预期",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Crime stadistics in Japan seemingly go down, Shimada Clan activity adlegedly under reported": {
+      "source": "Crime stadistics in Japan seemingly go down, Shimada Clan activity adlegedly under reported",
+      "target": "日本犯罪率似乎下降，但岛田家族活动可能被低报",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "GMO crops become open sourced after historical legal win in New York": {
+      "source": "GMO crops become open sourced after historical legal win in New York",
+      "target": "纽约历史性法律胜诉后，转基因作物开放源代码",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnica Robots replace most of the work force across all manual labor fields": {
+      "source": "Omnica Robots replace most of the work force across all manual labor fields",
+      "target": "全智机械公司机器人取代各类体力劳动领域的大部分劳动力",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Dr. Siebren De Kuiper Claims he has finally solved how to conquer gravity": {
+      "source": "Dr. Siebren De Kuiper Claims he has finally solved how to conquer gravity",
+      "target": "西布伦·德·库伊珀博士声称终于解决了征服重力的问题",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "The next generation of Cars will be flying across the skies": {
+      "source": "The next generation of Cars will be flying across the skies",
+      "target": "下一代汽车将飞越天际",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Transcontinental Train system begins construction": {
+      "source": "Transcontinental Train system begins construction",
+      "target": "跨洲铁路系统开始建设",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Medical study suggests global health and live expectancy are at an all time high": {
+      "source": "Medical study suggests global health and live expectancy are at an all time high",
+      "target": "医学研究显示，全球健康水平和预期寿命均创历史新高",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Megafarms now constitute most of the world's arable land": {
+      "source": "Megafarms now constitute most of the world's arable land",
+      "target": "巨型农场如今占据世界大部分可耕地",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Indian company discovers a way to make construction materials from light itself": {
+      "source": "Indian company discovers a way to make construction materials from light itself",
+      "target": "印度公司发现用光本身制造建筑材料的方法",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Vishkar expands following massive hardlight breakthrough": {
+      "source": "Vishkar expands following massive hardlight breakthrough",
+      "target": "维斯卡公司在硬光技术取得重大突破后扩张",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Hyperloop Train is set to finally open next year": {
+      "source": "Hyperloop Train is set to finally open next year",
+      "target": "超级高铁预计明年终于开通",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Many governments approve the delegation of duties across many fields to the new so caleld \"God programs\"": {
+      "source": "Many governments approve the delegation of duties across many fields to the new so caleld \"God programs\"",
+      "target": "多国政府批准将多个领域的职责交给新的“上帝程序”",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Controversy follows as more and more aspects of daily live are taken over by machines": {
+      "source": "Controversy follows as more and more aspects of daily live are taken over by machines",
+      "target": "越来越多日常生活领域被机器接管，引发争议",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Germany invests on science development, and ocean exploration, hoping to open jobs as AI takes over": {
+      "source": "Germany invests on science development, and ocean exploration, hoping to open jobs as AI takes over",
+      "target": "德国投资科学发展和海洋探索，希望在人工智能接管工作后创造就业",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Yet another wave of Super storms is expected to hit the Caribbean, as people still suffer the effects of the last one": {
+      "source": "Yet another wave of Super storms is expected to hit the Caribbean, as people still suffer the effects of the last one",
+      "target": "又一轮超级风暴预计将袭击加勒比地区，当地人仍在承受上一轮风暴的影响",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Super Coral boosts Pacific tourism at the expense of trading routes": {
+      "source": "Super Coral boosts Pacific tourism at the expense of trading routes",
+      "target": "超级珊瑚推动太平洋旅游业，却牺牲了贸易航线",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Russian Forces display new state of the art equipment courtesy of Volskaya Industries": {
+      "source": "Russian Forces display new state of the art equipment courtesy of Volskaya Industries",
+      "target": "俄罗斯军队展示沃斯卡娅工业提供的尖端装备",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Vishkar founded dead after car accident, company undergoes power shifts following his passing": {
+      "source": "Vishkar founded dead after car accident, company undergoes power shifts following his passing",
+      "target": "维斯卡公司创始人死于车祸，其去世后公司权力重新洗牌",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Shimada Clan speculated to secretly control most of Tokyo in the shadows": {
+      "source": "Shimada Clan speculated to secretly control most of Tokyo in the shadows",
+      "target": "据推测岛田家族在暗中控制东京大部分地区",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "IRSO partners with Lucheng to start Lunar Colony construction": {
+      "source": "IRSO partners with Lucheng to start Lunar Colony construction",
+      "target": "印度空间研究组织与星际旅程集团合作，启动月球基地建设",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Canada approves cybernetically enhance troops in spite of Dr. Esat's protests": {
+      "source": "Canada approves cybernetically enhance troops in spite of Dr. Esat's protests",
+      "target": "尽管埃萨特博士抗议，加拿大仍批准增强义体部队",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Chernobog God AI charts new diplomatic strategy for Scandinavian security": {
+      "source": "Chernobog God AI charts new diplomatic strategy for Scandinavian security",
+      "target": "切尔诺博格上帝程序制定斯堪的纳维亚安全新外交战略",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Breakthroughts in Space travel by Lucheng Interstellar save lives on Earth": {
+      "source": "Breakthroughts in Space travel by Lucheng Interstellar save lives on Earth",
+      "target": "星际旅程集团的太空旅行突破拯救地球生命",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Sniper with a cybernetic eye climbs to the top of Egypts military": {
+      "source": "Sniper with a cybernetic eye climbs to the top of Egypts military",
+      "target": "一名拥有义眼的狙击手登上埃及军方高层",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Research shows domestic Omnic population is now nearly as common as personal cars": {
+      "source": "Research shows domestic Omnic population is now nearly as common as personal cars",
+      "target": "研究显示，家用智械如今几乎和私家车一样普遍",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnica's grow seemignly plateaus, is the Omnic bubble about to crash?": {
+      "source": "Omnica's grow seemignly plateaus, is the Omnic bubble about to crash?",
+      "target": "全智机械公司增长似乎停滞，智械泡沫要破裂了吗",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "The new generation of defensive warfare is adaptive machines": {
+      "source": "The new generation of defensive warfare is adaptive machines",
+      "target": "防御战的新一代是自适应机器",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Ironclad Guild opens its workshop for everyone": {
+      "source": "Ironclad Guild opens its workshop for everyone",
+      "target": "铁甲公会向所有人开放工坊",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Xibalbá God program is celebrated across Mexico": {
+      "source": "Xibalbá God program is celebrated across Mexico",
+      "target": "希巴尔巴上帝程序在墨西哥各地受到庆祝",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Lucheng secures deal to ship a primate colony into Space for genetic research": {
+      "source": "Lucheng secures deal to ship a primate colony into Space for genetic research",
+      "target": "星际旅程集团达成协议，将灵长类动物群送入太空进行基因研究",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Ironclad Engineers face backlash after criticizing over relyance on AI": {
+      "source": "Ironclad Engineers face backlash after criticizing over relyance on AI",
+      "target": "铁甲公会工程师批评过度依赖人工智能后遭到反弹",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnica's newest product is... A sentient being?": {
+      "source": "Omnica's newest product is... A sentient being?",
+      "target": "全智机械公司最新产品是……有知觉的生命体",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Dr. Mina Liao commits career suicide, claiming her newest creation is alive": {
+      "source": "Dr. Mina Liao commits career suicide, claiming her newest creation is alive",
+      "target": "廖美娜博士声称自己的最新造物拥有生命，职业生涯因此自毁",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "The Horizon Lunar Colony  is finally finished": {
+      "source": "The Horizon Lunar Colony  is finally finished",
+      "target": "“地平线”月球基地终于完工",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Scientists from across the world to visit the new Lunar base": {
+      "source": "Scientists from across the world to visit the new Lunar base",
+      "target": "来自世界各地的科学家将前往新的月球基地",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Aurora is granted legal personhood in spite of global discourse": {
+      "source": "Aurora is granted legal personhood in spite of global discourse",
+      "target": "尽管全球争议不断，奥罗拉仍获法律人格",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Germany unveils the new generation of German soldiers": {
+      "source": "Germany unveils the new generation of German soldiers",
+      "target": "德国公布新一代德国士兵",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Crusader guards parade across Berlin for presidential inauguration": {
+      "source": "Crusader guards parade across Berlin for presidential inauguration",
+      "target": "十字军守卫在总统就职典礼上巡游柏林",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Reports of election meddling plague most of Europe": {
+      "source": "Reports of election meddling plague most of Europe",
+      "target": "欧洲大部分地区饱受选举干预报告困扰",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Reports of illegal activities surge across Italy, authorities refuse to investigate further": {
+      "source": "Reports of illegal activities surge across Italy, authorities refuse to investigate further",
+      "target": "意大利非法活动激增，当局拒绝进一步调查",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnica Corporation goes bankrupt after years of empty promises": {
+      "source": "Omnica Corporation goes bankrupt after years of empty promises",
+      "target": "全智机械公司在多年空头承诺后破产",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnium factories set to go unsued following Omnica's bankrupcy": {
+      "source": "Omnium factories set to go unsued following Omnica's bankrupcy",
+      "target": "全智机械公司破产后，智械工厂将被闲置",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "US Military hires Dr. Naughton for secret project following her return from the Moon": {
+      "source": "US Military hires Dr. Naughton for secret project following her return from the Moon",
+      "target": "美国军方在诺顿博士从月球返回后聘其参与秘密项目",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "UN meetings regarding climate change conclude enviromental push is no longer a priority": {
+      "source": "UN meetings regarding climate change conclude enviromental push is no longer a priority",
+      "target": "联合国气候变化会议结束，环保推进不再是优先事项",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "AI regulation laws fail to go through across most of the Western world": {
+      "source": "AI regulation laws fail to go through across most of the Western world",
+      "target": "人工智能监管法案未能在西方大部分地区通过",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Renowned Italian family involved in criminal underworld": {
+      "source": "Renowned Italian family involved in criminal underworld",
+      "target": "意大利知名家族卷入黑社会",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Unexpected Omnic attack in Lagos, hundreds dead": {
+      "source": "Unexpected Omnic attack in Lagos, hundreds dead",
+      "target": "拉各斯遭遇意外智械袭击，数百人死亡",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Nigeria goes silent following spontaneous Omnic rebellion": {
+      "source": "Nigeria goes silent following spontaneous Omnic rebellion",
+      "target": "尼日利亚在智械突然起义后陷入沉默",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Multiple countries report Omnic Invasion, war imminent": {
+      "source": "Multiple countries report Omnic Invasion, war imminent",
+      "target": "多国报告智械入侵，战争迫在眉睫",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnic Crisis declared to be global, cause is still unknown": {
+      "source": "Omnic Crisis declared to be global, cause is still unknown",
+      "target": "智械危机被宣布为全球性危机，起因仍未知",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Wealthy elites and celebrities presumed to be hiding in bunkers": {
+      "source": "Wealthy elites and celebrities presumed to be hiding in bunkers",
+      "target": "富豪和名人被认为躲进了避难所",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Hurricane Crystal causes chaos across the Caribbean soon after Omnic Crisis attacks": {
+      "source": "Hurricane Crystal causes chaos across the Caribbean soon after Omnic Crisis attacks",
+      "target": "智械危机袭击后不久，水晶飓风在加勒比地区造成混乱",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Russia finally responst back \"We have won\"": {
+      "source": "Russia finally responst back \"We have won\"",
+      "target": "俄罗斯终于回应：“我们赢了”",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Russian civillians fight back the Omnics sucessfully": {
+      "source": "Russian civillians fight back the Omnics sucessfully",
+      "target": "俄罗斯平民成功反击智械",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Controversial Swedish inventor saves Gothenburg with Turrets": {
+      "source": "Controversial Swedish inventor saves Gothenburg with Turrets",
+      "target": "备受争议的瑞典发明家用炮塔拯救哥德堡",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Sweden to expand Lindholm's defense systems across the country": {
+      "source": "Sweden to expand Lindholm's defense systems across the country",
+      "target": "瑞典将把林德霍姆的防御系统扩展至全国",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnics defeated at Portugal's sea wall": {
+      "source": "Omnics defeated at Portugal's sea wall",
+      "target": "智械在葡萄牙海墙被击败",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Spain forms an alliance with Portugal to face the Omnics  together": {
+      "source": "Spain forms an alliance with Portugal to face the Omnics  together",
+      "target": "西班牙与葡萄牙结盟，共同对抗智械",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "New York City major defies governor orders to evacuate": {
+      "source": "New York City major defies governor orders to evacuate",
+      "target": "纽约市市长违抗州长撤离命令",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "US orders citizens to leave major cities, military aid is stopped by Omnic army": {
+      "source": "US orders citizens to leave major cities, military aid is stopped by Omnic army",
+      "target": "美国命令公民离开大城市，军方援助被智械军队阻断",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Man alledgely equips Moose with rifles to fight back Omnics": {
+      "source": "Man alledgely equips Moose with rifles to fight back Omnics",
+      "target": "据称有人给驼鹿装备步枪以反击智械",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Vivian \"Sojourn\" Chase is promoted to commander following Ontario rescue operations": {
+      "source": "Vivian \"Sojourn\" Chase is promoted to commander following Ontario rescue operations",
+      "target": "薇薇安·“索杰恩”·蔡斯因安大略救援行动晋升指挥官",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Anubis targets Satellite systems across the atmosphere": {
+      "source": "Anubis targets Satellite systems across the atmosphere",
+      "target": "阿努比斯锁定大气层中的卫星系统",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "India focus military effort into securing lauching track protection": {
+      "source": "India focus military effort into securing lauching track protection",
+      "target": "印度将军事力量集中于保护发射轨道",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "IRSO sucessfully restablishes global satellite network": {
+      "source": "IRSO sucessfully restablishes global satellite network",
+      "target": "印度空间研究组织成功重建全球卫星网络",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Fire College Students protect Chengdu from warbots": {
+      "source": "Fire College Students protect Chengdu from warbots",
+      "target": "火学院学生保护成都免受战争机器人侵袭",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Student  made mechs to be deployed across China": {
+      "source": "Student  made mechs to be deployed across China",
+      "target": "学生制造的机甲将部署到中国各地",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Thousands of refugees flea into the Megafarms all across America": {
+      "source": "Thousands of refugees flea into the Megafarms all across America",
+      "target": "数千名难民逃往遍布美国的巨型农场",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Solar Powered Warriors fight Omnics in the Andes": {
+      "source": "Solar Powered Warriors fight Omnics in the Andes",
+      "target": "太阳能战士在安第斯山脉与智械作战",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Cybernetic Ceremony brings the power of the sun into the Human body": {
+      "source": "Cybernetic Ceremony brings the power of the sun into the Human body",
+      "target": "义体仪式将太阳之力带入人体",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Man single handedly stops waves of Omnics before vanishing": {
+      "source": "Man single handedly stops waves of Omnics before vanishing",
+      "target": "一名男子独自阻挡数波智械后消失",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "The \"Doomfist\" is spotted once more in Nigeria": {
+      "source": "The \"Doomfist\" is spotted once more in Nigeria",
+      "target": "“末日铁拳”再次现身尼日利亚",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Voslkaya Mechs fight Omic army back": {
+      "source": "Voslkaya Mechs fight Omic army back",
+      "target": "沃斯卡娅机甲反击智械军队",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Russia stays strong against the Warbots with giant Robots of their own": {
+      "source": "Russia stays strong against the Warbots with giant Robots of their own",
+      "target": "俄罗斯以巨型机器人对抗战争机器人，继续坚守",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "UN Approves unified strike unti plan": {
+      "source": "UN Approves unified strike unti plan",
+      "target": "联合国批准统一打击方案",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch Initiative passes United Nations hearings, scouting for candidates begins shortly after": {
+      "source": "Overwatch Initiative passes United Nations hearings, scouting for candidates begins shortly after",
+      "target": "守望先锋计划通过联合国听证会，随后开始物色候选人",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Top Sniper prevents massacre in Cairo": {
+      "source": "Top Sniper prevents massacre in Cairo",
+      "target": "顶尖狙击手阻止开罗大屠杀",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Sweden scientists develop new portable Bunkers to combat Omnics": {
+      "source": "Sweden scientists develop new portable Bunkers to combat Omnics",
+      "target": "瑞典科学家研发新的便携式避难所，对抗智械",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "New Yorkers turn Empire State Building into an Anti Omnic Cannon": {
+      "source": "New Yorkers turn Empire State Building into an Anti Omnic Cannon",
+      "target": "纽约人将帝国大厦改造成反智械巨炮",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Ravager Units appear on battlefields across the world, highly dangerous": {
+      "source": "Ravager Units appear on battlefields across the world, highly dangerous",
+      "target": "掠夺者单位出现在全球战场，极度危险",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "German recruitment offices full, a new Generation of Crusaders has been selected": {
+      "source": "German recruitment offices full, a new Generation of Crusaders has been selected",
+      "target": "德国征兵办公室人满为患，新一代十字军已经选出",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Knights in shinig armor shield civillians from Omnic attacks": {
+      "source": "Knights in shinig armor shield civillians from Omnic attacks",
+      "target": "身披闪耀铠甲的骑士保护平民免受智械袭击",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "United States Government to begin recruitment for Super Soldier trials": {
+      "source": "United States Government to begin recruitment for Super Soldier trials",
+      "target": "美国政府将开始招募超级士兵试验对象",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "National Heroes Jack Morrison and Gabriel Reyes to be deployed across battle scared cities": {
+      "source": "National Heroes Jack Morrison and Gabriel Reyes to be deployed across battle scared cities",
+      "target": "国家英雄杰克·莫里森和加布里尔·莱耶斯将被派往饱受战争蹂躏的城市",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Germany loses Eichenwalde Stronghold to the Omnics": {
+      "source": "Germany loses Eichenwalde Stronghold to the Omnics",
+      "target": "德国失去艾兴瓦尔德要塞，落入智械之手",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Veteran Crusader dies defending the Eichenwalde Castle": {
+      "source": "Veteran Crusader dies defending the Eichenwalde Castle",
+      "target": "老兵十字军为守卫艾兴瓦尔德城堡战死",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Linhholm's defense system expands across Sweden": {
+      "source": "Linhholm's defense system expands across Sweden",
+      "target": "林德霍姆防御系统扩展至瑞典各地",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "United Nations assamble team of heroes from across the world": {
+      "source": "United Nations assamble team of heroes from across the world",
+      "target": "联合国召集来自世界各地的英雄",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch Taskforce to start deployment soon": {
+      "source": "Overwatch Taskforce to start deployment soon",
+      "target": "守望先锋特遣队即将开始部署",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch missions are a sucess across the globe": {
+      "source": "Overwatch missions are a sucess across the globe",
+      "target": "守望先锋任务在全球取得成功",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch agent rescues child in Japan": {
+      "source": "Overwatch agent rescues child in Japan",
+      "target": "守望先锋特工在日本救出儿童",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "War Hero dies defending Siberian town": {
+      "source": "War Hero dies defending Siberian town",
+      "target": "战争英雄为保卫西伯利亚小镇战死",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Radiation Zone declared in Oymyakon, evacuation mandatory": {
+      "source": "Radiation Zone declared in Oymyakon, evacuation mandatory",
+      "target": "奥伊米亚康宣布为辐射区，必须疏散",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Mina Liao Joins Overwatch Initiaitve": {
+      "source": "Mina Liao Joins Overwatch Initiaitve",
+      "target": "米娜·廖加入守望先锋计划",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Detroit Omnium sucessfully decomissioned": {
+      "source": "Detroit Omnium sucessfully decomissioned",
+      "target": "底特律智械工厂成功退役",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "New York city breached, war rages on": {
+      "source": "New York city breached, war rages on",
+      "target": "纽约市防线被突破，战争仍在继续",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Empire sky cannon takes down incoming Anubis carrier": {
+      "source": "Empire sky cannon takes down incoming Anubis carrier",
+      "target": "帝国天空炮击落来袭的阿努比斯载具",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Source of the Omnic Crisis discovered": {
+      "source": "Source of the Omnic Crisis discovered",
+      "target": "智械危机的源头被发现",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "God AI Anubis leading the warbot advance": {
+      "source": "God AI Anubis leading the warbot advance",
+      "target": "上帝程序阿努比斯领导战争机器推进",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Mexico goes dark following the shutdown of Xibalba": {
+      "source": "Mexico goes dark following the shutdown of Xibalba",
+      "target": "希巴尔巴关闭后，墨西哥陷入黑暗",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "God AI sides with Humanity agaisnt Anubis": {
+      "source": "God AI sides with Humanity agaisnt Anubis",
+      "target": "上帝程序站在人类一边对抗阿努比斯",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "New York defies federal orders to turn Macaria off": {
+      "source": "New York defies federal orders to turn Macaria off",
+      "target": "纽约违抗联邦命令，拒绝关闭麦卡利亚",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Civilians unite to fight the Omnics in the Australian Outback": {
+      "source": "Civilians unite to fight the Omnics in the Australian Outback",
+      "target": "澳大利亚内陆平民联合起来对抗智械",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "The Swedish \"Heroic Five\" die during bombardment": {
+      "source": "The Swedish \"Heroic Five\" die during bombardment",
+      "target": "瑞典“英雄五人组”在轰炸中牺牲",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Millions saved by Swedish portable bunker system": {
+      "source": "Millions saved by Swedish portable bunker system",
+      "target": "瑞典便携式避难所系统拯救数百万人",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Doomfist dies during Nigerian warbot attack": {
+      "source": "Doomfist dies during Nigerian warbot attack",
+      "target": "末日铁拳死于尼日利亚战争机器袭击",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnic troops stop fighting world wide": {
+      "source": "Omnic troops stop fighting world wide",
+      "target": "智械部队在全球停止战斗",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Warbot drops gun and helps human troops": {
+      "source": "Warbot drops gun and helps human troops",
+      "target": "战争机器人放下武器，帮助人类部队",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Archeologist struggle to recover relics among the ruins left by the Crisis": {
+      "source": "Archeologist struggle to recover relics among the ruins left by the Crisis",
+      "target": "考古学家艰难地从智械危机遗迹中抢救文物",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch breaks into Anubis facility": {
+      "source": "Overwatch breaks into Anubis facility",
+      "target": "守望先锋闯入阿努比斯设施",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Is the Crisis finally over? War rages on across the world": {
+      "source": "Is the Crisis finally over? War rages on across the world",
+      "target": "智械危机终于结束了吗？世界各地的战争仍在继续",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Troops in Baltimore fight alonside Omnics to stop remaining warbots": {
+      "source": "Troops in Baltimore fight alonside Omnics to stop remaining warbots",
+      "target": "巴尔的摩部队与智械并肩作战，阻止残余战争机器人",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnic Crisis officially over, can humanity ever recover?": {
+      "source": "Omnic Crisis officially over, can humanity ever recover?",
+      "target": "智械危机正式结束，人类能否恢复元气",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Portero restores the light to all of Mexico": {
+      "source": "Portero restores the light to all of Mexico",
+      "target": "波特罗让整个墨西哥重见光明",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Giant power grid plants to be build across Mexico": {
+      "source": "Giant power grid plants to be build across Mexico",
+      "target": "墨西哥各地将建设巨型电网电站",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Mexican gang violence on the rise even after blackouts seize": {
+      "source": "Mexican gang violence on the rise even after blackouts seize",
+      "target": "即使停电结束后，墨西哥帮派暴力仍在上升",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnic violence on the rise, can we truly co exist": {
+      "source": "Omnic violence on the rise, can we truly co exist",
+      "target": "智械暴力事件增加，我们真的能共存吗",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Clashes between war survivors and newly sentient machines continue": {
+      "source": "Clashes between war survivors and newly sentient machines continue",
+      "target": "战争幸存者与新近觉醒的机器持续发生冲突",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch scientists refuse to destroy Anubis Program": {
+      "source": "Overwatch scientists refuse to destroy Anubis Program",
+      "target": "守望先锋科学家拒绝摧毁阿努比斯程序",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Controversial AI prison begins construction": {
+      "source": "Controversial AI prison begins construction",
+      "target": "备受争议的人工智能监狱开始建设",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnics and Humans come together over the winter": {
+      "source": "Omnics and Humans come together over the winter",
+      "target": "冬日里，智械与人类走到了一起",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Disputes over Omnic rights continue to grow": {
+      "source": "Disputes over Omnic rights continue to grow",
+      "target": "关于智械权利的争议持续升温",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Adawe departs Overwatch": {
+      "source": "Adawe departs Overwatch",
+      "target": "阿达维离开守望先锋",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Construction of the city of Numbani begins in Nigeria": {
+      "source": "Construction of the city of Numbani begins in Nigeria",
+      "target": "尼日利亚开始建设努巴尼城",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnics worldwide begin to come back to their old homes": {
+      "source": "Omnics worldwide begin to come back to their old homes",
+      "target": "全球各地的智械开始返回故乡",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Machines refuse to return to unpaid labor": {
+      "source": "Machines refuse to return to unpaid labor",
+      "target": "机器拒绝回到无偿劳动岗位",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Jack Morrison chosen to lead Overwatch": {
+      "source": "Jack Morrison chosen to lead Overwatch",
+      "target": "杰克·莫里森获选领导守望先锋",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Meet the new member of the Strike team, Emre Sarioglu": {
+      "source": "Meet the new member of the Strike team, Emre Sarioglu",
+      "target": "认识突击小队新成员：埃姆雷·萨里奥格鲁",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Anubis allied Omnics attack Istanbul": {
+      "source": "Anubis allied Omnics attack Istanbul",
+      "target": "阿努比斯结盟的智械袭击伊斯坦布尔",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch agent severely wounded": {
+      "source": "Overwatch agent severely wounded",
+      "target": "守望先锋特工身负重伤",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "ALF extremist group causes nuclear fallout in the Outback": {
+      "source": "ALF extremist group causes nuclear fallout in the Outback",
+      "target": "澳大利亚内陆的极端组织引发核辐射泄漏",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Tensions between humans and Omnics intensify in Australia": {
+      "source": "Tensions between humans and Omnics intensify in Australia",
+      "target": "澳大利亚人类与智械之间的紧张局势加剧",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch begins to expand onto new bases": {
+      "source": "Overwatch begins to expand onto new bases",
+      "target": "守望先锋开始扩建新的基地",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "The Martins gift Overwatch their Gibraltar Laboratory": {
+      "source": "The Martins gift Overwatch their Gibraltar Laboratory",
+      "target": "马丁斯家族将直布罗陀实验室赠予守望先锋",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Meet the Shamblai, the new Omnic Religion": {
+      "source": "Meet the Shamblai, the new Omnic Religion",
+      "target": "认识香巴里：新的智械宗教",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnics across the world pilgrim towards the Himalayas": {
+      "source": "Omnics across the world pilgrim towards the Himalayas",
+      "target": "世界各地的智械朝喜马拉雅山脉进行朝圣",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Gang violence in Japa slows down, but Shimada activity is at an all time high": {
+      "source": "Gang violence in Japa slows down, but Shimada activity is at an all time high",
+      "target": "日本帮派暴力减缓，但岛田家族活动达到历史最高",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Shimada Clan operators wield unknown energy swords during confrontation with rival groups": {
+      "source": "Shimada Clan operators wield unknown energy swords during confrontation with rival groups",
+      "target": "岛田家族成员在与敌对团体的冲突中使用未知能量剑",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch expands personnel for Reyes lead operations": {
+      "source": "Overwatch expands personnel for Reyes lead operations",
+      "target": "守望先锋扩充人员，执行莱耶斯领导的行动",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Meet the new face of naoobiotics": {
+      "source": "Meet the new face of naoobiotics",
+      "target": "认识纳米生物学界的新面孔",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Yet another medical breakthrough thanks to Dr. Angela Zeigler": {
+      "source": "Yet another medical breakthrough thanks to Dr. Angela Zeigler",
+      "target": "多亏安吉拉·齐格勒博士，又一项医疗突破诞生",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "\"Junker Monarchy\" vanishes collaborators to the wasteland": {
+      "source": "\"Junker Monarchy\" vanishes collaborators to the wasteland",
+      "target": "“渣客王国”将合作者驱逐到荒地",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Australia refuses to negotiate with Junkers": {
+      "source": "Australia refuses to negotiate with Junkers",
+      "target": "澳大利亚拒绝与渣客谈判",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "SEP subjects go silent across America": {
+      "source": "SEP subjects go silent across America",
+      "target": "超级士兵项目受试者在美国各地失去音讯",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Naugthon research to be classified and kept under lock": {
+      "source": "Naugthon research to be classified and kept under lock",
+      "target": "诺顿研究将被列为机密并严加看管",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Crisis veterans struggle to substain their families after the war": {
+      "source": "Crisis veterans struggle to substain their families after the war",
+      "target": "智械危机老兵在战后艰难养家",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Gang violence in the new Wild West increases": {
+      "source": "Gang violence in the new Wild West increases",
+      "target": "新西部的帮派暴力加剧",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Arbalest reports assets stolen after repeated heists": {
+      "source": "Arbalest reports assets stolen after repeated heists",
+      "target": "阿尔巴莱斯报告称资产在多次抢劫后被盗",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Recontruction of old world strucutres begins across Europe": {
+      "source": "Recontruction of old world strucutres begins across Europe",
+      "target": "欧洲开始重建旧世界建筑",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "The newly build Colosseo opens to the public": {
+      "source": "The newly build Colosseo opens to the public",
+      "target": "新建的斗兽场向公众开放",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch cracks down on Gang violence globally": {
+      "source": "Overwatch cracks down on Gang violence globally",
+      "target": "守望先锋在全球严厉打击帮派暴力",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Deadlock Gang largely apprehended following Overwatch Raid": {
+      "source": "Deadlock Gang largely apprehended following Overwatch Raid",
+      "target": "死局帮大部分成员在守望先锋突袭后被捕",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch recruits a minor after takedown in the US": {
+      "source": "Overwatch recruits a minor after takedown in the US",
+      "target": "守望先锋在美国一次行动后招募一名未成年人",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "US Government publicly allows SEP Soldiers to remain anonymous": {
+      "source": "US Government publicly allows SEP Soldiers to remain anonymous",
+      "target": "美国政府公开允许超级士兵项目士兵保持匿名",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch responds quickly to massive floods in Brittish Columbia": {
+      "source": "Overwatch responds quickly to massive floods in Brittish Columbia",
+      "target": "守望先锋迅速应对不列颠哥伦比亚省特大洪水",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Dam System to be built by Overwatch across the West coast of North America": {
+      "source": "Dam System to be built by Overwatch across the West coast of North America",
+      "target": "守望先锋将在北美西海岸修建水坝系统",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch defies government petitions to shut down the Caribbean Coaltion": {
+      "source": "Overwatch defies government petitions to shut down the Caribbean Coaltion",
+      "target": "守望先锋无视政府关闭加勒比联盟的请愿",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch aids in efforts to rebuild Latin America": {
+      "source": "Overwatch aids in efforts to rebuild Latin America",
+      "target": "守望先锋协助重建拉丁美洲",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Vishkar Opens the Architect Academy": {
+      "source": "Vishkar Opens the Architect Academy",
+      "target": "维斯卡公司开放建筑师学院",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "India approves the schooling project for hundreds of orphans": {
+      "source": "India approves the schooling project for hundreds of orphans",
+      "target": "印度批准为数百名孤儿实施教育计划",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Protests over God AI shutdown continue": {
+      "source": "Protests over God AI shutdown continue",
+      "target": "抗议关闭上帝程序的活动仍在继续",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch reveals Athena AI support": {
+      "source": "Overwatch reveals Athena AI support",
+      "target": "守望先锋公开雅典娜人工智能支援系统",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch to approve ecological focused bases on many countries": {
+      "source": "Overwatch to approve ecological focused bases on many countries",
+      "target": "守望先锋将批准在多个国家建设生态导向基地",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Man claiming to be Doomfist wrecks havoc across Numbani": {
+      "source": "Man claiming to be Doomfist wrecks havoc across Numbani",
+      "target": "自称末日铁拳的男子在努巴尼大肆破坏",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "The city of harmony delays Unity Day celebrations due to concerns about warmonger raid": {
+      "source": "The city of harmony delays Unity Day celebrations due to concerns about warmonger raid",
+      "target": "和平之城因担忧好战者突袭，推迟团结日庆祝活动",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "UN rejects funding proposal for Lucheng's Mars Colony": {
+      "source": "UN rejects funding proposal for Lucheng's Mars Colony",
+      "target": "联合国否决星际旅程集团火星殖民地的资金提案",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "First person ever charged of Omnic Murder": {
+      "source": "First person ever charged of Omnic Murder",
+      "target": "首位被控谋杀智械的人出现",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Mina Liao to tesitfy in favor of Omnic Rights": {
+      "source": "Mina Liao to tesitfy in favor of Omnic Rights",
+      "target": "米娜·廖将为智械权利作证",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnic Rights case passes the UN hearings": {
+      "source": "Omnic Rights case passes the UN hearings",
+      "target": "智械权利案件通过联合国听证",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Shimada clan stops Hashimoto attack during End of Summer festival": {
+      "source": "Shimada clan stops Hashimoto attack during End of Summer festival",
+      "target": "岛田家族在夏末节期间阻止桥本组袭击",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Reports of a ghostly Fox appearing in Kanezaka continue": {
+      "source": "Reports of a ghostly Fox appearing in Kanezaka continue",
+      "target": "花村持续出现幽灵狐的报告",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Australian Outback declared unsafe to visit due to Caravan raiders": {
+      "source": "Australian Outback declared unsafe to visit due to Caravan raiders",
+      "target": "因车队掠夺者出没，澳大利亚内陆被宣布为不宜前往",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Health Conditions on the south of Australia worsen as radiation outbreak continues": {
+      "source": "Health Conditions on the south of Australia worsen as radiation outbreak continues",
+      "target": "辐射泄漏持续，澳大利亚南部健康状况恶化",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnic appointed head of Monte Carlo's development": {
+      "source": "Omnic appointed head of Monte Carlo's development",
+      "target": "智械被任命为蒙特卡洛开发负责人",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Axiom stocks spike follwoing change in company leadership": {
+      "source": "Axiom stocks spike follwoing change in company leadership",
+      "target": "阿克西奥姆公司领导层变动后股价飙升",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch's new Member \"Mercy\" saves countless lives thanks to flying medical suit": {
+      "source": "Overwatch's new Member \"Mercy\" saves countless lives thanks to flying medical suit",
+      "target": "守望先锋新成员“天使”凭借飞行医疗服拯救无数生命",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Nanobiotic equipment to begin mass production soon": {
+      "source": "Nanobiotic equipment to begin mass production soon",
+      "target": "纳米生物设备即将开始量产",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Junker cavaran raids Overwatch outpost, no casualties, few wounded": {
+      "source": "Junker cavaran raids Overwatch outpost, no casualties, few wounded",
+      "target": "渣客车队突袭守望先锋前哨站，无人死亡，少数人受伤",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Melbourn hospotal renames facility in honor to Angela Ziegler": {
+      "source": "Melbourn hospotal renames facility in honor to Angela Ziegler",
+      "target": "墨尔本医院以安吉拉·齐格勒的名字重新命名",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Chase and Ziegler face criticism over dying child": {
+      "source": "Chase and Ziegler face criticism over dying child",
+      "target": "蔡斯与齐格勒因一名濒死儿童受到批评",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Reports of Omnic Activist storming warehouses increase": {
+      "source": "Reports of Omnic Activist storming warehouses increase",
+      "target": "智械活动人士冲击仓库的报告增加",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Omnic Underworld conditions worsen in London, protests continue": {
+      "source": "Omnic Underworld conditions worsen in London, protests continue",
+      "target": "伦敦地下城状况恶化，抗议仍在继续",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "The Gwishin is back, Overwatch response on the way": {
+      "source": "The Gwishin is back, Overwatch response on the way",
+      "target": "鬼神归来，守望先锋正在响应",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Researchers confirm the existance of Anubis made Omnium factory underwater": {
+      "source": "Researchers confirm the existance of Anubis made Omnium factory underwater",
+      "target": "研究人员确认水下存在阿努比斯制造的智械工厂",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Mondatta takes a shovel and helps with the gorund breaking of Turing green": {
+      "source": "Mondatta takes a shovel and helps with the gorund breaking of Turing green",
+      "target": "蒙达塔拿起铲子，帮助图灵绿地破土动工",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Reports of Null Sector extremist protesting Mondatta's precense in London continue": {
+      "source": "Reports of Null Sector extremist protesting Mondatta's precense in London continue",
+      "target": "归零者极端分子在伦敦抗议蒙达塔现身的报告仍在增加",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Underworld Curfews extended indefinetly": {
+      "source": "Underworld Curfews extended indefinetly",
+      "target": "地下城宵禁无限期延长",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Accident on the International Space Station during Dr. De Kuiper's experiment": {
+      "source": "Accident on the International Space Station during Dr. De Kuiper's experiment",
+      "target": "德·库伊珀博士进行实验时，国际空间站发生事故",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Dr. De Kuiper still missing after evacuation, authorities refuse to ellaborate": {
+      "source": "Dr. De Kuiper still missing after evacuation, authorities refuse to ellaborate",
+      "target": "撤离后德·库伊珀博士仍然失踪，当局拒绝说明细节",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Hundreds displace in India following Vishkar home prices being revealed": {
+      "source": "Hundreds displace in India following Vishkar home prices being revealed",
+      "target": "维斯卡房价曝光后，印度数百人流离失所",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Acussations of nepotism and corruption continue within Vishkar's corporate circle": {
+      "source": "Acussations of nepotism and corruption continue within Vishkar's corporate circle",
+      "target": "维斯卡公司内部持续出现裙带关系与腐败指控",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "War era Idina units repurposed for police patrolling in Numbani": {
+      "source": "War era Idina units repurposed for police patrolling in Numbani",
+      "target": "战争时期的伊迪纳单位被重新用于努巴尼警务巡逻",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Doomfist attacks continue, Overwatch assistance denied": {
+      "source": "Doomfist attacks continue, Overwatch assistance denied",
+      "target": "末日铁拳袭击仍在继续，守望先锋拒绝提供援助",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Reports of a change in Junker Monarchy confirmed": {
+      "source": "Reports of a change in Junker Monarchy confirmed",
+      "target": "证实渣客王国发生变动",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Radiation levels in the outback stabilizing": {
+      "source": "Radiation levels in the outback stabilizing",
+      "target": "澳大利亚内陆辐射水平趋于稳定",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Dr. Liao continues to advocate for Artificial Intelligence making a comeback": {
+      "source": "Dr. Liao continues to advocate for Artificial Intelligence making a comeback",
+      "target": "廖博士继续倡导让人工智能重获新生",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch to fun Liao's research on a secret project in Norway": {
+      "source": "Overwatch to fun Liao's research on a secret project in Norway",
+      "target": "守望先锋将在挪威资助廖博士的秘密研究项目",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Tensions grow between Criminal gangs in Japan following the assasination of Sojiro Shimada": {
+      "source": "Tensions grow between Criminal gangs in Japan following the assasination of Sojiro Shimada",
+      "target": "岛田次郎遭刺杀后，日本犯罪团伙之间的紧张局势加剧",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch seen in Kanezaka amidst growing Clan violence": {
+      "source": "Overwatch seen in Kanezaka amidst growing Clan violence",
+      "target": "随着家族暴力增加，守望先锋现身花村",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Lucheng goes silent on future plans": {
+      "source": "Lucheng goes silent on future plans",
+      "target": "星际旅程集团对未来计划保持沉默",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Conspiracy theories about Lunar Colony Ape lack credibility says Chinese judge": {
+      "source": "Conspiracy theories about Lunar Colony Ape lack credibility says Chinese judge",
+      "target": "中国法官称有关月球基地猩猩的阴谋论缺乏可信度",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Hashimoto gangsters seen wielding energy weapons": {
+      "source": "Hashimoto gangsters seen wielding energy weapons",
+      "target": "发现桥本组成员使用能量武器",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Tokyo crime rates increase twice as fast this last month": {
+      "source": "Tokyo crime rates increase twice as fast this last month",
+      "target": "本月东京犯罪率增长速度翻倍",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Hundreds Evacuated by Overwatch's Search and Rescue team": {
+      "source": "Hundreds Evacuated by Overwatch's Search and Rescue team",
+      "target": "守望先锋搜索与救援队疏散数百人",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "The best tracker in the world to Join Overwatch": {
+      "source": "The best tracker in the world to Join Overwatch",
+      "target": "世界最佳追踪者将加入守望先锋",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "The Scourge of Numbani is dead, man claiming to be his killer steals the Doomfist Gauntlet": {
+      "source": "The Scourge of Numbani is dead, man claiming to be his killer steals the Doomfist Gauntlet",
+      "target": "努巴尼之灾已死，一名自称凶手的人偷走末日铁拳拳套",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Reports of Talon across the Caribbean continue, corruption allegations among the Coaltion ranks on the rise": {
+      "source": "Reports of Talon across the Caribbean continue, corruption allegations among the Coaltion ranks on the rise",
+      "target": "加勒比地区持续发现黑爪活动，联盟内部的腐败指控不断增加",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch pilot lost in time following engine malfunciton in experimental jet": {
+      "source": "Overwatch pilot lost in time following engine malfunciton in experimental jet",
+      "target": "守望先锋飞行员在实验喷气机引擎故障后迷失于时间",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Shimada activity reports in Kanezaka suddendly drop, several known members missing": {
+      "source": "Shimada activity reports in Kanezaka suddendly drop, several known members missing",
+      "target": "花村的岛田家族活动报告突然减少，几名已知成员失踪",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Kanezakan locals claim extorsion attempts at the hand of Shimada gangsters": {
+      "source": "Kanezakan locals claim extorsion attempts at the hand of Shimada gangsters",
+      "target": "花村当地人称遭到岛田家族帮派勒索",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Controversial paper on Celular regeneration shakes the scientific world": {
+      "source": "Controversial paper on Celular regeneration shakes the scientific world",
+      "target": "一篇关于细胞再生的争议论文震动科学界",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch releases public condemnation of Moira O'Deorain's research": {
+      "source": "Overwatch releases public condemnation of Moira O'Deorain's research",
+      "target": "守望先锋公开谴责莫伊拉·奥德莱恩的研究",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Anomalous Blizzard reaches Thirteen months of consistent activity": {
+      "source": "Anomalous Blizzard reaches Thirteen months of consistent activity",
+      "target": "异常暴雪持续活动达到十三个月",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch declares Antartica staff dead after storm extends pass the survivable window": {
+      "source": "Overwatch declares Antartica staff dead after storm extends pass the survivable window",
+      "target": "暴风雪超过可生存窗口后，守望先锋宣布南极洲工作人员死亡",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "The Resolute ship is lost during rescue mission in Antartica": {
+      "source": "The Resolute ship is lost during rescue mission in Antartica",
+      "target": "坚定号飞船在南极洲救援任务中失踪",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Vishkar engineer goes rouge and flees with priceless technology": {
+      "source": "Vishkar engineer goes rouge and flees with priceless technology",
+      "target": "维斯卡工程师叛逃，携带珍贵技术逃离",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Bounty is placed for Niran PruksaManee in multiple countries": {
+      "source": "Bounty is placed for Niran PruksaManee in multiple countries",
+      "target": "多个国家悬赏尼兰·普鲁克萨玛尼",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "La Coaterie power brokect presumed to have ties with Talon": {
+      "source": "La Coaterie power brokect presumed to have ties with Talon",
+      "target": "拉科特里电力项目疑似与黑爪有关",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Talon activity reported in Monte Carlo": {
+      "source": "Talon activity reported in Monte Carlo",
+      "target": "蒙特卡洛出现黑爪活动报告",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Wayfinder excavation in Illios solves millenea old mystery": {
+      "source": "Wayfinder excavation in Illios solves millenea old mystery",
+      "target": "伊利奥斯的探路者挖掘工作解开了延续千年的谜团",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Recruitment begins for Wayfinder expedition near the Temple of Anubis": {
+      "source": "Recruitment begins for Wayfinder expedition near the Temple of Anubis",
+      "target": "阿努比斯神殿附近的探路者远征开始招募",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Hashimoto activity increasing on Kanezaka region, locals concerned": {
+      "source": "Hashimoto activity increasing on Kanezaka region, locals concerned",
+      "target": "花村地区桥本组活动增加，当地人感到担忧",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Individuals with Shimada connections found dead during turf dispute": {
+      "source": "Individuals with Shimada connections found dead during turf dispute",
+      "target": "具有岛田家族关系的人员在地盘争端中死亡",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Agent Winston saves pilot lost in time": {
+      "source": "Agent Winston saves pilot lost in time",
+      "target": "特工温斯顿救出一名迷失于时间的飞行员",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Overwatch to recruit time traveling agent": {
+      "source": "Overwatch to recruit time traveling agent",
+      "target": "守望先锋将招募一名穿越时间的特工",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Hashimoto operation delays the end of Summer festival in Kanezaka": {
+      "source": "Hashimoto operation delays the end of Summer festival in Kanezaka",
+      "target": "桥本组行动推迟了花村夏末节的结束",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "New sighting of the Blue Fox Cryptid in Japan": {
+      "source": "New sighting of the Blue Fox Cryptid in Japan",
+      "target": "日本再次目击蓝狐神秘生物",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Antartic Anomalies continue, creating unlivable conditions for any human": {
+      "source": "Antartic Anomalies continue, creating unlivable conditions for any human",
+      "target": "南极洲异常现象持续，造成任何人类都无法生存的环境",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Null Sector cells caught during riots in London over Turing Green's development policies": {
+      "source": "Null Sector cells caught during riots in London over Turing Green's development policies",
+      "target": "伦敦骚乱期间，归零者小组因图灵绿地开发政策被捕",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Giant Metal Ball reportedly seen across multiple cities aorund the world": {
+      "source": "Giant Metal Ball reportedly seen across multiple cities aorund the world",
+      "target": "据报巨型金属球出现在世界多个城市",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    },
+    "Oversized Wombat attacks Tourist in the Outback": {
+      "source": "Oversized Wombat attacks Tourist in the Outback",
+      "target": "巨型袋熊袭击澳大利亚内陆游客",
+      "status": "needs-review",
+      "note": "项目自创新闻文案；已按国服术语初译，建议由中文维护者复核语气与专名。"
+    }
+  }
+}

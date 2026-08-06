@@ -3653,7 +3653,7 @@
     "faction-95bb80abe800": {
       "sourceHash": "512cc545e6daf115279936e1cbb89e4154af3d3810e8a75eaf849d27ea6c2aa7",
       "name": {
-        "target": "智械危机",
+        "target": "归零者",
         "status": "reviewed"
       },
       "kind": "factions"
@@ -3682,7 +3682,7 @@
     "faction-7765875b5804": {
       "sourceHash": "5d62b77717a557b9f55d1d4c6ea79b93efb29c564f01fc028d701f79fd5d9efc",
       "name": {
-        "target": "死锁帮",
+        "target": "死局帮",
         "status": "draft"
       },
       "kind": "factions"
@@ -3855,7 +3855,7 @@
     "faction-d3bdf387ffa3": {
       "sourceHash": "eb56c994732242c0822c0b919f6364d4cb47a2e9487aa9fba996cabc43e15c17",
       "name": {
-        "target": "路城国际",
+        "target": "星际旅程集团",
         "status": "draft"
       },
       "kind": "factions"
@@ -3948,7 +3948,7 @@
     "faction-3658bcae3d2e": {
       "sourceHash": "6c395c0b4c804ba9b93fcfd7c9f9f694401b756aec3bcc25ddaa4048c19e5b42",
       "name": {
-        "target": "黑爪",
+        "target": "暗影守望",
         "status": "reviewed"
       },
       "description": {

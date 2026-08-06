@@ -57,6 +57,7 @@ function hasGlossary(glossary, source) {
 const localeRoot = path.join(ROOT, 'src/data/locales/zh-CN');
 const ui = readJson('src/data/locales/zh-CN/ui.json');
 const glossary = readJson('src/data/locales/zh-CN/glossary.json');
+const headlines = readJson('src/data/locales/zh-CN/headlines.json');
 const content = readJson('src/data/locales/zh-CN/content.json');
 
 const errors = [];
@@ -70,6 +71,10 @@ const counts = {
     stale: 0,
     draftNames: 0,
     draftDescriptions: 0,
+    headlineSources: 0,
+    translatedHeadlines: 0,
+    missingHeadlines: 0,
+    draftHeadlines: 0,
 };
 
 for (const source of SOURCES) {
@@ -114,13 +119,44 @@ for (const source of SOURCES) {
     }
 }
 
+const headlineSources = new Set();
+for (const source of SOURCES.filter((item) => item.kind === 'event')) {
+    for (const row of rowsOf(readJson(source.path))) {
+        const variants = Array.isArray(row?.variants) && row.variants.length ? row.variants : [row];
+        for (const variant of variants) {
+            for (const headline of variant?.headlines || []) {
+                const value = String(headline || '').trim();
+                if (value) headlineSources.add(value);
+            }
+        }
+    }
+}
+
+const headlineEntries = headlines?.entries || {};
+for (const source of headlineSources) {
+    counts.headlineSources += 1;
+    const translation = headlineEntries[source] || {};
+    if (targetOf(translation)) counts.translatedHeadlines += 1;
+    else {
+        counts.missingHeadlines += 1;
+        warnings.push(`headline: missing translation (${source})`);
+    }
+    if (translation.status === 'draft' || translation.status === 'needs-review') counts.draftHeadlines += 1;
+}
+
 for (const [key, entry] of Object.entries(ui.entries || {})) {
     if (!entry || !String(entry.source || '').trim() || !String(entry.target || '').trim()) {
         errors.push(`ui.json: incomplete entry ${key}`);
     }
 }
 
-for (const file of ['ui.json', 'glossary.json', 'content.json']) {
+for (const [key, entry] of Object.entries(headlineEntries)) {
+    if (!entry || !String(entry.source || '').trim() || !String(entry.target || '').trim()) {
+        errors.push(`headlines.json: incomplete entry ${key}`);
+    }
+}
+
+for (const file of ['ui.json', 'glossary.json', 'content.json', 'headlines.json']) {
     const p = path.join(localeRoot, file);
     if (!fs.existsSync(p)) errors.push(`missing locale file: ${p}`);
 }

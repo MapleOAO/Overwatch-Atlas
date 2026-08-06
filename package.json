@@ -13,6 +13,7 @@
     "i18n:check:strict": "node scripts/i18n-check.mjs --strict",
     "i18n:seed": "node scripts/seed-cn-glossary.mjs",
     "i18n:seed:content": "node scripts/seed-cn-content.mjs",
+    "i18n:seed:headlines": "node scripts/seed-cn-headlines.mjs",
     "sync:upstream": "node scripts/sync-upstream.mjs",
     "sync:upstream:check": "node scripts/sync-upstream.mjs --check-only",
     "launch": "node scripts/generate-manifest.js && start cmd /k \"node src/server.js\" && timeout /t 3 /nobreak >nul && start chrome.exe http://localhost:8000",

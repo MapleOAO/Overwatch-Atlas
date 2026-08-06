@@ -17,7 +17,7 @@ npm install
 node src/server.js
 ```
 
-打开 `http://localhost:8000/translations.html`。维护页支持事件、英雄、阵营、NPC、地点、界面文案和术语表；保存操作只写入上述 locale 文件，不会改写原始英文资料。`reviewed` 表示已人工审核，`draft` / `needs-review` 表示仍需复核。
+打开 `http://localhost:8000/translations.html`。维护页支持事件、英雄、阵营、NPC、地点、界面文案、新闻标题和术语表；保存操作只写入 locale 文件，不会改写原始英文资料。`reviewed` 表示已人工审核，`draft` / `needs-review` 表示仍需复核。新闻标题是项目自创文案，使用 `headlines.json` 独立维护，便于逐条纠错。
 
 没有运行本地服务器时，维护页仍可编辑，但会下载 JSON 文件；请把下载结果放回对应目录后提交。
 
@@ -25,9 +25,10 @@ node src/server.js
 
 ```bash
 npm run i18n:seed:content
+npm run i18n:seed:headlines
 ```
 
-该命令用于重新生成当前源数据的中文初始稿；日常纠错应优先使用 `translations.html`，并将人工确认的条目标记为 `reviewed`。目前仍有少量专有名词保留 `draft` 状态，方便依据国服资料逐项核对，不会被误认为已经完成官方术语审核。
+这些命令用于重新生成当前源数据的中文初始稿；日常纠错应优先使用 `translations.html`，并将人工确认的条目标记为 `reviewed`。新闻标题属于项目自创句子，虽已套用国服术语，但仍保留 `needs-review` 状态，方便中文维护者逐条校对语气和专名。
 
 ## 远程仓库关系
 
