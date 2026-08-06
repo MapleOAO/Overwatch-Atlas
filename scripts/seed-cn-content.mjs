@@ -97,7 +97,7 @@ const EVENT_NAMES = {
     'Undercover': '卧底',
     'Miracle Worker': '奇迹缔造者',
     'Outcasted': '被放逐者',
-    'Deadlock Rebels': '死锁帮',
+    'Deadlock Rebels': '死局帮',
     'Rebuilding the Past': '重建过去',
     'The New West': '新西部',
     'Outlaw': '法外之徒',

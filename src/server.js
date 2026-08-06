@@ -17,7 +17,7 @@ const PORT = 8000;
 const REPO_ROOT = path.resolve(__dirname, '..');
 const LOCALIZATION_LOCALE = 'zh-CN';
 const LOCALIZATION_DIR = path.join(REPO_ROOT, 'src', 'data', 'locales', LOCALIZATION_LOCALE);
-const LOCALIZATION_FILES = new Set(['ui.json', 'glossary.json', 'content.json']);
+const LOCALIZATION_FILES = new Set(['ui.json', 'glossary.json', 'content.json', 'headlines.json']);
 
 // MIME types
 const mimeTypes = {
@@ -89,7 +89,7 @@ function writeLocalizationFile(body, res) {
     const filePath = locale === LOCALIZATION_LOCALE ? localizationFilePath(fileName) : null;
     if (!filePath || !body || typeof body.data !== 'object' || Array.isArray(body.data)) {
         sendJson(res, 400, {
-            error: 'Expected { locale: "zh-CN", file: "ui.json|glossary.json|content.json", data: {...} }',
+            error: 'Expected { locale: "zh-CN", file: "ui.json|glossary.json|content.json|headlines.json", data: {...} }',
         });
         return;
     }

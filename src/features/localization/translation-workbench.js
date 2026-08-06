@@ -8,9 +8,15 @@ const DATASETS = {
     location: { label: '地点', path: 'src/data/story-archive/locations.json', bucket: 'entities', kind: 'location' },
 };
 
+const HEADLINE_DATASET = {
+    label: '新闻标题',
+    path: 'src/data/locales/zh-CN/headlines.json',
+    bucket: 'entries',
+};
+
 const state = {
     canonical: {},
-    locale: { ui: {}, glossary: {}, content: { events: {}, entities: {} } },
+    locale: { ui: {}, glossary: {}, headlines: { entries: {} }, content: { events: {}, entities: {} } },
     serverWritable: false,
     rows: [],
     selectedKey: null,
@@ -67,6 +73,7 @@ function normalizeLocaleBundle(files) {
     return {
         ui: files?.['ui.json'] || {},
         glossary: files?.['glossary.json'] || {},
+        headlines: files?.['headlines.json'] || { entries: {} },
         content: {
             events: files?.['content.json']?.events || {},
             entities: files?.['content.json']?.entities || {},
@@ -79,12 +86,14 @@ async function loadLocale() {
     const localFiles = await Promise.all([
         fetchJson(`src/data/locales/${LOCALE}/ui.json`),
         fetchJson(`src/data/locales/${LOCALE}/glossary.json`),
+        fetchJson(`src/data/locales/${LOCALE}/headlines.json`),
         fetchJson(`src/data/locales/${LOCALE}/content.json`),
     ]);
     let files = {
         'ui.json': localFiles[0],
         'glossary.json': localFiles[1],
-        'content.json': localFiles[2],
+        'headlines.json': localFiles[2],
+        'content.json': localFiles[3],
     };
     try {
         const response = await fetch('/api/localization', { cache: 'no-store' });
@@ -171,8 +180,24 @@ function makeGlossaryRows() {
     }));
 }
 
+function makeHeadlineRows() {
+    const entries = state.locale.headlines?.entries || {};
+    return Object.entries(entries).map(([id, entry]) => ({
+        key: `headline:${id}`,
+        type: 'headline',
+        id,
+        name: String(entry?.source || id),
+        description: '',
+        targetName: targetOf(entry),
+        targetDescription: '',
+        status: String(entry?.status || 'draft'),
+        note: String(entry?.note || ''),
+        entry,
+    }));
+}
+
 function rebuildRows() {
-    state.rows = [...makeCanonicalRows(), ...makeUiRows(), ...makeGlossaryRows()];
+    state.rows = [...makeCanonicalRows(), ...makeUiRows(), ...makeGlossaryRows(), ...makeHeadlineRows()];
 }
 
 function currentMode() {
@@ -183,6 +208,7 @@ function rowsForMode() {
     const mode = currentMode();
     if (mode === 'ui') return state.rows.filter((row) => row.type === 'ui');
     if (mode === 'glossary') return state.rows.filter((row) => row.type === 'glossary');
+    if (mode === 'headline') return state.rows.filter((row) => row.type === 'headline');
     return state.rows.filter((row) => row.type === 'canonical' && row.kind === mode);
 }
 
@@ -205,7 +231,9 @@ function renderList() {
         const haystack = `${row.name} ${row.targetName} ${row.description} ${row.targetDescription} ${row.id}`.toLowerCase();
         return (!query || haystack.includes(query)) && rowMatchesStatus(row, status);
     });
-    $('stats').textContent = `${DATASETS[currentMode()]?.label || (currentMode() === 'ui' ? '界面文案' : '术语表')}：显示 ${rows.length} 条；本地服务器写入：${state.serverWritable ? '可用' : '不可用（可导出文件）'}`;
+    const label = DATASETS[currentMode()]?.label
+        || (currentMode() === 'ui' ? '界面文案' : currentMode() === 'headline' ? HEADLINE_DATASET.label : '术语表');
+    $('stats').textContent = `${label}：显示 ${rows.length} 条；本地服务器写入：${state.serverWritable ? '可用' : '不可用（可导出文件）'}`;
     list.innerHTML = '';
     if (!rows.length) {
         list.innerHTML = '<div class="empty">没有匹配条目。</div>';
@@ -268,6 +296,7 @@ function renderEditor() {
     }
     if (row.type === 'canonical') editor.innerHTML = renderCanonicalEditor(row);
     else if (row.type === 'ui') editor.innerHTML = renderSimpleEditor(row, `界面文案：${row.id}`, '英文原文', '备注');
+    else if (row.type === 'headline') editor.innerHTML = renderSimpleEditor(row, `新闻标题：${row.id}`, '英文原文', '来源 / 备注');
     else editor.innerHTML = renderSimpleEditor(row, '术语表', '英文术语', '来源 / 备注');
 }
 
@@ -355,6 +384,22 @@ async function saveCurrent() {
             ...(note ? { note } : {}),
         } };
         await writeLocaleFile('ui.json', ui);
+    } else if (row.type === 'headline') {
+        const headlines = state.locale.headlines;
+        const entries = { ...(headlines.entries || {}) };
+        const target = readField('name');
+        if (target) {
+            entries[row.id] = {
+                source: row.name,
+                target,
+                status,
+                ...(note ? { note } : {}),
+            };
+        } else {
+            delete entries[row.id];
+        }
+        headlines.entries = entries;
+        await writeLocaleFile('headlines.json', headlines);
     } else {
         const glossary = state.locale.glossary;
         const terms = { ...(glossary.terms || {}) };
@@ -376,8 +421,9 @@ async function saveCurrent() {
 function exportAll() {
     downloadJson('zh-CN-ui.json', state.locale.ui);
     downloadJson('zh-CN-glossary.json', state.locale.glossary);
+    downloadJson('zh-CN-headlines.json', state.locale.headlines);
     downloadJson('zh-CN-content.json', state.locale.content);
-    setStatus('已导出 3 个 locale 文件', 'ok');
+    setStatus('已导出 4 个 locale 文件', 'ok');
 }
 
 async function loadAll() {

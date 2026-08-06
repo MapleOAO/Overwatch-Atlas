@@ -50,7 +50,7 @@ npm start
 
 ## 中文版维护与上游同步
 
-中文显示由 `src/features/localization/` 提供，译文与原始英文资料分离保存于 `src/data/locales/zh-CN/`。本地服务器下打开 `translations.html` 可人工维护名称、描述、界面文案和术语；GitHub Pages 不会发布维护页。
+中文显示由 `src/features/localization/` 提供，译文与原始英文资料分离保存于 `src/data/locales/zh-CN/`。本地服务器下打开 `translations.html` 可人工维护名称、描述、界面文案、新闻标题和术语；GitHub Pages 不会发布维护页。国服固定译名集中在术语表中，项目自创新闻句子单独放在 `headlines.json`，方便逐条纠错。
 
 本仓库使用 `origin` 指向 `MapleOAO/Overwatch-Atlas`，使用只读 `upstream` 获取原仓库更新：
 

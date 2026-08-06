@@ -273,12 +273,12 @@
       "source": "国服阵营名称"
     },
     "Null Sector": {
-      "target": "智械危机",
+      "target": "归零者",
       "status": "reviewed",
       "source": "国服阵营名称"
     },
     "Deadlock Rebels": {
-      "target": "死锁帮",
+      "target": "死局帮",
       "status": "draft",
       "source": "待国服核对"
     },
@@ -308,7 +308,7 @@
       "source": "待国服核对"
     },
     "Blackwatch": {
-      "target": "黑爪",
+      "target": "暗影守望",
       "status": "reviewed",
       "source": "国服阵营名称"
     },
@@ -453,7 +453,7 @@
       "source": "自动初译，待国服核对"
     },
     "Lucheng Interstellar": {
-      "target": "路城国际",
+      "target": "星际旅程集团",
       "status": "draft",
       "source": "自动初译，待国服核对"
     },

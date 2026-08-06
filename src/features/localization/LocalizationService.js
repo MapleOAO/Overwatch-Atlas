@@ -177,14 +177,14 @@ const FALLBACK_GLOSSARY = {
     Zarya: '查莉娅',
     Zenyatta: '禅雅塔',
     Overwatch: '守望先锋',
-    'Null Sector': '智械危机',
-    'Deadlock Rebels': '死锁帮',
+    'Null Sector': '归零者',
+    'Deadlock Rebels': '死局帮',
     'Shimada Clan': '岛田家族',
     'Hashimoto Clan': '桥本组',
     'Yokai Gang': '妖怪帮',
     'Junker Monarchy': '渣客王国',
     'Los Muertos': '亡者',
-    Blackwatch: '黑爪',
+    Blackwatch: '暗影守望',
     'Shambali Order': '香巴里寺',
     'Vishkar Corporation': '维斯卡公司',
     'Omnica Corporation': '全智机械公司',
@@ -193,7 +193,8 @@ const FALLBACK_GLOSSARY = {
     'The Gwishin': '鬼神',
     'Anubis Directives': '阿努比斯指令',
     'Talon Empire': '黑爪帝国',
-    'The Phreaks': 'Phreaks',
+    'Lucheng Interstellar': '星际旅程集团',
+    'The Phreaks': '朋克帮',
     'Search & Rescue': '搜索与救援',
     'Space Station (ISS)': '国际空间站（ISS）',
     'Red Promise Escape Ship': '红色承诺逃生舰',
@@ -212,6 +213,25 @@ function normalize(value) {
 }
 
 function flattenUiEntries(raw) {
+    if (!isRecord(raw)) return {};
+    const entries = isRecord(raw.entries) ? raw.entries : raw;
+    const out = {};
+    for (const [key, value] of Object.entries(entries)) {
+        if (typeof value === 'string') {
+            out[key] = { source: key, target: value, status: 'reviewed' };
+        } else if (isRecord(value)) {
+            out[key] = {
+                source: String(value.source ?? key),
+                target: String(value.target ?? value.translation ?? value.source ?? key),
+                status: String(value.status ?? 'draft'),
+                note: String(value.note ?? ''),
+            };
+        }
+    }
+    return out;
+}
+
+function flattenTextEntries(raw) {
     if (!isRecord(raw)) return {};
     const entries = isRecord(raw.entries) ? raw.entries : raw;
     const out = {};
@@ -331,6 +351,7 @@ class AtlasLocalization {
         this.locale = this._readLocale();
         this.ui = flattenUiEntries(FALLBACK_UI);
         this.glossary = flattenGlossaryEntries(FALLBACK_GLOSSARY);
+        this.headlines = {};
         this.content = { events: {}, entities: {} };
         this.ready = this._load();
         this._observer = null;
@@ -357,13 +378,15 @@ class AtlasLocalization {
 
     async _load() {
         const base = `${LOCALE_ROOT}/${encodeURIComponent(this.locale)}`;
-        const [ui, glossary, content] = await Promise.all([
+        const [ui, glossary, headlines, content] = await Promise.all([
             this._loadJson(`${base}/ui.json`, {}),
             this._loadJson(`${base}/glossary.json`, {}),
+            this._loadJson(`${base}/headlines.json`, {}),
             this._loadJson(`${base}/content.json`, {}),
         ]);
         this.ui = { ...this.ui, ...flattenUiEntries(ui) };
         this.glossary = { ...this.glossary, ...flattenGlossaryEntries(glossary) };
+        this.headlines = flattenTextEntries(headlines);
         this.content = asContentMap(content);
         this._installDomLocalization();
         this.applyDocument();
@@ -396,7 +419,7 @@ class AtlasLocalization {
 
     _uiSourceMap() {
         const map = {};
-        for (const entry of Object.values(this.ui)) {
+        for (const entry of [...Object.values(this.ui), ...Object.values(this.headlines)]) {
             const source = normalize(entry?.source);
             const target = entryTarget(entry);
             if (source && target && source !== target) map[source] = target;
@@ -412,7 +435,7 @@ class AtlasLocalization {
         if (sourceMap[normalized]) return sourceMap[normalized];
 
         let translated = raw;
-        const entries = Object.values(this.ui)
+        const entries = [...Object.values(this.ui), ...Object.values(this.headlines)]
             .map((entry) => ({ source: normalize(entry?.source), target: entryTarget(entry) }))
             .filter((entry) => entry.source && entry.target && entry.source !== entry.target)
             .sort((a, b) => b.source.length - a.source.length);
@@ -536,6 +559,13 @@ class AtlasLocalization {
     displayText(source, options = {}) {
         const raw = String(source ?? '');
         if (!raw) return raw;
+        if (String(options.field || 'description') === 'headline') {
+            const headline = Object.values(this.headlines).find((entry) => normalize(entry?.source) === normalize(raw));
+            const translatedHeadline = entryTarget(headline);
+            if (translatedHeadline) return translatedHeadline;
+            const fallback = replaceTerms(raw, this.glossary);
+            return /[A-Za-z]{3}/.test(fallback) ? '（新闻标题待翻译）' : fallback;
+        }
         const id = String(options.id || '').trim();
         const field = String(options.field || 'description');
         const bucket = options.kind === 'event' ? this.content.events : this.content.entities;
