@@ -1,4 +1,4 @@
-import { AtlasI18n } from './LocalizationService.js';
+import { AtlasI18n } from './LocalizationService.js?v=2';
 
 // Keep the promise visible for loaders that need translated display data before
 // their first render.  The service itself is intentionally safe to use before
