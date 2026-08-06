@@ -57,6 +57,7 @@ import {
     updateEventSlideFactionTypeDisplay,
     updateEventSlideHeroRoleDisplay
 } from '../../../interface-info-display/eventSlideMetaDisplays.js';
+import { applyEventNameWhenLocaleReady } from '../../../../localization/runtimeDisplay.js';
 
 export function runUpdateSingleButtonContent(slide, btn, event, globalEventIndex, allEvents) {
         if (!event) {
@@ -154,18 +155,25 @@ export function runUpdateSingleButtonContent(slide, btn, event, globalEventIndex
             : event;
         
         const plainName = displayEvent.name || event.name || `Event ${globalEventIndex + 1}`;
-        if (nameEl) {
-            if (window.GlitchTextService) {
-                nameEl.innerHTML = window.GlitchTextService.getDisplayEventName(plainName);
-            } else {
-                nameEl.textContent = plainName;
-            }
-        }
-        
         // Unfinished indicator: same predicate as the dock-thumb / list rule
             const hasDescription = !eventSlotMissingDescription(displayEvent);
         btn.classList.toggle('event-number-btn--unfinished', !hasDescription);
-        btn.title = hasDescription ? plainName : `${plainName} — Unfinished: missing description`;
+        applyEventNameWhenLocaleReady({
+            event,
+            sourceName: plainName,
+            variantIndex: isMultiEvent ? 0 : null,
+            isCurrent: () => btn.isConnected && btn.dataset.eventIndex === String(globalEventIndex),
+            apply: (localizedName) => {
+                if (nameEl) {
+                    if (window.GlitchTextService) {
+                        nameEl.innerHTML = window.GlitchTextService.getDisplayEventName(localizedName);
+                    } else {
+                        nameEl.textContent = localizedName;
+                    }
+                }
+                btn.title = hasDescription ? localizedName : `${localizedName} — Unfinished: missing description`;
+            },
+        });
         
         // Get image (dock thumbs always use main timeline event art)
         let imagePath = null;
@@ -245,7 +253,13 @@ export function runUpdateSingleButtonContent(slide, btn, event, globalEventIndex
                         setLoadingAssetImageSrc(imgEl, variantImagePath, { wrap: imgWrap });
                     }
                     if (nameEl && variantDisplayEvent.name) {
-                        nameEl.textContent = variantDisplayEvent.name;
+                        applyEventNameWhenLocaleReady({
+                            event: targetEvent,
+                            sourceName: variantDisplayEvent.name,
+                            variantIndex: nextVariant,
+                            isCurrent: () => btn.isConnected && btn.dataset.eventIndex === String(globalEventIndex),
+                            apply: (localizedName) => { nameEl.textContent = localizedName; },
+                        });
                     }
                 }
                 
@@ -437,4 +451,3 @@ export function runUpdateSingleButtonContent(slide, btn, event, globalEventIndex
             }
         };
 }
-
