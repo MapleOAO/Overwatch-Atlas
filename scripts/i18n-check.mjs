@@ -68,6 +68,8 @@ const counts = {
     missingNames: 0,
     missingDescriptions: 0,
     stale: 0,
+    draftNames: 0,
+    draftDescriptions: 0,
 };
 
 for (const source of SOURCES) {
@@ -94,13 +96,16 @@ for (const source of SOURCES) {
             warnings.push(`${source.kind} ${id}: missing name translation (${row?.name || 'unnamed'})`);
         }
 
-        if (source.kind === 'event' && String(row?.description ?? '').trim()) {
+        if (String(row?.description ?? '').trim()) {
             if (description) counts.translatedDescriptions += 1;
             else {
                 counts.missingDescriptions += 1;
                 warnings.push(`${source.kind} ${id}: missing description translation (${row?.name || 'unnamed'})`);
             }
         }
+
+        if (translation.name?.status === 'draft') counts.draftNames += 1;
+        if (translation.description?.status === 'draft') counts.draftDescriptions += 1;
 
         if (translation.sourceHash && translation.sourceHash !== sourceHash(row)) {
             counts.stale += 1;
