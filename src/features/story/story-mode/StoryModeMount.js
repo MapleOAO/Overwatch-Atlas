@@ -29,12 +29,14 @@ import {
     storyModeSession,
     storyTimelineModeSession,
 } from './StoryModeSession.js';
+import { ensureEventSystemLoaded } from '../../system-interface/interface-load-unload/ensureEventSystemLoaded.js';
 
 /**
  * @param {object} [options]
  * @param {(restoreMenu?: boolean) => void | Promise<void>} [options.onCancel]
  */
 export async function mountStoryMode({ onCancel } = {}) {
+    await ensureEventSystemLoaded();
     storyModeSession.onExitMode = onCancel || null;
     archiveModeSession.onExitMode = onCancel || null;
 

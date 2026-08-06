@@ -17,6 +17,8 @@
 
 import { updateStatus } from "../../../../universal-features/atlas-mode-runtime/statusFeed.js";
 import { syncEventsWithGlobeCore } from "../../../interface-load-unload/integration/syncEventsWithGlobeCore.js";
+import { ensureEventSystemDependencies } from "../../../interface-load-unload/eventSystemDependencies.js";
+import { versionedAssetUrl } from "../../../../universal-features/atlas-performance/runtimeAssetUrl.js";
 
 // ---------------------------------------------------------------------------
 // Private helpers
@@ -45,19 +47,35 @@ function _teardownExistingEventManager() {
  * @returns {Promise<void>}
  */
 async function _loadEventManagerScript() {
-  return new Promise((resolve, reject) => {
-    const script = document.createElement("script");
-    script.type = "module";
-    script.src =
-      "src/features/system-interface/interface-left-panel/coordinator/EventManager.js?" + Date.now();
-    script.onload = resolve;
-    script.onerror = () => {
-      const error = new Error("Failed to load EventManager.js");
-      updateStatus(`✗ ${error.message}`, "error");
-      reject(error);
-    };
-    document.head.appendChild(script);
-  });
+    return new Promise((resolve, reject) => {
+        const script = document.createElement("script");
+        let settled = false;
+        const timeout = window.setTimeout(() => {
+            if (settled) return;
+            settled = true;
+            script.remove();
+            reject(new Error("Timed out loading EventManager.js"));
+        }, 30000);
+        script.type = "module";
+        script.src = versionedAssetUrl(
+            "src/features/system-interface/interface-left-panel/coordinator/EventManager.js",
+        );
+        script.onload = () => {
+            if (settled) return;
+            settled = true;
+            window.clearTimeout(timeout);
+            resolve();
+        };
+        script.onerror = () => {
+            if (settled) return;
+            settled = true;
+            window.clearTimeout(timeout);
+            const error = new Error("Failed to load EventManager.js");
+            updateStatus(`✗ ${error.message}`, "error");
+            reject(error);
+        };
+        document.head.appendChild(script);
+    });
 }
 
 // ---------------------------------------------------------------------------
@@ -74,6 +92,10 @@ export async function initializeEventManager() {
   _teardownExistingEventManager();
 
   updateStatus("Loading EventManager...", "info");
+
+  // These globals used to be loaded by 30+ blocking script tags in
+  // index.html. Load them only when Story/Data Archive actually needs them.
+  await ensureEventSystemDependencies();
 
   const existingScript = document.querySelector(
     'script[src*="EventManager.js"]',

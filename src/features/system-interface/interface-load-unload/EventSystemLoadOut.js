@@ -3,9 +3,9 @@
  * the Filters button, Image Display toggle, pagination dock, news ticker,
  * standalone Event Slide, and (when the globe is loaded) event markers.
  *
- * Today the Event System is **always loaded at boot** (see `AppInitializer.js`),
- * so `loadEventSystem` is invoked once during the boot sequence and is not
- * normally torn down by the app shell — the Home button leaves it in place.
+ * The Event System is loaded on demand when Story or Data Archive is opened.
+ * The landing page deliberately does not pay this cost, while the Home button
+ * still leaves the loaded system in place during normal mode switches.
  * `unloadEventSystem` is retained for completeness (and exercised by the
  * Worldview kill cascade's `preserveEventsUi` guard) but no UI affordance
  * triggers it directly.
@@ -270,6 +270,7 @@ export async function loadEventSystem(testBtn) {
   } catch (error) {
     console.error("Error loading Event System:", error);
     updateStatus(`Error: ${error.message}`, "error");
+    throw error;
   }
 }
 

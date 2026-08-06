@@ -6,10 +6,10 @@
  *   2. Hides the sidebar on production hosting (GitHub Pages / public site).
  *   3. Shows the loading overlay, waits briefly so `LoadingOrchestrator`
  *      publishes its globals, then in order: loads Universal Features,
- *      loads the Main Menu, and finally mounts the Event System Load Out
- *      (filters panel, pagination dock, news ticker, standalone slide,
- *      manage panel listeners). The overlay only drops once all three
- *      have finished.
+ *      loads the Main Menu. The Event System Load Out (filters panel,
+ *      pagination dock, news ticker, standalone slide, manage panel
+ *      listeners) is requested only when Story or Data Archive is opened,
+ *      so it cannot block the first paint.
  *   4. Wires up cleanup on `beforeunload` / `pagehide` so the globe
  *      releases its WebGL/Three.js resources.
  *   5. Triggers `HeaderModeSynchronization` (`setupHeaderHub`,
@@ -25,7 +25,6 @@ import {
     setupOfficialSiteLinkSound
 } from '../atlas-header/HeaderModeSynchronization.js';
 import { setupZoomControls } from '../../world/worldview-controls-ui/runtime/WorldviewZoomControls.js';
-import { loadEventSystem } from '../../system-interface/interface-load-unload/EventSystemLoadOut.js?v=100';
 import {
     setRunOperation,
     showLoadingOverlay,
@@ -87,13 +86,22 @@ if (isProductionEnv()) {
 function openBootOverlay() {
     setRunOperation(true);
     showLoadingOverlay();
+    setBootProgress(0);
 }
 
 function dropBootOverlay() {
+    setBootProgress(100);
     setRunOperation(false);
     setTimeout(function () {
         hideLoadingOverlay();
     }, OVERLAY_FADE_OUT_MS);
+}
+
+function setBootProgress(percent) {
+    const progressBar = document.getElementById('loadingProgressBar');
+    if (!progressBar) return;
+    const value = Math.max(0, Math.min(100, Number(percent) || 0));
+    progressBar.style.width = `${value}%`;
 }
 
 function writeOverlayStatus(message) {
@@ -138,24 +146,6 @@ async function autoLoadMenuComponents(logPrefix) {
     }
 }
 
-/**
- * Mount the Event System Load Out as part of the boot sequence so it's
- * already wired (manage panel listeners, pagination dock, filters panel,
- * news ticker, standalone slide) by the time the loading overlay drops.
- * The Home button no longer tears this down — it stays alive for the
- * lifetime of the page.
- */
-async function autoLoadEventSystem(logPrefix) {
-    writeOverlayStatus('Loading Event System...');
-    try {
-        await loadEventSystem(null);
-        console.log(`${logPrefix} ✓ Event System auto-loaded`);
-    } catch (error) {
-        console.error(`${logPrefix} Error auto-loading Event System:`, error);
-        writeOverlayStatus('Error loading Event System');
-    }
-}
-
 function attachGlobeDestroyOnPageExit() {
     const destroyGlobe = () => {
         if (window.globeController) {
@@ -180,19 +170,24 @@ window.addEventListener('DOMContentLoaded', function () {
 
     setTimeout(async function () {
         console.log(`${logPrefix} Auto-loading Universal Features...`);
-        writeOverlayStatus('Loading...');
+        writeOverlayStatus('正在加载基础功能…');
+        setBootProgress(10);
 
         // Always start fresh on a new page load — never auto-resume an old mode.
         localStorage.removeItem('currentMode');
 
         await autoLoadUniversalFeatures(logPrefix);
+        setBootProgress(55);
         await autoLoadMenuComponents(logPrefix);
-        await autoLoadEventSystem(logPrefix);
+        setBootProgress(90);
+        writeOverlayStatus('正在显示主界面…');
 
-        // `body.app-booted` lifts the entry.css mask that hid every body
-        // child during boot. Set it BEFORE the overlay starts fading so
-        // the reveal is atomic (overlay fades over a fully-painted UI).
+        // The Event System is intentionally lazy. Story/Data Archive request
+        // it through ensureEventSystemLoaded.js when the user enters them;
+        // it must never block the landing page or its first paint.
         document.body.classList.add('app-booted');
+        setBootProgress(100);
+        writeOverlayStatus('加载完成');
 
         dropBootOverlay();
     }, COMPONENT_LOADER_GLOBALS_READY_MS);

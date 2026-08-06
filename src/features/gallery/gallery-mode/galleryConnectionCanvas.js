@@ -50,6 +50,9 @@ import { GALLERY_CONN_SCALE_MAX } from './galleryConnectionCanvasVisual.js';
 const GALLERY_CORD_GLOW_FILTER_ID = 'gallery-conn-cord-violet-glow';
 const GALLERY_PACKET_GLOW_FILTER_ID = 'gallery-conn-packet-pink-soft';
 const GALLERY_CONN_NODE_ALPHA_MASK_ID = 'gallery-conn-edges-node-alpha-mask';
+const GALLERY_FACTION_FALLBACK_ICON = optimizeImagePath(
+    'src/assets/images/Icons/Filter Icons/Factions Icon.png',
+);
 
 function formatGalleryScaleForInput(scale) {
     const n = Number(scale);
@@ -585,7 +588,7 @@ export function createGalleryConnectionCanvas(mountEl, opts = {}) {
             el.dataset.codexFactionFile = ff || name;
             imgSrc = ff
                 ? optimizeImagePath(`src/assets/images/Filters/Factions/${encodeURIComponent(ff)}.png`)
-                : 'src/assets/images/Icons/Filter Icons/Faction Icon.png';
+                : GALLERY_FACTION_FALLBACK_ICON;
         }
 
         const imgWrapper = document.createElement('div');
@@ -600,7 +603,7 @@ export function createGalleryConnectionCanvas(mountEl, opts = {}) {
         img.onerror = () => {
             img.onerror = null;
             if (kind === 'faction') {
-                img.src = 'src/assets/images/Icons/Filter Icons/Faction Icon.png';
+                img.src = GALLERY_FACTION_FALLBACK_ICON;
             }
             img.style.opacity = '0.35';
         };

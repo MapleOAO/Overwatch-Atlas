@@ -12,11 +12,10 @@ const ROOT = path.resolve(__dirname, '..');
 const OUT = path.join(ROOT, '_site');
 
 const OPTIMIZED_IMAGE_DIRS = [
-    'src/assets/images/Maps',
-    'src/assets/images/Background Pattern',
-    'src/assets/images/Archive',
-    'src/assets/images/Filters',
-    'src/assets/images/Music',
+    // Convert every raster image in the published bundle. The source tree
+    // keeps PNG/JPEG for upstream-friendly editing; only _site gets WebP.
+    // This also covers the previously missed Menu/Bios/World View/Icon assets.
+    'src/assets/images',
 ];
 const RASTER_EXTENSIONS = new Set(['.png', '.jpg', '.jpeg']);
 const TEXT_EXTENSIONS = new Set(['.html', '.js', '.mjs', '.cjs', '.css', '.json', '.md', '.xml', '.svg']);
@@ -125,11 +124,19 @@ async function optimizeStaticImages() {
         const relativePath = path.relative(OUT, sourcePath).split(path.sep).join('/');
         const outputPath = sourcePath.replace(/\.(?:png|jpe?g)$/i, '.webp');
         const sourceBytes = fs.statSync(sourcePath).size;
-        const output = await sharp(sourcePath)
+        // Encode in memory first. This makes the replacement atomic from the
+        // publisher's point of view: a failed/empty encode never removes the
+        // source image or rewrites references to a broken asset.
+        const outputBuffer = await sharp(sourcePath)
             .webp(webpOptions(relativePath))
-            .toFile(outputPath);
+            .toBuffer();
+        if (!outputBuffer.length) {
+            console.warn(`Skipped empty WebP encode: ${relativePath}`);
+            continue;
+        }
+        fs.writeFileSync(outputPath, outputBuffer);
         originalBytes += sourceBytes;
-        optimizedBytes += output.size;
+        optimizedBytes += outputBuffer.length;
         addImagePathReplacements(replacements, relativePath);
         fs.rmSync(sourcePath, { force: true });
     }
@@ -156,7 +163,12 @@ async function optimizeStaticImages() {
         if (!fs.existsSync(absoluteRoot)) continue;
         for (const file of listFiles(absoluteRoot)) {
             if (RASTER_EXTENSIONS.has(path.extname(file).toLowerCase())) {
-                fs.rmSync(file, { force: true });
+                const webpPath = file.replace(/\.(?:png|jpe?g)$/i, '.webp');
+                let hasValidWebp = false;
+                try {
+                    hasValidWebp = fs.statSync(webpPath).size > 0;
+                } catch (_) { /* keep the source fallback when WebP is absent */ }
+                if (hasValidWebp) fs.rmSync(file, { force: true });
             }
         }
     }

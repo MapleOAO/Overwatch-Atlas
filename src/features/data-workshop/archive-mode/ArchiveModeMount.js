@@ -34,6 +34,7 @@ import {
     getStoryViewerContainer,
     removeStoryViewerContainer,
 } from './ArchiveViewerShell.js';
+import { ensureEventSystemLoaded } from '../../system-interface/interface-load-unload/ensureEventSystemLoaded.js';
 
 /**
  * Mount the Data Archive shell: category hub first; events list mounts after
@@ -43,6 +44,7 @@ import {
  * @param {(restoreMenu?: boolean) => void | Promise<void>} [options.onCancel]
  */
 export async function mountDataArchiveMode({ onCancel } = {}) {
+    await ensureEventSystemLoaded();
     archiveModeSession.onExitMode = onCancel || null;
 
     const eventsManagePanel = document.getElementById('eventsManagePanel');
