@@ -313,6 +313,19 @@ function variantTranslation(record, variantIndex, field) {
     return record.variants[index]?.[field] || null;
 }
 
+function escapeRegExp(value) {
+    return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function compileTemplate(source) {
+    const names = [];
+    const pattern = escapeRegExp(source).replace(/\\\{([A-Za-z0-9_]+)\\\}/g, (_, name) => {
+        names.push(name);
+        return '(.+?)';
+    });
+    return { names, regex: new RegExp(`^${pattern}$`) };
+}
+
 class AtlasLocalization {
     constructor() {
         this.locale = this._readLocale();
@@ -391,6 +404,39 @@ class AtlasLocalization {
         return map;
     }
 
+    translateText(value) {
+        const raw = String(value ?? '');
+        const normalized = normalize(raw);
+        if (!normalized) return raw;
+        const sourceMap = this._uiSourceMap();
+        if (sourceMap[normalized]) return sourceMap[normalized];
+
+        let translated = raw;
+        const entries = Object.values(this.ui)
+            .map((entry) => ({ source: normalize(entry?.source), target: entryTarget(entry) }))
+            .filter((entry) => entry.source && entry.target && entry.source !== entry.target)
+            .sort((a, b) => b.source.length - a.source.length);
+        for (const entry of entries) {
+            if (entry.source.includes('{')) {
+                const { names, regex } = compileTemplate(entry.source);
+                translated = translated.replace(regex, (...args) => {
+                    let output = entry.target;
+                    names.forEach((name, index) => {
+                        output = output.replace(new RegExp(`\\{${name}\\}`, 'g'), args[index + 1]);
+                    });
+                    return output;
+                });
+                continue;
+            }
+            if (entry.source.length < 3) continue;
+            const pattern = /^[A-Za-z0-9]+$/.test(entry.source)
+                ? new RegExp(`\\b${escapeRegExp(entry.source)}\\b`, 'g')
+                : new RegExp(escapeRegExp(entry.source), 'g');
+            translated = translated.replace(pattern, entry.target);
+        }
+        return translated;
+    }
+
     applyDocument() {
         if (typeof document === 'undefined' || !document.documentElement) return;
         document.documentElement.lang = this.locale;
@@ -398,10 +444,16 @@ class AtlasLocalization {
         if (workbenchLink) workbenchLink.hidden = !this.canEdit();
         const sourceMap = this._uiSourceMap();
 
+        const title = document.querySelector('title');
+        if (title) {
+            const translatedTitle = sourceMap[normalize(title.textContent)];
+            if (translatedTitle) title.textContent = translatedTitle;
+        }
+
         const applyAttribute = (element, attribute) => {
             const value = normalize(element.getAttribute(attribute));
             if (!value) return;
-            const translated = sourceMap[value];
+            const translated = this.translateText(value);
             if (translated) element.setAttribute(attribute, translated);
         };
 
@@ -427,7 +479,7 @@ class AtlasLocalization {
             if (!parent || parent.closest('script, style, textarea, input, [contenteditable="true"], [data-no-i18n]')) continue;
             const raw = normalize(node.nodeValue);
             if (!raw) continue;
-            const translated = sourceMap[raw];
+            const translated = this.translateText(raw);
             if (!translated || translated === raw) continue;
             const leading = String(node.nodeValue).match(/^\s*/)?.[0] || '';
             const trailing = String(node.nodeValue).match(/\s*$/)?.[0] || '';
@@ -437,7 +489,27 @@ class AtlasLocalization {
 
     t(key, variables = {}) {
         const entry = this.ui[key];
-        let value = entryTarget(entry) || key;
+        let value = entryTarget(entry);
+        if (!value) {
+            const source = String(key ?? '');
+            for (const candidate of Object.values(this.ui)) {
+                const template = normalize(candidate?.source);
+                if (!template || !template.includes('{')) continue;
+                const names = [];
+                const pattern = template.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\\\{([A-Za-z0-9_]+)\\\}/g, (_, name) => {
+                    names.push(name);
+                    return '(.+?)';
+                });
+                const match = source.match(new RegExp(`^${pattern}$`));
+                if (!match) continue;
+                value = entryTarget(candidate) || template;
+                names.forEach((name, index) => {
+                    value = value.replace(new RegExp(`\\{${name}\\}`, 'g'), match[index + 1]);
+                });
+                break;
+            }
+        }
+        value = value ? this.translateText(value) : this.translateText(key);
         for (const [name, replacement] of Object.entries(variables)) {
             value = value.replace(new RegExp(`\\{${name}\\}`, 'g'), String(replacement));
         }
