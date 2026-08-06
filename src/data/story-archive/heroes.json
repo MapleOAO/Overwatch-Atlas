@@ -94,7 +94,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Initiator",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-96ff77773d18"
     },
     {
       "name": "Hazard",
@@ -126,7 +127,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Initiator",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-0b0e9d56c447"
     },
     {
       "name": "Doomfist",
@@ -254,7 +256,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Initiator",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-3ed4940e1f3c"
     },
     {
       "name": "Winston",
@@ -366,7 +369,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Initiator",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-ba191bb1f1ba"
     },
     {
       "name": "Wrecking Ball",
@@ -422,7 +426,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Initiator",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-d33ea2b537fa"
     },
     {
       "name": "Mauga",
@@ -454,7 +459,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Bruiser",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-698978f9d4fd"
     },
     {
       "name": "Orisa",
@@ -510,7 +516,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Bruiser",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-f9aa031775e8"
     },
     {
       "name": "Roadhog",
@@ -534,7 +541,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Bruiser",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-f276d600ee56"
     },
     {
       "name": "Zarya",
@@ -630,7 +638,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Bruiser",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-369b5ee3694e"
     },
     {
       "name": "Domina",
@@ -686,7 +695,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Stalwart",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-707c33c64de2"
     },
     {
       "name": "Junker Queen",
@@ -710,7 +720,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Stalwart",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-f4a9aafc5316"
     },
     {
       "name": "Ramattra",
@@ -782,7 +793,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Stalwart",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-5094e540a00d"
     },
     {
       "name": "Reinhardt",
@@ -846,7 +858,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Stalwart",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-6fb3e3f4ee7f"
     },
     {
       "name": "Sigma",
@@ -926,7 +939,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Stalwart",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-e40d15f7264b"
     },
     {
       "name": "Bastion",
@@ -974,7 +988,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Specialist",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-82b4b86c29d9"
     },
     {
       "name": "Emre",
@@ -1062,7 +1077,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Specialist",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-da511836663f"
     },
     {
       "name": "Junkrat",
@@ -1102,7 +1118,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Specialist",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-cdd5a3242c7a"
     },
     {
       "name": "Mei",
@@ -1166,7 +1183,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Specialist",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-cba7ff600052"
     },
     {
       "name": "Soldier 76",
@@ -1238,7 +1256,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Specialist",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-ffe298e245a3"
     },
     {
       "name": "Symmetra",
@@ -1278,7 +1297,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Specialist",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-ad9cdd1c0c64"
     },
     {
       "name": "Torbjörn",
@@ -1342,7 +1362,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Specialist",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-cc71ace99d86"
     },
     {
       "name": "Ashe",
@@ -1382,7 +1403,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Sharpshooter",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-dbc6f8d62285"
     },
     {
       "name": "Cassidy",
@@ -1494,7 +1516,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Sharpshooter",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-0ad21a4fe9bb"
     },
     {
       "name": "Hanzo",
@@ -1518,7 +1541,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Sharpshooter",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-3986c03048d9"
     },
     {
       "name": "Sojourn",
@@ -1574,7 +1598,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Sharpshooter",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-3c887a151982"
     },
     {
       "name": "Widowmaker",
@@ -1630,7 +1655,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Sharpshooter",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-e9dea5465d16"
     },
     {
       "name": "Anran",
@@ -1678,7 +1704,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Flanker",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-40dc1c27d5d4"
     },
     {
       "name": "Genji",
@@ -1750,7 +1777,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Flanker",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-50d8f6daaf2c"
     },
     {
       "name": "Reaper",
@@ -2032,7 +2060,8 @@
           "panY": -182.9220400056928,
           "zoom": 0.3295434240000002
         }
-      }
+      },
+      "id": "hero-b586e7d57b64"
     },
     {
       "name": "Tracer",
@@ -2080,7 +2109,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Flanker",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-c31c2b1f1d5d"
     },
     {
       "name": "Vendetta",
@@ -2136,7 +2166,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Flanker",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-425390dfe1cc"
     },
     {
       "name": "Venture",
@@ -2184,7 +2215,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Flanker",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-c81fb946d150"
     },
     {
       "name": "Echo",
@@ -2296,7 +2328,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Recon",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-71e4cee7fe8d"
     },
     {
       "name": "Freja",
@@ -2360,7 +2393,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Recon",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-60acf276407e"
     },
     {
       "name": "Pharah",
@@ -2440,7 +2474,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Recon",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-ca90f99bc1cb"
     },
     {
       "name": "Sierra",
@@ -2552,7 +2587,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Recon",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-031747b12d64"
     },
     {
       "name": "Sombra",
@@ -2640,7 +2676,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Recon",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-371e8037a0bc"
     },
     {
       "name": "Baptiste",
@@ -2712,7 +2749,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Tactician",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-a91694fa7378"
     },
     {
       "name": "Ana",
@@ -2921,7 +2959,8 @@
           "panY": -151.96661633344235,
           "zoom": 0.32954342400000014
         }
-      }
+      },
+      "id": "hero-315ed4c324fe"
     },
     {
       "name": "Jetpack Cat",
@@ -2961,7 +3000,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Tactician",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-5477ed21acb3"
     },
     {
       "name": "Lúcio",
@@ -2993,7 +3033,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Tactician",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-d5f2aaae45e1"
     },
     {
       "name": "Zenyatta",
@@ -3049,7 +3090,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Tactician",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-5222d3e9351f"
     },
     {
       "name": "Kiriko",
@@ -3073,7 +3115,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Medic",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-544e79301a26"
     },
     {
       "name": "Lifeweaver",
@@ -3121,7 +3164,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Medic",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-336b1cd4eca6"
     },
     {
       "name": "Mercy",
@@ -3161,7 +3205,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Medic",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-6110e838a245"
     },
     {
       "name": "Moira",
@@ -3270,7 +3315,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Medic",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-44b521bc5d63"
     },
     {
       "name": "Brigitte",
@@ -3326,7 +3372,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Survivor",
-      "birthday": "22 September 2053"
+      "birthday": "22 September 2053",
+      "id": "hero-5f97fab1e962"
     },
     {
       "name": "Illari",
@@ -3382,7 +3429,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Survivor",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-322f515f3b3b"
     },
     {
       "name": "Juno",
@@ -3446,7 +3494,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Survivor",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-9dc1276e9622"
     },
     {
       "name": "Mizuki",
@@ -3470,7 +3519,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Survivor",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-16edb7e22f53"
     },
     {
       "name": "Wuyang",
@@ -3518,7 +3568,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Survivor",
-      "birthday": ""
+      "birthday": "",
+      "id": "hero-50a94cf48eca"
     }
   ]
 }

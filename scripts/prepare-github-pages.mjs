@@ -17,6 +17,7 @@ const EXCLUDE_NAMES = new Set([
     '_site',
     '.cursor',
     'terminals',
+    'translations.html',
 ]);
 
 function shouldCopyName(name) {
@@ -44,6 +45,9 @@ function copyRecursive(srcDir, destDir) {
 
 fs.rmSync(OUT, { recursive: true, force: true });
 copyRecursive(ROOT, OUT);
+
+// Never publish the local write server with the static Pages bundle.
+fs.rmSync(path.join(OUT, 'src', 'server.js'), { force: true });
 
 // Ensure Jekyll is disabled on Pages
 fs.writeFileSync(path.join(OUT, '.nojekyll'), '');

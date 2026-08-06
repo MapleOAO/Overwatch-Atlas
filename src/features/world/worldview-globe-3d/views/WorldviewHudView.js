@@ -189,12 +189,30 @@ export class WorldviewHudView {
         // Globe / dock list path does not run standalone `displaySlide` — still show title, body, and factions type.
         const eventSlideTitle = document.getElementById('eventSlideTitle');
         const eventSlideText = document.getElementById('eventSlideText');
+        const i18n = typeof window !== 'undefined' ? window.AtlasI18n : null;
+        const localizedEventName = i18n
+            ? i18n.displayName(eventName, {
+                kind: 'event',
+                id: fullEvent?.id || stub?.userData?.event?.id,
+                variantIndex: stub?.userData?.variantIndex,
+            })
+            : eventName;
+        const localizedDescription = i18n
+            ? i18n.displayText(desc, {
+                kind: 'event',
+                id: fullEvent?.id || stub?.userData?.event?.id,
+                field: 'description',
+                variantIndex: stub?.userData?.variantIndex,
+            })
+            : desc;
         if (eventSlideTitle && eventName != null) {
             eventSlideTitle.innerHTML =
-                typeof eventName === 'string' ? eventName : String(eventName);
+                typeof localizedEventName === 'string' ? localizedEventName : String(localizedEventName);
         }
         if (eventSlideText) {
-            const body = desc != null && String(desc).trim() !== '' ? String(desc) : 'No description available.';
+            const body = localizedDescription != null && String(localizedDescription).trim() !== ''
+                ? String(localizedDescription)
+                : 'No description available.';
             eventSlideText.innerHTML = body;
         }
         const variantIdx =
@@ -402,4 +420,3 @@ export class WorldviewHudView {
         this.variantMarkerManager.hideVariantMarkers(eventData);
     }
 }
-

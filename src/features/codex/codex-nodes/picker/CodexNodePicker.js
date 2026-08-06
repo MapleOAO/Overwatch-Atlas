@@ -234,24 +234,26 @@ function appendSuggestionRow(list, kind, heroName, faction, onPick, countryMeta 
 
     let labelText = '';
     let detailText = '';
+    const i18n = typeof window !== 'undefined' ? window.AtlasI18n : null;
 
     if (kind === 'hero') {
-        labelText = heroName;
+        labelText = i18n ? i18n.displayName(heroName, { kind: 'hero' }) : heroName;
         detailText = 'Hero';
         img.src = `src/assets/images/Filters/Heroes/${encodeURIComponent(heroName)}.png`;
         img.className += ' filter-autocomplete-item-icon--hero';
     } else if (kind === 'npc') {
-        labelText = heroName;
+        labelText = i18n ? i18n.displayName(heroName, { kind: 'npc' }) : heroName;
         detailText = 'NPC';
         img.src = `src/assets/images/Filters/NPCs/${encodeURIComponent(heroName)}.png`;
         img.className += ' filter-autocomplete-item-icon--npc';
     } else if (kind === 'country' && countryMeta) {
-        labelText = countryMeta.label || countryMeta.key;
+        const rawCountry = countryMeta.label || countryMeta.key;
+        labelText = i18n ? i18n.displayName(rawCountry, { kind: 'location' }) : rawCountry;
         detailText = 'Country';
         img.src = codexCountryFlagSrc(countryMeta.key);
         img.className += ' filter-autocomplete-item-icon--flag';
     } else {
-        labelText = faction.displayName;
+        labelText = i18n ? i18n.displayName(faction.displayName, { kind: 'faction', id: faction.id }) : faction.displayName;
         detailText = 'Faction';
         img.src = `src/assets/images/Filters/Factions/${encodeURIComponent(faction.filename)}.png`;
         img.className += ' filter-autocomplete-item-icon--faction';
@@ -263,7 +265,7 @@ function appendSuggestionRow(list, kind, heroName, faction, onPick, countryMeta 
 
     const detailSpan = document.createElement('span');
     detailSpan.className = 'filter-autocomplete-item-detail';
-    detailSpan.textContent = detailText;
+    detailSpan.textContent = i18n ? i18n.t(detailText) : detailText;
 
     row.appendChild(img);
     row.appendChild(labelSpan);
@@ -405,4 +407,3 @@ api.normalizeCodexHeroNameForMatch = normalizeCodexHeroNameForMatch;
 api.codexHeroNamesLooselyEqual = codexHeroNamesLooselyEqual;
 api.findHeroArchiveIndexByCodexName = findHeroArchiveIndexByCodexName;
 api.openHeroArchiveEntryFromCodexHeroName = openHeroArchiveEntryFromCodexHeroName;
-

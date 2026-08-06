@@ -14,6 +14,10 @@ const {
 } = require('./data/registry.cjs');
 
 const PORT = 8000;
+const REPO_ROOT = path.resolve(__dirname, '..');
+const LOCALIZATION_LOCALE = 'zh-CN';
+const LOCALIZATION_DIR = path.join(REPO_ROOT, 'src', 'data', 'locales', LOCALIZATION_LOCALE);
+const LOCALIZATION_FILES = new Set(['ui.json', 'glossary.json', 'content.json']);
 
 // MIME types
 const mimeTypes = {
@@ -58,6 +62,48 @@ function readJsonBody(req, res, cb) {
             sendJson(res, 400, { error: 'Invalid JSON' });
         }
     });
+}
+
+function localizationFilePath(fileName) {
+    const name = String(fileName || '').trim();
+    if (!LOCALIZATION_FILES.has(name)) return null;
+    return path.join(LOCALIZATION_DIR, name);
+}
+
+function readLocalizationBundle() {
+    const files = {};
+    for (const fileName of LOCALIZATION_FILES) {
+        const filePath = localizationFilePath(fileName);
+        try {
+            files[fileName] = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        } catch (_) {
+            files[fileName] = {};
+        }
+    }
+    return { locale: LOCALIZATION_LOCALE, files };
+}
+
+function writeLocalizationFile(body, res) {
+    const locale = String(body?.locale || '').trim();
+    const fileName = String(body?.file || '').trim();
+    const filePath = locale === LOCALIZATION_LOCALE ? localizationFilePath(fileName) : null;
+    if (!filePath || !body || typeof body.data !== 'object' || Array.isArray(body.data)) {
+        sendJson(res, 400, {
+            error: 'Expected { locale: "zh-CN", file: "ui.json|glossary.json|content.json", data: {...} }',
+        });
+        return;
+    }
+
+    const tmpPath = `${filePath}.tmp`;
+    try {
+        fs.mkdirSync(LOCALIZATION_DIR, { recursive: true });
+        fs.writeFileSync(tmpPath, `${JSON.stringify(body.data, null, 2)}\n`, 'utf8');
+        fs.renameSync(tmpPath, filePath);
+        sendJson(res, 200, { ok: true, locale, file: fileName });
+    } catch (_) {
+        try { if (fs.existsSync(tmpPath)) fs.unlinkSync(tmpPath); } catch (_) {}
+        sendJson(res, 500, { ok: false, error: 'Localization write failed' });
+    }
 }
 
 function writeEventsJson(events, res) {
@@ -164,6 +210,19 @@ const server = http.createServer((req, res) => {
     console.log(`[${new Date().toLocaleTimeString()}] ${req.method} ${decodedPath}`);
     
     // Handle custom routes
+    if (decodedPath === '/api/localization') {
+        if (req.method === 'GET') {
+            sendJson(res, 200, readLocalizationBundle());
+            return;
+        }
+        if (req.method === 'POST' || req.method === 'PUT') {
+            readJsonBody(req, res, (body) => writeLocalizationFile(body, res));
+            return;
+        }
+        sendJson(res, 405, { error: 'Method not allowed' });
+        return;
+    }
+
     // Local API: persist events to data/events.json (works only when running this server)
     if (decodedPath === '/api/events') {
         if (req.method === 'GET') {
@@ -544,9 +603,9 @@ server.listen(PORT, () => {
     console.log(`  - http://localhost:${PORT}/main.html → index.html (legacy)`);
     console.log(`  - http://localhost:${PORT}/test      → test.html`);
     console.log(`  - http://localhost:${PORT}/test.html → test.html`);
+    console.log(`  - http://localhost:${PORT}/api/localization → GET/POST zh-CN translation files`);
     console.log(`  - http://localhost:${PORT}/api/events → GET/POST events.json`);
     console.log(`  - http://localhost:${PORT}/api/story-archive → POST story-archive-*.json (Heroes/Factions/NPCs/Locations)`);
     console.log(`  - http://localhost:${PORT}/api/codex → GET/POST codex-labels.json`);
     console.log(`\nPress Ctrl+C to stop the server\n`);
 });
-

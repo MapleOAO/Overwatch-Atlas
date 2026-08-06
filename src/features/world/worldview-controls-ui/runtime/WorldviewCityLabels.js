@@ -11,7 +11,10 @@ class WorldviewCityLabels {
         
         const labelElement = document.createElement('div');
         labelElement.className = 'city-label';
-        labelElement.textContent = cityName;
+        const i18n = typeof window !== 'undefined' ? window.AtlasI18n : null;
+        labelElement.textContent = i18n
+            ? i18n.displayName(cityName, { kind: 'location' })
+            : cityName;
         labelElement.style.position = 'absolute';
         labelElement.style.left = `${x}px`;
         labelElement.style.top = `${y}px`;

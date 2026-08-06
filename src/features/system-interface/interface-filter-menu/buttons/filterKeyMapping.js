@@ -18,6 +18,11 @@ export function getHeroDisplayName(heroName) {
     return HERO_DISPLAY_NAME_OVERRIDES[heroName] || heroName;
 }
 
+function localizedFilterName(source, kind, id = '') {
+    const i18n = typeof window !== 'undefined' ? window.AtlasI18n : null;
+    return i18n ? i18n.displayName(source, { kind, id }) : source;
+}
+
 /**
  * @param {*} item
  * @param {'heroes'|'factions'|'npcs'|'countries'|'music'} type
@@ -25,27 +30,32 @@ export function getHeroDisplayName(heroName) {
  */
 export function getFilterKeyAndDisplayName(item, type) {
     if (type === 'factions') {
-        return { filterKey: item.filename, displayName: item.displayName };
+        return {
+            filterKey: item.filename,
+            displayName: localizedFilterName(item.displayName, 'faction', item.id),
+        };
     }
     if (type === 'npcs') {
-        return { filterKey: item, displayName: getHeroDisplayName(item) };
+        const raw = getHeroDisplayName(item);
+        return { filterKey: item, displayName: localizedFilterName(raw, 'npc') };
     }
     if (type === 'countries') {
         const flagFile = item && item.flagFile != null ? String(item.flagFile).trim() : '';
         const commonName = item && item.commonName != null ? String(item.commonName).trim() : '';
         return {
             filterKey: flagFile ? `country:${flagFile}` : '',
-            displayName: commonName || flagFile
+            displayName: localizedFilterName(commonName || flagFile, 'location')
         };
     }
     if (type === 'music') {
         return {
             filterKey: `src/assets/audio/music/${item.filename}`,
-            displayName: item.name
+            displayName: localizedFilterName(item.name, 'music')
         };
     }
     /* heroes */
-    return { filterKey: item, displayName: getHeroDisplayName(item) };
+    const raw = getHeroDisplayName(item);
+    return { filterKey: item, displayName: localizedFilterName(raw, 'hero') };
 }
 
 /**

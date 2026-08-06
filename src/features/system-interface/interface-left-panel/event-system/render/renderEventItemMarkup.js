@@ -21,6 +21,17 @@
 
 import { getEventListSpinnerGifSrc } from '../../../../universal-features/atlas-ui/loadingGifAssets.js';
 
+function localizeEvent(event, fallbackId = '', kind = 'event', variantIndex = undefined) {
+    const i18n = typeof window !== 'undefined' ? window.AtlasI18n : null;
+    if (!i18n || !event) return event;
+    const id = event.id || fallbackId;
+    return {
+        ...event,
+        name: i18n.displayName(event.name, { kind, id, variantIndex }),
+        description: i18n.displayText(event.description, { kind, id, field: 'description', variantIndex }),
+    };
+}
+
 /** Transparent 1×1 GIF — placeholder `src` for lazy-loaded `<img>` until IO assigns the real one. */
 const EVENT_LIST_LAZY_IMG_PLACEHOLDER =
     'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
@@ -67,9 +78,19 @@ export function renderEventItemMarkup(ctx) {
         useStoryArchiveDockTitle,
     } = ctx;
 
+    const localizedDisplayEvent = localizeEvent(
+        displayEvent || event,
+        event?.id,
+        isSatelliteArchive ? 'entity' : 'event',
+        currentVariantIndex,
+    );
+    const localizedLocationName = (typeof window !== 'undefined' && window.AtlasI18n)
+        ? window.AtlasI18n.displayName(locationName, { kind: 'location' })
+        : locationName;
+
     // Image: always wrap so card sizing stays stable even when imagePath is null.
     const imageHtml = imagePath
-        ? `<div class="event-item-preview-image event-item-preview-image--loading" style="position: relative; width: 100%; aspect-ratio: 1; overflow: hidden;"><img class="event-item-preview-image__spinner" src="${getEventListSpinnerGifSrc()}" alt="" width="56" height="56" decoding="async" draggable="false" /><img class="event-item-preview-image__photo" src="${EVENT_LIST_LAZY_IMG_PLACEHOLDER}" data-src="${imagePath}" alt="${displayEvent.name}" decoding="async" fetchpriority="low" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; z-index: 2; opacity: 0; transition: opacity 0.18s ease;" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\\'display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.3); font-size: 12px; width: 100%; height: 100%;\\'>No Image</div>';" onload="this.style.opacity='1';var p=this.closest('.event-item-preview-image');if(p)p.classList.remove('event-item-preview-image--loading');"></div>`
+        ? `<div class="event-item-preview-image event-item-preview-image--loading" style="position: relative; width: 100%; aspect-ratio: 1; overflow: hidden;"><img class="event-item-preview-image__spinner" src="${getEventListSpinnerGifSrc()}" alt="" width="56" height="56" decoding="async" draggable="false" /><img class="event-item-preview-image__photo" src="${EVENT_LIST_LAZY_IMG_PLACEHOLDER}" data-src="${imagePath}" alt="${localizedDisplayEvent.name}" decoding="async" fetchpriority="low" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; z-index: 2; opacity: 0; transition: opacity 0.18s ease;" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\\'display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.3); font-size: 12px; width: 100%; height: 100%;\\'>No Image</div>';" onload="this.style.opacity='1';var p=this.closest('.event-item-preview-image');if(p)p.classList.remove('event-item-preview-image--loading');"></div>`
         : `<div class="event-item-preview-image" style="position: relative; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.3); font-size: 12px; background: rgba(0,0,0,0.5); width: 100%; aspect-ratio: 1;">No Image</div>`;
 
     // "1/3"-style variant counter; clickable to advance.
@@ -97,18 +118,18 @@ export function renderEventItemMarkup(ctx) {
     let locationRowInner;
     let yearLine;
     if (isSatelliteArchive) {
-        const descPlain = (displayEvent.description || '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+        const descPlain = (localizedDisplayEvent.description || '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
         const preview = descPlain.length > 140 ? `${descPlain.slice(0, 137)}…` : descPlain;
         locationRowInner = preview ? escapeHtml(preview) : '—';
         yearLine = '';
     } else {
-        const locationDisplayText = locationName || `${event.lat ? event.lat.toFixed(4) : '0'}, ${event.lon ? event.lon.toFixed(4) : '0'}`;
+        const locationDisplayText = localizedLocationName || `${event.lat ? event.lat.toFixed(4) : '0'}, ${event.lon ? event.lon.toFixed(4) : '0'}`;
         locationRowInner = (window.LocationFlagHelpers && typeof window.LocationFlagHelpers.createLocationRowInnerHtml === 'function')
             ? window.LocationFlagHelpers.createLocationRowInnerHtml(locationDisplayText, displayLocationType)
             : `<img class="event-location-pin" src="src/assets/images/Icons/Filter%20Icons/Location%20Icon.png" alt="" width="28" height="28" decoding="async" /> ${locationDisplayText}`;
         const timelineHelpers = (typeof window !== 'undefined') ? window.EventTimelineHelpers : null;
-        const yearSource = (displayEvent && (displayEvent.yearStart != null || displayEvent.yearEnd != null))
-            ? displayEvent
+        const yearSource = (localizedDisplayEvent && (localizedDisplayEvent.yearStart != null || localizedDisplayEvent.yearEnd != null))
+            ? localizedDisplayEvent
             : event;
         yearLine = timelineHelpers && typeof timelineHelpers.formatPanelYearRangeLine === 'function'
             ? timelineHelpers.formatPanelYearRangeLine(yearSource)
@@ -116,8 +137,8 @@ export function renderEventItemMarkup(ctx) {
     }
 
     const displayTitleHtml = window.GlitchTextService
-        ? window.GlitchTextService.getDisplayEventName(displayEvent.name)
-        : displayEvent.name;
+        ? window.GlitchTextService.getDisplayEventName(localizedDisplayEvent.name)
+        : localizedDisplayEvent.name;
     const headingRowHtml = `<div class="event-item-heading">
                         <h3 class="event-item-title">${displayTitleHtml}</h3>
                     </div>`;

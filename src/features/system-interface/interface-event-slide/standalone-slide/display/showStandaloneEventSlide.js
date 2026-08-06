@@ -19,7 +19,23 @@ export function runShowStandaloneEventSlide(slide, eventData, globalIndex) {
             
             // Get event data for display
             let eventName = displayEvent.name || eventData.name || 'Unnamed Event';
-            const description = displayEvent.description || '';
+            let description = displayEvent.description || '';
+            const i18n = typeof window !== 'undefined' ? window.AtlasI18n : null;
+            const archiveSource = window.eventManager?.dataService?.getArchiveSource?.();
+            const localizationKind = archiveSource && archiveSource !== 'story' ? 'entity' : 'event';
+            if (i18n) {
+                eventName = i18n.displayName(eventName, {
+                    kind: localizationKind,
+                    id: eventData.id,
+                    variantIndex,
+                });
+                description = i18n.displayText(description, {
+                    kind: localizationKind,
+                    id: eventData.id,
+                    field: 'description',
+                    variantIndex,
+                });
+            }
 
             // Get image path — dock rows are always main-timeline story art
             const useStoryDockImages = !!slide._presentationFromDockTimeline;
@@ -27,7 +43,7 @@ export function runShowStandaloneEventSlide(slide, eventData, globalIndex) {
             if (window.NavigationImageHelpers?.getEventImagePath) {
                 imagePath = window.NavigationImageHelpers.getEventImagePath(
                     displayEvent,
-                    eventName,
+                    displayEvent.name || eventData.name,
                     useStoryDockImages ? 'story' : undefined
                 );
             } else if (window.eventManager?.getEventImagePath) {

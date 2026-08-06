@@ -99,11 +99,17 @@ class WorldviewMarkerInteraction {
             marker.userData && marker.userData.variantIndex !== undefined
                 ? marker.userData.variantIndex
                 : undefined;
+        const i18n = typeof window !== 'undefined' ? window.AtlasI18n : null;
         const lines =
             typeof badge.getHoverPreviewLines === 'function'
                 ? badge.getHoverPreviewLines(eventObj, { variantIndex })
                 : {
-                    primary: String(eventObj.name || '').replace(/<[^>]+>/g, ''),
+                    primary: i18n
+                        ? i18n.displayName(String(eventObj.name || '').replace(/<[^>]+>/g, ''), {
+                            kind: 'event',
+                            id: eventObj.id,
+                        })
+                        : String(eventObj.name || '').replace(/<[^>]+>/g, ''),
                     otherVariants: [],
                     era: '',
                     primaryRowFlag: null,

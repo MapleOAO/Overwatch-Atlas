@@ -23,11 +23,11 @@ An interactive 3D timeline visualization of the Overwatch universe, featuring a 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/DiegoSolanoC/Overwatch-Atlas.git
+git clone https://github.com/MapleOAO/Overwatch-Atlas.git
 cd Overwatch-Atlas
 ```
-If your `origin` still points at the old repository name after a rename, run:  
-`git remote set-url origin https://github.com/DiegoSolanoC/Overwatch-Atlas.git`
+If your `origin` is not your own repository after a rename, run:
+`git remote set-url origin https://github.com/MapleOAO/Overwatch-Atlas.git`
 
 2. Install dependencies (if any):
 ```bash
@@ -43,9 +43,25 @@ npm start
 
 4. Open your browser and navigate to:
 - `http://localhost:8000/` - Main application (index.html)
+- `http://localhost:8000/translations.html` - Local Chinese translation maintenance page
 - `http://localhost:8000/index.html` - Same app (explicit path; `/main` still works as a legacy alias)
 - `http://localhost:8000/test` - Test page with component loader
 - `http://localhost:8000/map` - Map view
+
+## 中文版维护与上游同步
+
+中文显示由 `src/features/localization/` 提供，译文与原始英文资料分离保存于 `src/data/locales/zh-CN/`。本地服务器下打开 `translations.html` 可人工维护名称、描述、界面文案和术语；GitHub Pages 不会发布维护页。
+
+本仓库使用 `origin` 指向 `MapleOAO/Overwatch-Atlas`，使用只读 `upstream` 获取原仓库更新：
+
+```bash
+git remote add upstream https://github.com/DiegoSolanoC/Overwatch-Atlas.git
+git remote set-url --push upstream DISABLED
+npm run sync:upstream:check
+npm run sync:upstream
+```
+
+完整流程、冲突处理和翻译校验见 [`docs/LOCALIZATION_AND_UPSTREAM.md`](docs/LOCALIZATION_AND_UPSTREAM.md)。
 
 ## GitHub Pages Deployment
 
@@ -86,9 +102,9 @@ After enabling GitHub Pages, your site will be available at:
 https://<your-username>.github.io/<repository-name>/
 ```
 
-For example (project site):
+For this repository (project site):
 ```
-https://diegosolanoc.github.io/Overwatch-Atlas/
+https://mapleoao.github.io/Overwatch-Atlas/
 ```
 GitHub serves the site under **`/<repository-name>/`**, so renaming the repository updates that path. The old URL usually redirects for a while after a rename.
 
@@ -154,5 +170,3 @@ Original work by Blizzard Entertainment. This project is for educational/non-com
 
 - **Three.js**: 3D graphics library
 - **Overwatch**: Original game and lore by Blizzard Entertainment
-
-

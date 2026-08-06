@@ -5,14 +5,16 @@
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "MEKA"
+      "npcCategory": "MEKA",
+      "id": "npc-e948dca1da16"
     },
     {
       "name": "D.mon",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "MEKA"
+      "npcCategory": "MEKA",
+      "id": "npc-52c671075aa1"
     },
     {
       "name": "Dae-Hyun",
@@ -28,35 +30,40 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "MEKA"
+      "npcCategory": "MEKA",
+      "id": "npc-2d0b35c2644e"
     },
     {
       "name": "King",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "MEKA"
+      "npcCategory": "MEKA",
+      "id": "npc-5552b2e8415f"
     },
     {
       "name": "Overlord",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "MEKA"
+      "npcCategory": "MEKA",
+      "id": "npc-5fcb95f63479"
     },
     {
       "name": "Boomslang",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Phreaks"
+      "npcCategory": "Phreaks",
+      "id": "npc-3280c40a0c10"
     },
     {
       "name": "Jackdaw",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Phreaks"
+      "npcCategory": "Phreaks",
+      "id": "npc-68f61316020b"
     },
     {
       "name": "Revel",
@@ -72,105 +79,120 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Phreaks"
+      "npcCategory": "Phreaks",
+      "id": "npc-92049b98be93"
     },
     {
       "name": "Susannah",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Phreaks"
+      "npcCategory": "Phreaks",
+      "id": "npc-efd5a7d71f1f"
     },
     {
       "name": "Touch Up",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Phreaks"
+      "npcCategory": "Phreaks",
+      "id": "npc-6f7c5aaab328"
     },
     {
       "name": "B.O.B",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Deadlock"
+      "npcCategory": "Deadlock",
+      "id": "npc-3aaf485f9531"
     },
     {
       "name": "Bars",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Deadlock"
+      "npcCategory": "Deadlock",
+      "id": "npc-ab26b41f9ae9"
     },
     {
       "name": "Bez",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Deadlock"
+      "npcCategory": "Deadlock",
+      "id": "npc-1e2ce685d1ef"
     },
     {
       "name": "Frankie",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Deadlock"
+      "npcCategory": "Deadlock",
+      "id": "npc-dcbf461f6bab"
     },
     {
       "name": "The Triplets",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Deadlock"
+      "npcCategory": "Deadlock",
+      "id": "npc-7b4bb2f3efb7"
     },
     {
       "name": "Chisaka",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Yokai"
+      "npcCategory": "Yokai",
+      "id": "npc-0bb483f2775e"
     },
     {
       "name": "Nobuto",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Yokai"
+      "npcCategory": "Yokai",
+      "id": "npc-8fc1e531794a"
     },
     {
       "name": "Ryota",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Yokai"
+      "npcCategory": "Yokai",
+      "id": "npc-1209ffd6e097"
     },
     {
       "name": "Sakura",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Yokai"
+      "npcCategory": "Yokai",
+      "id": "npc-b90b2a8a09f3"
     },
     {
       "name": "Asa",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Shimada"
+      "npcCategory": "Shimada",
+      "id": "npc-6754a575f861"
     },
     {
       "name": "Kamori-san",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Shimada"
+      "npcCategory": "Shimada",
+      "id": "npc-0449f46c5340"
     },
     {
       "name": "Sojiro",
       "description": "No description available.",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Shimada"
+      "npcCategory": "Shimada",
+      "id": "npc-a30d94ea9358"
     },
     {
       "name": "Toshiro",
@@ -186,14 +208,16 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Shimada"
+      "npcCategory": "Shimada",
+      "id": "npc-4f90373597cf"
     },
     {
       "name": "Geiger",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Junkers"
+      "npcCategory": "Junkers",
+      "id": "npc-d86c7c4aecc6"
     },
     {
       "name": "Mason",
@@ -225,7 +249,8 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Junkers"
+      "npcCategory": "Junkers",
+      "id": "npc-170ed6375eae"
     },
     {
       "name": "Meri",
@@ -241,14 +266,16 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Junkers"
+      "npcCategory": "Junkers",
+      "id": "npc-332dd3f500fe"
     },
     {
       "name": "Chao",
       "description": "No description available.",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Lucheng"
+      "npcCategory": "Lucheng",
+      "id": "npc-b194b2d849a5"
     },
     {
       "name": "Harold",
@@ -288,7 +315,8 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Lucheng"
+      "npcCategory": "Lucheng",
+      "id": "npc-7b0aefebe831"
     },
     {
       "name": "Jiayi",
@@ -312,14 +340,16 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Lucheng"
+      "npcCategory": "Lucheng",
+      "id": "npc-fd51fe8dca7c"
     },
     {
       "name": "Adawe",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Overwatch"
+      "npcCategory": "Overwatch",
+      "id": "npc-9577fbb8186b"
     },
     {
       "name": "Athena",
@@ -351,14 +381,16 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Overwatch"
+      "npcCategory": "Overwatch",
+      "id": "npc-b78575c9c817"
     },
     {
       "name": "Claudio",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Overwatch"
+      "npcCategory": "Overwatch",
+      "id": "npc-ca051ea1bf68"
     },
     {
       "name": "Efi",
@@ -398,21 +430,24 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Overwatch"
+      "npcCategory": "Overwatch",
+      "id": "npc-52246b8d74bc"
     },
     {
       "name": "Gérard",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Overwatch"
+      "npcCategory": "Overwatch",
+      "id": "npc-ef0456f31114"
     },
     {
       "name": "Hector",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Overwatch"
+      "npcCategory": "Overwatch",
+      "id": "npc-03055a7d45ab"
     },
     {
       "name": "Liao",
@@ -444,7 +479,8 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Overwatch"
+      "npcCategory": "Overwatch",
+      "id": "npc-f5feb83125d9"
     },
     {
       "name": "Adeyemi",
@@ -460,7 +496,8 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Talon"
+      "npcCategory": "Talon",
+      "id": "npc-41b246c7834e"
     },
     {
       "name": "Antonio",
@@ -492,7 +529,8 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Talon"
+      "npcCategory": "Talon",
+      "id": "npc-7c086242874c"
     },
     {
       "name": "Maximillien",
@@ -508,7 +546,8 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Talon"
+      "npcCategory": "Talon",
+      "id": "npc-01ae6d64f3a9"
     },
     {
       "name": "Ngumi",
@@ -524,7 +563,8 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Talon"
+      "npcCategory": "Talon",
+      "id": "npc-5d67ea0e9505"
     },
     {
       "name": "Sanjay",
@@ -540,7 +580,8 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Talon"
+      "npcCategory": "Talon",
+      "id": "npc-81bec8d7bc0a"
     },
     {
       "name": "Vialli",
@@ -564,21 +605,24 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Talon"
+      "npcCategory": "Talon",
+      "id": "npc-93624e95531d"
     },
     {
       "name": "Alisa",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Historical Figures"
+      "npcCategory": "Historical Figures",
+      "id": "npc-386b673a5b59"
     },
     {
       "name": "Anubis",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Historical Figures"
+      "npcCategory": "Historical Figures",
+      "id": "npc-1ffbdd27fd28"
     },
     {
       "name": "Aurora",
@@ -594,28 +638,32 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Historical Figures"
+      "npcCategory": "Historical Figures",
+      "id": "npc-cb3517541786"
     },
     {
       "name": "Balderich",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Historical Figures"
+      "npcCategory": "Historical Figures",
+      "id": "npc-9eee95aea25b"
     },
     {
       "name": "Bhatt",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Historical Figures"
+      "npcCategory": "Historical Figures",
+      "id": "npc-1f7d538afaae"
     },
     {
       "name": "Katya",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Historical Figures"
+      "npcCategory": "Historical Figures",
+      "id": "npc-9226b3e47708"
     },
     {
       "name": "Mondatta",
@@ -631,35 +679,40 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Historical Figures"
+      "npcCategory": "Historical Figures",
+      "id": "npc-8de2c0e5d1e0"
     },
     {
       "name": "Naughton",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Historical Figures"
+      "npcCategory": "Historical Figures",
+      "id": "npc-3aa9b2220e11"
     },
     {
       "name": "Osai",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Historical Figures"
+      "npcCategory": "Historical Figures",
+      "id": "npc-5c7da1db1f42"
     },
     {
       "name": "Portero",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Historical Figures"
+      "npcCategory": "Historical Figures",
+      "id": "npc-4ad6abd402aa"
     },
     {
       "name": "Emily",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Civilians"
+      "npcCategory": "Civilians",
+      "id": "npc-1f2f8c4caf2a"
     },
     {
       "name": "Iggy",
@@ -675,7 +728,8 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Civilians"
+      "npcCategory": "Civilians",
+      "id": "npc-e9b4037bf9a0"
     },
     {
       "name": "Ingrid",
@@ -707,7 +761,8 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Civilians"
+      "npcCategory": "Civilians",
+      "id": "npc-4b1003e3f284"
     },
     {
       "name": "Kendra",
@@ -731,14 +786,16 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Civilians"
+      "npcCategory": "Civilians",
+      "id": "npc-4fffd08c524b"
     },
     {
       "name": "Lanet",
       "description": "No description available.",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Civilians"
+      "npcCategory": "Civilians",
+      "id": "npc-e2491224f815"
     },
     {
       "name": "Lynx 17",
@@ -762,7 +819,8 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Civilians"
+      "npcCategory": "Civilians",
+      "id": "npc-e34de18fa9d0"
     },
     {
       "name": "Nameless",
@@ -778,7 +836,8 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Civilians"
+      "npcCategory": "Civilians",
+      "id": "npc-a3cacbe06ba5"
     },
     {
       "name": "Sven",
@@ -794,28 +853,32 @@
           "showInCodex": true
         }
       ],
-      "npcCategory": "Civilians"
+      "npcCategory": "Civilians",
+      "id": "npc-ce043556595b"
     },
     {
       "name": "Vincent",
       "description": "",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Civilians"
+      "npcCategory": "Civilians",
+      "id": "npc-f672d510a370"
     },
     {
       "name": "Zera",
       "description": "No description available.",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Civilians"
+      "npcCategory": "Civilians",
+      "id": "npc-d25215b01256"
     },
     {
       "name": "Kace",
       "description": "No description available.",
       "relevantLocations": [],
       "connections": [],
-      "npcCategory": "Civilians"
+      "npcCategory": "Civilians",
+      "id": "npc-5087a9336585"
     }
   ]
 }

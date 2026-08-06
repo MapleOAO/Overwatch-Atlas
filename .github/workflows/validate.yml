@@ -1,0 +1,34 @@
+name: Validate Chinese maintenance branch
+
+on:
+  push:
+    branches: [main, cn-main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Validate stable content IDs
+        run: npm run content:ids:check
+      - name: Report translation coverage
+        run: npm run i18n:check
+      - name: Validate JavaScript syntax
+        shell: bash
+        run: |
+          while IFS= read -r file; do
+            node --check "$file"
+          done < <(find src scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print)
+      - name: Build static site
+        run: npm run build:pages

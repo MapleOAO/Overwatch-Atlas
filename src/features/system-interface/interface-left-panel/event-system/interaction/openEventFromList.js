@@ -143,6 +143,18 @@ export function openEventFromList(interactionService, event, index) {
             || (targetMarker && targetMarker.userData && targetMarker.userData.eventName)
             || event.name;
         const eventDescription = displayEvent.description;
+        const i18n = typeof window !== 'undefined' ? window.AtlasI18n : null;
+        const localizedEventName = i18n
+            ? i18n.displayName(eventName, { kind: 'event', id: event.id, variantIndex })
+            : eventName;
+        const localizedEventDescription = i18n
+            ? i18n.displayText(eventDescription, {
+                kind: 'event',
+                id: event.id,
+                field: 'description',
+                variantIndex,
+            })
+            : eventDescription;
         const imagePath = interactionService.eventManager.getEventImagePath
             ? interactionService.eventManager.getEventImagePath(displayEvent.name, displayEvent.image)
             : null;
@@ -158,7 +170,7 @@ export function openEventFromList(interactionService, event, index) {
                 window.standaloneEventSlide.showEvent(eventIndex, { eventList: listEv });
             }
         } else {
-            uiView.showEventSlide(eventName, imagePath, eventDescription, targetMarker, event);
+            uiView.showEventSlide(localizedEventName, imagePath, localizedEventDescription, targetMarker, event);
         }
 
         interactionService.resetAllEventVariants();
