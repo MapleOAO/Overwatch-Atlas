@@ -31,7 +31,8 @@
           "country": "Sigma",
           "reasoning": "Siebren De Kuiper is Born"
         }
-      ]
+      ],
+      "id": "event-3bdf531d92cd"
     },
     {
       "name": "Reinhardt Wilhelm is Born",
@@ -68,7 +69,8 @@
           "country": "Reinhardt",
           "reasoning": "Reinhardt Wilhelm is Born"
         }
-      ]
+      ],
+      "id": "event-c16a463a871f"
     },
     {
       "name": "Ana Amari is Born",
@@ -107,7 +109,8 @@
           "country": "Ana",
           "reasoning": "Ana Amari is Born"
         }
-      ]
+      ],
+      "id": "event-ce138b2b473f"
     },
     {
       "name": "Gabriel Reyes is Born",
@@ -144,7 +147,8 @@
           "country": "Reaper",
           "reasoning": "Gabriel Reyes is Born"
         }
-      ]
+      ],
+      "id": "event-3a0ca5a29f01"
     },
     {
       "name": "Torbjörn Lindholm is Born",
@@ -181,7 +185,8 @@
           "country": "Torbjörn",
           "reasoning": "Torbjörn Lindholm is Born"
         }
-      ]
+      ],
+      "id": "event-3a4b95e8a87e"
     },
     {
       "name": "Medical Miracles",
@@ -226,7 +231,8 @@
           "country": "Omnica Corporation,",
           "reasoning": "Omnica Corp rises as early leaders of the Cybernetics Field"
         }
-      ]
+      ],
+      "id": "event-d2e97f9e39ed"
     },
     {
       "name": "Crystal Clear",
@@ -267,7 +273,8 @@
           "country": "Wuxing University,",
           "reasoning": "Namacua's research would be the base for Water College technology"
         }
-      ]
+      ],
+      "id": "event-1261b3ade9a7"
     },
     {
       "name": "John Francis Morrison is Born",
@@ -304,7 +311,8 @@
           "country": "Soldier 76",
           "reasoning": "John Francis Morrison is Born"
         }
-      ]
+      ],
+      "id": "event-555690bcc0f5"
     },
     {
       "name": "Greener Energy",
@@ -341,7 +349,8 @@
           "country": "Lucheng",
           "reasoning": "Borda's research would be the base for later developments in Horizon Luanr Colony"
         }
-      ]
+      ],
+      "id": "event-491abcac1c49"
     },
     {
       "name": "Cleaner Oceans",
@@ -382,7 +391,8 @@
           "country": "Ecopoints",
           "reasoning": "Future Ecopoints would be built around the Polynesian League"
         }
-      ]
+      ],
+      "id": "event-2075735df080"
     },
     {
       "name": "Out of Thin Air",
@@ -422,7 +432,8 @@
           "country": "Wuxing University,",
           "reasoning": "Lomakema's research would be the base for Water College technology"
         }
-      ]
+      ],
+      "id": "event-4676048c1d77"
     },
     {
       "name": "Vivian Chase is Born",
@@ -466,7 +477,8 @@
           "country": "Sojourn",
           "reasoning": "Vivian Chase is Born"
         }
-      ]
+      ],
+      "id": "event-ad45a5f689df"
     },
     {
       "name": "The Nuclear Solution",
@@ -502,7 +514,8 @@
           "country": "Omnica Corporation,",
           "reasoning": "Omnica Corp begins plans for Omnium factories worldwide"
         }
-      ]
+      ],
+      "id": "event-64e22820823a"
     },
     {
       "name": "Mako Rutledge is Born",
@@ -537,7 +550,8 @@
           "country": "Roadhog",
           "reasoning": "Mako Rutledge is Born"
         }
-      ]
+      ],
+      "id": "event-3294c57a6ce9"
     },
     {
       "name": "The Super Coral Reef",
@@ -585,7 +599,8 @@
           "reasoning": "Future researchers would still be tackling the mysteries of Supercoral long into the future",
           "badgePriority": true
         }
-      ]
+      ],
+      "id": "event-f5d543c3c522"
     },
     {
       "name": "Rising Tides",
@@ -629,7 +644,8 @@
           "country": "Hector, Claudio",
           "reasoning": "Entrepenour couple that invented Durovidro and build the sea Wall"
         }
-      ]
+      ],
+      "id": "event-9c82c857822e"
     },
     {
       "name": "Moira O'Deorain is Born",
@@ -668,7 +684,8 @@
           "country": "Moira",
           "reasoning": "Moira O'Deorain is Born"
         }
-      ]
+      ],
+      "id": "event-1afe56d09ee8"
     },
     {
       "name": "Solar Threading",
@@ -710,7 +727,8 @@
           "country": "Inti Warriors,",
           "reasoning": "Formed from the Paraqina research group's testing in human threading"
         }
-      ]
+      ],
+      "id": "event-8f71e20b013b"
     },
     {
       "name": "Wuxing University",
@@ -755,7 +773,8 @@
           "country": "Lucheng Interstellar,",
           "reasoning": "Many graduates and acolytes of Wuxing would immediately pursue a career at Lucheng"
         }
-      ]
+      ],
+      "id": "event-e33743aa134c"
     },
     {
       "name": "Akande Ogundimu is Born",
@@ -791,7 +810,8 @@
           "country": "Doomfist",
           "reasoning": "Akande Ogundimu is Born"
         }
-      ]
+      ],
+      "id": "event-a7e2c7af29e0"
     },
     {
       "name": "Emre Sarioglu is Born",
@@ -824,7 +844,8 @@
           "country": "Emre",
           "reasoning": "Emre Sarioglu is Born"
         }
-      ]
+      ],
+      "id": "event-73b5d784adf8"
     },
     {
       "name": "Hardlight for the World",
@@ -868,7 +889,8 @@
           "reasoning": "Creator of Hardlight and Vishkar",
           "badgePriority": true
         }
-      ]
+      ],
+      "id": "event-13752c7c13ae"
     },
     {
       "name": "Mei-Ling Zhou is Born",
@@ -903,7 +925,8 @@
           "country": "Mei",
           "reasoning": "Mei-Ling Zhou is Born"
         }
-      ]
+      ],
+      "id": "event-f19262d81cc8"
     },
     {
       "name": "The Rise of Omnics",
@@ -947,7 +970,8 @@
           "reasoning": "Dr. Liao makes a name for herself in robotics that later lands her a place in Omnica",
           "badgePriority": true
         }
-      ]
+      ],
+      "id": "event-7013808657f9"
     },
     {
       "name": "Elizabeth Caledonia is Born",
@@ -989,7 +1013,8 @@
           "country": "B.O.B",
           "reasoning": "Close friend nad body guard since early childhood"
         }
-      ]
+      ],
+      "id": "event-f6c7a535fff0"
     },
     {
       "name": "Hanzo Shimada is Born",
@@ -1040,7 +1065,8 @@
           "country": "Sojiro,",
           "reasoning": "Hanzo's Father and presumed leader of the Shimada"
         }
-      ]
+      ],
+      "id": "event-6e12e2dcaa23"
     },
     {
       "name": "Nourishing the World",
@@ -1085,7 +1111,8 @@
           "country": "Omnica Corporation,",
           "reasoning": "Robots were designed to tackle the menial tasks of megafarms"
         }
-      ]
+      ],
+      "id": "event-412b9598bc3f"
     },
     {
       "name": "Angela Zeigler is Born",
@@ -1120,7 +1147,8 @@
           "country": "Mercy",
           "reasoning": "Angela Zeigler is Born"
         }
-      ]
+      ],
+      "id": "event-503aadef874b"
     },
     {
       "name": "Cole Cassidy is Born",
@@ -1155,7 +1183,8 @@
           "country": "Cassidy",
           "reasoning": "Cole Cassidy is Born"
         }
-      ]
+      ],
+      "id": "event-cdecabda0996"
     },
     {
       "name": "Voslkaya Industries",
@@ -1204,7 +1233,8 @@
           "country": "Katya,",
           "reasoning": "Future heir to the Volskaya Corporation"
         }
-      ]
+      ],
+      "id": "event-914e3a98adce"
     },
     {
       "name": "Lindholm Style",
@@ -1251,7 +1281,8 @@
           "country": "Ingrid,",
           "reasoning": "Develops a bioengineered spider web textile, but it is too expensive to mass produce"
         }
-      ]
+      ],
+      "id": "event-31dcb5a3c49b"
     },
     {
       "name": "Jean-Baptiste Augustin is Born",
@@ -1288,7 +1319,8 @@
           "country": "Baptiste",
           "reasoning": "Jean-Baptiste Augustin is Born"
         }
-      ]
+      ],
+      "id": "event-f4448bef7fa0"
     },
     {
       "name": "Grasping Gravity",
@@ -1338,7 +1370,8 @@
           "country": "Sigma,",
           "reasoning": "His genius proves to change the world over with his studies"
         }
-      ]
+      ],
+      "id": "event-533f3c581d2a"
     },
     {
       "name": "Maugaloa Malosi is Born",
@@ -1380,7 +1413,8 @@
           "country": "Deepsea Raiders,",
           "reasoning": "Joined since a young age due to his father"
         }
-      ]
+      ],
+      "id": "event-230ded86e2c5"
     },
     {
       "name": "Genji Shimada is Born",
@@ -1436,7 +1470,8 @@
           "country": "Sojiro,",
           "reasoning": "Father of 2 sons and leader of the Shimada"
         }
-      ]
+      ],
+      "id": "event-f66153cb506e"
     },
     {
       "name": "Resource Management",
@@ -1497,7 +1532,8 @@
           "country": "Chernobog,",
           "reasoning": "God Program of Global Security"
         }
-      ]
+      ],
+      "id": "event-c7ea9b7487fe"
     },
     {
       "name": "Automation",
@@ -1535,7 +1571,8 @@
           "reasoning": "Omnica and Ai begin to flourish in a new Automated world"
         }
       ],
-      "yearStart": 2040
+      "yearStart": 2040,
+      "id": "event-7b1c9a654db8"
     },
     {
       "name": "Amélie Guillard is Born",
@@ -1568,7 +1605,8 @@
           "country": "Widowmaker",
           "reasoning": "Amélie Lacroix is Born"
         }
-      ]
+      ],
+      "id": "event-f04572472e67"
     },
     {
       "name": "Lost to the past",
@@ -1610,7 +1648,8 @@
           "country": "Vincent,",
           "reasoning": "Dates Jack in spite of his concerns over military service"
         }
-      ]
+      ],
+      "id": "event-8b664d402fdc"
     },
     {
       "name": "Responsability",
@@ -1657,7 +1696,8 @@
           "country": "Ironclad Guild,",
           "reasoning": "Founded by Torbjörn and collegues soon after his work in STT Labs"
         }
-      ]
+      ],
+      "id": "event-5d73c563e3cc"
     },
     {
       "name": "Upgrades",
@@ -1696,7 +1736,8 @@
           "reasoning": "Enlists into the CAF after years of Cybernetic surgeries"
         }
       ],
-      "yearEnd": null
+      "yearEnd": null,
+      "id": "event-1280935596ae"
     },
     {
       "name": "Freja Skov is Born",
@@ -1731,7 +1772,8 @@
           "country": "Freja",
           "reasoning": "Freja Skov is Born"
         }
-      ]
+      ],
+      "id": "event-b27457700c1c"
     },
     {
       "name": "Road to the Stars",
@@ -1773,7 +1815,8 @@
           "country": "Lucheng Interstellar,",
           "reasoning": "Company behind the Lunar base operations"
         }
-      ]
+      ],
+      "id": "event-2ac0c37887a2"
     },
     {
       "name": "Fareeha Amari is Born",
@@ -1831,7 +1874,8 @@
           "country": "Sam,",
           "reasoning": "Unplanned Parenthood"
         }
-      ]
+      ],
+      "id": "event-dbb779a0c671"
     },
     {
       "name": "Space Race",
@@ -1871,7 +1915,8 @@
           "country": "Lucheng Interstellar,",
           "reasoning": "Company behind the Lunar base operations"
         }
-      ]
+      ],
+      "id": "event-38d2e06948c5"
     },
     {
       "name": "Tekhartha Zenyatta is Made",
@@ -1907,7 +1952,8 @@
           "reasoning": "Tekhartha Zenyatta is Made"
         }
       ],
-      "yearEnd": null
+      "yearEnd": null,
+      "id": "event-1ede748c14e5"
     },
     {
       "name": "SST Labs Siege Automaton E54 is Made",
@@ -1948,7 +1994,8 @@
           "reasoning": "Works on several units like the Bastions and Titans on  the STT Laboratories"
         }
       ],
-      "yearEnd": null
+      "yearEnd": null,
+      "id": "event-d6994d3210ac"
     },
     {
       "name": "Genesis",
@@ -2013,7 +2060,8 @@
           "reasoning": "Dr. Liao creates the first ever sentient Omnic, Aurora",
           "badgePriority": true
         }
-      ]
+      ],
+      "id": "event-0b757c6c4b70"
     },
     {
       "name": "Vaira Singhania is Born",
@@ -2067,7 +2115,8 @@
           "country": "Bhatt,",
           "reasoning": "Grandfather to an unworthy succesor"
         }
-      ]
+      ],
+      "id": "event-02551084bd0a"
     },
     {
       "name": "Olivia Colomar is Born",
@@ -2102,7 +2151,8 @@
           "country": "Sombra",
           "reasoning": "Olivia Colomar is Born"
         }
-      ]
+      ],
+      "id": "event-2569dad54723"
     },
     {
       "name": "Specimen 28 is Born",
@@ -2156,7 +2206,8 @@
           "country": "Harold",
           "reasoning": "Primary caretaker of the Primates"
         }
-      ]
+      ],
+      "id": "event-97a6c7dcb514"
     },
     {
       "name": "The Ironclad Guild",
@@ -2198,7 +2249,8 @@
           "country": "Ironclad Guild,",
           "reasoning": "Guild of engineers advocating for right of repair and anti Omnica expansion policies"
         }
-      ]
+      ],
+      "id": "event-3f0501121c84"
     },
     {
       "name": "Odessa Stone is Born",
@@ -2231,7 +2283,8 @@
           "country": "Junker Queen",
           "reasoning": "Odessa Stone is Born"
         }
-      ]
+      ],
+      "id": "event-3f0b97f8b854"
     },
     {
       "name": "New Horizons",
@@ -2297,7 +2350,8 @@
           "country": "Naughton,",
           "reasoning": "One of many scientist who visited the base"
         }
-      ]
+      ],
+      "id": "event-edf1c5a88a94"
     },
     {
       "name": "Niran Pruksamanee is Born",
@@ -2330,7 +2384,8 @@
           "country": "Lifeweaver",
           "reasoning": "Niran Pruksamanee is Born"
         }
-      ]
+      ],
+      "id": "event-1bb36d01a48e"
     },
     {
       "name": "Personhood",
@@ -2382,7 +2437,8 @@
           "country": "Liao,",
           "reasoning": "Fights for a legal case on Aurora's personhood and wins"
         }
-      ]
+      ],
+      "id": "event-9e3523aeb8f5"
     },
     {
       "name": "A Grasping Talon",
@@ -2444,7 +2500,8 @@
           "country": "Vialli,",
           "reasoning": "Antonio's right hand"
         }
-      ]
+      ],
+      "id": "event-3143670f7382"
     },
     {
       "name": "Bankruptcy",
@@ -2487,7 +2544,8 @@
           "text": "Overwatch Declassified",
           "url": "https://www.amazon.com/Overwatch-Declassified-Official-Seanan-McGuire/dp/1803361662"
         }
-      ]
+      ],
+      "id": "event-3ce552e011b6"
     },
     {
       "name": "Satya Vaswani is Born",
@@ -2520,7 +2578,8 @@
           "country": "Symmetra",
           "reasoning": "Satya Vaswani is Born"
         }
-      ]
+      ],
+      "id": "event-2523d795a6ef"
     },
     {
       "name": "Playing God",
@@ -2571,7 +2630,8 @@
           "reasoning": "Goes rouge following ventilation failure",
           "badgePriority": true
         }
-      ]
+      ],
+      "id": "event-09f0dc03690d"
     },
     {
       "name": "Aleksandra Zaryanova is Born",
@@ -2604,7 +2664,8 @@
           "country": "Zarya",
           "reasoning": "Aleksandra Zaryanova is Born"
         }
-      ]
+      ],
+      "id": "event-b7904ed896c8"
     },
     {
       "name": "Knights in Shining Armor",
@@ -2659,7 +2720,8 @@
           "country": "Balderich,",
           "reasoning": "Future Crusader"
         }
-      ]
+      ],
+      "id": "event-c03487e4b42e"
     },
     {
       "name": "Lena Oxton is Born",
@@ -2694,7 +2756,8 @@
           "country": "Tracer",
           "reasoning": "Lena Oxton is Born"
         }
-      ]
+      ],
+      "id": "event-fd72727b1b08"
     },
     {
       "name": "To Build a Better Soldier",
@@ -2752,7 +2815,8 @@
           "reasoning": "Lead of the Soldier enhancement program",
           "badgePriority": true
         }
-      ]
+      ],
+      "id": "event-93b66ccd7db1"
     },
     {
       "name": "Answers",
@@ -2800,7 +2864,8 @@
           "reasoning": "Granted personhood, free to explore the world",
           "badgePriority": true
         }
-      ]
+      ],
+      "id": "event-13ba9b30d600"
     },
     {
       "name": "Marzia Bartalotti is Born",
@@ -2851,7 +2916,8 @@
           "country": "Talon Empire,",
           "reasoning": "Future heiress to an Empire"
         }
-      ]
+      ],
+      "id": "event-9c952fd92a0e"
     },
     {
       "name": "Lady Shion Was Made",
@@ -2886,7 +2952,8 @@
           "country": "Shion,",
           "reasoning": "Lady Shion Was Made"
         }
-      ]
+      ],
+      "id": "event-360a103bd7a7"
     },
     {
       "name": "Lúcio Correia Dos Santos is Born",
@@ -2926,7 +2993,8 @@
           "country": "Benicio,",
           "reasoning": "Father to Lúcio"
         }
-      ]
+      ],
+      "id": "event-cb4282b33576"
     },
     {
       "name": "Ramattra is Made",
@@ -2981,7 +3049,8 @@
           "country": "Revel,",
           "reasoning": "Revel is Made"
         }
-      ]
+      ],
+      "id": "event-9713d60be70e"
     },
     {
       "name": "Yuna Lee is Born",
@@ -3019,7 +3088,8 @@
           "text": "Overwatch Website, D.mon",
           "url": "https://overwatch.blizzard.com/en-us/heroes/dmon/"
         }
-      ]
+      ],
+      "id": "event-8223fda59c43"
     },
     {
       "name": "The Lagos Attack",
@@ -3074,7 +3144,8 @@
           "country": "Anubis,",
           "reasoning": "Unleashes a global war against humanity"
         }
-      ]
+      ],
+      "id": "event-c257fb4998a6"
     },
     {
       "name": "The Caribbean Coalition",
@@ -3128,7 +3199,8 @@
           "country": "Anubis,",
           "reasoning": "Troops stopped by the storm"
         }
-      ]
+      ],
+      "id": "event-312d83216327"
     },
     {
       "name": "Early Victories",
@@ -3171,7 +3243,8 @@
           "country": "Anubis,",
           "reasoning": "Focuses most of the resources in Russia"
         }
-      ]
+      ],
+      "id": "event-c53fdcfe34d9"
     },
     {
       "name": "Swedish Engineering",
@@ -3221,7 +3294,8 @@
           "country": "Anubis,",
           "reasoning": "Attack stopped by Ironclad"
         }
-      ]
+      ],
+      "id": "event-219e4d248512"
     },
     {
       "name": "Expanding the Wall",
@@ -3274,7 +3348,8 @@
           "country": "Anubis,",
           "reasoning": "Troops stopped by the Sea Wall"
         }
-      ]
+      ],
+      "id": "event-7bf46552ea74"
     },
     {
       "name": "To Hell With Them",
@@ -3319,7 +3394,8 @@
           "country": "Anubis,",
           "reasoning": "Unleashes hell on Major population centers"
         }
-      ]
+      ],
+      "id": "event-0ce516e1a4ba"
     },
     {
       "name": "Call Sign Sojourn",
@@ -3374,7 +3450,8 @@
           "country": "Anubis,",
           "reasoning": "Unleashes hell in cities close to Omniums"
         }
-      ]
+      ],
+      "id": "event-daad8db66a8c"
     },
     {
       "name": "Launching Into the Skies",
@@ -3427,7 +3504,8 @@
           "country": "Anubis,",
           "reasoning": "Focuses attacks on Orbital Launchers"
         }
-      ]
+      ],
+      "id": "event-aab60371393d"
     },
     {
       "name": "Fiery Pride",
@@ -3482,7 +3560,8 @@
           "country": "Anubis,",
           "reasoning": "Troops stopped by Fire student squad"
         }
-      ]
+      ],
+      "id": "event-96ab477049cb"
     },
     {
       "name": "Refugees",
@@ -3532,7 +3611,8 @@
           "reasoning": "War splits fronts across America",
           "badgePriority": true
         }
-      ]
+      ],
+      "id": "event-05cead11c831"
     },
     {
       "name": "Children of the Sun",
@@ -3583,7 +3663,8 @@
           "reasoning": "Troops fight the Inti Warriors",
           "badgePriority": true
         }
-      ]
+      ],
+      "id": "event-9016867f5085"
     },
     {
       "name": "Force the Sun to Set",
@@ -3639,7 +3720,8 @@
           "country": "Anubis,",
           "reasoning": "Utterly confused by Doomfist's effectiveness"
         }
-      ]
+      ],
+      "id": "event-281317bcc0d8"
     },
     {
       "name": "The Svyatogor",
@@ -3693,7 +3775,8 @@
           "country": "Anubis,",
           "reasoning": "Struggles against mech powered forces"
         }
-      ]
+      ],
+      "id": "event-1dcffb762c4a"
     },
     {
       "name": "The Proposal",
@@ -3747,7 +3830,8 @@
           "country": "Anubis,",
           "reasoning": "Forces humanity to agree to Overwatch proposal"
         }
-      ]
+      ],
+      "id": "event-7ce0bfc1c741"
     },
     {
       "name": "The Heroic Five",
@@ -3801,7 +3885,8 @@
           "country": "Anubis,",
           "reasoning": "Plots further attacks on Sweden"
         }
-      ]
+      ],
+      "id": "event-815f3b62b960"
     },
     {
       "name": "Eye of Horus",
@@ -3857,7 +3942,8 @@
           "country": "Anubis,",
           "reasoning": "Hides among the chaos in Egypt"
         }
-      ]
+      ],
+      "id": "event-3a1911d926cd"
     },
     {
       "name": "Defense Network",
@@ -3921,7 +4007,8 @@
           "country": "Chernobog,",
           "reasoning": "It's capabilities mimicked for the anti-aircraft system"
         }
-      ]
+      ],
+      "id": "event-1fad21be8c55"
     },
     {
       "name": "The Skycannon",
@@ -3978,7 +4065,8 @@
           "country": "Anubis,",
           "reasoning": "Struggles against  unified New Yorkers"
         }
-      ]
+      ],
+      "id": "event-96660c99d695"
     },
     {
       "name": "Building a Myth",
@@ -4033,7 +4121,8 @@
           "country": "Balderich,",
           "reasoning": "Crusader Recruit"
         }
-      ]
+      ],
+      "id": "event-f243ae226c31"
     },
     {
       "name": "Super Soldiers",
@@ -4093,7 +4182,8 @@
           "country": "Vincent,",
           "reasoning": "Conflicted about Jack joining SEP"
         }
-      ]
+      ],
+      "id": "event-0ca1e9302f0f"
     },
     {
       "name": "Honor and Glory",
@@ -4152,7 +4242,8 @@
           "country": "Anubis,",
           "reasoning": "Unleashes hell near Stuttgart"
         }
-      ]
+      ],
+      "id": "event-73fd981602eb"
     },
     {
       "name": "The Original Strike Team",
@@ -4217,7 +4308,8 @@
           "country": "Anubis,",
           "reasoning": "Fights Overwatch for the firs ttime"
         }
-      ]
+      ],
+      "id": "event-8f6cc463e112"
     },
     {
       "name": "Early Missions",
@@ -4274,7 +4366,8 @@
           "country": "Adawe",
           "reasoning": "Acting Commander of the Overwatch Initiative"
         }
-      ]
+      ],
+      "id": "event-189949d18ac6"
     },
     {
       "name": "Jamison Fawkes is Born",
@@ -4309,7 +4402,8 @@
           "country": "Junkrat",
           "reasoning": "Jamison Fawkes is Born"
         }
-      ]
+      ],
+      "id": "event-f69e9bfbb7c4"
     },
     {
       "name": "The Road of Bones",
@@ -4352,7 +4446,8 @@
           "country": "Anubis,",
           "reasoning": "Unleashes hell i nthe road of Bones"
         }
-      ]
+      ],
+      "id": "event-334f8d5d3a2b"
     },
     {
       "name": "Who knew Better",
@@ -4406,7 +4501,8 @@
           "country": "Anubis,",
           "reasoning": "Faces significant loses in North America"
         }
-      ]
+      ],
+      "id": "event-c8765da0c968"
     },
     {
       "name": "In Partnership",
@@ -4460,7 +4556,8 @@
           "country": "Anubis,",
           "reasoning": "Loses control of the Detroit Omnium"
         }
-      ]
+      ],
+      "id": "event-b6e4759f6985"
     },
     {
       "name": "The Battle of the Bridges",
@@ -4505,7 +4602,8 @@
           "country": "Anubis,",
           "reasoning": "Fully invades New York"
         }
-      ]
+      ],
+      "id": "event-f51e27c98456"
     },
     {
       "name": "Dead Gods",
@@ -4560,7 +4658,8 @@
           "country": "Chernobog,",
           "reasoning": "Officially 'shut down'"
         }
-      ]
+      ],
+      "id": "event-e2d30e8cc4b8"
     },
     {
       "name": "The Dark Days",
@@ -4602,7 +4701,8 @@
           "country": "Anubis,",
           "reasoning": "Forces Xibalbá's shut down"
         }
-      ]
+      ],
+      "id": "event-5271861e61b2"
     },
     {
       "name": "Sloan Cameron is Born",
@@ -4640,7 +4740,8 @@
           "country": "Venture,",
           "reasoning": "Sloan Cameron is Born"
         }
-      ]
+      ],
+      "id": "event-ebf9f8785ae6"
     },
     {
       "name": "Capturing a God",
@@ -4685,7 +4786,8 @@
           "country": "Anubis,",
           "reasoning": "Communications disrrupted by Macaria"
         }
-      ]
+      ],
+      "id": "event-590d89cff1b4"
     },
     {
       "name": "Bombardment",
@@ -4740,7 +4842,8 @@
           "country": "Anubis,",
           "reasoning": "Surprise bombarding of Gothenburg"
         }
-      ]
+      ],
+      "id": "event-57cfde787301"
     },
     {
       "name": "Tipping the Balance",
@@ -4798,7 +4901,8 @@
           "reasoning": "Continue to trample over Anubis' plans"
         }
       ],
-      "yearStart": 2051
+      "yearStart": 2051,
+      "id": "event-9e91950363a4"
     },
     {
       "name": "The Savior",
@@ -4846,7 +4950,8 @@
           "country": "Anubis,",
           "reasoning": "Pumped untold numbers of Omnics into Nigeria"
         }
-      ]
+      ],
+      "id": "event-213c56c32387"
     },
     {
       "name": "The Awakening",
@@ -4898,7 +5003,8 @@
           "country": "Anubis,",
           "reasoning": "Caught by surprise by the Awakening"
         }
-      ]
+      ],
+      "id": "event-30dc93bd385d"
     },
     {
       "name": "A Dying Directive",
@@ -4950,7 +5056,8 @@
           "country": "Anubis,",
           "reasoning": "Studies the Awakening to stop a second wave"
         }
-      ]
+      ],
+      "id": "event-8ad41cc5b4d6"
     },
     {
       "name": "Striking the Source",
@@ -5011,7 +5118,8 @@
           "country": "Anubis,",
           "reasoning": "Quarantined and imprisoned"
         }
-      ]
+      ],
+      "id": "event-89f45e9c383d"
     },
     {
       "name": "Cleaning the leftovers",
@@ -5059,7 +5167,8 @@
           "country": "Anubis,",
           "reasoning": "Loyalist and Warbots continue to fight"
         }
-      ]
+      ],
+      "id": "event-e7924daadc15"
     },
     {
       "name": "Energy For Mexico",
@@ -5108,7 +5217,8 @@
           "country": "Portero,",
           "reasoning": "Head of Lumérico, War Hero and Politician"
         }
-      ]
+      ],
+      "id": "event-ee18dd9c7279"
     },
     {
       "name": "Prejudice",
@@ -5150,7 +5260,8 @@
           "country": "Ramattra",
           "reasoning": "Ravager Units are hunted to near extinction"
         }
-      ]
+      ],
+      "id": "event-d565569938e0"
     },
     {
       "name": "Kept in Chains",
@@ -5203,7 +5314,8 @@
           "country": "Hashimoto Clan,",
           "reasoning": "A group of criminals hunts down Omnics in Tokyo"
         }
-      ]
+      ],
+      "id": "event-046d1a2cbd97"
     },
     {
       "name": "The Temple of Anubis",
@@ -5264,7 +5376,8 @@
           "country": "Anubis,",
           "reasoning": "Finally quarantined, the God Program is cut off from current events"
         }
-      ]
+      ],
+      "id": "event-f91e3ad3facf"
     },
     {
       "name": "Building the Future",
@@ -5300,7 +5413,8 @@
           "country": "Sojourn",
           "reasoning": "Sojourn leads take down on anti Omnic groups"
         }
-      ]
+      ],
+      "id": "event-2cb396c6ae95"
     },
     {
       "name": "Adawe Departs",
@@ -5356,7 +5470,8 @@
           "reasoning": "Leaves the UN and Overwatch to work on the City of Numbani",
           "badgePriority": true
         }
-      ]
+      ],
+      "id": "event-de76af684270"
     },
     {
       "name": "Loyal Guardian",
@@ -5399,7 +5514,8 @@
           "country": "B.O.B",
           "reasoning": "Returns to Lead Rose forever changed by the Crisis"
         }
-      ]
+      ],
+      "id": "event-27987671f9ea"
     },
     {
       "name": "New Leadership",
@@ -5452,7 +5568,8 @@
           "country": "Overwatch, Blackwatch",
           "reasoning": "Overwatch begins to expand into multiple branches like a Covert Opps division"
         }
-      ]
+      ],
+      "id": "event-979ecbebd796"
     },
     {
       "name": "Operation White Dome",
@@ -5500,7 +5617,8 @@
           "reasoning": "The last of the Anubis loyal Omnics subdued, at great cost"
         }
       ],
-      "yearEnd": null
+      "yearEnd": null,
+      "id": "event-4a5893e638bd"
     },
     {
       "name": "Brigitte Lindholm is Born",
@@ -5552,7 +5670,8 @@
           "country": "Ingrid",
           "reasoning": "Mother"
         }
-      ]
+      ],
+      "id": "event-35aa6a138a7f"
     },
     {
       "name": "Australian Liberation",
@@ -5607,7 +5726,8 @@
           "country": "Mason",
           "reasoning": "ALF Member, founding King of Junkertown"
         }
-      ]
+      ],
+      "id": "event-114182757781"
     },
     {
       "name": "Watching the Globe",
@@ -5678,7 +5798,8 @@
           "country": "Liao,",
           "reasoning": "Liao is among the designers of Gibralter's Orbital Launch base"
         }
-      ]
+      ],
+      "id": "event-e6c28b2877e7"
     },
     {
       "name": "Undercover",
@@ -5729,7 +5850,8 @@
           "country": "Gérard,",
           "reasoning": "Newly hired Blackwatch Agent"
         }
-      ]
+      ],
+      "id": "event-4421fb9e3b30"
     },
     {
       "name": "Duty Calls",
@@ -5790,7 +5912,8 @@
           "reasoning": "Leaves Jack, choosing to live a normal life and settle down"
         }
       ],
-      "yearStart": 2053
+      "yearStart": 2053,
+      "id": "event-73f0147d4e9a"
     },
     {
       "name": "Sierra Turner Woods is Born",
@@ -5833,7 +5956,8 @@
           "country": "Kendra",
           "reasoning": "Mother, off the grid"
         }
-      ]
+      ],
+      "id": "event-02d1b65d0f80"
     },
     {
       "name": "One with the Iris",
@@ -5881,7 +6005,8 @@
           "country": "Liao,",
           "reasoning": "Visits the monastery to study the Iris"
         }
-      ]
+      ],
+      "id": "event-13631faa5c6c"
     },
     {
       "name": "Outcasted",
@@ -5931,7 +6056,8 @@
           "country": "Mason",
           "reasoning": "King of Junkertown"
         }
-      ]
+      ],
+      "id": "event-76636074cb87"
     },
     {
       "name": "Miracle Worker",
@@ -5991,7 +6117,8 @@
           "country": "Ingrid",
           "reasoning": "Close family friend with the Zeiglers"
         }
-      ]
+      ],
+      "id": "event-7b9f6d2a7f82"
     },
     {
       "name": "Findlay Docherty is Born",
@@ -6031,7 +6158,8 @@
           "country": "Hazard",
           "reasoning": "Findlay Docherty is Born"
         }
-      ]
+      ],
+      "id": "event-74edebd55b74"
     },
     {
       "name": "Deadlock Rebels",
@@ -6085,7 +6213,8 @@
           "country": "Frankie",
           "reasoning": "Recruited into the heist team"
         }
-      ]
+      ],
+      "id": "event-a4e89172583b"
     },
     {
       "name": "Rebuilding the Past",
@@ -6128,7 +6257,8 @@
           "country": "Colosseo Gladiatori,",
           "reasoning": "A reopen Arena for pageant sports in Italy"
         }
-      ]
+      ],
+      "id": "event-2e409111f09d"
     },
     {
       "name": "Anima Weaponry",
@@ -6195,7 +6325,8 @@
           "country": "Kamori-san,",
           "reasoning": "Gifted the Anima infused Fox Ofuda"
         }
-      ]
+      ],
+      "id": "event-cd6c2e049c36"
     },
     {
       "name": "Brotherhood",
@@ -6245,7 +6376,8 @@
           "country": "Mondatta",
           "reasoning": "Spiritual leader both monks follow"
         }
-      ]
+      ],
+      "id": "event-f262769793ee"
     },
     {
       "name": "Outlaws",
@@ -6306,7 +6438,8 @@
           "country": "Bez,",
           "reasoning": "Betrays the Diamondbacks to rescue Cassidy"
         }
-      ]
+      ],
+      "id": "event-c702791cc0a4"
     },
     {
       "name": "Vancouver Floods",
@@ -6366,7 +6499,8 @@
       "headlines": [
         "Overwatch responds quickly to massive floods in Brittish Columbia",
         "Dam System to be built by Overwatch across the West coast of North America"
-      ]
+      ],
+      "id": "event-70d2e5816d80"
     },
     {
       "name": "Ye Anran is Born",
@@ -6399,7 +6533,8 @@
           "country": "Anran",
           "reasoning": "Ye Anran is Born"
         }
-      ]
+      ],
+      "id": "event-fac284df8a51"
     },
     {
       "name": "The New West",
@@ -6471,7 +6606,8 @@
           "country": "Gérard,",
           "reasoning": "Blackwatch Operator"
         }
-      ]
+      ],
+      "id": "event-5a9ca73f822a"
     },
     {
       "name": "The Gunslinger",
@@ -6518,7 +6654,8 @@
           "reasoning": "Integrate Cassidy into Reyes' staff"
         }
       ],
-      "yearStart": 2056
+      "yearStart": 2056,
+      "id": "event-6b1950b43e2c"
     },
     {
       "name": "Mizuki Kawano is Born",
@@ -6553,7 +6690,8 @@
           "country": "Mizuki,",
           "reasoning": "Mizuki Kawano is Born"
         }
-      ]
+      ],
+      "id": "event-eb6b9cda34ce"
     },
     {
       "name": "The Architech Academy",
@@ -6603,7 +6741,8 @@
       "headlines": [
         "Vishkar Opens the Architect Academy",
         "India approves the schooling project for hundreds of orphans"
-      ]
+      ],
+      "id": "event-faabc261be6e"
     },
     {
       "name": "Studying for the Future",
@@ -6658,7 +6797,8 @@
           "country": "Jiayi,",
           "reasoning": "Close friend Mei met in University"
         }
-      ]
+      ],
+      "id": "event-c4118b27e846"
     },
     {
       "name": "Hana Song is Born",
@@ -6698,7 +6838,8 @@
           "country": "Dae-Hyun,",
           "reasoning": "Close childhood friend"
         }
-      ]
+      ],
+      "id": "event-8d70e93f48d0"
     },
     {
       "name": "Ecological Initiative",
@@ -6780,7 +6921,8 @@
           "country": "Hector, Claudio,",
           "reasoning": "Proposers of the Ecopoint program"
         }
-      ]
+      ],
+      "id": "event-4407a18ba8ea"
     },
     {
       "name": "Kiriko Kamori is Born",
@@ -6834,7 +6976,8 @@
           "country": "Kamori-san,",
           "reasoning": "Kiriko's Grandmother"
         }
-      ]
+      ],
+      "id": "event-c08f204e765e"
     },
     {
       "name": "Building Coalitions",
@@ -6877,7 +7020,8 @@
       "headlines": [
         "Overwatch defies government petitions to shut down the Caribbean Coaltion",
         "Overwatch aids in efforts to rebuild Latin America"
-      ]
+      ],
+      "id": "event-3d19f9451942"
     },
     {
       "name": "City of Harmony",
@@ -6916,7 +7060,8 @@
           "reasoning": "Founder of Numbani; her death marks the end of the founding era",
           "badgePriority": true
         }
-      ]
+      ],
+      "id": "event-45da94c89bd0"
     },
     {
       "name": "Mother's Guidance",
@@ -6970,7 +7115,8 @@
           "url": "https://www.amazon.com/Overwatch-Declassified-Official-Seanan-McGuire/dp/1803361662"
         }
       ],
-      "yearStart": 2053
+      "yearStart": 2053,
+      "id": "event-aae62ceef3ab"
     },
     {
       "name": "On the Run",
@@ -7016,7 +7162,8 @@
           "country": "Kendra",
           "reasoning": "Evades her captors at every turn"
         }
-      ]
+      ],
+      "id": "event-c662fea2efa3"
     },
     {
       "name": "Sparkplug",
@@ -7070,7 +7217,8 @@
           "country": "Ingrid,",
           "reasoning": "Bans inventions from the Kitchen"
         }
-      ]
+      ],
+      "id": "event-7af03a120a8e"
     },
     {
       "name": "Liao's Renaissance",
@@ -7113,7 +7261,8 @@
       "headlines": [
         "Protests over God AI shutdown continue",
         "Overwatch reveals Athena AI support"
-      ]
+      ],
+      "id": "event-ed5a572e9577"
     },
     {
       "name": "Gwishin",
@@ -7166,7 +7315,8 @@
           "reasoning": "A phantom group of war machines made by an underwater Omnium"
         }
       ],
-      "headlines": []
+      "headlines": [],
+      "id": "event-a0f189d946fe"
     },
     {
       "name": "The Scourge of Numbani",
@@ -7218,7 +7368,8 @@
       "headlines": [
         "Man claiming to be Doomfist wrecks havoc across Numbani",
         "The city of harmony delays Unity Day celebrations due to concerns about warmonger raid"
-      ]
+      ],
+      "id": "event-81ffb0116d88"
     },
     {
       "name": "The Red Promise",
@@ -7285,7 +7436,8 @@
           "country": "Chao,",
           "reasoning": "Head of Lucheng and the Red Promise project"
         }
-      ]
+      ],
+      "id": "event-a0d3a6fc6d2a"
     },
     {
       "name": "Yearning",
@@ -7327,7 +7479,8 @@
           "country": "Overwatch",
           "reasoning": "Both serve on the strike team during their unspoken romance"
         }
-      ]
+      ],
+      "id": "event-3a678b8b6477"
     },
     {
       "name": "The Xie Incident",
@@ -7370,7 +7523,8 @@
           "country": "Overwatch,",
           "reasoning": "Caught under for deploying Ana before adquiring clearance"
         }
-      ]
+      ],
+      "id": "event-a00b20a8b573"
     },
     {
       "name": "Juno Teo Minh is Born",
@@ -7417,7 +7571,8 @@
           "country": "Jiayi,",
           "reasoning": "Juno's Mother"
         }
-      ]
+      ],
+      "id": "event-539aff5f7d4a"
     },
     {
       "name": "Omnic Rights",
@@ -7461,7 +7616,8 @@
           "country": "Liao,",
           "reasoning": "Testifies in favor of Omnic rights"
         }
-      ]
+      ],
+      "id": "event-ee86091a7dd0"
     },
     {
       "name": "Ye Wuyang is Born",
@@ -7499,7 +7655,8 @@
           "country": "Anran,",
           "reasoning": "Now an older sister"
         }
-      ]
+      ],
+      "id": "event-a7553b7d2878"
     },
     {
       "name": "Black Ops",
@@ -7561,7 +7718,8 @@
           "reasoning": "Goes on Vacations with Reyes, criminals seemignly vanish every time"
         }
       ],
-      "headlines": []
+      "headlines": [],
+      "id": "event-7303620c31bc"
     },
     {
       "name": "Growing with the Clan",
@@ -7627,7 +7785,8 @@
           "country": "Kamori-san,",
           "reasoning": "Utilizes the Fox Spirit as a method of teaching Kiriko"
         }
-      ]
+      ],
+      "id": "event-e1182a32aa1d"
     },
     {
       "name": "Illari Quispe Ruiz is Born",
@@ -7660,7 +7819,8 @@
           "country": "Illari",
           "reasoning": "Illari Quispe Ruiz is Born"
         }
-      ]
+      ],
+      "id": "event-1bbf2f5e1d33"
     },
     {
       "name": "Survivor",
@@ -7700,7 +7860,8 @@
       "headlines": [
         "Australian Outback declared unsafe to visit due to Caravan raiders",
         "Health Conditions on the south of Australia worsen as radiation outbreak continues"
-      ]
+      ],
+      "id": "event-095fc909bdc4"
     },
     {
       "name": "Risen in Blood",
@@ -7753,7 +7914,8 @@
           "country": "Hashimoto Clan,",
           "reasoning": "Falls in line with Shion fearing they will be next"
         }
-      ]
+      ],
+      "id": "event-fc028beb877e"
     },
     {
       "name": "Specimen 8 is Born",
@@ -7800,7 +7962,8 @@
           "country": "Chao,",
           "reasoning": "In charge of Genetic Therapy"
         }
-      ]
+      ],
+      "id": "event-681e9115e173"
     },
     {
       "name": "The Atlantic Arcology",
@@ -7845,7 +8008,8 @@
           "country": "Hector, Claudio,",
           "reasoning": "Leave Overwatch to create the Arcology and Collective"
         }
-      ]
+      ],
+      "id": "event-2be13eb4de78"
     },
     {
       "name": "Pocket King",
@@ -7892,7 +8056,8 @@
       "headlines": [
         "Omnic appointed head of Monte Carlo's development",
         "Axiom stocks spike follwoing change in company leadership"
-      ]
+      ],
+      "id": "event-0654ca5c804d"
     },
     {
       "name": "Valkirie",
@@ -7939,7 +8104,8 @@
       "headlines": [
         "Overwatch's new Member \"Mercy\" saves countless lives thanks to flying medical suit",
         "Nanobiotic equipment to begin mass production soon"
-      ]
+      ],
+      "id": "event-dffc0cb0066d"
     },
     {
       "name": "Sparrow",
@@ -8000,7 +8166,8 @@
           "reasoning": "Push the brothers to train and be part of the family business"
         }
       ],
-      "yearStart": 2060
+      "yearStart": 2060,
+      "id": "event-d066fced2c32"
     },
     {
       "name": "Captivate",
@@ -8057,7 +8224,8 @@
           "badgePriority": true
         }
       ],
-      "yearStart": 2064
+      "yearStart": 2064,
+      "id": "event-811a78ea34e7"
     },
     {
       "name": "Radiation Poisoning",
@@ -8100,7 +8268,8 @@
       "headlines": [
         "Junker cavaran raids Overwatch outpost, no casualties, few wounded",
         "Melbourn hospotal renames facility in honor to Angela Ziegler"
-      ]
+      ],
+      "id": "event-6b3b53cf134e"
     },
     {
       "name": "When you Wish",
@@ -8140,7 +8309,8 @@
           "country": "Mercy,",
           "reasoning": "Answers to public criticism for her lack of involvement"
         }
-      ]
+      ],
+      "id": "event-634fcb863cd1"
     },
     {
       "name": "Omnic Liberation",
@@ -8196,7 +8366,8 @@
       "headlines": [
         "Reports of Omnic Activist storming warehouses increase",
         "Omnic Underworld conditions worsen in London, protests continue"
-      ]
+      ],
+      "id": "event-d1700cd3f177"
     },
     {
       "name": "Deep Rising",
@@ -8254,7 +8425,8 @@
           "country": "Anubis,",
           "reasoning": "Allegedly made secret Omniums at the bottom of the sea"
         }
-      ]
+      ],
+      "id": "event-e48affc8256a"
     },
     {
       "name": "Harnessing te Harness",
@@ -8298,7 +8470,8 @@
       ],
       "headlines": [
         "Accident on the International Space Station during Dr. De Kuiper's experiment"
-      ]
+      ],
+      "id": "event-c19dac29d361"
     },
     {
       "name": "Omnic Housing",
@@ -8344,7 +8517,8 @@
           "country": "Mondatta,",
           "reasoning": "Works with the local government to give Omnics a Home"
         }
-      ]
+      ],
+      "id": "event-9fa096cee03d"
     },
     {
       "name": "Luxuries",
@@ -8397,7 +8571,8 @@
           "country": "Hashimoto Clan,",
           "reasoning": "Questions Shion's activities"
         }
-      ]
+      ],
+      "id": "event-d5c255871add"
     },
     {
       "name": "Subject Sigma",
@@ -8437,7 +8612,8 @@
           "country": "Sigma,",
           "reasoning": "Imprisoned to keep his powers under Control"
         }
-      ]
+      ],
+      "id": "event-d0baf5a68284"
     },
     {
       "name": "Storm Chaser",
@@ -8476,7 +8652,8 @@
       ],
       "headlines": [
         "Tragedy avoided thanks to Freja Skov and Search and Rescue"
-      ]
+      ],
+      "id": "event-431ad5c89807"
     },
     {
       "name": "Pressure Makes a DIamond",
@@ -8536,7 +8713,8 @@
             "https://www.youtube.com/watch?v=BWd_QJjBAbM"
           ]
         }
-      ]
+      ],
+      "id": "event-ee8a6878469e"
     },
     {
       "name": "Counter Meassures",
@@ -8605,7 +8783,8 @@
           "country": "Adeyemi,",
           "reasoning": "Continues raids through Numbani"
         }
-      ]
+      ],
+      "id": "event-6eb2914968a3"
     },
     {
       "name": "Taking the Throne",
@@ -8660,7 +8839,8 @@
       "headlines": [
         "Reports of a change in Junker Monarchy confirmed",
         "Radiation levels in the outback stabilizing"
-      ]
+      ],
+      "id": "event-78465685cb5e"
     },
     {
       "name": "Project Echo Goes Online",
@@ -8723,7 +8903,8 @@
           "country": "Athena,",
           "reasoning": "Considered Echo's 'sister'"
         }
-      ]
+      ],
+      "id": "event-c9c9326f7955"
     },
     {
       "name": "Out There",
@@ -8782,7 +8963,8 @@
           "country": "Harold,",
           "reasoning": "Winston and Hammond's caretaker"
         }
-      ]
+      ],
+      "id": "event-13a6f6731d92"
     },
     {
       "name": "When Dragons Fall",
@@ -8854,7 +9036,8 @@
           "country": "Sojiro,",
           "reasoning": "Assasinated by the Hashimoto"
         }
-      ]
+      ],
+      "id": "event-38913b699b6f"
     },
     {
       "name": "Search and Rescue",
@@ -8916,7 +9099,8 @@
           "country": "Overwatch, Search & Rescue,",
           "reasoning": "Overwatch expands into new Divisions"
         }
-      ]
+      ],
+      "id": "event-4fcf340fecc0"
     },
     {
       "name": "Cursed",
@@ -8985,7 +9169,8 @@
       "headlines": [
         "Hashimoto gangsters seen wielding energy weapons",
         "Tokyo crime rates increase twice as fast this last month"
-      ]
+      ],
+      "id": "event-cc0efdd2900e"
     },
     {
       "name": "Escalation",
@@ -9035,7 +9220,8 @@
           "country": "Nameless, Zera, Lanet,",
           "reasoning": "Work with Ramattra but grow frustrated by his ideals"
         }
-      ]
+      ],
+      "id": "event-ae62d7adf3fa"
     },
     {
       "name": "Cyber Ninja",
@@ -9082,7 +9268,8 @@
           "country": "Overwatch, Blackwatch",
           "reasoning": "Medical division rebuilds Genji into a living weapon"
         }
-      ]
+      ],
+      "id": "event-82b4320130eb"
     },
     {
       "name": "Healing Nature",
@@ -9127,7 +9314,8 @@
           "country": "Vishkar Corporation",
           "reasoning": "Niran researches hardlight healing at the academy"
         }
-      ]
+      ],
+      "id": "event-42799fc05b46"
     },
     {
       "name": "Takeover",
@@ -9194,7 +9382,8 @@
       "headlines": [
         "The Scourge of Numbani is dead, man claiming to be his killer steals the Doomfist Gauntlet",
         "Reports of Talon across the Caribbean continue, corruption allegations among the Coaltion ranks on the rise"
-      ]
+      ],
+      "id": "event-76f8f1d6b9c6"
     },
     {
       "name": "Lost in Time",
@@ -9238,7 +9427,8 @@
       ],
       "headlines": [
         "Overwatch pilot lost in time following engine malfunciton in experimental jet"
-      ]
+      ],
+      "id": "event-ed57cdd7cfd2"
     },
     {
       "name": "Shimada Takedown",
@@ -9295,7 +9485,8 @@
       "headlines": [
         "Shimada activity reports in Kanezaka suddendly drop, several known members missing",
         "Kanezakan locals claim extorsion attempts at the hand of Shimada gangsters"
-      ]
+      ],
+      "id": "event-b425772947d0"
     },
     {
       "name": "Blacklisted",
@@ -9343,7 +9534,8 @@
       "headlines": [
         "Controversial paper on Celular regeneration shakes the scientific world",
         "Overwatch releases public condemnation of Moira O'Deorain's research"
-      ]
+      ],
+      "id": "event-89844105b871"
     },
     {
       "name": "Cold Snap",
@@ -9394,7 +9586,8 @@
         "Anomalous Blizzard reaches Thirteen months of consistent activity",
         "Overwatch declares Antartica staff dead after storm extends pass the survivable window",
         "The Resolute ship is lost during rescue mission in Antartica"
-      ]
+      ],
+      "id": "event-5f32ada8774d"
     },
     {
       "name": "Uneasy Alliance",
@@ -9448,7 +9641,8 @@
       "headlines": [
         "La Coaterie power brokect presumed to have ties with Talon",
         "Talon activity reported in Monte Carlo"
-      ]
+      ],
+      "id": "event-58eb13505d45"
     },
     {
       "name": "Bodily Entropy",
@@ -9490,7 +9684,8 @@
           "country": "Overwatch, Blackwatch,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-b2b9b6d6ad37"
     },
     {
       "name": "Hacking Spree",
@@ -9538,7 +9733,8 @@
           "text": "Sombra Origin Story",
           "url": "https://www.youtube.com/watch?v=vHHjdKMH7_w"
         }
-      ]
+      ],
+      "id": "event-a64094988655"
     },
     {
       "name": "Biolight",
@@ -9600,7 +9796,8 @@
           "country": "Bhatt,",
           "reasoning": "The late founder's notes prove essential to Biolight"
         }
-      ]
+      ],
+      "id": "event-48ed884829e4"
     },
     {
       "name": "Hostage",
@@ -9667,7 +9864,8 @@
           "country": "Kuroura,",
           "reasoning": "Left in charge of the Kanezaka branch of the Hashimoto"
         }
-      ]
+      ],
+      "id": "event-45ed16c489a0"
     },
     {
       "name": "Deep Sea Raiders",
@@ -9715,7 +9913,8 @@
       "headlines": [
         "Massive Oil leak absorbed by a Super Coral Colony in Samoa",
         "Experts warn against sailing on waters near New Zealand following terrorist raids"
-      ]
+      ],
+      "id": "event-6d21d6a8ec31"
     },
     {
       "name": "White Canvas",
@@ -9764,7 +9963,8 @@
           "country": "Liao",
           "reasoning": "Leads Project Echo and grows close to Cassidy"
         }
-      ]
+      ],
+      "id": "event-f3dd65c52e00"
     },
     {
       "name": "Intrepit Adventurers",
@@ -9807,7 +10007,8 @@
           "text": "Overwatch Website, Venture",
           "url": "https://overwatch.blizzard.com/en-us/heroes/venture/#rise-to-the-challenge"
         }
-      ]
+      ],
+      "id": "event-4320ef8e0531"
     },
     {
       "name": "Lunar Revolt",
@@ -9865,7 +10066,8 @@
           "country": "Harold,",
           "reasoning": "Killed alongside the rest of the staff"
         }
-      ]
+      ],
+      "id": "event-c0715089906c"
     },
     {
       "name": "Leverage",
@@ -9925,7 +10127,8 @@
           "country": "Toshiro",
           "reasoning": "Forced to improve his Anima weapons under threat to Mizuki"
         }
-      ]
+      ],
+      "id": "event-272d6897be28"
     },
     {
       "name": "Escape Pod",
@@ -9994,7 +10197,8 @@
           "country": "Lucheng Interstellar,",
           "reasoning": "Attempt to claim Winston as property"
         }
-      ]
+      ],
+      "id": "event-68166528d075"
     },
     {
       "name": "Shrine Maiden",
@@ -10051,7 +10255,8 @@
           "country": "Kamori-san,",
           "reasoning": "Teaches Kiriko about the Fox Spirit"
         }
-      ]
+      ],
+      "id": "event-20965449e152"
     },
     {
       "name": "Chronal Dissociation",
@@ -10105,7 +10310,8 @@
       "headlines": [
         "Agent Winston saves pilot lost in time",
         "Overwatch to recruit time traveling agent"
-      ]
+      ],
+      "id": "event-8912896d8282"
     },
     {
       "name": "Champion",
@@ -10153,7 +10359,8 @@
           "text": "Overwatch Website, Wrecking Ball",
           "url": "https://overwatch.blizzard.com/en-us/heroes/wrecking-ball/"
         }
-      ]
+      ],
+      "id": "event-ccd456fc1928"
     },
     {
       "name": "The Oslo Attack",
@@ -10239,7 +10446,8 @@
       "headlines": [
         "Dr. Mina Liao is murdered during explosions in lab",
         "Overwatch facility in Oslo attacked by terrorist group"
-      ]
+      ],
+      "id": "event-b822c8a6f754"
     },
     {
       "name": "Retribution",
@@ -10310,7 +10518,8 @@
           "country": "Antonio,",
           "reasoning": "Bombed Blackwatch as a territorial threat"
         }
-      ]
+      ],
+      "id": "event-9391260a6415"
     },
     {
       "name": "The Venice Incident",
@@ -10371,7 +10580,8 @@
           "country": "Antonio,",
           "reasoning": "Assassinated on the spot by Gabriel Reyes"
         }
-      ]
+      ],
+      "id": "event-2f4be5341568"
     },
     {
       "name": "Questioning",
@@ -10436,7 +10646,8 @@
           "country": "Gérard,",
           "reasoning": "Answers for Blackwatch activity following his recovery"
         }
-      ]
+      ],
+      "id": "event-edba5ddd77df"
     },
     {
       "name": "Stolen Future",
@@ -10497,7 +10708,8 @@
       "headlines": [
         "The Bartalotti business to be lead by Augusto Vialli",
         "Antonio Bartalotti's assests relocated out of Rialto following his death"
-      ]
+      ],
+      "id": "event-de1c64ae730b"
     },
     {
       "name": "Two Hearts",
@@ -10540,7 +10752,8 @@
           "reasoning": "Provided Mauga with cybernetic hearts to save his life"
         }
       ],
-      "yearStart": 2068
+      "yearStart": 2068,
+      "id": "event-bd26817bfa57"
     },
     {
       "name": "Unshackled",
@@ -10592,7 +10805,8 @@
       "headlines": [
         "Controversial Scientist Moira O'Deorain hired into the Ministry of Genetics of Oasis University",
         "Overwatch removes Dr. O'Deorain following the Venice Incident"
-      ]
+      ],
+      "id": "event-a512a0a1756d"
     },
     {
       "name": "Prodigy Child",
@@ -10636,7 +10850,8 @@
           "text": "Overwatch Website Illari",
           "url": "https://overwatch.blizzard.com/en-us/heroes/illari/"
         }
-      ]
+      ],
+      "id": "event-1ee6a1fb3a39"
     },
     {
       "name": "Uprising",
@@ -10724,7 +10939,8 @@
       "headlines": [
         "Null Sector takes control of Kings Row",
         "Mondatta taken hostage by Omnic Extremist"
-      ]
+      ],
+      "id": "event-4f915236d4e0"
     },
     {
       "name": "Intervention",
@@ -10785,7 +11001,8 @@
           "country": "Lanet,",
           "reasoning": "Killed during the attack"
         }
-      ]
+      ],
+      "id": "event-7a4bbc51839e"
     },
     {
       "name": "Resolve",
@@ -10835,7 +11052,8 @@
           "text": "Ramattra Reflections",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltc08ef1227df73769/638db09da056f810486e240e/OW_LoreBite-Ramattra_FINAL_EN.pdf"
         }
-      ]
+      ],
+      "id": "event-378bce22520a"
     },
     {
       "name": "Widowed",
@@ -10892,7 +11110,8 @@
       "headlines": [
         "Overwatch agent killed by his own wife?",
         "Talon kidnaps ballerina Prima donna"
-      ]
+      ],
+      "id": "event-ae9bad205056"
     },
     {
       "name": "Emotionless",
@@ -10946,7 +11165,8 @@
           "country": "Vialli, Maximillien,",
           "reasoning": "Recurrently requested the Widowmaker for Assassination"
         }
-      ]
+      ],
+      "id": "event-17e97f4eca7e"
     },
     {
       "name": "Failure at Sea",
@@ -11014,7 +11234,8 @@
       "headlines": [
         "Fourteen death following Overwatch attack on Samoa",
         "Polynesian League Nations set to drop out of the UN"
-      ]
+      ],
+      "id": "event-a933c56d66a5"
     },
     {
       "name": "Forced Retirement",
@@ -11079,7 +11300,8 @@
       "headlines": [
         "Three hostages killed during Asunción Summit attack",
         "Overwatch action leads to global security data being stolen"
-      ]
+      ],
+      "id": "event-a61a656d5e52"
     },
     {
       "name": "Fighting the System",
@@ -11117,7 +11339,8 @@
           "text": "Overwatch Website, Hazard",
           "url": "https://overwatch.blizzard.com/en-us/heroes/hazard/"
         }
-      ]
+      ],
+      "id": "event-6f4cc1970b60"
     },
     {
       "name": "La Lupa",
@@ -11172,7 +11395,8 @@
             "https://www.youtube.com/watch?v=GDiqTSiZyOs"
           ]
         }
-      ]
+      ],
+      "id": "event-8f04f500f1b1"
     },
     {
       "name": "Overridden",
@@ -11227,7 +11451,8 @@
           "text": "Overwatch Website, Emre",
           "url": "https://overwatch.blizzard.com/en-us/heroes/emre/"
         }
-      ]
+      ],
+      "id": "event-d31a439a9e0f"
     },
     {
       "name": "MEKKA",
@@ -11275,7 +11500,8 @@
       "headlines": [
         "Busan nearly leveled following Gwishin attack",
         "Korea rebeals drone Exo-Force units"
-      ]
+      ],
+      "id": "event-9bb99f8754cb"
     },
     {
       "name": "Missing in Action",
@@ -11333,7 +11559,8 @@
       "headlines": [
         "Ana Amari goes missing during Poland Mission",
         "Overwatch rescues scientists from Talon kidnapping"
-      ]
+      ],
+      "id": "event-1a6bfa384fe2"
     },
     {
       "name": "Another Job, Another Battlefield",
@@ -11376,7 +11603,8 @@
       "headlines": [
         "Talon attacks distabilize many communities across the Caribbean",
         "Ex Coalition personnel caught dealing with Talon Agents"
-      ]
+      ],
+      "id": "event-78029dcc82b6"
     },
     {
       "name": "Fun with Friends",
@@ -11430,7 +11658,8 @@
           "text": "Overwatch Website, Mauga",
           "url": "https://overwatch.blizzard.com/en-us/heroes/mauga/"
         }
-      ]
+      ],
+      "id": "event-a53ea9a9038e"
     },
     {
       "name": "Ghost",
@@ -11479,7 +11708,8 @@
           "country": "Soldier 76, Reaper,",
           "reasoning": "Continue to escalate in confrontations without Ana mediating"
         }
-      ]
+      ],
+      "id": "event-860fd6a168b9"
     },
     {
       "name": "Disappeared",
@@ -11529,7 +11759,8 @@
           "text": "Overwatch Website, Sierra",
           "url": "https://overwatch.blizzard.com/en-us/heroes/sierra/"
         }
-      ]
+      ],
+      "id": "event-feeffa57dda1"
     },
     {
       "name": "Storm Rising",
@@ -11590,7 +11821,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-1f1826008d7d"
     },
     {
       "name": "Doomed to Fail",
@@ -11639,7 +11871,8 @@
       "yearEnd": null,
       "headlines": [
         "Reports of Null Sector activity slow down following  the Uprising"
-      ]
+      ],
+      "id": "event-7052eb218de5"
     },
     {
       "name": "The Conspiracy",
@@ -11687,7 +11920,8 @@
           "text": "Sombra Origin",
           "url": "https://www.youtube.com/watch?v=vHHjdKMH7_w"
         }
-      ]
+      ],
+      "id": "event-1815e8deb1b2"
     },
     {
       "name": "Closed Fist",
@@ -11738,7 +11972,8 @@
       "yearEnd": null,
       "headlines": [
         "Doomfist is finally defeated in Singapore"
-      ]
+      ],
+      "id": "event-85a58a2f67bf"
     },
     {
       "name": "Interrogation",
@@ -11787,7 +12022,8 @@
       "yearEnd": null,
       "headlines": [
         "Akande Ogundimu is set to be held at Watchpoint: Grímsvötn"
-      ]
+      ],
+      "id": "event-9c72c34ec678"
     },
     {
       "name": "Colateral Damage",
@@ -11834,7 +12070,8 @@
           "text": "Tear it Down",
           "url": "https://overwatch.blizzard.com/en-us/media/comic/tear-it-down/"
         }
-      ]
+      ],
+      "id": "event-1e5cc730e610"
     },
     {
       "name": "Back in Business",
@@ -11890,7 +12127,8 @@
           "text": "A new Empire",
           "url": "https://overwatch.blizzard.com/en-us/media/comic/a-new-empire/"
         }
-      ]
+      ],
+      "id": "event-495ad2e5941f"
     },
     {
       "name": "The Zurich Attack",
@@ -11938,7 +12176,8 @@
       "headlines": [
         "Overwatch HQ at Zurich suffers a terrorist attack",
         "Jack Morrison and Gabriel Reyes are declared death during Zurich's rescue efforts"
-      ]
+      ],
+      "id": "event-309381119c7d"
     },
     {
       "name": "Self Discovery",
@@ -11990,7 +12229,8 @@
           "text": "Overwatch Website, Genjig",
           "url": "https://overwatch.blizzard.com/en-us/heroes/genji/"
         }
-      ]
+      ],
+      "id": "event-5d1728870fc3"
     },
     {
       "name": "Mass Backlash",
@@ -12011,7 +12251,8 @@
         }
       ],
       "headlines": [],
-      "sources": []
+      "sources": [],
+      "id": "event-ae51039fba6c"
     },
     {
       "name": "The Petras Act Hearings",
@@ -12086,7 +12327,8 @@
           "country": "Naughton, Sam,",
           "reasoning": "Called to testify"
         }
-      ]
+      ],
+      "id": "event-451b1b68335c"
     },
     {
       "name": "Protecting the Skies",
@@ -12149,7 +12391,8 @@
           "text": "Overwatch Declasified",
           "url": "https://www.amazon.com/Overwatch-Declassified-Official-Seanan-McGuire/dp/1803361662"
         }
-      ]
+      ],
+      "id": "event-e21f831ee86c"
     },
     {
       "name": "Code of Violence",
@@ -12206,7 +12449,8 @@
           "text": "Code of Violence",
           "url": "https://overwatch.blizzard.com/en-us/media/short-story/code-of-violence/"
         }
-      ]
+      ],
+      "id": "event-41a022f84f3a"
     },
     {
       "name": "Released",
@@ -12258,7 +12502,8 @@
           "text": "Sigma Origin Story",
           "url": "https://www.youtube.com/watch?v=onplsJSdp4A"
         }
-      ]
+      ],
+      "id": "event-d14fec859ec7"
     },
     {
       "name": "Another Life",
@@ -12336,7 +12581,8 @@
           "country": "Chernobog,",
           "reasoning": "Commands Emre to take specific jobs for Talon"
         }
-      ]
+      ],
+      "id": "event-b1442e86e9ff"
     },
     {
       "name": "Deactivated",
@@ -12390,7 +12636,8 @@
           "reasoning": "Take control of Overwatch's assets"
         }
       ],
-      "yearStart": 2070
+      "yearStart": 2070,
+      "id": "event-af0f5168baaa"
     },
     {
       "name": "Shrike",
@@ -12450,7 +12697,8 @@
           "text": "Bastet",
           "url": "https://overwatch.blizzard.com/en-us/media/short-story/bastet/"
         }
-      ]
+      ],
+      "id": "event-659b2c9554e9"
     },
     {
       "name": "Top Player",
@@ -12511,7 +12759,8 @@
           "country": "Dae-Hyun,",
           "reasoning": "Hana's closest friend and supporter"
         }
-      ]
+      ],
+      "id": "event-22df67ecc9c7"
     },
     {
       "name": "Found Family",
@@ -12592,7 +12841,8 @@
             "https://www.youtube.com/watch?v=u282-SDwYtg"
           ]
         }
-      ]
+      ],
+      "id": "event-27d0154191d6"
     },
     {
       "name": "Runs in the Family",
@@ -12653,7 +12903,8 @@
           "text": "Ashe Origin Story",
           "url": "https://www.youtube.com/watch?v=yvT9wKCrEyo"
         }
-      ]
+      ],
+      "id": "event-3b63e6589c97"
     },
     {
       "name": "A Better World",
@@ -12708,7 +12959,8 @@
       "headlines": [
         "Calado officies burn down after explosion in Rio",
         "Vishkar to rebuild Rio's city center and favelas in the new Paraiso Project"
-      ]
+      ],
+      "id": "event-9ee0de660928"
     },
     {
       "name": "Treassure",
@@ -12755,7 +13007,8 @@
           "text": "Waste Land",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blte43dc5bcdc5c9a75/5d02e6a37b48be290a7f9679/comic-overwatch-wasted-land_en-gb.pdf"
         }
-      ]
+      ],
+      "id": "event-139d28af550d"
     },
     {
       "name": "Strongest Woman Alive",
@@ -12790,7 +13043,8 @@
           "country": "Zarya,",
           "reasoning": "Becomes an Olympic Weightlifter"
         }
-      ]
+      ],
+      "id": "event-5a97382e0695"
     },
     {
       "name": "Chivalry",
@@ -12853,7 +13107,8 @@
           "country": "Ingrid,",
           "reasoning": "Takes Reinhardt in to spend time with the Family"
         }
-      ]
+      ],
+      "id": "event-4f20ddbcd9e0"
     },
     {
       "name": "Networking",
@@ -12915,7 +13170,8 @@
           "country": "Portero,",
           "reasoning": "In conneciton with Sanjay"
         }
-      ]
+      ],
+      "id": "event-6066b0efb812"
     },
     {
       "name": "Not Alone",
@@ -12958,7 +13214,8 @@
           "country": "Athena,",
           "reasoning": "Keeps Winston Company and prevents him from doing anything stupid"
         }
-      ]
+      ],
+      "id": "event-976319e74bca"
     },
     {
       "name": "Cycle of Violence",
@@ -13001,7 +13258,8 @@
           "text": "What you left behind",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt0194921f5024bf0c/5d5ef7f33471931c451d2bce/what-you-left-behind_en-us.pdf"
         }
-      ]
+      ],
+      "id": "event-b72ea9c2d211"
     },
     {
       "name": "Siberian Front",
@@ -13051,7 +13309,8 @@
           "text": "Overwatch Website, Zarya",
           "url": "https://overwatch.blizzard.com/en-us/heroes/zarya/"
         }
-      ]
+      ],
+      "id": "event-a44076984bba"
     },
     {
       "name": "Anubis Escapes",
@@ -13103,7 +13362,8 @@
           "text": "Mission Statement",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd61a7c0fa6827b4d/5d02e273cf7aa6330ac67308/comic-overwatch-mission-statement_en-us.pdf"
         }
-      ]
+      ],
+      "id": "event-5cab920f38b5"
     },
     {
       "name": "Game On",
@@ -13177,7 +13437,8 @@
       "headlines": [
         "Esports players drafted into experimental government program",
         "New MEKA Squad stops the Gwishin Colossus from reaching Busan"
-      ]
+      ],
+      "id": "event-49910ba74ca9"
     },
     {
       "name": "Neighborhood Hero",
@@ -13230,7 +13491,8 @@
           "reasoning": "Lena's new girlfrien"
         }
       ],
-      "yearStart": 2070
+      "yearStart": 2070,
+      "id": "event-c9dd212b7f16"
     },
     {
       "name": "Vanadium Strand",
@@ -13283,7 +13545,8 @@
           "text": "Field Report: Native Vanadium Cache",
           "url": "https://overwatch.blizzard.com/en-us/news/24160499/field-report-native-vanadium-cache/"
         }
-      ]
+      ],
+      "id": "event-261f4742ed1b"
     },
     {
       "name": "Bounty Hunter",
@@ -13323,7 +13586,8 @@
             "https://www.youtube.com/watch?v=LriEejDFSnQ"
           ]
         }
-      ]
+      ],
+      "id": "event-b868e5ffabd9"
     },
     {
       "name": "Legend of the Junker Queen",
@@ -13378,7 +13642,8 @@
           "country": "Meri, Geiger,",
           "reasoning": "Follow the Queen in her Incursions against Omnics"
         }
-      ]
+      ],
+      "id": "event-6b226a146636"
     },
     {
       "name": "Fire Star",
@@ -13424,7 +13689,8 @@
             "https://www.youtube.com/watch?v=RY3sER2O0jM&t=106s"
           ]
         }
-      ]
+      ],
+      "id": "event-604af4c0cea4"
     },
     {
       "name": "Train Hopper",
@@ -13471,7 +13737,8 @@
           "text": "Train Hopper",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt46ce6d6e4643f9b0/5d02e58da812cef40914a52e/comic-overwatch-train-hopper_en-us.pdf"
         }
-      ]
+      ],
+      "id": "event-361191515806"
     },
     {
       "name": "Traitor",
@@ -13520,7 +13787,8 @@
           "country": "Talon Empire,",
           "reasoning": "Sends down Cuerva's squad to hunt Baptiste down"
         }
-      ]
+      ],
+      "id": "event-4ac214a32733"
     },
     {
       "name": "Crime Spree",
@@ -13572,7 +13840,8 @@
           "text": "Roadhog and Junkrat Origins",
           "url": "https://www.youtube.com/watch?v=JC9WsS5PIzk"
         }
-      ]
+      ],
+      "id": "event-c76ebea38876"
     },
     {
       "name": "Summit Squad",
@@ -13621,7 +13890,8 @@
           "country": "Helix Securities,",
           "reasoning": "Assigns Sierra to lead the Summit Squad"
         }
-      ]
+      ],
+      "id": "event-7d55580e6e6d"
     },
     {
       "name": "Sonic Policing",
@@ -13681,7 +13951,8 @@
       "headlines": [
         "Protests in Rio continue due to Vishkar's failed promises",
         "London Police to adapt Sonic anti Riot weaponry"
-      ]
+      ],
+      "id": "event-6635de55f224"
     },
     {
       "name": "Help for the Needy",
@@ -13767,7 +14038,8 @@
           "country": "Ingrid,",
           "reasoning": "Angela visits the Lindholms occassionally for Holidays"
         }
-      ]
+      ],
+      "id": "event-22dcefd1ce51"
     },
     {
       "name": "Dragon Slayer",
@@ -13810,7 +14082,8 @@
           "text": "Dragon Slayer",
           "url": "https://www.youtube.com/watch?v=oJ09xdxzIJQ"
         }
-      ]
+      ],
+      "id": "event-18cca96a0475"
     },
     {
       "name": "Destroyer",
@@ -13860,7 +14133,8 @@
           "text": "Destroyer",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt0b9872d6857ba358/5d02d18aa812cef40914a4a6/comic-overwatch-destroyer_en-us.pdf"
         }
-      ]
+      ],
+      "id": "event-4001ccfedc32"
     },
     {
       "name": "Squire",
@@ -13915,7 +14189,8 @@
           "text": "Brigitte Origin Story",
           "url": "https://www.youtube.com/watch?v=K_m8fcJb5tE"
         }
-      ]
+      ],
+      "id": "event-4766063f4567"
     },
     {
       "name": "Here to be heard",
@@ -13966,7 +14241,8 @@
           "country": "Benicio,",
           "reasoning": "Supports his son and the revolution"
         }
-      ]
+      ],
+      "id": "event-34c175d0bc92"
     },
     {
       "name": "Vigilante",
@@ -14026,7 +14302,8 @@
       "headlines": [
         "Zurich Archive reveal Jack Morrison's SEP designation as \"Soldier: 76\"",
         "Man as a strong as a bear single handedly defeats Helix troops at Grand Mesa"
-      ]
+      ],
+      "id": "event-331671d37722"
     },
     {
       "name": "Shooting Star",
@@ -14096,7 +14373,8 @@
           "text": "Shooting Star Overwatch",
           "url": "https://www.youtube.com/watch?v=q7j2d6YCQbg"
         }
-      ]
+      ],
+      "id": "event-fd28240618a2"
     },
     {
       "name": "The Last Bastion",
@@ -14138,7 +14416,8 @@
           "country": "Anubis,",
           "reasoning": "Commands Bastion to destroy even after Awakening"
         }
-      ]
+      ],
+      "id": "event-b94b25255a4e"
     },
     {
       "name": "Underground Hero",
@@ -14187,7 +14466,8 @@
           "country": "Kace,",
           "reasoning": "Disapproves of Tracer"
         }
-      ]
+      ],
+      "id": "event-2c5a21e8b632"
     },
     {
       "name": "Hero",
@@ -14230,7 +14510,8 @@
       "headlines": [
         "Young Girl Claims that the fugitive Soldier: 76 saved her life in Dorado",
         "Los Muertos Criminal Activity plagues the Streets of Mexico"
-      ]
+      ],
+      "id": "event-67764c2aca7f"
     },
     {
       "name": "Fika is Born",
@@ -14262,7 +14543,8 @@
           "country": "Jetpack Cat",
           "reasoning": "Fika is Born"
         }
-      ]
+      ],
+      "id": "event-c3dafcc6e70b"
     },
     {
       "name": "Avatar of the Fox",
@@ -14333,7 +14615,8 @@
           "text": "Kiriko",
           "url": "https://www.youtube.com/watch?v=9acxn7qAST4"
         }
-      ]
+      ],
+      "id": "event-a3b8ad492bb3"
     },
     {
       "name": "Full Disclosure",
@@ -14398,7 +14681,8 @@
           "country": "Portero, Sanjay,",
           "reasoning": "In contact looking for a controversial Partnership"
         }
-      ]
+      ],
+      "id": "event-36b799647017"
     },
     {
       "name": "Assassination",
@@ -14473,7 +14757,8 @@
       "headlines": [
         "Gun shots heart at the London Rooftops during Mondatta's Speech",
         "Mondatta Assassinated in Kings Row, Overwatch agent spotted on the scene"
-      ]
+      ],
+      "id": "event-778e90746f6f"
     },
     {
       "name": "Recall",
@@ -14540,7 +14825,8 @@
           "text": "Recall",
           "url": "https://www.youtube.com/watch?v=sB5zlHMsM7k"
         }
-      ]
+      ],
+      "id": "event-fe54e8c30610"
     },
     {
       "name": "London Calling",
@@ -14615,7 +14901,8 @@
       "headlines": [
         "Tracer wounded while stopping riots at the London Underworld",
         "Omnics plot to destroy the Underworld following Mondatta's death"
-      ]
+      ],
+      "id": "event-e12c3c50017a"
     },
     {
       "name": "Rise and Shine",
@@ -14662,7 +14949,8 @@
           "country": "Ecopoints, Overwatch",
           "reasoning": "Turns back on due to the recall"
         }
-      ]
+      ],
+      "id": "event-c70968f69482"
     },
     {
       "name": "Unfinished Business",
@@ -14714,7 +15002,8 @@
           "text": "What you left behind",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt0194921f5024bf0c/5d5ef7f33471931c451d2bce/what-you-left-behind_en-us.pdf"
         }
-      ]
+      ],
+      "id": "event-4c02e2c6be17"
     },
     {
       "name": "Lurking in the Water",
@@ -14749,7 +15038,8 @@
       ],
       "headlines": [
         "Reports of the mysterious Monterray Bay Creature continue, harbor patrol efforts expanded"
-      ]
+      ],
+      "id": "event-5fee4c09c23a"
     },
     {
       "name": "Protector",
@@ -14815,7 +15105,8 @@
           "text": "Protector of Kanezaka",
           "url": "https://mangadex.org/chapter/bdd4f526-5f60-4677-9453-0dd5a8145055"
         }
-      ]
+      ],
+      "id": "event-142ca3d17552"
     },
     {
       "name": "Ecological Network",
@@ -14886,7 +15177,8 @@
           "text": "Mei's Adventures",
           "url": "https://overwatch.blizzard.com/en-us/news/19942649/"
         }
-      ]
+      ],
+      "id": "event-b05169ecfa7c"
     },
     {
       "name": "Infiltration",
@@ -14953,7 +15245,8 @@
           "text": "Infiltration",
           "url": "https://www.youtube.com/watch?v=tU7jskA1zWI"
         }
-      ]
+      ],
+      "id": "event-25568936e674"
     },
     {
       "name": "Answering the Call",
@@ -14993,7 +15286,8 @@
           "text": "Honor and Glory",
           "url": "https://www.youtube.com/watch?v=sQfk5HykiEk"
         }
-      ]
+      ],
+      "id": "event-88caec1b8a01"
     },
     {
       "name": "Genius Grant",
@@ -15046,7 +15340,8 @@
           "text": "Hero of Numbani",
           "url": "https://www.amazon.com/dp/133857597X?lv=shuf&channelId=500&plpRedirect=mhFallback"
         }
-      ]
+      ],
+      "id": "event-513cc7b70838"
     },
     {
       "name": "A New Empire",
@@ -15109,7 +15404,8 @@
             "https://www.youtube.com/watch?v=GDiqTSiZyOs"
           ]
         }
-      ]
+      ],
+      "id": "event-30276888e172"
     },
     {
       "name": "Reflections",
@@ -15168,7 +15464,8 @@
           "country": "Emily,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-f6fc315edf05"
     },
     {
       "name": "Old Soldiers",
@@ -15214,7 +15511,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-1a8f52930b38"
     },
     {
       "name": "Failed Recovery",
@@ -15247,7 +15545,8 @@
           "text": "Thoughless Gods",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt42f4baf211e3c801/665e404aa310e4e5a2a48c1d/OW_Heroes_Hammond_EN_FINAL_Rev.pdf"
         }
-      ]
+      ],
+      "id": "event-bf38dd7ce8d7"
     },
     {
       "name": "Bastet",
@@ -15289,7 +15588,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-7252c76a3a03"
     },
     {
       "name": "Old Dragons",
@@ -15348,7 +15648,8 @@
           "text": "Dragons",
           "url": "https://www.youtube.com/watch?v=oJ09xdxzIJQ"
         }
-      ]
+      ],
+      "id": "event-1ffd52a6622f"
     },
     {
       "name": "The World could use more Heroes",
@@ -15405,7 +15706,8 @@
           "text": "Overwatch Cinematic Trailer",
           "url": "https://www.youtube.com/watch?v=FqnKB22pOC0"
         }
-      ]
+      ],
+      "id": "event-2d3775b73de8"
     },
     {
       "name": "Travelling Monk",
@@ -15447,7 +15749,8 @@
           "country": "Shambali Order,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-f3caa083c55d"
     },
     {
       "name": "Idina Troopers",
@@ -15489,7 +15792,8 @@
           "country": "Efi,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-3996536376f4"
     },
     {
       "name": "Heroes Never Die",
@@ -15546,7 +15850,8 @@
           "text": "Valkyrie",
           "url": "https://overwatch.blizzard.com/en-us/media/short-story/valkyrie/"
         }
-      ]
+      ],
+      "id": "event-4efee47db7b9"
     },
     {
       "name": "Doomfist Escapes",
@@ -15586,7 +15891,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-f61f4bc7ea42"
     },
     {
       "name": "Binary",
@@ -15626,7 +15932,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-52cc08c9181d"
     },
     {
       "name": "Business Meeting",
@@ -15683,7 +15990,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-da50967c8d47"
     },
     {
       "name": "Masquerade",
@@ -15762,7 +16070,8 @@
           "reasoning": ""
         }
       ],
-      "headlines": []
+      "headlines": [],
+      "id": "event-00774931c957"
     },
     {
       "name": "Venture's Adventures",
@@ -15812,7 +16121,8 @@
           "text": "Venture's Adventures",
           "url": "https://www.youtube.com/watch?v=jZgG4CvcZso"
         }
-      ]
+      ],
+      "id": "event-16e4b1657a81"
     },
     {
       "name": "Stolen Gauntlet",
@@ -15865,7 +16175,8 @@
           "reasoning": ""
         }
       ],
-      "headlines": []
+      "headlines": [],
+      "id": "event-f830ad0b6190"
     },
     {
       "name": "Stone by Stone",
@@ -15919,7 +16230,8 @@
           "country": "Sanjay,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-d6b8c18ac354"
     },
     {
       "name": "Idina Unit OR15A Goes Online",
@@ -15982,7 +16294,8 @@
           "text": "Hero of Numbani",
           "url": "https://www.amazon.com/dp/133857597X?lv=shuf&channelId=500&plpRedirect=mhFallback"
         }
-      ]
+      ],
+      "id": "event-08147bd9d2fa"
     },
     {
       "name": "Waging War",
@@ -16049,7 +16362,8 @@
           "country": "Maximillien,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-a9b3c3e41e49"
     },
     {
       "name": "System Reboot",
@@ -16089,7 +16403,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-7e7d83313df6"
     },
     {
       "name": "Searching",
@@ -16181,7 +16496,8 @@
           "text": "Searching",
           "url": "https://static.playoverwatch.com/media/comics/15/en-us/comic-overwatch-searching.pdf"
         }
-      ]
+      ],
+      "id": "event-05f9890300e2"
     },
     {
       "name": "Failed Exams",
@@ -16232,7 +16548,8 @@
             "https://www.youtube.com/watch?v=RY3sER2O0jM&t=106s"
           ]
         }
-      ]
+      ],
+      "id": "event-bd3df53c5a97"
     },
     {
       "name": "Yokais",
@@ -16295,7 +16612,8 @@
           "text": "Yokai",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt7e01beb57eafac48/632d2de05f39a30d9cedbe53/OW_Yokai-Kiriiko_EN_Final.pdf"
         }
-      ]
+      ],
+      "id": "event-0386b1b0d005"
     },
     {
       "name": "Hero of Numbani",
@@ -16342,7 +16660,8 @@
           "text": "Hero of Numbani",
           "url": "https://www.amazon.com/dp/133857597X?lv=shuf&channelId=500&plpRedirect=mhFallback"
         }
-      ]
+      ],
+      "id": "event-ce149af2c111"
     },
     {
       "name": "Sending a Message",
@@ -16405,7 +16724,8 @@
           "country": "Magnus, Titus,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-e90973d7170c"
     },
     {
       "name": "Meeting your Heroes",
@@ -16426,7 +16746,8 @@
         }
       ],
       "headlines": [],
-      "sources": []
+      "sources": [],
+      "id": "event-0a1141210d59"
     },
     {
       "name": "Curse Breaker",
@@ -16489,7 +16810,8 @@
           "country": "Toshiro,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-0bbb1f82939e"
     },
     {
       "name": "Tangle with Talon",
@@ -16548,7 +16870,8 @@
             "https://www.youtube.com/watch?v=yQO9n6DwoE0"
           ]
         }
-      ]
+      ],
+      "id": "event-fb01930c3dd9"
     },
     {
       "name": "Last Child of the Sun",
@@ -16593,7 +16916,8 @@
           "text": "Illari Origin Story",
           "url": "https://www.youtube.com/watch?v=LBI_uHJD-Xo"
         }
-      ]
+      ],
+      "id": "event-36a410d78b51"
     },
     {
       "name": "Reunion",
@@ -16657,7 +16981,8 @@
           "text": "Reunion",
           "url": "https://www.youtube.com/watch?v=PKYVvPNhRR0"
         }
-      ]
+      ],
+      "id": "event-202b80af9af2"
     },
     {
       "name": "Double Life",
@@ -16716,7 +17041,8 @@
           "country": "Nobuto, Ryota, Sakura, Chikasa,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-6733ccce74fd"
     },
     {
       "name": "The Plan",
@@ -16756,7 +17082,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-1ffc339186f6"
     },
     {
       "name": "Worsening Atmosphere",
@@ -16807,7 +17134,8 @@
             "https://www.youtube.com/watch?v=9M4dU7cd1KM"
           ]
         }
-      ]
+      ],
+      "id": "event-2a1cc9d7832b"
     },
     {
       "name": "New Blood",
@@ -16849,7 +17177,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-5c2bbf5b1206"
     },
     {
       "name": "Suspicious activity",
@@ -16901,7 +17230,8 @@
           "country": "Trembley,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-8d189d16f846"
     },
     {
       "name": "Lost Family",
@@ -16958,7 +17288,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-af7197685685"
     },
     {
       "name": "Stalker",
@@ -16998,7 +17329,8 @@
           "text": "New Blood 3",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt696432fe3af2dc73/61d8981ede959148b4b2eac0/OW_2.3_EN_FINAL.pdf"
         }
-      ]
+      ],
+      "id": "event-a5bb4b5d45b2"
     },
     {
       "name": "Friendly Rivalry",
@@ -17038,7 +17370,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-5b28276835ea"
     },
     {
       "name": "Surprise attack",
@@ -17078,7 +17411,8 @@
           "text": "New Blood 4",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd491d56e1606d412/61fdc39da6bb9250d3e44a53/OW_2.4_Final_EN.pdf"
         }
-      ]
+      ],
+      "id": "event-9be1932d4efb"
     },
     {
       "name": "Zero Hour",
@@ -17140,7 +17474,8 @@
           "text": "Zero Hour",
           "url": "https://www.youtube.com/watch?v=GKXS_YA9s7E"
         }
-      ]
+      ],
+      "id": "event-72002663fbbb"
     },
     {
       "name": "Shockwaves",
@@ -17191,7 +17526,8 @@
           "reasoning": ""
         }
       ],
-      "headlines": []
+      "headlines": [],
+      "id": "event-b3b6e713fab8"
     },
     {
       "name": "Luck of the Draw",
@@ -17243,7 +17579,8 @@
           "text": "Luck of the Draw",
           "url": "https://www.amazon.com/dp/195691630X?lv=shuf&channelId=500&plpRedirect=mhFallback"
         }
-      ]
+      ],
+      "id": "event-1dfef98a9fbd"
     },
     {
       "name": "Busan Defense",
@@ -17315,7 +17652,8 @@
           "text": "New Blood 5",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltafcb62fe756a3879/622fa71cda5a7125ed751adf/OW_2.5_Final_EN.pdf"
         }
-      ]
+      ],
+      "id": "event-a793375a7624"
     },
     {
       "name": "Thoughtless Gods",
@@ -17372,7 +17710,8 @@
           "text": "Thoughless Gods",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt42f4baf211e3c801/665e404aa310e4e5a2a48c1d/OW_Heroes_Hammond_EN_FINAL_Rev.pdf"
         }
-      ]
+      ],
+      "id": "event-2d0b6c42720d"
     },
     {
       "name": "Where Honor Lives",
@@ -17431,7 +17770,8 @@
           "country": "Toshiro,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-0f96310aa171"
     },
     {
       "name": "Resistance",
@@ -17493,7 +17833,8 @@
           "country": "Benicio,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-af7d4b7ad490"
     },
     {
       "name": "Randevu",
@@ -17559,7 +17900,8 @@
           "country": "Osai,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-44a91fe35900"
     },
     {
       "name": "Unity",
@@ -17608,7 +17950,8 @@
           "text": "Unity",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltea0ccf340e7f7cef/665e02a177dc635847f2bc03/OW_Heroes_Orisa_EN_FINAL_REV.pdf"
         }
-      ]
+      ],
+      "id": "event-2b11b0d1ce88"
     },
     {
       "name": "Rebuilding Ruins",
@@ -17660,7 +18003,8 @@
           "text": "Rebuilding Ruins",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt0e5e335364d4b808/6622c8af3e3ae65dfb769c64/OW_Heroes_Symmetra_EN_FINAL.pdf"
         }
-      ]
+      ],
+      "id": "event-75c5ec7598ed"
     },
     {
       "name": "Liberation",
@@ -17727,7 +18071,8 @@
           "text": "Invasion, Liberation",
           "url": "https://www.youtube.com/watch?v=J7tiJlf8oSU"
         }
-      ]
+      ],
+      "id": "event-33ab3d082329"
     },
     {
       "name": "Lost Ghosts",
@@ -17767,7 +18112,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-7da49ad6879c"
     },
     {
       "name": "Ironclad Help",
@@ -17817,7 +18163,8 @@
           "text": "Invasion, Ironclad",
           "url": "https://www.youtube.com/watch?v=3QpN9i-GjEI"
         }
-      ]
+      ],
+      "id": "event-edc76d9f1218"
     },
     {
       "name": "A Great Day",
@@ -17867,7 +18214,8 @@
           "text": "A Great Day",
           "url": "https://www.youtube.com/watch?v=py_kGferDww"
         }
-      ]
+      ],
+      "id": "event-2b2a168a10f2"
     },
     {
       "name": "Lucky Man",
@@ -17917,7 +18265,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-59f228074359"
     },
     {
       "name": "Water Fighter",
@@ -17973,7 +18322,8 @@
             "https://www.youtube.com/watch?v=RY3sER2O0jM&t=106s"
           ]
         }
-      ]
+      ],
+      "id": "event-81ad24571afc"
     },
     {
       "name": "Visitor",
@@ -18020,7 +18370,8 @@
           "reasoning": ""
         }
       ],
-      "headlines": []
+      "headlines": [],
+      "id": "event-641f4a71a9c1"
     },
     {
       "name": "Vested Interests",
@@ -18089,7 +18440,8 @@
             "https://www.youtube.com/watch?v=ULQBHWSqzwg"
           ]
         }
-      ]
+      ],
+      "id": "event-d8e08ba39b5c"
     },
     {
       "name": "Stalemate",
@@ -18143,7 +18495,8 @@
             "https://www.youtube.com/watch?v=kQ_y0QcorJ8"
           ]
         }
-      ]
+      ],
+      "id": "event-a4896ed27b01"
     },
     {
       "name": "The Hunt Begins",
@@ -18203,7 +18556,8 @@
           "text": "The Hunt Begins",
           "url": "https://www.youtube.com/watch?v=pIKLdhMtEd0"
         }
-      ]
+      ],
+      "id": "event-82a3420030c8"
     },
     {
       "name": "Emergency Landing",
@@ -18255,7 +18609,8 @@
           "reasoning": ""
         }
       ],
-      "headlines": []
+      "headlines": [],
+      "id": "event-6e9232c82e5d"
     },
     {
       "name": "Against the Tide",
@@ -18304,7 +18659,8 @@
             "https://www.youtube.com/watch?v=RY3sER2O0jM&t=106s"
           ]
         }
-      ]
+      ],
+      "id": "event-b9780e8a405a"
     },
     {
       "name": "Picture of Sucesss",
@@ -18350,7 +18706,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-7c1e05df329a"
     },
     {
       "name": "Warm Welcome",
@@ -18414,7 +18771,8 @@
           "text": "Unity",
           "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltea0ccf340e7f7cef/665e02a177dc635847f2bc03/OW_Heroes_Orisa_EN_FINAL_REV.pdf"
         }
-      ]
+      ],
+      "id": "event-4d8564da2d01"
     },
     {
       "name": "Free the Phreaks",
@@ -18458,7 +18816,8 @@
             "https://www.youtube.com/watch?v=u282-SDwYtg"
           ]
         }
-      ]
+      ],
+      "id": "event-0b8ad4de7732"
     },
     {
       "name": "Partnership",
@@ -18512,7 +18871,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-cc7f0556dea4"
     },
     {
       "name": "The Upper Hand",
@@ -18570,7 +18930,8 @@
           "country": "Sanjay,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-4b6ed81025ec"
     },
     {
       "name": "Reconciliation",
@@ -18635,7 +18996,8 @@
             "https://www.youtube.com/watch?v=kQ_y0QcorJ8"
           ]
         }
-      ]
+      ],
+      "id": "event-2a3dfca0d055"
     },
     {
       "name": "Hazardous Tactics",
@@ -18697,7 +19059,8 @@
           "text": "Hazardous Tactics",
           "url": "https://www.youtube.com/watch?v=sR8N3cXWxqM"
         }
-      ]
+      ],
+      "id": "event-39817dbbc7a3"
     },
     {
       "name": "Final Failsafe",
@@ -18754,7 +19117,8 @@
           "country": "D.mon,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-d98a81f81f84"
     },
     {
       "name": "Futures Past",
@@ -18813,7 +19177,8 @@
             "https://www.youtube.com/watch?v=9kFSMbaufn8"
           ]
         }
-      ]
+      ],
+      "id": "event-8cbbb919f97c"
     },
     {
       "name": "Together",
@@ -18872,7 +19237,8 @@
           "country": "Efi, Sam, Ingrid, Benicio, Dae-Hyun,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-668a46ad1629"
     },
     {
       "name": "Sentinels",
@@ -18921,7 +19287,8 @@
             "https://www.youtube.com/watch?v=LwvFQhBSotk"
           ]
         }
-      ]
+      ],
+      "id": "event-f0fbd3ec80ab"
     },
     {
       "name": "Ongoing Operations",
@@ -18972,7 +19339,8 @@
           "country": "Osai,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-5594937397d0"
     },
     {
       "name": "New Heights",
@@ -19018,7 +19386,8 @@
             "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blta7f7666a3004415e/69e94ab3518b9cd9974c3adb/OW_Sierra_8P_EN.pdf"
           ]
         }
-      ]
+      ],
+      "id": "event-8fefa9412af6"
     },
     {
       "name": "The Invitation",
@@ -19074,7 +19443,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-fc16fd1277f3"
     },
     {
       "name": "External Partners",
@@ -19128,7 +19498,8 @@
           "country": "B.O.B,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-812a00570cfa"
     },
     {
       "name": "Elemental Kin",
@@ -19168,7 +19539,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-3c77ba960457"
     },
     {
       "name": "Signs of Life",
@@ -19208,7 +19580,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-49e3890fe563"
     },
     {
       "name": "Old Friend",
@@ -19278,7 +19651,8 @@
             "https://www.youtube.com/watch?v=NSZ1t4u54DA"
           ]
         }
-      ]
+      ],
+      "id": "event-3a4a70d254ac"
     },
     {
       "name": "Growing Pains",
@@ -19340,7 +19714,8 @@
           "country": "King, Overlord, Casino,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-14d286388fbb"
     },
     {
       "name": "Jetpack Katt",
@@ -19386,7 +19761,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-96a235eca832"
     },
     {
       "name": "Reign of Talon",
@@ -19450,7 +19826,8 @@
         }
       ],
       "yearEnd": null,
-      "headlines": []
+      "headlines": [],
+      "id": "event-aae4d665f768"
     },
     {
       "name": "Successors",
@@ -19496,7 +19873,8 @@
           "country": "Talon Empire,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-827c7623c10e"
     },
     {
       "name": "Search and Destroy",
@@ -19560,7 +19938,8 @@
             "https://www.youtube.com/watch?v=oP3Pba3mo7M"
           ]
         }
-      ]
+      ],
+      "id": "event-9f0ab2ff08d0"
     },
     {
       "name": "Vengance Comes",
@@ -19693,7 +20072,8 @@
           "country": "B.O.B, Bars, The Triplets,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-a5bc849f797e"
     },
     {
       "name": "New Charter",
@@ -19714,7 +20094,8 @@
         }
       ],
       "headlines": [],
-      "sources": []
+      "sources": [],
+      "id": "event-cd53fd5d9f2f"
     },
     {
       "name": "The Gibraltar Attack",
@@ -19780,7 +20161,8 @@
           "country": "Efi,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-e3c3f586e0cc"
     },
     {
       "name": "From the Ashes",
@@ -19857,7 +20239,8 @@
           "country": "Osai,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-dc8a58ecc4bb"
     },
     {
       "name": "Shelter",
@@ -19929,7 +20312,8 @@
           "country": "Efi,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-f224a31928bb"
     },
     {
       "name": "Living Weapon",
@@ -19974,7 +20358,8 @@
           "country": "Talon Empire,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-8b1ba5f609e2"
     },
     {
       "name": "Summit Breach",
@@ -20046,7 +20431,8 @@
           "country": "Naughton,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-855d00b6ed39"
     },
     {
       "name": "Cat Training",
@@ -20108,7 +20494,8 @@
           "country": "Overwatch, Ironclad Guild,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-e317dc084517"
     },
     {
       "name": "Crossroads",
@@ -20176,7 +20563,8 @@
           "country": "Bars, B.O.B, Bez, Frankie,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-625d4842e575"
     },
     {
       "name": "The Tiger's Den",
@@ -20242,7 +20630,8 @@
           "country": "Overwatch,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-68f656ab6cb9"
     },
     {
       "name": "Old Love",
@@ -20314,7 +20703,8 @@
           "country": "Efi,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-72f77f8e0420"
     },
     {
       "name": "A Rare Power",
@@ -20356,7 +20746,8 @@
           "country": "Overwatch, Helix Securities,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-c868788b144f"
     },
     {
       "name": "Distress Signal",
@@ -20422,7 +20813,8 @@
           "country": "Overwatch,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-0b01235cfd79"
     },
     {
       "name": "Progress",
@@ -20476,7 +20868,8 @@
           "country": "Talon Empire, Colosseo Gladiatori,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-a2b0e3f47734"
     },
     {
       "name": "Anima Strike",
@@ -20525,7 +20918,8 @@
           "country": "Sakura, Nobuto, Chikasa, Ryota,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-07d7e3aa61f8"
     },
     {
       "name": "Call to Action",
@@ -20581,7 +20975,8 @@
           "country": "Efi,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-53bd9953fb65"
     },
     {
       "name": "End of the Line",
@@ -20651,7 +21046,8 @@
           "reasoning": ""
         }
       ],
-      "previewBadgeMainCharacter": "Sojourn, Shion"
+      "previewBadgeMainCharacter": "Sojourn, Shion",
+      "id": "event-f2d0f2f4c6a2"
     },
     {
       "name": "Rookie Mission",
@@ -20706,7 +21102,8 @@
           "country": "Talon Empire,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-9404c9e6a519"
     },
     {
       "name": "Deep Sea Deception",
@@ -20777,7 +21174,8 @@
           "country": "Palak,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-d2fa885ee062"
     },
     {
       "name": "Facing Demons",
@@ -20868,7 +21266,8 @@
       ],
       "previewBadgeMainCharacter": "Mizuki, Shion",
       "previewBadgeSecondaryCharacters": "Hanzo, Kiriko, Sakura, Nobuto, Ryota, Chikasa",
-      "previewBadgeFaction": "Yokai Gang, Hashimoto Clan, Overwatch, Talon Empire"
+      "previewBadgeFaction": "Yokai Gang, Hashimoto Clan, Overwatch, Talon Empire",
+      "id": "event-6ee462dad838"
     },
     {
       "name": "Ambush",
@@ -20910,7 +21309,8 @@
           "country": "Talon Empire,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-1547702cb0b2"
     },
     {
       "name": "Ulterior Motive",
@@ -20950,7 +21350,8 @@
           "country": "Overwatch, Lucheng Interstellar, Talon Empire,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-e202820c1f88"
     },
     {
       "name": "Expanding Operations",
@@ -21011,7 +21412,8 @@
           "country": "Meri,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-1280e50cccf6"
     },
     {
       "name": "Paths We Choose",
@@ -21080,7 +21482,8 @@
           "country": "Nobuto, Sakura, Chikasa, Ryota,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-0513ec51cea7"
     },
     {
       "name": "Rematch",
@@ -21140,7 +21543,8 @@
           "country": "Overwatch,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-e742297610d0"
     },
     {
       "name": "The Luft Akan",
@@ -21193,7 +21597,8 @@
           "reasoning": "",
           "badgePriority": true
         }
-      ]
+      ],
+      "id": "event-35eeff85182e"
     },
     {
       "name": "Tough Call",
@@ -21270,7 +21675,8 @@
           "text": "Tough Call",
           "url": "https://www.youtube.com/watch?v=i2zohQuNcbo"
         }
-      ]
+      ],
+      "id": "event-7501d8292ad2"
     },
     {
       "name": "Left Behind",
@@ -21326,7 +21732,8 @@
           "country": "Myung,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-fac064226e93"
     },
     {
       "name": "Castaway",
@@ -21369,7 +21776,8 @@
           "country": "Junker Monarchy,",
           "reasoning": ""
         }
-      ]
+      ],
+      "id": "event-fd7e3eb75c5a"
     }
   ]
 }

@@ -1,6 +1,6 @@
 /**
  * musicBootSequence — the music service's boot sequence: fetch manifest,
- * populate the grid, restore from storage, schedule preloads, and start the
+ * populate the grid, restore from storage, and start the
  * palette's startup theme if no saved state takes precedence.
  *
  * Invoked from `activateMusicService()` as the final step of init.
@@ -52,16 +52,6 @@ export function runMusicBootSequence(service, playMusic) {
             },
             (btnPath, songPath) => service.playbackService.matchesSongPath(btnPath, songPath)
         );
-
-        const deferPreloadAll = () => {
-            service.fileService.preloadAllMusic((path) =>
-                service.playbackService.encodeMusicPath(path));
-        };
-        if (typeof requestIdleCallback !== 'undefined') {
-            requestIdleCallback(deferPreloadAll, { timeout: 5000 });
-        } else {
-            setTimeout(deferPreloadAll, 2000);
-        }
 
         if (!restored && !service.currentSong && service.musicFiles.length > 0) {
             const themePath = getStartupThemePath(getActiveMusicPaletteKey());

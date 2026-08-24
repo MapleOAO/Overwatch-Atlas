@@ -59,6 +59,14 @@ export async function runDisplaySlide(slide, eventName, imagePath, description, 
         const eventSlide = document.getElementById('eventSlide');
         if (!eventSlide) return;
 
+        const i18n = typeof window !== 'undefined' ? window.AtlasI18n : null;
+        const localizedEventName = i18n?.displayName?.(eventName) || eventName;
+        const localizedDescription = i18n?.displayDescription?.(
+            displayEvent || eventData,
+            'event',
+            description,
+        ) || description;
+
         clearEventSourceMediaEmbed();
         resetSourceMediaMusicDuckState();
         slide.activeYouTubeVideoId = '';
@@ -125,10 +133,10 @@ export async function runDisplaySlide(slide, eventName, imagePath, description, 
         
         // Update content (with glitch applied)
         if (eventSlideTitle) {
-            eventSlideTitle.innerHTML = applyGlitch(eventName);
+            eventSlideTitle.innerHTML = applyGlitch(localizedEventName);
         }
         if (eventSlideText) {
-            eventSlideText.innerHTML = applyGlitch(description) || 'No description available.';
+            eventSlideText.innerHTML = applyGlitch(localizedDescription) || 'No description available.';
         }
         
         // Display location and years under title (Story timeline only)
@@ -234,10 +242,12 @@ export async function runDisplaySlide(slide, eventName, imagePath, description, 
                     // Re-apply to current view
                     const currentEvent = isMultiEvent ? eventData.variants[slide.currentVariantIndex || 0] : eventData;
                     if (eventSlideTitle) {
-                        eventSlideTitle.innerHTML = applyGlitch(currentEvent?.name || eventName);
+                        eventSlideTitle.innerHTML = applyGlitch(i18n?.displayName?.(currentEvent?.name || eventName) || currentEvent?.name || localizedEventName);
                     }
                     if (eventSlideText) {
-                        eventSlideText.innerHTML = applyGlitch(currentEvent?.description || description) || 'No description available.';
+                        const currentDescription = i18n?.displayDescription?.(currentEvent, 'event', currentEvent?.description || description)
+                            || currentEvent?.description || localizedDescription;
+                        eventSlideText.innerHTML = applyGlitch(currentDescription) || 'No description available.';
                     }
                     slide.updateSourcesAndFilters?.(currentEvent);
                     // Wire click handlers on new glitch elements
@@ -293,8 +303,8 @@ export async function runDisplaySlide(slide, eventName, imagePath, description, 
                         const vDesc = v.description || description;
                         
                         // Update title and description
-                        if (eventSlideTitle) eventSlideTitle.innerHTML = applyGlitch(vName);
-                        if (eventSlideText) eventSlideText.innerHTML = applyGlitch(vDesc) || 'No description available.';
+                        if (eventSlideTitle) eventSlideTitle.innerHTML = applyGlitch(i18n?.displayName?.(vName) || vName);
+                        if (eventSlideText) eventSlideText.innerHTML = applyGlitch(i18n?.translate?.(vDesc) || vDesc) || 'No description available.';
                         if (archiveSourceSlide === 'heroes') {
                             updateEventSlideHeroRoleDisplay(eventData, idx);
                             updateEventSlideHeroBirthdayDisplay(eventData, idx);
@@ -430,4 +440,3 @@ export async function runDisplaySlide(slide, eventName, imagePath, description, 
 
         slide.updateBackButtonVisibility?.();
 }
-

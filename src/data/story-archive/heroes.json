@@ -22,7 +22,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-b6c53d3b5ad3"
     },
     {
       "name": "Doomfist",
@@ -36,7 +37,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Initiator",
-      "birthday": "25 May 2031"
+      "birthday": "25 May 2031",
+      "id": "hero-193ede5d86e9"
     },
     {
       "name": "Winston",
@@ -60,7 +62,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-1bb7c1fd15c4"
     },
     {
       "name": "Wrecking Ball",
@@ -84,7 +87,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-1378909b5ecd"
     },
     {
       "name": "D.va",
@@ -98,7 +102,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Initiator",
-      "birthday": "22 June 2057"
+      "birthday": "22 June 2057",
+      "id": "hero-8ae989ff66e3"
     },
     {
       "name": "Mauga",
@@ -122,7 +127,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-d4a960602907"
     },
     {
       "name": "Orisa",
@@ -136,7 +142,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Bruiser",
-      "birthday": "9 May 2078"
+      "birthday": "9 May 2078",
+      "id": "hero-e3686750f29c"
     },
     {
       "name": "Roadhog",
@@ -150,7 +157,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Bruiser",
-      "birthday": "12 September 2028"
+      "birthday": "12 September 2028",
+      "id": "hero-bb6d8db35f67"
     },
     {
       "name": "Zarya",
@@ -164,7 +172,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Bruiser",
-      "birthday": "4 December 2048"
+      "birthday": "4 December 2048",
+      "id": "hero-87727f1e4adc"
     },
     {
       "name": "D.mon",
@@ -259,7 +268,8 @@
           "panY": -142.0081655053134,
           "zoom": 0.3782347161600001
         }
-      }
+      },
+      "id": "hero-58e5af767bf9"
     },
     {
       "name": "Domina",
@@ -283,7 +293,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-966f26ffc18f"
     },
     {
       "name": "Junker Queen",
@@ -307,7 +318,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-2e5f591e99c5"
     },
     {
       "name": "Ramattra",
@@ -331,7 +343,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-488a1f0015f2"
     },
     {
       "name": "Reinhardt",
@@ -345,7 +358,8 @@
       ],
       "heroRole": "Tank",
       "heroSubRole": "Stalwart",
-      "birthday": "26 June 2015"
+      "birthday": "26 June 2015",
+      "id": "hero-cd423f8d03c2"
     },
     {
       "name": "Sigma",
@@ -369,7 +383,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-61e278755e47"
     },
     {
       "name": "Anran",
@@ -383,7 +398,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Flanker",
-      "birthday": "8 August 2056"
+      "birthday": "8 August 2056",
+      "id": "hero-897bf5fe864a"
     },
     {
       "name": "Genji",
@@ -397,7 +413,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Flanker",
-      "birthday": "28 October 2041"
+      "birthday": "28 October 2041",
+      "id": "hero-6f6c4c7f15fc"
     },
     {
       "name": "Reaper",
@@ -411,7 +428,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Flanker",
-      "birthday": "14 December 2018"
+      "birthday": "14 December 2018",
+      "id": "hero-84a09c28fe5f"
     },
     {
       "name": "Shion",
@@ -540,7 +558,8 @@
           "panY": -204.33925165216192,
           "zoom": 0.4236228820992001
         }
-      }
+      },
+      "id": "hero-3270ab687ebf"
     },
     {
       "name": "Tracer",
@@ -674,7 +693,8 @@
           "panY": 34.25,
           "zoom": 0.256875
         }
-      }
+      },
+      "id": "hero-6b094231d64e"
     },
     {
       "name": "Vendetta",
@@ -698,7 +718,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-0b3f14d83210"
     },
     {
       "name": "Venture",
@@ -712,7 +733,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Flanker",
-      "birthday": "6 August 2052"
+      "birthday": "6 August 2052",
+      "id": "hero-ab757399dd39"
     },
     {
       "name": "Echo",
@@ -726,7 +748,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Recon",
-      "birthday": "5 February 2065"
+      "birthday": "5 February 2065",
+      "id": "hero-cffc2736685e"
     },
     {
       "name": "Freja",
@@ -740,7 +763,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Recon",
-      "birthday": "6 September 2044"
+      "birthday": "6 September 2044",
+      "id": "hero-c4e2b5c67b92"
     },
     {
       "name": "Pharah",
@@ -764,7 +788,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-ed7c104dbabe"
     },
     {
       "name": "Sierra",
@@ -788,7 +813,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-3142a981ac2e"
     },
     {
       "name": "Sombra",
@@ -812,7 +838,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-6019b01e122f"
     },
     {
       "name": "Bastion",
@@ -826,7 +853,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Specialist",
-      "birthday": "2046"
+      "birthday": "2046",
+      "id": "hero-af8ee80e1609"
     },
     {
       "name": "Emre",
@@ -850,7 +878,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-26d957956872"
     },
     {
       "name": "Junkrat",
@@ -864,7 +893,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Specialist",
-      "birthday": "29 February 2052"
+      "birthday": "29 February 2052",
+      "id": "hero-a4450cafd070"
     },
     {
       "name": "Mei",
@@ -878,7 +908,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Specialist",
-      "birthday": "5 September 2036"
+      "birthday": "5 September 2036",
+      "id": "hero-3d590ab93500"
     },
     {
       "name": "Soldier 76",
@@ -892,7 +923,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Specialist",
-      "birthday": "27 January 2021"
+      "birthday": "27 January 2021",
+      "id": "hero-a4f16fae7bd4"
     },
     {
       "name": "Symmetra",
@@ -1029,7 +1061,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-40ec2aa3ad53"
     },
     {
       "name": "Torbjörn",
@@ -1053,7 +1086,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-5bd2c8e5f225"
     },
     {
       "name": "Ashe",
@@ -1077,7 +1111,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-3c13f500a4f6"
     },
     {
       "name": "Cassidy",
@@ -1091,7 +1126,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Sharpshooter",
-      "birthday": "31 July 2039"
+      "birthday": "31 July 2039",
+      "id": "hero-362dcb5b8903"
     },
     {
       "name": "Hanzo",
@@ -1115,7 +1151,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-ac7e16d466ab"
     },
     {
       "name": "Sojourn",
@@ -1129,7 +1166,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Sharpshooter",
-      "birthday": "12 January 2028"
+      "birthday": "12 January 2028",
+      "id": "hero-3baacf83be8f"
     },
     {
       "name": "Widowmaker",
@@ -1143,7 +1181,8 @@
       ],
       "heroRole": "Damage",
       "heroSubRole": "Sharpshooter",
-      "birthday": "19 November 2043"
+      "birthday": "19 November 2043",
+      "id": "hero-92e95713c0e8"
     },
     {
       "name": "Baptiste",
@@ -1157,7 +1196,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Tactician",
-      "birthday": "12 March 2041"
+      "birthday": "12 March 2041",
+      "id": "hero-d13134235abf"
     },
     {
       "name": "Ana",
@@ -1372,7 +1412,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-47495b7a4dc5"
     },
     {
       "name": "Jetpack Cat",
@@ -1386,7 +1427,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Tactician",
-      "birthday": "date unknown"
+      "birthday": "date unknown",
+      "id": "hero-c54adcf1ef50"
     },
     {
       "name": "Lúcio",
@@ -1400,7 +1442,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Tactician",
-      "birthday": "20 March 2051"
+      "birthday": "20 March 2051",
+      "id": "hero-c38bf899fa9a"
     },
     {
       "name": "Zenyatta",
@@ -1424,7 +1467,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-9db3c59bdb50"
     },
     {
       "name": "Kiriko",
@@ -1619,7 +1663,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-1eb0427fec3a"
     },
     {
       "name": "Lifeweaver",
@@ -1633,7 +1678,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Medic",
-      "birthday": "28 April 2048"
+      "birthday": "28 April 2048",
+      "id": "hero-03896ba305c4"
     },
     {
       "name": "Mercy",
@@ -1647,7 +1693,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Medic",
-      "birthday": "13 May 2039"
+      "birthday": "13 May 2039",
+      "id": "hero-f71951a619e6"
     },
     {
       "name": "Moira",
@@ -1671,7 +1718,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-597b3970c6fb"
     },
     {
       "name": "Brigitte",
@@ -1695,7 +1743,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-635f144bcea6"
     },
     {
       "name": "Illari",
@@ -1719,7 +1768,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-f7861438268f"
     },
     {
       "name": "Juno",
@@ -1733,7 +1783,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Survivor",
-      "birthday": "22 March 2060"
+      "birthday": "22 March 2060",
+      "id": "hero-a200fc961fc6"
     },
     {
       "name": "Mizuki",
@@ -1897,7 +1948,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "hero-b323a951aefe"
     },
     {
       "name": "Wuyang",
@@ -1911,7 +1963,8 @@
       ],
       "heroRole": "Support",
       "heroSubRole": "Survivor",
-      "birthday": "1 May 2060"
+      "birthday": "1 May 2060",
+      "id": "hero-f08e6c70f642"
     }
   ]
 }

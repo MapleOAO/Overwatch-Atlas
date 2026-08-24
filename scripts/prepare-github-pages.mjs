@@ -8,9 +8,28 @@ import { fileURLToPath } from 'url';
 import { buildTimelineBundleStamp } from '../src/features/system-interface/interface-left-panel/event-system/data/timelineBundleStamp.js';
 import { buildDialogueTheaterBundleStamp } from '../src/features/dialogue-theater/data/dialogueTheaterBundleStamp.js';
 
+let sharp = null;
+try {
+    ({ default: sharp } = await import('sharp'));
+} catch (_) {
+    console.warn('[pages] sharp is not installed; keeping source raster files for this local build');
+}
+let staticImageFormat = 'source';
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.join(ROOT, '_site');
+
+// The heavy families are converted for Pages. Smaller filter/UI icons stay in
+// PNG because they are addressed by many legacy dynamic paths and do not
+// justify a compatibility break; the source tree remains untouched.
+const OPTIMIZED_IMAGE_DIRS = [
+    'src/assets/images/Archive',
+    'src/assets/images/Maps',
+    'src/assets/images/Background Pattern',
+];
+const RASTER_EXTENSIONS = new Set(['.png', '.jpg', '.jpeg']);
+const TEXT_EXTENSIONS = new Set(['.html', '.js', '.mjs', '.cjs', '.css', '.json', '.md', '.xml', '.svg']);
 
 const EXCLUDE_NAMES = new Set([
     '.git',
@@ -48,6 +67,89 @@ function copyRecursive(srcDir, destDir) {
     }
 }
 
+function listFiles(rootDir) {
+    const files = [];
+    const walk = (dir) => {
+        for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
+            const fullPath = path.join(dir, ent.name);
+            if (ent.isDirectory()) walk(fullPath);
+            else if (ent.isFile()) files.push(fullPath);
+        }
+    };
+    walk(rootDir);
+    return files;
+}
+
+function webpOptions(relativePath) {
+    if (relativePath.includes('/Maps/Utility/')) return { quality: 90, effort: 4, alphaQuality: 90 };
+    if (relativePath.includes('/Maps/')) return { quality: 88, effort: 4, alphaQuality: 88 };
+    if (relativePath.includes('/Archive/')) return { quality: 84, effort: 4, alphaQuality: 84 };
+    return { quality: 86, effort: 4, alphaQuality: 86 };
+}
+
+function addImagePathReplacements(replacements, relativePath) {
+    const normalized = relativePath.split(path.sep).join('/');
+    const withoutSrc = normalized.startsWith('src/') ? normalized.slice(4) : normalized;
+    const encodeDirectoriesOnly = (value) => {
+        const slash = value.lastIndexOf('/');
+        if (slash < 0) return value;
+        return `${encodeURI(value.slice(0, slash))}/${value.slice(slash + 1)}`;
+    };
+    const variants = new Set([
+        normalized,
+        withoutSrc,
+        encodeURI(normalized),
+        encodeURI(withoutSrc),
+        encodeDirectoriesOnly(normalized),
+        encodeDirectoriesOnly(withoutSrc),
+    ]);
+    const optimized = (value) => value.replace(/\.(?:png|jpe?g)$/i, '.webp');
+    for (const oldValue of variants) replacements.set(oldValue, optimized(oldValue));
+}
+
+async function optimizeStaticImages() {
+    if (!sharp) return;
+    sharp.cache({ memory: 128, files: 0, items: 25 });
+    sharp.concurrency(2);
+    const imageFiles = [];
+    for (const relativeRoot of OPTIMIZED_IMAGE_DIRS) {
+        const absoluteRoot = path.join(OUT, relativeRoot);
+        if (!fs.existsSync(absoluteRoot)) continue;
+        for (const file of listFiles(absoluteRoot)) {
+            if (RASTER_EXTENSIONS.has(path.extname(file).toLowerCase())) imageFiles.push(file);
+        }
+    }
+
+    const replacements = new Map();
+    let originalBytes = 0;
+    let optimizedBytes = 0;
+    for (const sourcePath of imageFiles) {
+        const relativePath = path.relative(OUT, sourcePath).split(path.sep).join('/');
+        const outputPath = sourcePath.replace(/\.(?:png|jpe?g)$/i, '.webp');
+        const outputBuffer = await sharp(sourcePath).webp(webpOptions(relativePath)).toBuffer();
+        if (!outputBuffer.length) continue;
+        fs.writeFileSync(outputPath, outputBuffer);
+        originalBytes += fs.statSync(sourcePath).size;
+        optimizedBytes += outputBuffer.length;
+        addImagePathReplacements(replacements, relativePath);
+        fs.rmSync(sourcePath, { force: true });
+    }
+
+    const textFiles = listFiles(OUT).filter((file) => TEXT_EXTENSIONS.has(path.extname(file).toLowerCase()));
+    for (const file of textFiles) {
+        const source = fs.readFileSync(file, 'utf8');
+        let next = source;
+        for (const [oldValue, newValue] of replacements) {
+            if (next.includes(oldValue)) next = next.split(oldValue).join(newValue);
+        }
+        if (next !== source) fs.writeFileSync(file, next, 'utf8');
+    }
+
+    const saved = originalBytes > 0 ? (1 - optimizedBytes / originalBytes) * 100 : 0;
+    staticImageFormat = 'webp';
+    console.log(`Optimized ${imageFiles.length} images: ${originalBytes} -> ${optimizedBytes} bytes (${saved.toFixed(1)}% smaller)`);
+}
+
 function escapeHtmlAttr(value) {
     return String(value ?? '')
         .replace(/&/g, '&amp;')
@@ -67,6 +169,28 @@ function injectStaticDeployMeta(siteIndex) {
         } else {
             html = html.replace(/<head(\s[^>]*)?>/i, (m) => `${m}\n    ${marker}`);
         }
+    }
+    fs.writeFileSync(siteIndex, html, 'utf8');
+}
+
+function injectBuildRuntime(siteIndex) {
+    const buildVersion = process.env.GITHUB_SHA || process.env.SOURCE_VERSION || 'local';
+    let html = fs.readFileSync(siteIndex, 'utf8');
+    if (!/name=["']atlas-build-version["']/i.test(html)) {
+        const marker = `<meta name="atlas-build-version" content="${escapeHtmlAttr(buildVersion)}">`;
+        html = html.replace(/<head(\s[^>]*)?>/i, (m) => `${m}\n    ${marker}`);
+    }
+    if (!/id=["']atlas-static-runtime["']/i.test(html)) {
+        const runtime = '<script id="atlas-static-runtime">'
+            + 'window.__ATLAS_STATIC_BUILD__=true;'
+            + `window.__ATLAS_BUILD_VERSION__=${JSON.stringify(buildVersion)};`
+            + 'window.__ATLAS_IMAGE_FORMAT__="webp";'
+            + 'window.atlasOptimizeImagePath=function(p){var s=String(p||""),h=s.search("[?#]"),e=h<0?s.length:h,d=s.slice(0,e),i=d.lastIndexOf("."),x=d.slice(i).toLowerCase();return(x===".png"||x===".jpg"||x===".jpeg")?d.slice(0,i)+".webp"+s.slice(e):s;};'
+            + 'window.atlasOptimizeImagePath=(function(previous){return function(p){var s=String(p||""),heavy=/(?:^|\\/)src\\/assets\\/images\\/(?:Archive|Maps|Background(?:%20| )Pattern)\\//i.test(s);return heavy?previous(s):s;};})(window.atlasOptimizeImagePath);'
+            + `window.__ATLAS_IMAGE_FORMAT__=${JSON.stringify(staticImageFormat)};`
+            + `if(window.__ATLAS_IMAGE_FORMAT__!=="webp")window.atlasOptimizeImagePath=function(p){return String(p||"");};`
+            + '</script>';
+        html = html.replace(/<\/head>/i, `${runtime}\n</head>`);
     }
     fs.writeFileSync(siteIndex, html, 'utf8');
 }
@@ -293,7 +417,9 @@ copyRecursive(ROOT, OUT);
 
 fs.writeFileSync(path.join(OUT, '.nojekyll'), '');
 
+await optimizeStaticImages();
 injectStaticDeployMeta(path.join(OUT, 'index.html'));
+injectBuildRuntime(path.join(OUT, 'index.html'));
 injectTimelineBundleMeta(path.join(OUT, 'index.html'));
 injectDialogueTheaterBundleMeta(path.join(OUT, 'index.html'));
 removeDevOnlyArtifacts();

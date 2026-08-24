@@ -1,6 +1,7 @@
 /**
  * Fetch `src/data/platform/manifest.json`, reorder its `heroes` / `factions` / `npcs`
- * lists by the Codex story archive, and kick off image preloading.
+ * lists by the Codex story archive. Filter thumbnails load lazily when their
+ * chips enter the viewport; this avoids a burst of requests during boot.
  *
  * Cache-busting headers are aggressive (`Cache-Control: no-store` + query
  * param) because the dev server rewrites manifest.json on every asset add,
@@ -38,15 +39,6 @@ export async function loadFilterManifest(createFilterButtons, updateFilterCounts
 
         createFilterButtons(heroes, 'heroes', 'src/assets/images/Filters/Heroes');
         updateFilterCounts();
-
-        /* Preload other-tab images on a stagger so a single tab switch is
-           instant; the timing values mirror the original behavior. */
-        if (processedFactions.length > 0) {
-            setTimeout(() => preloadImages(processedFactions, 'factions', 'src/assets/images/Filters/Factions'), 500);
-        }
-        if (npcs.length > 0) {
-            setTimeout(() => preloadImages(npcs, 'npcs', 'src/assets/images/Filters/NPCs'), 650);
-        }
 
         return { heroes, factions: processedFactions, npcs };
     } catch (error) {

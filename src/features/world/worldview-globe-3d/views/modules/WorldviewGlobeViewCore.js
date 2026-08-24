@@ -204,34 +204,9 @@ export class WorldviewGlobeView {
         }
         this._syncAtmosphereSunDirection();
 
-        // Preload other Earth map textures for quick palette switching
-        const allMapTextures = [
-            'src/assets/images/Maps/Earth%20Textures/MAP Blue.png',
-            'src/assets/images/Maps/Earth%20Textures/MAP Black.png',
-            'src/assets/images/Maps/Earth%20Textures/MAP Crimson.png',
-            'src/assets/images/Maps/Earth%20Textures/MAP Nulled.png'
-        ];
-        allMapTextures.forEach((path) => {
-            if (path === initialTexturePath || this.textureCache.has(path)) return;
-            loadTexture(textureLoader, path, renderer, (texture) => {
-                this.textureCache.set(path, texture);
-            });
-        });
-
-        // Preload pattern textures for quick palette switching
-        const allPatternTextures = [
-            'src/assets/images/Background%20Pattern/Pattern Blue.png',
-            'src/assets/images/Background%20Pattern/Pattern Dark.png',
-            'src/assets/images/Background%20Pattern/Pattern Crimson.png',
-            'src/assets/images/Background%20Pattern/Pattern Nulled.png'
-        ];
-        const currentPatternPath = window.GlobeInitHelpers?.getPalettePatternPath?.(paletteKey) || 'src/assets/images/Background%20Pattern/Pattern Blue.png';
-        allPatternTextures.forEach((path) => {
-            if (path === currentPatternPath || this.textureCache.has(path)) return;
-            loadTexture(textureLoader, path, renderer, (texture) => {
-                this.textureCache.set(path, texture);
-            });
-        });
+        // Alternate palettes are loaded on the first palette switch and then
+        // retained in `textureCache`. Loading every 8–10 MB texture at boot
+        // made the globe compete with the rest of the first render.
         
         // Create Moon and Mars planes
         setupCelestialPlanes({

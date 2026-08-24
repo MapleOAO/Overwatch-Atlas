@@ -1,0 +1,255 @@
+{
+  "locale": "zh-CN",
+  "version": 1,
+  "sources": [
+    "https://ow.blizzard.cn/heroes/",
+    "https://ow.blizzard.cn/home.html"
+  ],
+  "entries": {
+    "Main - Overwatch Atlas": {
+      "target": "主界面 - 守望先锋档案馆",
+      "status": "reviewed",
+      "source": "Main - Overwatch Atlas"
+    },
+    "Rotate your device": {
+      "target": "请旋转设备",
+      "status": "reviewed",
+      "source": "Rotate your device"
+    },
+    "Overwatch Atlas is built for portrait on mobile. Turn your phone upright to continue.": {
+      "target": "守望先锋档案馆适配移动端竖屏，请将手机竖直后继续。",
+      "status": "reviewed",
+      "source": "Overwatch Atlas is built for portrait on mobile. Turn your phone upright to continue."
+    },
+    "Mode hub": {
+      "target": "模式中心",
+      "status": "reviewed",
+      "source": "Mode hub"
+    },
+    "View controls": {
+      "target": "视图控制",
+      "status": "reviewed",
+      "source": "View controls"
+    },
+    "Primary apps": {
+      "target": "主要应用",
+      "status": "reviewed",
+      "source": "Primary apps"
+    },
+    "Session controls": {
+      "target": "会话控制",
+      "status": "reviewed",
+      "source": "Session controls"
+    },
+    "Main menu": {
+      "target": "主菜单",
+      "status": "reviewed",
+      "source": "Main menu"
+    },
+    "Transport and weather": {
+      "target": "交通与天气",
+      "status": "reviewed",
+      "source": "Transport and weather"
+    },
+    "Pagination and navigation": {
+      "target": "分页与导航",
+      "status": "reviewed",
+      "source": "Pagination and navigation"
+    },
+    "Map view and rotation": {
+      "target": "地图与旋转",
+      "status": "reviewed",
+      "source": "Map view and rotation"
+    },
+    "Open official Overwatch website": {
+      "target": "打开《守望先锋》官方网站",
+      "status": "reviewed",
+      "source": "Open official Overwatch website"
+    },
+    "Go to official website": {
+      "target": "前往官方网站",
+      "status": "reviewed",
+      "source": "Go to official website"
+    },
+    "Overwatch Website": {
+      "target": "守望先锋官网",
+      "status": "reviewed",
+      "source": "Overwatch Website"
+    },
+    "Edit description": {
+      "target": "编辑描述",
+      "status": "reviewed",
+      "source": "Edit description"
+    },
+    "Edit": {
+      "target": "编辑",
+      "status": "reviewed",
+      "source": "Edit"
+    },
+    "Save": {
+      "target": "保存",
+      "status": "reviewed",
+      "source": "Save"
+    },
+    "Save description": {
+      "target": "保存描述",
+      "status": "reviewed",
+      "source": "Save description"
+    },
+    "Close": {
+      "target": "关闭",
+      "status": "reviewed",
+      "source": "Close"
+    },
+    "Back": {
+      "target": "返回",
+      "status": "reviewed",
+      "source": "Back"
+    },
+    "Back to previous entry": {
+      "target": "返回上一条",
+      "status": "reviewed",
+      "source": "Back to previous entry"
+    },
+    "List order": {
+      "target": "列表顺序",
+      "status": "reviewed",
+      "source": "List order"
+    },
+    "Search & filters": {
+      "target": "搜索与筛选",
+      "status": "reviewed",
+      "source": "Search & filters"
+    },
+    "Search": {
+      "target": "搜索",
+      "status": "reviewed",
+      "source": "Search"
+    },
+    "Filters": {
+      "target": "筛选",
+      "status": "reviewed",
+      "source": "Filters"
+    },
+    "Country": {
+      "target": "国家/地区",
+      "status": "reviewed",
+      "source": "Country"
+    },
+    "By title...": {
+      "target": "按标题搜索……",
+      "status": "reviewed",
+      "source": "By title..."
+    },
+    "Hero, faction, or NPC (comma-separated)...": {
+      "target": "英雄、阵营或 NPC（用逗号分隔）……",
+      "status": "reviewed",
+      "source": "Hero, faction, or NPC (comma-separated)..."
+    },
+    "By flag / country name, comma-separated...": {
+      "target": "按旗帜或国家/地区名称（用逗号分隔）……",
+      "status": "reviewed",
+      "source": "By flag / country name, comma-separated..."
+    },
+    "Use filter selection": {
+      "target": "使用当前筛选项",
+      "status": "reviewed",
+      "source": "Use filter selection"
+    },
+    "Per page:": {
+      "target": "每页：",
+      "status": "reviewed",
+      "source": "Per page:"
+    },
+    "Show all": {
+      "target": "显示全部",
+      "status": "reviewed",
+      "source": "Show all"
+    },
+    "Clear": {
+      "target": "清除",
+      "status": "reviewed",
+      "source": "Clear"
+    },
+    "Add Event": {
+      "target": "添加事件",
+      "status": "reviewed",
+      "source": "Add Event"
+    },
+    "Export": {
+      "target": "导出",
+      "status": "reviewed",
+      "source": "Export"
+    },
+    "Import": {
+      "target": "导入",
+      "status": "reviewed",
+      "source": "Import"
+    },
+    "Merge": {
+      "target": "合并",
+      "status": "reviewed",
+      "source": "Merge"
+    },
+    "Loading Status": {
+      "target": "加载状态",
+      "status": "reviewed",
+      "source": "Loading Status"
+    },
+    "Event Image": {
+      "target": "事件图片",
+      "status": "reviewed",
+      "source": "Event Image"
+    },
+    "Show Image": {
+      "target": "显示图片",
+      "status": "reviewed",
+      "source": "Show Image"
+    },
+    "Previous event": {
+      "target": "上一个事件",
+      "status": "reviewed",
+      "source": "Previous event"
+    },
+    "Next event": {
+      "target": "下一个事件",
+      "status": "reviewed",
+      "source": "Next event"
+    },
+    "Zoom In": {
+      "target": "放大",
+      "status": "reviewed",
+      "source": "Zoom In"
+    },
+    "Zoom Out": {
+      "target": "缩小",
+      "status": "reviewed",
+      "source": "Zoom Out"
+    },
+    "Reset zoom and view": {
+      "target": "重置缩放与视图",
+      "status": "reviewed",
+      "source": "Reset zoom and view"
+    },
+    "Relevant locations": {
+      "target": "相关地点",
+      "status": "reviewed",
+      "source": "Relevant locations"
+    },
+    "Connections": {
+      "target": "关系",
+      "status": "reviewed",
+      "source": "Connections"
+    },
+    "Sources": {
+      "target": "来源",
+      "status": "reviewed",
+      "source": "Sources"
+    },
+    "No description available.": {
+      "target": "暂无描述。",
+      "status": "reviewed",
+      "source": "No description available."
+    }
+  }
+}

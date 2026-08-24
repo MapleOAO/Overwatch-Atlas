@@ -23,7 +23,7 @@ export function resolveEventImagePath(displayEvent, eventName) {
     let eventImage = displayEvent.image || null;
     if (!eventImage || !String(eventImage).trim()) {
         const normalizedName = eventName.replace(/\s+/g, ' ').trim();
-        return `src/assets/images/Archive/Events/${encodeURIComponent(normalizedName)}.png`;
+        return optimizeImagePath(`src/assets/images/Archive/Events/${encodeURIComponent(normalizedName)}.png`);
     }
     return String(eventImage).trim();
 }
@@ -171,3 +171,4 @@ export function createMap2dLiteNavigationStub(fullEvent, displayEvent, variantIn
         }
     };
 }
+import { optimizeImagePath } from '../../universal-features/atlas-performance/runtimeAssetUrl.js';

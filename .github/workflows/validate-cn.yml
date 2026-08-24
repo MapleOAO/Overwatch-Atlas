@@ -1,0 +1,26 @@
+name: Validate CN overlay
+
+on:
+  push:
+    branches: ["cn-main", "codex/**"]
+  pull_request:
+    branches: ["cn-main", "main"]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run content:ids:check
+      - run: npm run i18n:check
+      - run: npm run i18n:official:check
+      - run: npm run i18n:visible:check
+

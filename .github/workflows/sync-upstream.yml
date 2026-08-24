@@ -1,0 +1,42 @@
+name: Sync upstream into CN branch
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: cn-main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: git remote add upstream https://github.com/DiegoSolanoC/Overwatch-Atlas.git || true
+      - run: git fetch --prune upstream main
+      - run: git switch -c automation/upstream-sync-${{ github.run_id }}
+      - run: git merge --no-edit upstream/main
+      - run: npm ci
+      - run: npm run content:ids
+      - run: npm run i18n:build
+      - run: npm run i18n:check
+      - run: npm run i18n:official:check
+      - run: npm run i18n:visible:check
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/upstream-sync-${{ github.run_id }}
+          base: cn-main
+          title: "chore: sync upstream into CN overlay"
+          commit-message: "chore: sync upstream into CN overlay"
+          body: |
+            自动同步 `upstream/main`。中文覆盖层通过稳定 ID 和 sourceHash 适配，上游冲突需人工复核。
+

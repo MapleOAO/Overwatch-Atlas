@@ -21,3 +21,6 @@ _site/
 scripts/_wiki-quotes-cache/
 scripts/_audit-*
 scripts/_partners-*
+
+# Large local media/download cache; never publish or commit it.
+scripts/_cache/

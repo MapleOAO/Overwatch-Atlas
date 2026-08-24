@@ -7,6 +7,7 @@
  * @param {string} [imageArchiveOverride] e.g. `'story'` for dock thumbs while editing heroes
  * @returns {string|null}
  */
+import { optimizeImagePath } from '../../../universal-features/atlas-performance/runtimeAssetUrl.js';
 export function getEventImagePath(displayEvent, eventName, imageArchiveOverride) {
     if (window.eventManager && typeof window.eventManager.getEventImagePath === 'function') {
         return window.eventManager.getEventImagePath(
@@ -20,7 +21,7 @@ export function getEventImagePath(displayEvent, eventName, imageArchiveOverride)
     if (!imagePath || !imagePath.trim()) {
         const normalizedName = eventName.replace(/\s+/g, ' ').trim();
         const encodedFileName = encodeURIComponent(normalizedName);
-        imagePath = `src/assets/images/Archive/Events/${encodedFileName}.png`;
+        imagePath = optimizeImagePath(`src/assets/images/Archive/Events/${encodedFileName}.png`);
     }
     return imagePath;
 }

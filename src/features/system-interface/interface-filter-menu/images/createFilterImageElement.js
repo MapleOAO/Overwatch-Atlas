@@ -82,6 +82,9 @@ function attachErrorRetry(img, type, filterKey, folder) {
 
 export function createFilterImageElement(imagePath, type, filterKey, folder) {
     const img = new Image();
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    img.fetchPriority = 'low';
     img.src = `${imagePath}?v=${generateCacheBuster()}`;
     img.alt = filterKey;
     attachErrorRetry(img, type, filterKey, folder);

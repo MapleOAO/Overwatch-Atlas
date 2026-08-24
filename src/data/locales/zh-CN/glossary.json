@@ -1,0 +1,4191 @@
+{
+  "locale": "zh-CN",
+  "version": 1,
+  "sources": [
+    "https://ow.blizzard.cn/heroes/",
+    "https://ow.blizzard.cn/home.html"
+  ],
+  "entries": {
+    "Hazard": {
+      "target": "哈泽",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Doomfist": {
+      "target": "末日铁拳",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Winston": {
+      "target": "温斯顿",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Wrecking Ball": {
+      "target": "破坏球",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "D.va": {
+      "target": "D.Va",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "D.Va": {
+      "target": "D.Va",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Mauga": {
+      "target": "毛加",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Orisa": {
+      "target": "奥丽莎",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Roadhog": {
+      "target": "路霸",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Zarya": {
+      "target": "查莉娅",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "D.mon": {
+      "target": "D.Mon",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "D.Mon": {
+      "target": "D.Mon",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Domina": {
+      "target": "多米娜",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Junker Queen": {
+      "target": "渣客女王",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Ramattra": {
+      "target": "拉玛刹",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Reinhardt": {
+      "target": "莱因哈特",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Sigma": {
+      "target": "西格玛",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Anran": {
+      "target": "安然",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Genji": {
+      "target": "源氏",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Reaper": {
+      "target": "死神",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Shion": {
+      "target": "死怨",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Tracer": {
+      "target": "猎空",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Vendetta": {
+      "target": "仇恨女王",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Venture": {
+      "target": "探奇",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Echo": {
+      "target": "回声",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Freja": {
+      "target": "弗蕾娅",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Pharah": {
+      "target": "法老之鹰",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Sierra": {
+      "target": "希拉",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Sombra": {
+      "target": "黑影",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Bastion": {
+      "target": "堡垒",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Emre": {
+      "target": "埃姆雷",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Junkrat": {
+      "target": "狂鼠",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Mei": {
+      "target": "小美",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Soldier 76": {
+      "target": "士兵：76",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Symmetra": {
+      "target": "秩序之光",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Torbjörn": {
+      "target": "托比昂",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Ashe": {
+      "target": "艾什",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Cassidy": {
+      "target": "卡西迪",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Hanzo": {
+      "target": "半藏",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Sojourn": {
+      "target": "索杰恩",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Widowmaker": {
+      "target": "黑百合",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Baptiste": {
+      "target": "巴蒂斯特",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Ana": {
+      "target": "安娜",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Jetpack Cat": {
+      "target": "飞天猫",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Lúcio": {
+      "target": "卢西奥",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Zenyatta": {
+      "target": "禅雅塔",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Kiriko": {
+      "target": "雾子",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Lifeweaver": {
+      "target": "生命之梭",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Mercy": {
+      "target": "天使",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Moira": {
+      "target": "莫伊拉",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Brigitte": {
+      "target": "布丽吉塔",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Illari": {
+      "target": "伊拉里",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Juno": {
+      "target": "朱诺",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Mizuki": {
+      "target": "水木",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Wuyang": {
+      "target": "武阳",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Overwatch": {
+      "target": "守望先锋",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Null Sector": {
+      "target": "零度方阵",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Talon Empire": {
+      "target": "黑爪帝国",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Talon": {
+      "target": "黑爪",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Deadlock Rebels": {
+      "target": "死锁帮",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Shimada Clan": {
+      "target": "岛田组",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Hashimoto Clan": {
+      "target": "桥本组",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Yokai Gang": {
+      "target": "妖怪帮",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Junker Monarchy": {
+      "target": "渣客王国",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "The Phreaks": {
+      "target": "恶痞帮",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "La Coterie": {
+      "target": "拉科特里",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Los Muertos": {
+      "target": "亡灵帮",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "The Sombra Collective": {
+      "target": "黑影集团",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Crusader Initiative": {
+      "target": "十字军计划",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Inti Warriors": {
+      "target": "因蒂勇士",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Volskaya Industries": {
+      "target": "沃斯卡娅工业",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Caribbean Coalition": {
+      "target": "加勒比联盟",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Deepsea Raiders": {
+      "target": "深海劫掠者",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Colosseo Gladiatori": {
+      "target": "斗兽场角斗士",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Helix Securities": {
+      "target": "赫利克斯国际安保",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "M.E.K.A Squad": {
+      "target": "MEKA小队",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "The Gwishin": {
+      "target": "鬼神",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Anubis Directives": {
+      "target": "阿努比斯指令",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Omnica Corporation": {
+      "target": "全智机械公司",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Ironclad Guild": {
+      "target": "铁甲公会",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Lucheng Interstellar": {
+      "target": "陆成天际",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Oasis Ministries": {
+      "target": "绿洲部",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Pacific Energy Solutions": {
+      "target": "太平洋能源方案",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "The Martins Collective": {
+      "target": "马丁斯集团",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Shambali Order": {
+      "target": "香巴里寺",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Lumérico Incorporated": {
+      "target": "卢梅里科公司",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Heliotech Industries": {
+      "target": "赫利奥技术工业",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Vishkar Corporation": {
+      "target": "光明科创",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Wuxing University": {
+      "target": "五星大学",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Yamagami Blades": {
+      "target": "山神刀社",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Wayfinder Society": {
+      "target": "寻路者协会",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Numbani City of Harmony": {
+      "target": "努巴尼和谐之城",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Blackwatch": {
+      "target": "黑爪",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Ecopoints": {
+      "target": "生态监测站",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Search & Rescue": {
+      "target": "搜救队",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Dae-Hyun": {
+      "target": "大贤",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Myung": {
+      "target": "明",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Overlord": {
+      "target": "霸王",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "B.O.B": {
+      "target": "鲍勃",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Kamori-san": {
+      "target": "卡莫里先生",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Sojiro": {
+      "target": "宗次郎",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Toshiro": {
+      "target": "俊郎",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Kuroura": {
+      "target": "藏王",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Pompamoto": {
+      "target": "庞帕莫托",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Chikasa": {
+      "target": "千笠",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Nobuto": {
+      "target": "信人",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Ryota": {
+      "target": "亮太",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Sakura": {
+      "target": "樱",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Geiger": {
+      "target": "盖格",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Carmilla": {
+      "target": "卡蜜拉",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Magnus": {
+      "target": "马格努斯",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Maximus": {
+      "target": "马克西姆斯",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Titus": {
+      "target": "提图斯",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Zephyrus": {
+      "target": "西风",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Adawe": {
+      "target": "阿达维",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Athena": {
+      "target": "雅典娜",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Efi": {
+      "target": "伊菲",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Gérard": {
+      "target": "杰拉德·拉克瓦",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Liao": {
+      "target": "廖",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Adeyemi": {
+      "target": "阿德耶米",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Chernobog": {
+      "target": "切尔诺博格",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Maximillien": {
+      "target": "马克西米连",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Mondatta": {
+      "target": "蒙达塔",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Naughton": {
+      "target": "诺顿",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Palak": {
+      "target": "帕拉克",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Benicio": {
+      "target": "贝尼西奥",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Emily": {
+      "target": "艾米丽",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Ingrid": {
+      "target": "英格丽德",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Kace": {
+      "target": "凯斯",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Lynx": {
+      "target": "山猫",
+      "status": "reviewed",
+      "sources": [
+        "https://ow.blizzard.cn/heroes/",
+        "https://ow.blizzard.cn/home.html"
+      ]
+    },
+    "Main - Overwatch Atlas": {
+      "target": "主界面 - 守望先锋档案馆",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Rotate your device": {
+      "target": "请旋转设备",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Overwatch Atlas is built for portrait on mobile. Turn your phone upright to continue.": {
+      "target": "守望先锋档案馆适配移动端竖屏，请将手机竖直后继续。",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Mode hub": {
+      "target": "模式中心",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "View controls": {
+      "target": "视图控制",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Primary apps": {
+      "target": "主要应用",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Session controls": {
+      "target": "会话控制",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Main menu": {
+      "target": "主菜单",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Transport and weather": {
+      "target": "交通与天气",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Pagination and navigation": {
+      "target": "分页与导航",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Map view and rotation": {
+      "target": "地图与旋转",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Open official Overwatch website": {
+      "target": "打开《守望先锋》官方网站",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Go to official website": {
+      "target": "前往官方网站",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Overwatch Website": {
+      "target": "守望先锋官网",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Edit description": {
+      "target": "编辑描述",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Edit": {
+      "target": "编辑",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Save": {
+      "target": "保存",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Save description": {
+      "target": "保存描述",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Close": {
+      "target": "关闭",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Back": {
+      "target": "返回",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Back to previous entry": {
+      "target": "返回上一条",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "List order": {
+      "target": "列表顺序",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Search & filters": {
+      "target": "搜索与筛选",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Search": {
+      "target": "搜索",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Filters": {
+      "target": "筛选",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Country": {
+      "target": "国家/地区",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "By title...": {
+      "target": "按标题搜索……",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Hero, faction, or NPC (comma-separated)...": {
+      "target": "英雄、阵营或 NPC（用逗号分隔）……",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "By flag / country name, comma-separated...": {
+      "target": "按旗帜或国家/地区名称（用逗号分隔）……",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Use filter selection": {
+      "target": "使用当前筛选项",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Per page:": {
+      "target": "每页：",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Show all": {
+      "target": "显示全部",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Clear": {
+      "target": "清除",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Add Event": {
+      "target": "添加事件",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Export": {
+      "target": "导出",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Import": {
+      "target": "导入",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Merge": {
+      "target": "合并",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Loading Status": {
+      "target": "加载状态",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Event Image": {
+      "target": "事件图片",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Show Image": {
+      "target": "显示图片",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Previous event": {
+      "target": "上一个事件",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Next event": {
+      "target": "下一个事件",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Zoom In": {
+      "target": "放大",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Zoom Out": {
+      "target": "缩小",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Reset zoom and view": {
+      "target": "重置缩放与视图",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Relevant locations": {
+      "target": "相关地点",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Connections": {
+      "target": "关系",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Sources": {
+      "target": "来源",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "No description available.": {
+      "target": "暂无描述。",
+      "status": "reviewed",
+      "sources": [
+        "index.html"
+      ]
+    },
+    "Siebren De Kuiper is Born": {
+      "target": "西布伦·德·库伊珀出生",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Reinhardt Wilhelm is Born": {
+      "target": "莱因哈特·威尔海姆出生",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Amélie Guillard is Born": {
+      "target": "艾米丽·吉拉德出生",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Lindholm Style": {
+      "target": "林德霍姆风格",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Automation": {
+      "target": "自动化时代",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Lost to the past": {
+      "target": "湮没于往昔",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Responsability": {
+      "target": "责任",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "SST Labs Siege Automaton E54 is Made": {
+      "target": "SST实验室攻城自动机E54诞生",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Personhood": {
+      "target": "人格认定",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Bankruptcy": {
+      "target": "破产",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Lady Shion Was Made": {
+      "target": "死怨诞生",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Yuna Lee is Born": {
+      "target": "李悠娜出生",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Tipping the Balance": {
+      "target": "扭转局势",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "A Dying Directive": {
+      "target": "垂死指令",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Kept in Chains": {
+      "target": "锁链禁锢",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Brotherhood": {
+      "target": "兄弟会",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Outlaws": {
+      "target": "亡命之徒",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "The Gunslinger": {
+      "target": "枪手",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Studying for the Future": {
+      "target": "为未来求学",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "City of Harmony": {
+      "target": "和谐之城",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Mother's Guidance": {
+      "target": "母亲的指引",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Sparkplug": {
+      "target": "火花塞",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Yearning": {
+      "target": "渴望",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "The Xie Incident": {
+      "target": "谢氏事件",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Risen in Blood": {
+      "target": "血中崛起",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Captivate": {
+      "target": "倾心",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Luxuries": {
+      "target": "奢华",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Subject Sigma": {
+      "target": "西格玛项目",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Storm Chaser": {
+      "target": "追逐风暴",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Counter Meassures": {
+      "target": "反制措施",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Cyber Ninja": {
+      "target": "赛博忍者",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Healing Nature": {
+      "target": "治愈自然",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Bodily Entropy": {
+      "target": "肉身熵变",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Hacking Spree": {
+      "target": "黑客狂欢",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "White Canvas": {
+      "target": "白色画布",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Leverage": {
+      "target": "筹码",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Escape Pod": {
+      "target": "逃生舱",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Questioning": {
+      "target": "质询",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Two Hearts": {
+      "target": "两颗心",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Intervention": {
+      "target": "介入行动",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Emotionless": {
+      "target": "无动于衷",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "MEKKA": {
+      "target": "MEKA机甲部队",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Ghost": {
+      "target": "幽灵",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Interrogation": {
+      "target": "审讯",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Mass Backlash": {
+      "target": "大规模反弹",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Protecting the Skies": {
+      "target": "守护天空",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Another Life": {
+      "target": "另一种人生",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Deactivated": {
+      "target": "停用",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Cycle of Violence": {
+      "target": "暴力循环",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Summit Squad": {
+      "target": "峰会小队",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Underground Hero": {
+      "target": "地下英雄",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Avatar of the Fox": {
+      "target": "狐之化身",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Full Disclosure": {
+      "target": "完全披露",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Travelling Monk": {
+      "target": "云游僧侣",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Waging War": {
+      "target": "发动战争",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Meeting your Heroes": {
+      "target": "与英雄相遇",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Double Life": {
+      "target": "双重人生",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Randevu": {
+      "target": "重逢",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Final Failsafe": {
+      "target": "最终故障保险",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Ongoing Operations": {
+      "target": "持续行动",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "External Partners": {
+      "target": "外部伙伴",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Growing Pains": {
+      "target": "成长阵痛",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Successors": {
+      "target": "继承者",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "The Gibraltar Attack": {
+      "target": "直布罗陀袭击",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Shelter": {
+      "target": "庇护所",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Living Weapon": {
+      "target": "活体武器",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Cat Training": {
+      "target": "猫咪训练",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "The Tiger's Den": {
+      "target": "猛虎之巢",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "A Rare Power": {
+      "target": "罕见力量",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Distress Signal": {
+      "target": "求救信号",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Anima Strike": {
+      "target": "灵能突袭",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Call to Action": {
+      "target": "行动号召",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "End of the Line": {
+      "target": "终点",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Rookie Mission": {
+      "target": "新兵任务",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Deep Sea Deception": {
+      "target": "深海骗局",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Facing Demons": {
+      "target": "直面心魔",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Ambush": {
+      "target": "伏击",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Ulterior Motive": {
+      "target": "另有企图",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Expanding Operations": {
+      "target": "扩大行动",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Paths We Choose": {
+      "target": "我们选择的道路",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Rematch": {
+      "target": "再战",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "The Luft Akan": {
+      "target": "卢夫特·阿坎",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Tough Call": {
+      "target": "艰难抉择",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Castaway": {
+      "target": "漂流者",
+      "status": "needs-review",
+      "sources": [
+        "upstream/main"
+      ]
+    },
+    "Canada Approves plans for Experimental Prosthetics": {
+      "source": "Canada Approves plans for Experimental Prosthetics",
+      "target": "关于“医疗 奇迹”的报道",
+      "status": "needs-review"
+    },
+    "Another wave of Yellow Fever hits Several States in the US": {
+      "source": "Another wave of Yellow Fever hits Several States in the US",
+      "target": "关于“医疗 奇迹”的报道",
+      "status": "needs-review"
+    },
+    "Fears of another world wide pandemic increase online after recent pathogen outbreaks": {
+      "source": "Fears of another world wide pandemic increase online after recent pathogen outbreaks",
+      "target": "关于“医疗 奇迹”的报道",
+      "status": "needs-review"
+    },
+    "Concerns about viability of AI development cause world wide political divide": {
+      "source": "Concerns about viability of AI development cause world wide political divide",
+      "target": "关于“医疗 奇迹”的报道",
+      "status": "needs-review"
+    },
+    "Record breaking draughts in Africa force hundreds to migrate after loosing their homes": {
+      "source": "Record breaking draughts in Africa force hundreds to migrate after loosing their homes",
+      "target": "关于“清澈 见底”的报道",
+      "status": "needs-review"
+    },
+    "Nano filtration machines become available to buy for home use": {
+      "source": "Nano filtration machines become available to buy for home use",
+      "target": "关于“清澈 见底”的报道",
+      "status": "needs-review"
+    },
+    "Experts declare it will take a miracle to revert climate change, reducing the carbon foot print is no longer enough": {
+      "source": "Experts declare it will take a miracle to revert climate change, reducing the carbon foot print is no longer enough",
+      "target": "关于“绿色 能源”的报道",
+      "status": "needs-review"
+    },
+    "Electric Seaweed becomes the new trend across rural Latin America": {
+      "source": "Electric Seaweed becomes the new trend across rural Latin America",
+      "target": "关于“绿色 能源”的报道",
+      "status": "needs-review"
+    },
+    "Wind Energy gets a massive boost from recent Super Storms": {
+      "source": "Wind Energy gets a massive boost from recent Super Storms",
+      "target": "关于“绿色 能源”的报道",
+      "status": "needs-review"
+    },
+    "Scandal follows after Hawaii seceeds the United States": {
+      "source": "Scandal follows after Hawaii seceeds the United States",
+      "target": "关于“洁净 海洋”的报道",
+      "status": "needs-review"
+    },
+    "Pacific Nations form Socio economic alliance after international controversy": {
+      "source": "Pacific Nations form Socio economic alliance after international controversy",
+      "target": "关于“洁净 海洋”的报道",
+      "status": "needs-review"
+    },
+    "Scientist Claims its now possible to extract water out of tin air": {
+      "source": "Scientist Claims its now possible to extract water out of tin air",
+      "target": "关于“凭空 稀薄 空气”的报道",
+      "status": "needs-review"
+    },
+    "Cybernetic research proves sucessful and promises a new age to prostetics": {
+      "source": "Cybernetic research proves sucessful and promises a new age to prostetics",
+      "target": "关于“维维安·蔡斯出生”的报道",
+      "status": "needs-review"
+    },
+    "Medical Advances promise to exterminate most common ilnesses by the next decade": {
+      "source": "Medical Advances promise to exterminate most common ilnesses by the next decade",
+      "target": "关于“维维安·蔡斯出生”的报道",
+      "status": "needs-review"
+    },
+    "Nuclear Energy push finally breaks through on Fision development": {
+      "source": "Nuclear Energy push finally breaks through on Fision development",
+      "target": "关于“核能 方案”的报道",
+      "status": "needs-review"
+    },
+    "Omnica Corporation quick to adopt new nuclear energy": {
+      "source": "Omnica Corporation quick to adopt new nuclear energy",
+      "target": "关于“核能 方案”的报道",
+      "status": "needs-review"
+    },
+    "Solar Farming becomes a popular side hussle for farmers in the Australian Outback": {
+      "source": "Solar Farming becomes a popular side hussle for farmers in the Australian Outback",
+      "target": "关于“马可·拉特利奇出生”的报道",
+      "status": "needs-review"
+    },
+    "Artificial Coral is to be released into Polynesian waters": {
+      "source": "Artificial Coral is to be released into Polynesian waters",
+      "target": "关于“超级 Coral Reef”的报道",
+      "status": "needs-review"
+    },
+    "Portugal builds a massive wall across its coastline": {
+      "source": "Portugal builds a massive wall across its coastline",
+      "target": "关于“上升 潮汐”的报道",
+      "status": "needs-review"
+    },
+    "Super coral grows out of control, massive island like structures rise from the sea": {
+      "source": "Super coral grows out of control, massive island like structures rise from the sea",
+      "target": "关于“上升 潮汐”的报道",
+      "status": "needs-review"
+    },
+    "Borda Algae  can now be found in nearly all major bodies of fresh water according to study": {
+      "source": "Borda Algae  can now be found in nearly all major bodies of fresh water according to study",
+      "target": "关于“上升 潮汐”的报道",
+      "status": "needs-review"
+    },
+    "Genetics research becomes pivotal for development of new crops after worsening climate": {
+      "source": "Genetics research becomes pivotal for development of new crops after worsening climate",
+      "target": "关于“莫伊拉·奥德莱恩出生”的报道",
+      "status": "needs-review"
+    },
+    "Indigenous Peruvians invent new form of solar powered devices": {
+      "source": "Indigenous Peruvians invent new form of solar powered devices",
+      "target": "关于“太阳 织线”的报道",
+      "status": "needs-review"
+    },
+    "Wuxing University Opens its doors to the public": {
+      "source": "Wuxing University Opens its doors to the public",
+      "target": "关于“五星大学”的报道",
+      "status": "needs-review"
+    },
+    "Chinese College makes the rounds online due to its unique new structure": {
+      "source": "Chinese College makes the rounds online due to its unique new structure",
+      "target": "关于“五星大学”的报道",
+      "status": "needs-review"
+    },
+    "Ogundimu Synergies Inc rises as a major competitor in the cybernetics field": {
+      "source": "Ogundimu Synergies Inc rises as a major competitor in the cybernetics field",
+      "target": "关于“阿坎德·奥贡迪姆出生”的报道",
+      "status": "needs-review"
+    },
+    "Chronically ill child undergoes surgery to replace most of her organs with cybernetics": {
+      "source": "Chronically ill child undergoes surgery to replace most of her organs with cybernetics",
+      "target": "关于“阿坎德·奥贡迪姆出生”的报道",
+      "status": "needs-review"
+    },
+    "Indian company discovers a way to make construction materials from light itself": {
+      "source": "Indian company discovers a way to make construction materials from light itself",
+      "target": "关于“硬光 世界”的报道",
+      "status": "needs-review"
+    },
+    "Vishkar expands following massive hardlight breakthrough": {
+      "source": "Vishkar expands following massive hardlight breakthrough",
+      "target": "关于“硬光 世界”的报道",
+      "status": "needs-review"
+    },
+    "Climate Change worsens inspite of a decade worth of ecological effords": {
+      "source": "Climate Change worsens inspite of a decade worth of ecological effords",
+      "target": "关于“周美灵出生”的报道",
+      "status": "needs-review"
+    },
+    "Omnica Coorporation starts to roll out its first robotic helped Omnic units": {
+      "source": "Omnica Coorporation starts to roll out its first robotic helped Omnic units",
+      "target": "关于“崛起 智械”的报道",
+      "status": "needs-review"
+    },
+    "Construciton of Omnium factories is approved for several cities world wide": {
+      "source": "Construciton of Omnium factories is approved for several cities world wide",
+      "target": "关于“崛起 智械”的报道",
+      "status": "needs-review"
+    },
+    "Arbalest annual profits report above expectations": {
+      "source": "Arbalest annual profits report above expectations",
+      "target": "关于“伊丽莎白·卡利多尼亚出生”的报道",
+      "status": "needs-review"
+    },
+    "Crime stadistics in Japan seemingly go down, Shimada Clan activity adlegedly under reported": {
+      "source": "Crime stadistics in Japan seemingly go down, Shimada Clan activity adlegedly under reported",
+      "target": "关于“岛田半藏出生”的报道",
+      "status": "needs-review"
+    },
+    "GMO crops become open sourced after historical legal win in New York": {
+      "source": "GMO crops become open sourced after historical legal win in New York",
+      "target": "关于“滋养 世界”的报道",
+      "status": "needs-review"
+    },
+    "Omnica Robots replace most of the work force across all manual labor fields": {
+      "source": "Omnica Robots replace most of the work force across all manual labor fields",
+      "target": "关于“滋养 世界”的报道",
+      "status": "needs-review"
+    },
+    "Medical study suggests global health and live expectancy are at an all time high": {
+      "source": "Medical study suggests global health and live expectancy are at an all time high",
+      "target": "关于“安吉拉·齐格勒出生”的报道",
+      "status": "needs-review"
+    },
+    "Megafarms now constitute most of the world's arable land": {
+      "source": "Megafarms now constitute most of the world's arable land",
+      "target": "关于“科尔·卡西迪出生”的报道",
+      "status": "needs-review"
+    },
+    "Russian Forces display new state of the art equipment courtesy of Volskaya Industries": {
+      "source": "Russian Forces display new state of the art equipment courtesy of Volskaya Industries",
+      "target": "关于“沃斯卡娅工业”的报道",
+      "status": "needs-review"
+    },
+    "Vishkar founded dead after car accident, company undergoes power shifts following his passing": {
+      "source": "Vishkar founded dead after car accident, company undergoes power shifts following his passing",
+      "target": "关于“沃斯卡娅工业”的报道",
+      "status": "needs-review"
+    },
+    "Linköping University uneveils possible breakthrough in circuit making": {
+      "source": "Linköping University uneveils possible breakthrough in circuit making",
+      "target": "关于“林德霍姆风格”的报道",
+      "status": "needs-review"
+    },
+    "Yet another wave of Super storms is expected to hit the Caribbean, as people still suffer the effects of the last one": {
+      "source": "Yet another wave of Super storms is expected to hit the Caribbean, as people still suffer the effects of the last one",
+      "target": "关于“让-巴蒂斯特·奥古斯丁出生”的报道",
+      "status": "needs-review"
+    },
+    "Hyperloop Train is set to finally open next year": {
+      "source": "Hyperloop Train is set to finally open next year",
+      "target": "关于“掌握 重力”的报道",
+      "status": "needs-review"
+    },
+    "Germany invests on science development, and ocean exploration, hoping to open jobs as AI takes over": {
+      "source": "Germany invests on science development, and ocean exploration, hoping to open jobs as AI takes over",
+      "target": "关于“掌握 重力”的报道",
+      "status": "needs-review"
+    },
+    "Super Coral boosts Pacific tourism at the expense of trading routes": {
+      "source": "Super Coral boosts Pacific tourism at the expense of trading routes",
+      "target": "关于“毛加洛阿·马洛西出生”的报道",
+      "status": "needs-review"
+    },
+    "Shimada Clan speculated to secretly control most of Tokyo in the shadows": {
+      "source": "Shimada Clan speculated to secretly control most of Tokyo in the shadows",
+      "target": "关于“岛田源氏出生”的报道",
+      "status": "needs-review"
+    },
+    "Many governments approve the delegation of duties across many fields to the new so caleld \"God programs\"": {
+      "source": "Many governments approve the delegation of duties across many fields to the new so caleld \"God programs\"",
+      "target": "关于“资源 管理”的报道",
+      "status": "needs-review"
+    },
+    "Controversy follows as more and more aspects of daily live are taken over by machines": {
+      "source": "Controversy follows as more and more aspects of daily live are taken over by machines",
+      "target": "关于“资源 管理”的报道",
+      "status": "needs-review"
+    },
+    "Ancient Egyptian beer recipe recreated by College student": {
+      "source": "Ancient Egyptian beer recipe recreated by College student",
+      "target": "关于“湮没于往昔”的报道",
+      "status": "needs-review"
+    },
+    "Sweden reveals the new generation of security robots": {
+      "source": "Sweden reveals the new generation of security robots",
+      "target": "关于“责任”的报道",
+      "status": "needs-review"
+    },
+    "SST Laboratories to move to AI powered services": {
+      "source": "SST Laboratories to move to AI powered services",
+      "target": "关于“责任”的报道",
+      "status": "needs-review"
+    },
+    "Canada approves cybernetically enhance troops in spite of Dr. Esat's protests": {
+      "source": "Canada approves cybernetically enhance troops in spite of Dr. Esat's protests",
+      "target": "关于“升级”的报道",
+      "status": "needs-review"
+    },
+    "Chernobog God AI charts new diplomatic strategy for Scandinavian security": {
+      "source": "Chernobog God AI charts new diplomatic strategy for Scandinavian security",
+      "target": "关于“弗蕾娅·斯科夫出生”的报道",
+      "status": "needs-review"
+    },
+    "IRSO partners with Lucheng to start Lunar Colony construction": {
+      "source": "IRSO partners with Lucheng to start Lunar Colony construction",
+      "target": "关于“道路 群星”的报道",
+      "status": "needs-review"
+    },
+    "Sniper with a cybernetic eye climbs to the top of Egypts military": {
+      "source": "Sniper with a cybernetic eye climbs to the top of Egypts military",
+      "target": "关于“法芮尔·阿玛莉出生”的报道",
+      "status": "needs-review"
+    },
+    "Breakthroughts in Space travel by Lucheng Interstellar save lives on Earth": {
+      "source": "Breakthroughts in Space travel by Lucheng Interstellar save lives on Earth",
+      "target": "关于“太空 竞赛”的报道",
+      "status": "needs-review"
+    },
+    "Research shows domestic Omnic population is now nearly as common as personal cars": {
+      "source": "Research shows domestic Omnic population is now nearly as common as personal cars",
+      "target": "关于“泰哈撒·禅雅塔诞生”的报道",
+      "status": "needs-review"
+    },
+    "Omnica's grow seemignly plateaus, is the Omnic bubble about to crash?": {
+      "source": "Omnica's grow seemignly plateaus, is the Omnic bubble about to crash?",
+      "target": "关于“泰哈撒·禅雅塔诞生”的报道",
+      "status": "needs-review"
+    },
+    "The new generation of defensive warfare is adaptive machines": {
+      "source": "The new generation of defensive warfare is adaptive machines",
+      "target": "关于“SST实验室攻城自动机E54诞生”的报道",
+      "status": "needs-review"
+    },
+    "Ironclad Guild opens its workshop for everyone": {
+      "source": "Ironclad Guild opens its workshop for everyone",
+      "target": "关于“SST实验室攻城自动机E54诞生”的报道",
+      "status": "needs-review"
+    },
+    "Omnica's newest product is... A sentient being?": {
+      "source": "Omnica's newest product is... A sentient being?",
+      "target": "关于“创世纪”的报道",
+      "status": "needs-review"
+    },
+    "Dr. Mina Liao commits career suicide, claiming her newest creation is alive": {
+      "source": "Dr. Mina Liao commits career suicide, claiming her newest creation is alive",
+      "target": "关于“创世纪”的报道",
+      "status": "needs-review"
+    },
+    "Xibalbá God program is celebrated across Mexico": {
+      "source": "Xibalbá God program is celebrated across Mexico",
+      "target": "关于“奥莉维亚·科罗马尔出生”的报道",
+      "status": "needs-review"
+    },
+    "Lucheng secures deal to ship a primate colony into Space for genetic research": {
+      "source": "Lucheng secures deal to ship a primate colony into Space for genetic research",
+      "target": "关于“28号样本出生”的报道",
+      "status": "needs-review"
+    },
+    "Ironclad Engineers face backlash after criticizing over relyance on AI": {
+      "source": "Ironclad Engineers face backlash after criticizing over relyance on AI",
+      "target": "关于“铁甲 公会”的报道",
+      "status": "needs-review"
+    },
+    "The Horizon Lunar Colony  is finally finished": {
+      "source": "The Horizon Lunar Colony  is finally finished",
+      "target": "关于“新 地平线”的报道",
+      "status": "needs-review"
+    },
+    "Scientists from across the world to visit the new Lunar base": {
+      "source": "Scientists from across the world to visit the new Lunar base",
+      "target": "关于“新 地平线”的报道",
+      "status": "needs-review"
+    },
+    "Aurora is granted legal personhood in spite of global discourse": {
+      "source": "Aurora is granted legal personhood in spite of global discourse",
+      "target": "关于“人格认定”的报道",
+      "status": "needs-review"
+    },
+    "Reports of election meddling plague most of Europe": {
+      "source": "Reports of election meddling plague most of Europe",
+      "target": "关于“掌握 Talon”的报道",
+      "status": "needs-review"
+    },
+    "Reports of illegal activities surge across Italy, authorities refuse to investigate further": {
+      "source": "Reports of illegal activities surge across Italy, authorities refuse to investigate further",
+      "target": "关于“掌握 Talon”的报道",
+      "status": "needs-review"
+    },
+    "Omnica Corporation goes bankrupt after years of empty promises": {
+      "source": "Omnica Corporation goes bankrupt after years of empty promises",
+      "target": "关于“破产”的报道",
+      "status": "needs-review"
+    },
+    "Omnium factories set to go unsued following Omnica's bankrupcy": {
+      "source": "Omnium factories set to go unsued following Omnica's bankrupcy",
+      "target": "关于“破产”的报道",
+      "status": "needs-review"
+    },
+    "UN meetings regarding climate change conclude enviromental push is no longer a priority": {
+      "source": "UN meetings regarding climate change conclude enviromental push is no longer a priority",
+      "target": "关于“扮演 神”的报道",
+      "status": "needs-review"
+    },
+    "AI regulation laws fail to go through across most of the Western world": {
+      "source": "AI regulation laws fail to go through across most of the Western world",
+      "target": "关于“扮演 神”的报道",
+      "status": "needs-review"
+    },
+    "Germany unveils the new generation of German soldiers": {
+      "source": "Germany unveils the new generation of German soldiers",
+      "target": "关于“骑士 闪耀 铠甲”的报道",
+      "status": "needs-review"
+    },
+    "Crusader guards parade across Berlin for presidential inauguration": {
+      "source": "Crusader guards parade across Berlin for presidential inauguration",
+      "target": "关于“骑士 闪耀 铠甲”的报道",
+      "status": "needs-review"
+    },
+    "US Military hires Dr. Naughton for secret project following her return from the Moon": {
+      "source": "US Military hires Dr. Naughton for secret project following her return from the Moon",
+      "target": "关于“建造 更好的 士兵”的报道",
+      "status": "needs-review"
+    },
+    "Sentient Omnic goes missing months after gaining personhood": {
+      "source": "Sentient Omnic goes missing months after gaining personhood",
+      "target": "关于“答案”的报道",
+      "status": "needs-review"
+    },
+    "Ancient temple in the Himalayas is discovered by archeologists": {
+      "source": "Ancient temple in the Himalayas is discovered by archeologists",
+      "target": "关于“答案”的报道",
+      "status": "needs-review"
+    },
+    "Renowned Italian family involved in criminal underworld": {
+      "source": "Renowned Italian family involved in criminal underworld",
+      "target": "关于“玛尔齐娅·巴塔洛蒂出生”的报道",
+      "status": "needs-review"
+    },
+    "Omnic Crisis declared to be global, cause is still unknown": {
+      "source": "Omnic Crisis declared to be global, cause is still unknown",
+      "target": "关于“Ramattra诞生”的报道",
+      "status": "needs-review"
+    },
+    "Wealthy elites and celebrities presumed to be hiding in bunkers": {
+      "source": "Wealthy elites and celebrities presumed to be hiding in bunkers",
+      "target": "关于“Ramattra诞生”的报道",
+      "status": "needs-review"
+    },
+    "Unexpected Omnic attack in Lagos, hundreds dead": {
+      "source": "Unexpected Omnic attack in Lagos, hundreds dead",
+      "target": "关于“拉各斯 Attack”的报道",
+      "status": "needs-review"
+    },
+    "Nigeria goes silent following spontaneous Omnic rebellion": {
+      "source": "Nigeria goes silent following spontaneous Omnic rebellion",
+      "target": "关于“拉各斯 Attack”的报道",
+      "status": "needs-review"
+    },
+    "Multiple countries report Omnic Invasion, war imminent": {
+      "source": "Multiple countries report Omnic Invasion, war imminent",
+      "target": "关于“拉各斯 Attack”的报道",
+      "status": "needs-review"
+    },
+    "Hurricane Crystal causes chaos across the Caribbean soon after Omnic Crisis attacks": {
+      "source": "Hurricane Crystal causes chaos across the Caribbean soon after Omnic Crisis attacks",
+      "target": "关于“加勒比 联盟”的报道",
+      "status": "needs-review"
+    },
+    "Russia finally responst back \"We have won\"": {
+      "source": "Russia finally responst back \"We have won\"",
+      "target": "关于“早期 胜利”的报道",
+      "status": "needs-review"
+    },
+    "Russian civillians fight back the Omnics sucessfully": {
+      "source": "Russian civillians fight back the Omnics sucessfully",
+      "target": "关于“早期 胜利”的报道",
+      "status": "needs-review"
+    },
+    "Controversial Swedish inventor saves Gothenburg with Turrets": {
+      "source": "Controversial Swedish inventor saves Gothenburg with Turrets",
+      "target": "关于“瑞典 工程”的报道",
+      "status": "needs-review"
+    },
+    "Sweden to expand Lindholm's defense systems across the country": {
+      "source": "Sweden to expand Lindholm's defense systems across the country",
+      "target": "关于“瑞典 工程”的报道",
+      "status": "needs-review"
+    },
+    "Omnics defeated at Portugal's sea wall": {
+      "source": "Omnics defeated at Portugal's sea wall",
+      "target": "关于“扩大 围墙”的报道",
+      "status": "needs-review"
+    },
+    "Spain forms an alliance with Portugal to face the Omnics  together": {
+      "source": "Spain forms an alliance with Portugal to face the Omnics  together",
+      "target": "关于“扩大 围墙”的报道",
+      "status": "needs-review"
+    },
+    "New York City major defies governor orders to evacuate": {
+      "source": "New York City major defies governor orders to evacuate",
+      "target": "关于“地狱 Them”的报道",
+      "status": "needs-review"
+    },
+    "US orders citizens to leave major cities, military aid is stopped by Omnic army": {
+      "source": "US orders citizens to leave major cities, military aid is stopped by Omnic army",
+      "target": "关于“地狱 Them”的报道",
+      "status": "needs-review"
+    },
+    "Man alledgely equips Moose with rifles to fight back Omnics": {
+      "source": "Man alledgely equips Moose with rifles to fight back Omnics",
+      "target": "关于“呼号“索杰恩””的报道",
+      "status": "needs-review"
+    },
+    "Vivian \"Sojourn\" Chase is promoted to commander following Ontario rescue operations": {
+      "source": "Vivian \"Sojourn\" Chase is promoted to commander following Ontario rescue operations",
+      "target": "关于“呼号“索杰恩””的报道",
+      "status": "needs-review"
+    },
+    "Anubis targets Satellite systems across the atmosphere": {
+      "source": "Anubis targets Satellite systems across the atmosphere",
+      "target": "关于“发射 Into 天空”的报道",
+      "status": "needs-review"
+    },
+    "India focus military effort into securing lauching track protection": {
+      "source": "India focus military effort into securing lauching track protection",
+      "target": "关于“发射 Into 天空”的报道",
+      "status": "needs-review"
+    },
+    "IRSO sucessfully restablishes global satellite network": {
+      "source": "IRSO sucessfully restablishes global satellite network",
+      "target": "关于“发射 Into 天空”的报道",
+      "status": "needs-review"
+    },
+    "Fire College Students protect Chengdu from warbots": {
+      "source": "Fire College Students protect Chengdu from warbots",
+      "target": "关于“炽热 骄傲”的报道",
+      "status": "needs-review"
+    },
+    "Student  made mechs to be deployed across China": {
+      "source": "Student  made mechs to be deployed across China",
+      "target": "关于“炽热 骄傲”的报道",
+      "status": "needs-review"
+    },
+    "Thousands of refugees flea into the Megafarms all across America": {
+      "source": "Thousands of refugees flea into the Megafarms all across America",
+      "target": "关于“难民”的报道",
+      "status": "needs-review"
+    },
+    "Solar Powered Warriors fight Omnics in the Andes": {
+      "source": "Solar Powered Warriors fight Omnics in the Andes",
+      "target": "关于“孩子 太阳”的报道",
+      "status": "needs-review"
+    },
+    "Cybernetic Ceremony brings the power of the sun into the Human body": {
+      "source": "Cybernetic Ceremony brings the power of the sun into the Human body",
+      "target": "关于“孩子 太阳”的报道",
+      "status": "needs-review"
+    },
+    "Man single handedly stops waves of Omnics before vanishing": {
+      "source": "Man single handedly stops waves of Omnics before vanishing",
+      "target": "关于“迫使 太阳 落下”的报道",
+      "status": "needs-review"
+    },
+    "The \"Doomfist\" is spotted once more in Nigeria": {
+      "source": "The \"Doomfist\" is spotted once more in Nigeria",
+      "target": "关于“迫使 太阳 落下”的报道",
+      "status": "needs-review"
+    },
+    "Voslkaya Mechs fight Omic army back": {
+      "source": "Voslkaya Mechs fight Omic army back",
+      "target": "关于“斯维亚托戈尔号”的报道",
+      "status": "needs-review"
+    },
+    "Russia stays strong against the Warbots with giant Robots of their own": {
+      "source": "Russia stays strong against the Warbots with giant Robots of their own",
+      "target": "关于“斯维亚托戈尔号”的报道",
+      "status": "needs-review"
+    },
+    "UN Approves unified strike unti plan": {
+      "source": "UN Approves unified strike unti plan",
+      "target": "关于“提议”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch Initiative passes United Nations hearings, scouting for candidates begins shortly after": {
+      "source": "Overwatch Initiative passes United Nations hearings, scouting for candidates begins shortly after",
+      "target": "关于“提议”的报道",
+      "status": "needs-review"
+    },
+    "Sweden scientists develop new portable Bunkers to combat Omnics": {
+      "source": "Sweden scientists develop new portable Bunkers to combat Omnics",
+      "target": "关于“英雄 五”的报道",
+      "status": "needs-review"
+    },
+    "Top Sniper prevents massacre in Cairo": {
+      "source": "Top Sniper prevents massacre in Cairo",
+      "target": "关于“之眼 Horus”的报道",
+      "status": "needs-review"
+    },
+    "Linhholm's defense system expands across Sweden": {
+      "source": "Linhholm's defense system expands across Sweden",
+      "target": "关于“防御 网络”的报道",
+      "status": "needs-review"
+    },
+    "New Yorkers turn Empire State Building into an Anti Omnic Cannon": {
+      "source": "New Yorkers turn Empire State Building into an Anti Omnic Cannon",
+      "target": "关于“天炮”的报道",
+      "status": "needs-review"
+    },
+    "Ravager Units appear on battlefields across the world, highly dangerous": {
+      "source": "Ravager Units appear on battlefields across the world, highly dangerous",
+      "target": "关于“天炮”的报道",
+      "status": "needs-review"
+    },
+    "German recruitment offices full, a new Generation of Crusaders has been selected": {
+      "source": "German recruitment offices full, a new Generation of Crusaders has been selected",
+      "target": "关于“建造 神话”的报道",
+      "status": "needs-review"
+    },
+    "Knights in shinig armor shield civillians from Omnic attacks": {
+      "source": "Knights in shinig armor shield civillians from Omnic attacks",
+      "target": "关于“建造 神话”的报道",
+      "status": "needs-review"
+    },
+    "United States Government to begin recruitment for Super Soldier trials": {
+      "source": "United States Government to begin recruitment for Super Soldier trials",
+      "target": "关于“超级 士兵”的报道",
+      "status": "needs-review"
+    },
+    "National Heroes Jack Morrison and Gabriel Reyes to be deployed across battle scared cities": {
+      "source": "National Heroes Jack Morrison and Gabriel Reyes to be deployed across battle scared cities",
+      "target": "关于“超级 士兵”的报道",
+      "status": "needs-review"
+    },
+    "Germany loses Eichenwalde Stronghold to the Omnics": {
+      "source": "Germany loses Eichenwalde Stronghold to the Omnics",
+      "target": "关于“荣誉 光荣”的报道",
+      "status": "needs-review"
+    },
+    "Veteran Crusader dies defending the Eichenwalde Castle": {
+      "source": "Veteran Crusader dies defending the Eichenwalde Castle",
+      "target": "关于“荣誉 光荣”的报道",
+      "status": "needs-review"
+    },
+    "United Nations assamble team of heroes from across the world": {
+      "source": "United Nations assamble team of heroes from across the world",
+      "target": "关于“最初 突击 小队”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch Taskforce to start deployment soon": {
+      "source": "Overwatch Taskforce to start deployment soon",
+      "target": "关于“最初 突击 小队”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch missions are a sucess across the globe": {
+      "source": "Overwatch missions are a sucess across the globe",
+      "target": "关于“早期 任务”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch agent rescues child in Japan": {
+      "source": "Overwatch agent rescues child in Japan",
+      "target": "关于“早期 任务”的报道",
+      "status": "needs-review"
+    },
+    "Civilians unite to fight the Omnics in the Australian Outback": {
+      "source": "Civilians unite to fight the Omnics in the Australian Outback",
+      "target": "关于“Jamison Fawkes出生”的报道",
+      "status": "needs-review"
+    },
+    "War Hero dies defending Siberian town": {
+      "source": "War Hero dies defending Siberian town",
+      "target": "关于“道路 骸骨”的报道",
+      "status": "needs-review"
+    },
+    "Radiation Zone declared in Oymyakon, evacuation mandatory": {
+      "source": "Radiation Zone declared in Oymyakon, evacuation mandatory",
+      "target": "关于“道路 骸骨”的报道",
+      "status": "needs-review"
+    },
+    "Mina Liao Joins Overwatch Initiaitve": {
+      "source": "Mina Liao Joins Overwatch Initiaitve",
+      "target": "关于“knew 更好的”的报道",
+      "status": "needs-review"
+    },
+    "Detroit Omnium sucessfully decomissioned": {
+      "source": "Detroit Omnium sucessfully decomissioned",
+      "target": "关于“合作”的报道",
+      "status": "needs-review"
+    },
+    "New York city breached, war rages on": {
+      "source": "New York city breached, war rages on",
+      "target": "关于“战斗 桥梁”的报道",
+      "status": "needs-review"
+    },
+    "Empire sky cannon takes down incoming Anubis carrier": {
+      "source": "Empire sky cannon takes down incoming Anubis carrier",
+      "target": "关于“战斗 桥梁”的报道",
+      "status": "needs-review"
+    },
+    "Source of the Omnic Crisis discovered": {
+      "source": "Source of the Omnic Crisis discovered",
+      "target": "关于“死去 众神”的报道",
+      "status": "needs-review"
+    },
+    "God AI Anubis leading the warbot advance": {
+      "source": "God AI Anubis leading the warbot advance",
+      "target": "关于“死去 众神”的报道",
+      "status": "needs-review"
+    },
+    "Mexico goes dark following the shutdown of Xibalba": {
+      "source": "Mexico goes dark following the shutdown of Xibalba",
+      "target": "关于“黑暗 日子”的报道",
+      "status": "needs-review"
+    },
+    "God AI sides with Humanity agaisnt Anubis": {
+      "source": "God AI sides with Humanity agaisnt Anubis",
+      "target": "关于“捕获 神”的报道",
+      "status": "needs-review"
+    },
+    "New York defies federal orders to turn Macaria off": {
+      "source": "New York defies federal orders to turn Macaria off",
+      "target": "关于“捕获 神”的报道",
+      "status": "needs-review"
+    },
+    "The Swedish \"Heroic Five\" die during bombardment": {
+      "source": "The Swedish \"Heroic Five\" die during bombardment",
+      "target": "关于“轰炸”的报道",
+      "status": "needs-review"
+    },
+    "Millions saved by Swedish portable bunker system": {
+      "source": "Millions saved by Swedish portable bunker system",
+      "target": "关于“轰炸”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch adverts the Shanghai Incursion": {
+      "source": "Overwatch adverts the Shanghai Incursion",
+      "target": "关于“扭转局势”的报道",
+      "status": "needs-review"
+    },
+    "Hundreds rescued in Karachi thanks to Overwatch": {
+      "source": "Hundreds rescued in Karachi thanks to Overwatch",
+      "target": "关于“扭转局势”的报道",
+      "status": "needs-review"
+    },
+    "Doomfist, Savior of Nigeria, declared Dead": {
+      "source": "Doomfist, Savior of Nigeria, declared Dead",
+      "target": "关于“救世主”的报道",
+      "status": "needs-review"
+    },
+    "Massive pulse of light identified to be an Overwatch experiment in Nepal": {
+      "source": "Massive pulse of light identified to be an Overwatch experiment in Nepal",
+      "target": "关于“觉醒”的报道",
+      "status": "needs-review"
+    },
+    "Omnics across the world claim to be Sentient?": {
+      "source": "Omnics across the world claim to be Sentient?",
+      "target": "关于“垂死指令”的报道",
+      "status": "needs-review"
+    },
+    "Warbots rebelling against Anubis world wide": {
+      "source": "Warbots rebelling against Anubis world wide",
+      "target": "关于“垂死指令”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch breaks into Anubis facility": {
+      "source": "Overwatch breaks into Anubis facility",
+      "target": "关于“打击 源头”的报道",
+      "status": "needs-review"
+    },
+    "Is the Crisis finally over? War rages on across the world": {
+      "source": "Is the Crisis finally over? War rages on across the world",
+      "target": "关于“打击 源头”的报道",
+      "status": "needs-review"
+    },
+    "Troops in Baltimore fight alonside Omnics to stop remaining warbots": {
+      "source": "Troops in Baltimore fight alonside Omnics to stop remaining warbots",
+      "target": "关于“清理 余留”的报道",
+      "status": "needs-review"
+    },
+    "Omnic Crisis officially over, can humanity ever recover?": {
+      "source": "Omnic Crisis officially over, can humanity ever recover?",
+      "target": "关于“清理 余留”的报道",
+      "status": "needs-review"
+    },
+    "Portero restores the light to all of Mexico": {
+      "source": "Portero restores the light to all of Mexico",
+      "target": "关于“能源 墨西哥”的报道",
+      "status": "needs-review"
+    },
+    "Giant power grid plants to be build across Mexico": {
+      "source": "Giant power grid plants to be build across Mexico",
+      "target": "关于“能源 墨西哥”的报道",
+      "status": "needs-review"
+    },
+    "Mexican gang violence on the rise even after blackouts seize": {
+      "source": "Mexican gang violence on the rise even after blackouts seize",
+      "target": "关于“能源 墨西哥”的报道",
+      "status": "needs-review"
+    },
+    "Omnic violence on the rise, can we truly co exist": {
+      "source": "Omnic violence on the rise, can we truly co exist",
+      "target": "关于“偏见”的报道",
+      "status": "needs-review"
+    },
+    "Clashes between war survivors and newly sentient machines continue": {
+      "source": "Clashes between war survivors and newly sentient machines continue",
+      "target": "关于“偏见”的报道",
+      "status": "needs-review"
+    },
+    "Reports of rouge killing Omnics continue worldwide": {
+      "source": "Reports of rouge killing Omnics continue worldwide",
+      "target": "关于“锁链禁锢”的报道",
+      "status": "needs-review"
+    },
+    "Gangs torturing Omnics won't be persecuted by the police according to local authorities": {
+      "source": "Gangs torturing Omnics won't be persecuted by the police according to local authorities",
+      "target": "关于“锁链禁锢”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch scientists refuse to destroy Anubis Program": {
+      "source": "Overwatch scientists refuse to destroy Anubis Program",
+      "target": "关于“神殿 Anubis”的报道",
+      "status": "needs-review"
+    },
+    "Controversial AI prison begins construction": {
+      "source": "Controversial AI prison begins construction",
+      "target": "关于“神殿 Anubis”的报道",
+      "status": "needs-review"
+    },
+    "Omnics and Humans come together over the winter": {
+      "source": "Omnics and Humans come together over the winter",
+      "target": "关于“建造 未来”的报道",
+      "status": "needs-review"
+    },
+    "Disputes over Omnic rights continue to grow": {
+      "source": "Disputes over Omnic rights continue to grow",
+      "target": "关于“建造 未来”的报道",
+      "status": "needs-review"
+    },
+    "Adawe departs Overwatch": {
+      "source": "Adawe departs Overwatch",
+      "target": "关于“Adawe 离开”的报道",
+      "status": "needs-review"
+    },
+    "Construction of the city of Numbani begins in Nigeria": {
+      "source": "Construction of the city of Numbani begins in Nigeria",
+      "target": "关于“Adawe 离开”的报道",
+      "status": "needs-review"
+    },
+    "Omnics worldwide begin to come back to their old homes": {
+      "source": "Omnics worldwide begin to come back to their old homes",
+      "target": "关于“忠诚 守护者”的报道",
+      "status": "needs-review"
+    },
+    "Machines refuse to return to unpaid labor": {
+      "source": "Machines refuse to return to unpaid labor",
+      "target": "关于“忠诚 守护者”的报道",
+      "status": "needs-review"
+    },
+    "Jack Morrison chosen to lead Overwatch": {
+      "source": "Jack Morrison chosen to lead Overwatch",
+      "target": "关于“新 领导”的报道",
+      "status": "needs-review"
+    },
+    "Meet the new member of the Strike team, Emre Sarioglu": {
+      "source": "Meet the new member of the Strike team, Emre Sarioglu",
+      "target": "关于“新 领导”的报道",
+      "status": "needs-review"
+    },
+    "Anubis allied Omnics attack Istanbul": {
+      "source": "Anubis allied Omnics attack Istanbul",
+      "target": "关于“行动 白色 穹顶”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch agent severely wounded": {
+      "source": "Overwatch agent severely wounded",
+      "target": "关于“行动 白色 穹顶”的报道",
+      "status": "needs-review"
+    },
+    "ALF extremist group causes nuclear fallout in the Outback": {
+      "source": "ALF extremist group causes nuclear fallout in the Outback",
+      "target": "关于“澳大利亚 解放”的报道",
+      "status": "needs-review"
+    },
+    "Tensions between humans and Omnics intensify in Australia": {
+      "source": "Tensions between humans and Omnics intensify in Australia",
+      "target": "关于“澳大利亚 解放”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch begins to expand onto new bases": {
+      "source": "Overwatch begins to expand onto new bases",
+      "target": "关于“观察 地球”的报道",
+      "status": "needs-review"
+    },
+    "The Martins gift Overwatch their Gibraltar Laboratory": {
+      "source": "The Martins gift Overwatch their Gibraltar Laboratory",
+      "target": "关于“观察 地球”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch expands personnel for Reyes lead operations": {
+      "source": "Overwatch expands personnel for Reyes lead operations",
+      "target": "关于“卧底”的报道",
+      "status": "needs-review"
+    },
+    "Jack Morrisons gives interviews with Victoria Naughton in Australia": {
+      "source": "Jack Morrisons gives interviews with Victoria Naughton in Australia",
+      "target": "关于“职责 召唤”的报道",
+      "status": "needs-review"
+    },
+    "SEP subjects go silent across America": {
+      "source": "SEP subjects go silent across America",
+      "target": "关于“希拉·特纳·伍兹出生”的报道",
+      "status": "needs-review"
+    },
+    "Naugthon research to be classified and kept under lock": {
+      "source": "Naugthon research to be classified and kept under lock",
+      "target": "关于“希拉·特纳·伍兹出生”的报道",
+      "status": "needs-review"
+    },
+    "Meet the Shamblai, the new Omnic Religion": {
+      "source": "Meet the Shamblai, the new Omnic Religion",
+      "target": "关于“One 智械之眼”的报道",
+      "status": "needs-review"
+    },
+    "Omnics across the world pilgrim towards the Himalayas": {
+      "source": "Omnics across the world pilgrim towards the Himalayas",
+      "target": "关于“One 智械之眼”的报道",
+      "status": "needs-review"
+    },
+    "\"Junker Monarchy\" vanishes collaborators to the wasteland": {
+      "source": "\"Junker Monarchy\" vanishes collaborators to the wasteland",
+      "target": "关于“被放逐”的报道",
+      "status": "needs-review"
+    },
+    "Australia refuses to negotiate with Junkers": {
+      "source": "Australia refuses to negotiate with Junkers",
+      "target": "关于“被放逐”的报道",
+      "status": "needs-review"
+    },
+    "Meet the new face of naoobiotics": {
+      "source": "Meet the new face of naoobiotics",
+      "target": "关于“奇迹 工作者”的报道",
+      "status": "needs-review"
+    },
+    "Yet another medical breakthrough thanks to Dr. Angela Zeigler": {
+      "source": "Yet another medical breakthrough thanks to Dr. Angela Zeigler",
+      "target": "关于“奇迹 工作者”的报道",
+      "status": "needs-review"
+    },
+    "Crisis veterans struggle to substain their families after the war": {
+      "source": "Crisis veterans struggle to substain their families after the war",
+      "target": "关于“芬德利·多切尔蒂出生”的报道",
+      "status": "needs-review"
+    },
+    "Arbalest reports assets stolen after repeated heists": {
+      "source": "Arbalest reports assets stolen after repeated heists",
+      "target": "关于“死锁帮”的报道",
+      "status": "needs-review"
+    },
+    "Recontruction of old world strucutres begins across Europe": {
+      "source": "Recontruction of old world strucutres begins across Europe",
+      "target": "关于“Rebuilding 过去”的报道",
+      "status": "needs-review"
+    },
+    "The newly build Colosseo opens to the public": {
+      "source": "The newly build Colosseo opens to the public",
+      "target": "关于“Rebuilding 过去”的报道",
+      "status": "needs-review"
+    },
+    "Gang violence in Japa slows down, but Shimada activity is at an all time high": {
+      "source": "Gang violence in Japa slows down, but Shimada activity is at an all time high",
+      "target": "关于“灵能武器”的报道",
+      "status": "needs-review"
+    },
+    "Shimada Clan operators wield unknown energy swords during confrontation with rival groups": {
+      "source": "Shimada Clan operators wield unknown energy swords during confrontation with rival groups",
+      "target": "关于“灵能武器”的报道",
+      "status": "needs-review"
+    },
+    "Shambali Monks preeching in the streets": {
+      "source": "Shambali Monks preeching in the streets",
+      "target": "关于“兄弟会”的报道",
+      "status": "needs-review"
+    },
+    "Miners complain of Omnic precense in Nepal": {
+      "source": "Miners complain of Omnic precense in Nepal",
+      "target": "关于“兄弟会”的报道",
+      "status": "needs-review"
+    },
+    "Gang violence in the new Wild West increases": {
+      "source": "Gang violence in the new Wild West increases",
+      "target": "关于“亡命之徒”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch responds quickly to massive floods in Brittish Columbia": {
+      "source": "Overwatch responds quickly to massive floods in Brittish Columbia",
+      "target": "关于“温哥华 洪水”的报道",
+      "status": "needs-review"
+    },
+    "Dam System to be built by Overwatch across the West coast of North America": {
+      "source": "Dam System to be built by Overwatch across the West coast of North America",
+      "target": "关于“温哥华 洪水”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch cracks down on Gang violence globally": {
+      "source": "Overwatch cracks down on Gang violence globally",
+      "target": "关于“新 West”的报道",
+      "status": "needs-review"
+    },
+    "Deadlock Gang largely apprehended following Overwatch Raid": {
+      "source": "Deadlock Gang largely apprehended following Overwatch Raid",
+      "target": "关于“新 West”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch recruits a minor after takedown in the US": {
+      "source": "Overwatch recruits a minor after takedown in the US",
+      "target": "关于“枪手”的报道",
+      "status": "needs-review"
+    },
+    "Vishkar Opens the Architect Academy": {
+      "source": "Vishkar Opens the Architect Academy",
+      "target": "关于“建筑学院”的报道",
+      "status": "needs-review"
+    },
+    "India approves the schooling project for hundreds of orphans": {
+      "source": "India approves the schooling project for hundreds of orphans",
+      "target": "关于“建筑学院”的报道",
+      "status": "needs-review"
+    },
+    "Superstorm adverted in China thanks to Dr.Zhou's research": {
+      "source": "Superstorm adverted in China thanks to Dr.Zhou's research",
+      "target": "关于“为未来求学”的报道",
+      "status": "needs-review"
+    },
+    "Dr, Tian Xiao uneveils new prototype for water manipulation in Metal College": {
+      "source": "Dr, Tian Xiao uneveils new prototype for water manipulation in Metal College",
+      "target": "关于“为未来求学”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch to approve ecological focused bases on many countries": {
+      "source": "Overwatch to approve ecological focused bases on many countries",
+      "target": "关于“生态 计划”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch defies government petitions to shut down the Caribbean Coaltion": {
+      "source": "Overwatch defies government petitions to shut down the Caribbean Coaltion",
+      "target": "关于“建造 联盟”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch aids in efforts to rebuild Latin America": {
+      "source": "Overwatch aids in efforts to rebuild Latin America",
+      "target": "关于“建造 联盟”的报道",
+      "status": "needs-review"
+    },
+    "Numbani celebrates Unity Day as the City of Harmony is completed": {
+      "source": "Numbani celebrates Unity Day as the City of Harmony is completed",
+      "target": "关于“和谐之城”的报道",
+      "status": "needs-review"
+    },
+    "Founding mother Adawe mourned across the city-state": {
+      "source": "Founding mother Adawe mourned across the city-state",
+      "target": "关于“和谐之城”的报道",
+      "status": "needs-review"
+    },
+    "Ana Amari to train next generation of Egyptian Snipers": {
+      "source": "Ana Amari to train next generation of Egyptian Snipers",
+      "target": "关于“母亲的指引”的报道",
+      "status": "needs-review"
+    },
+    "US Government publicly allows SEP Soldiers to remain anonymous": {
+      "source": "US Government publicly allows SEP Soldiers to remain anonymous",
+      "target": "关于“逃亡”的报道",
+      "status": "needs-review"
+    },
+    "Flying Children seen through the streets of Gothenburg": {
+      "source": "Flying Children seen through the streets of Gothenburg",
+      "target": "关于“火花塞”的报道",
+      "status": "needs-review"
+    },
+    "Protests over God AI shutdown continue": {
+      "source": "Protests over God AI shutdown continue",
+      "target": "关于“Liao's 复兴”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch reveals Athena AI support": {
+      "source": "Overwatch reveals Athena AI support",
+      "target": "关于“Liao's 复兴”的报道",
+      "status": "needs-review"
+    },
+    "Man claiming to be Doomfist wrecks havoc across Numbani": {
+      "source": "Man claiming to be Doomfist wrecks havoc across Numbani",
+      "target": "关于“灾祸 努巴尼”的报道",
+      "status": "needs-review"
+    },
+    "The city of harmony delays Unity Day celebrations due to concerns about warmonger raid": {
+      "source": "The city of harmony delays Unity Day celebrations due to concerns about warmonger raid",
+      "target": "关于“灾祸 努巴尼”的报道",
+      "status": "needs-review"
+    },
+    "UN rejects funding proposal for Lucheng's Mars Colony": {
+      "source": "UN rejects funding proposal for Lucheng's Mars Colony",
+      "target": "关于“红色 承诺”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch agent deployed illegally in Russia": {
+      "source": "Overwatch agent deployed illegally in Russia",
+      "target": "关于“谢氏事件”的报道",
+      "status": "needs-review"
+    },
+    "US diplomats rescued safely thanks to Ana Amari": {
+      "source": "US diplomats rescued safely thanks to Ana Amari",
+      "target": "关于“谢氏事件”的报道",
+      "status": "needs-review"
+    },
+    "First person ever charged of Omnic Murder": {
+      "source": "First person ever charged of Omnic Murder",
+      "target": "关于“Omnic 权利”的报道",
+      "status": "needs-review"
+    },
+    "Mina Liao to tesitfy in favor of Omnic Rights": {
+      "source": "Mina Liao to tesitfy in favor of Omnic Rights",
+      "target": "关于“Omnic 权利”的报道",
+      "status": "needs-review"
+    },
+    "Omnic Rights case passes the UN hearings": {
+      "source": "Omnic Rights case passes the UN hearings",
+      "target": "关于“Omnic 权利”的报道",
+      "status": "needs-review"
+    },
+    "Shimada clan stops Hashimoto attack during End of Summer festival": {
+      "source": "Shimada clan stops Hashimoto attack during End of Summer festival",
+      "target": "关于“成长 家族”的报道",
+      "status": "needs-review"
+    },
+    "Reports of a ghostly Fox appearing in Kanezaka continue": {
+      "source": "Reports of a ghostly Fox appearing in Kanezaka continue",
+      "target": "关于“成长 家族”的报道",
+      "status": "needs-review"
+    },
+    "Australian Outback declared unsafe to visit due to Caravan raiders": {
+      "source": "Australian Outback declared unsafe to visit due to Caravan raiders",
+      "target": "关于“幸存者”的报道",
+      "status": "needs-review"
+    },
+    "Health Conditions on the south of Australia worsen as radiation outbreak continues": {
+      "source": "Health Conditions on the south of Australia worsen as radiation outbreak continues",
+      "target": "关于“幸存者”的报道",
+      "status": "needs-review"
+    },
+    "Sources rumor of a hostile takeover in the Hashimoto clan": {
+      "source": "Sources rumor of a hostile takeover in the Hashimoto clan",
+      "target": "关于“血中崛起”的报道",
+      "status": "needs-review"
+    },
+    "Violent Omnic seen fighting on Tokyo streets": {
+      "source": "Violent Omnic seen fighting on Tokyo streets",
+      "target": "关于“血中崛起”的报道",
+      "status": "needs-review"
+    },
+    "Omnic appointed head of Monte Carlo's development": {
+      "source": "Omnic appointed head of Monte Carlo's development",
+      "target": "关于“袖珍 国王”的报道",
+      "status": "needs-review"
+    },
+    "Axiom stocks spike follwoing change in company leadership": {
+      "source": "Axiom stocks spike follwoing change in company leadership",
+      "target": "关于“袖珍 国王”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch's new Member \"Mercy\" saves countless lives thanks to flying medical suit": {
+      "source": "Overwatch's new Member \"Mercy\" saves countless lives thanks to flying medical suit",
+      "target": "关于“女武神”的报道",
+      "status": "needs-review"
+    },
+    "Nanobiotic equipment to begin mass production soon": {
+      "source": "Nanobiotic equipment to begin mass production soon",
+      "target": "关于“女武神”的报道",
+      "status": "needs-review"
+    },
+    "Shimada associated individuals seen around local Arcade": {
+      "source": "Shimada associated individuals seen around local Arcade",
+      "target": "关于“麻雀”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch agent marries Prima Ballerina from Paris": {
+      "source": "Overwatch agent marries Prima Ballerina from Paris",
+      "target": "关于“倾心”的报道",
+      "status": "needs-review"
+    },
+    "Junker cavaran raids Overwatch outpost, no casualties, few wounded": {
+      "source": "Junker cavaran raids Overwatch outpost, no casualties, few wounded",
+      "target": "关于“辐射 中毒”的报道",
+      "status": "needs-review"
+    },
+    "Melbourn hospotal renames facility in honor to Angela Ziegler": {
+      "source": "Melbourn hospotal renames facility in honor to Angela Ziegler",
+      "target": "关于“辐射 中毒”的报道",
+      "status": "needs-review"
+    },
+    "Chase and Ziegler face criticism over dying child": {
+      "source": "Chase and Ziegler face criticism over dying child",
+      "target": "关于“愿望”的报道",
+      "status": "needs-review"
+    },
+    "Reports of Omnic Activist storming warehouses increase": {
+      "source": "Reports of Omnic Activist storming warehouses increase",
+      "target": "关于“Omnic 解放”的报道",
+      "status": "needs-review"
+    },
+    "Omnic Underworld conditions worsen in London, protests continue": {
+      "source": "Omnic Underworld conditions worsen in London, protests continue",
+      "target": "关于“Omnic 解放”的报道",
+      "status": "needs-review"
+    },
+    "The Gwishin is back, Overwatch response on the way": {
+      "source": "The Gwishin is back, Overwatch response on the way",
+      "target": "关于“深海 上升”的报道",
+      "status": "needs-review"
+    },
+    "Researchers confirm the existance of Anubis made Omnium factory underwater": {
+      "source": "Researchers confirm the existance of Anubis made Omnium factory underwater",
+      "target": "关于“深海 上升”的报道",
+      "status": "needs-review"
+    },
+    "Accident on the International Space Station during Dr. De Kuiper's experiment": {
+      "source": "Accident on the International Space Station during Dr. De Kuiper's experiment",
+      "target": "关于“驾驭 te Harness”的报道",
+      "status": "needs-review"
+    },
+    "Mondatta takes a shovel and helps with the gorund breaking of Turing green": {
+      "source": "Mondatta takes a shovel and helps with the gorund breaking of Turing green",
+      "target": "关于“Omnic 住房”的报道",
+      "status": "needs-review"
+    },
+    "Reports of Null Sector extremist protesting Mondatta's precense in London continue": {
+      "source": "Reports of Null Sector extremist protesting Mondatta's precense in London continue",
+      "target": "关于“Omnic 住房”的报道",
+      "status": "needs-review"
+    },
+    "Underworld Curfews extended indefinetly": {
+      "source": "Underworld Curfews extended indefinetly",
+      "target": "关于“Omnic 住房”的报道",
+      "status": "needs-review"
+    },
+    "Omnic moddifications on the rise in Japan, meet the new face of Omnics": {
+      "source": "Omnic moddifications on the rise in Japan, meet the new face of Omnics",
+      "target": "关于“奢华”的报道",
+      "status": "needs-review"
+    },
+    "Hashimoto Clan seemingly linked to Motorcycle investors": {
+      "source": "Hashimoto Clan seemingly linked to Motorcycle investors",
+      "target": "关于“奢华”的报道",
+      "status": "needs-review"
+    },
+    "Dr. De Kuiper still missing after evacuation, authorities refuse to ellaborate": {
+      "source": "Dr. De Kuiper still missing after evacuation, authorities refuse to ellaborate",
+      "target": "关于“西格玛项目”的报道",
+      "status": "needs-review"
+    },
+    "Tragedy avoided thanks to Freja Skov and Search and Rescue": {
+      "source": "Tragedy avoided thanks to Freja Skov and Search and Rescue",
+      "target": "关于“追逐风暴”的报道",
+      "status": "needs-review"
+    },
+    "Hundreds displace in India following Vishkar home prices being revealed": {
+      "source": "Hundreds displace in India following Vishkar home prices being revealed",
+      "target": "关于“压力 Makes 钻石”的报道",
+      "status": "needs-review"
+    },
+    "Acussations of nepotism and corruption continue within Vishkar's corporate circle": {
+      "source": "Acussations of nepotism and corruption continue within Vishkar's corporate circle",
+      "target": "关于“压力 Makes 钻石”的报道",
+      "status": "needs-review"
+    },
+    "War era Idina units repurposed for police patrolling in Numbani": {
+      "source": "War era Idina units repurposed for police patrolling in Numbani",
+      "target": "关于“反制措施”的报道",
+      "status": "needs-review"
+    },
+    "Doomfist attacks continue, Overwatch assistance denied": {
+      "source": "Doomfist attacks continue, Overwatch assistance denied",
+      "target": "关于“反制措施”的报道",
+      "status": "needs-review"
+    },
+    "Reports of a change in Junker Monarchy confirmed": {
+      "source": "Reports of a change in Junker Monarchy confirmed",
+      "target": "关于“夺取 王座”的报道",
+      "status": "needs-review"
+    },
+    "Radiation levels in the outback stabilizing": {
+      "source": "Radiation levels in the outback stabilizing",
+      "target": "关于“夺取 王座”的报道",
+      "status": "needs-review"
+    },
+    "Dr. Liao continues to advocate for Artificial Intelligence making a comeback": {
+      "source": "Dr. Liao continues to advocate for Artificial Intelligence making a comeback",
+      "target": "关于“项目 Echo 进入 上线”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch to fun Liao's research on a secret project in Norway": {
+      "source": "Overwatch to fun Liao's research on a secret project in Norway",
+      "target": "关于“项目 Echo 进入 上线”的报道",
+      "status": "needs-review"
+    },
+    "Lucheng goes silent on future plans": {
+      "source": "Lucheng goes silent on future plans",
+      "target": "关于“凭空 那里”的报道",
+      "status": "needs-review"
+    },
+    "Conspiracy theories about Lunar Colony Ape lack credibility says Chinese judge": {
+      "source": "Conspiracy theories about Lunar Colony Ape lack credibility says Chinese judge",
+      "target": "关于“凭空 那里”的报道",
+      "status": "needs-review"
+    },
+    "Tensions grow between Criminal gangs in Japan following the assasination of Sojiro Shimada": {
+      "source": "Tensions grow between Criminal gangs in Japan following the assasination of Sojiro Shimada",
+      "target": "关于“巨龙 陨落”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch seen in Kanezaka amidst growing Clan violence": {
+      "source": "Overwatch seen in Kanezaka amidst growing Clan violence",
+      "target": "关于“巨龙 陨落”的报道",
+      "status": "needs-review"
+    },
+    "Hundreds Evacuated by Overwatch's Search and Rescue team": {
+      "source": "Hundreds Evacuated by Overwatch's Search and Rescue team",
+      "target": "关于“搜寻 救援”的报道",
+      "status": "needs-review"
+    },
+    "The best tracker in the world to Join Overwatch": {
+      "source": "The best tracker in the world to Join Overwatch",
+      "target": "关于“搜寻 救援”的报道",
+      "status": "needs-review"
+    },
+    "Hashimoto gangsters seen wielding energy weapons": {
+      "source": "Hashimoto gangsters seen wielding energy weapons",
+      "target": "关于“受诅咒”的报道",
+      "status": "needs-review"
+    },
+    "Tokyo crime rates increase twice as fast this last month": {
+      "source": "Tokyo crime rates increase twice as fast this last month",
+      "target": "关于“受诅咒”的报道",
+      "status": "needs-review"
+    },
+    "Antartic Anomalies continue, creating unlivable conditions for any human": {
+      "source": "Antartic Anomalies continue, creating unlivable conditions for any human",
+      "target": "关于“升级”的报道",
+      "status": "needs-review"
+    },
+    "Null Sector cells caught during riots in London over Turing Green's development policies": {
+      "source": "Null Sector cells caught during riots in London over Turing Green's development policies",
+      "target": "关于“升级”的报道",
+      "status": "needs-review"
+    },
+    "Heirs of the Shimada missing following Overwatch activity in the area": {
+      "source": "Heirs of the Shimada missing following Overwatch activity in the area",
+      "target": "关于“赛博忍者”的报道",
+      "status": "needs-review"
+    },
+    "Reports of fraud by Vishkar continue in spite of corporate claims": {
+      "source": "Reports of fraud by Vishkar continue in spite of corporate claims",
+      "target": "关于“治愈自然”的报道",
+      "status": "needs-review"
+    },
+    "Another town displaced by Vishkar development": {
+      "source": "Another town displaced by Vishkar development",
+      "target": "关于“治愈自然”的报道",
+      "status": "needs-review"
+    },
+    "The Scourge of Numbani is dead, man claiming to be his killer steals the Doomfist Gauntlet": {
+      "source": "The Scourge of Numbani is dead, man claiming to be his killer steals the Doomfist Gauntlet",
+      "target": "关于“接管”的报道",
+      "status": "needs-review"
+    },
+    "Reports of Talon across the Caribbean continue, corruption allegations among the Coaltion ranks on the rise": {
+      "source": "Reports of Talon across the Caribbean continue, corruption allegations among the Coaltion ranks on the rise",
+      "target": "关于“接管”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch pilot lost in time following engine malfunciton in experimental jet": {
+      "source": "Overwatch pilot lost in time following engine malfunciton in experimental jet",
+      "target": "关于“失落 时间”的报道",
+      "status": "needs-review"
+    },
+    "Shimada activity reports in Kanezaka suddendly drop, several known members missing": {
+      "source": "Shimada activity reports in Kanezaka suddendly drop, several known members missing",
+      "target": "关于“Shimada 剿灭”的报道",
+      "status": "needs-review"
+    },
+    "Kanezakan locals claim extorsion attempts at the hand of Shimada gangsters": {
+      "source": "Kanezakan locals claim extorsion attempts at the hand of Shimada gangsters",
+      "target": "关于“Shimada 剿灭”的报道",
+      "status": "needs-review"
+    },
+    "Controversial paper on Celular regeneration shakes the scientific world": {
+      "source": "Controversial paper on Celular regeneration shakes the scientific world",
+      "target": "关于“列入黑名单”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch releases public condemnation of Moira O'Deorain's research": {
+      "source": "Overwatch releases public condemnation of Moira O'Deorain's research",
+      "target": "关于“列入黑名单”的报道",
+      "status": "needs-review"
+    },
+    "Anomalous Blizzard reaches Thirteen months of consistent activity": {
+      "source": "Anomalous Blizzard reaches Thirteen months of consistent activity",
+      "target": "关于“寒潮 突袭”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch declares Antartica staff dead after storm extends pass the survivable window": {
+      "source": "Overwatch declares Antartica staff dead after storm extends pass the survivable window",
+      "target": "关于“寒潮 突袭”的报道",
+      "status": "needs-review"
+    },
+    "The Resolute ship is lost during rescue mission in Antartica": {
+      "source": "The Resolute ship is lost during rescue mission in Antartica",
+      "target": "关于“寒潮 突袭”的报道",
+      "status": "needs-review"
+    },
+    "La Coaterie power brokect presumed to have ties with Talon": {
+      "source": "La Coaterie power brokect presumed to have ties with Talon",
+      "target": "关于“Uneasy 联盟”的报道",
+      "status": "needs-review"
+    },
+    "Talon activity reported in Monte Carlo": {
+      "source": "Talon activity reported in Monte Carlo",
+      "target": "关于“Uneasy 联盟”的报道",
+      "status": "needs-review"
+    },
+    "Gabriel Reyes looking dangerously ill in the latest UN meeting": {
+      "source": "Gabriel Reyes looking dangerously ill in the latest UN meeting",
+      "target": "关于“肉身熵变”的报道",
+      "status": "needs-review"
+    },
+    "Another wave of hacking incidents hit several high profile banks in Mexico": {
+      "source": "Another wave of hacking incidents hit several high profile banks in Mexico",
+      "target": "关于“黑客狂欢”的报道",
+      "status": "needs-review"
+    },
+    "Los Muertos expand their turf outside of Veracruz": {
+      "source": "Los Muertos expand their turf outside of Veracruz",
+      "target": "关于“黑客狂欢”的报道",
+      "status": "needs-review"
+    },
+    "Vishkar engineer goes rouge and flees with priceless technology": {
+      "source": "Vishkar engineer goes rouge and flees with priceless technology",
+      "target": "关于“生物光”的报道",
+      "status": "needs-review"
+    },
+    "Bounty is placed for Niran PruksaManee in multiple countries": {
+      "source": "Bounty is placed for Niran PruksaManee in multiple countries",
+      "target": "关于“生物光”的报道",
+      "status": "needs-review"
+    },
+    "Hashimoto activity increasing on Kanezaka region, locals concerned": {
+      "source": "Hashimoto activity increasing on Kanezaka region, locals concerned",
+      "target": "关于“人质”的报道",
+      "status": "needs-review"
+    },
+    "Individuals with Shimada connections found dead during turf dispute": {
+      "source": "Individuals with Shimada connections found dead during turf dispute",
+      "target": "关于“人质”的报道",
+      "status": "needs-review"
+    },
+    "Massive Oil leak absorbed by a Super Coral Colony in Samoa": {
+      "source": "Massive Oil leak absorbed by a Super Coral Colony in Samoa",
+      "target": "关于“深海 海上 劫掠者”的报道",
+      "status": "needs-review"
+    },
+    "Experts warn against sailing on waters near New Zealand following terrorist raids": {
+      "source": "Experts warn against sailing on waters near New Zealand following terrorist raids",
+      "target": "关于“深海 海上 劫掠者”的报道",
+      "status": "needs-review"
+    },
+    "Meeting reguarding secretive project: Echo's unveilance is postponed": {
+      "source": "Meeting reguarding secretive project: Echo's unveilance is postponed",
+      "target": "关于“白色画布”的报道",
+      "status": "needs-review"
+    },
+    "Wayfinder excavation in Illios solves millenea old mystery": {
+      "source": "Wayfinder excavation in Illios solves millenea old mystery",
+      "target": "关于“无畏 冒险者”的报道",
+      "status": "needs-review"
+    },
+    "Recruitment begins for Wayfinder expedition near the Temple of Anubis": {
+      "source": "Recruitment begins for Wayfinder expedition near the Temple of Anubis",
+      "target": "关于“无畏 冒险者”的报道",
+      "status": "needs-review"
+    },
+    "Lucheng Looses contact with Horizon": {
+      "source": "Lucheng Looses contact with Horizon",
+      "target": "关于“月球 起义”的报道",
+      "status": "needs-review"
+    },
+    "Hashimoto gang members seen with strange weaponry": {
+      "source": "Hashimoto gang members seen with strange weaponry",
+      "target": "关于“筹码”的报道",
+      "status": "needs-review"
+    },
+    "Talking Gorilla lands in Horizon": {
+      "source": "Talking Gorilla lands in Horizon",
+      "target": "关于“逃生舱”的报道",
+      "status": "needs-review"
+    },
+    "Winston wins personhood case": {
+      "source": "Winston wins personhood case",
+      "target": "关于“逃生舱”的报道",
+      "status": "needs-review"
+    },
+    "Hashimoto operation delays the end of Summer festival in Kanezaka": {
+      "source": "Hashimoto operation delays the end of Summer festival in Kanezaka",
+      "target": "关于“神社 巫女”的报道",
+      "status": "needs-review"
+    },
+    "New sighting of the Blue Fox Cryptid in Japan": {
+      "source": "New sighting of the Blue Fox Cryptid in Japan",
+      "target": "关于“神社 巫女”的报道",
+      "status": "needs-review"
+    },
+    "Agent Winston saves pilot lost in time": {
+      "source": "Agent Winston saves pilot lost in time",
+      "target": "关于“时间 解离”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch to recruit time traveling agent": {
+      "source": "Overwatch to recruit time traveling agent",
+      "target": "关于“时间 解离”的报道",
+      "status": "needs-review"
+    },
+    "Giant Metal Ball reportedly seen across multiple cities aorund the world": {
+      "source": "Giant Metal Ball reportedly seen across multiple cities aorund the world",
+      "target": "关于“冠军”的报道",
+      "status": "needs-review"
+    },
+    "Oversized Wombat attacks Tourist in the Outback": {
+      "source": "Oversized Wombat attacks Tourist in the Outback",
+      "target": "关于“冠军”的报道",
+      "status": "needs-review"
+    },
+    "Dr. Mina Liao is murdered during explosions in lab": {
+      "source": "Dr. Mina Liao is murdered during explosions in lab",
+      "target": "关于“奥斯陆袭击”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch facility in Oslo attacked by terrorist group": {
+      "source": "Overwatch facility in Oslo attacked by terrorist group",
+      "target": "关于“奥斯陆袭击”的报道",
+      "status": "needs-review"
+    },
+    "Chaos in Rome after another Overwatch facility is bombed": {
+      "source": "Chaos in Rome after another Overwatch facility is bombed",
+      "target": "关于“报应”的报道",
+      "status": "needs-review"
+    },
+    "Charges of corruption for Antonio Bartalotti are suddenly dropped": {
+      "source": "Charges of corruption for Antonio Bartalotti are suddenly dropped",
+      "target": "关于“报应”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch agents assassinate respected Italian bussinessman": {
+      "source": "Overwatch agents assassinate respected Italian bussinessman",
+      "target": "关于“Venice 事件”的报道",
+      "status": "needs-review"
+    },
+    "Blackwatch hearings continue, more files released": {
+      "source": "Blackwatch hearings continue, more files released",
+      "target": "关于“Venice 事件”的报道",
+      "status": "needs-review"
+    },
+    "Blackwatch files released, heavily redacted": {
+      "source": "Blackwatch files released, heavily redacted",
+      "target": "关于“质询”的报道",
+      "status": "needs-review"
+    },
+    "Jack Morrison cliams ignorance to Blackwatch activity": {
+      "source": "Jack Morrison cliams ignorance to Blackwatch activity",
+      "target": "关于“质询”的报道",
+      "status": "needs-review"
+    },
+    "The Bartalotti business to be lead by Augusto Vialli": {
+      "source": "The Bartalotti business to be lead by Augusto Vialli",
+      "target": "关于“被盗 未来”的报道",
+      "status": "needs-review"
+    },
+    "Antonio Bartalotti's assests relocated out of Rialto following his death": {
+      "source": "Antonio Bartalotti's assests relocated out of Rialto following his death",
+      "target": "关于“被盗 未来”的报道",
+      "status": "needs-review"
+    },
+    "Man pressumed dead during Deepsea Raider standoff spotted at the beach near Samoa": {
+      "source": "Man pressumed dead during Deepsea Raider standoff spotted at the beach near Samoa",
+      "target": "关于“两颗心”的报道",
+      "status": "needs-review"
+    },
+    "Reports of a giant man hunting down local enforcement continue": {
+      "source": "Reports of a giant man hunting down local enforcement continue",
+      "target": "关于“两颗心”的报道",
+      "status": "needs-review"
+    },
+    "Controversial Scientist Moira O'Deorain hired into the Ministry of Genetics of Oasis University": {
+      "source": "Controversial Scientist Moira O'Deorain hired into the Ministry of Genetics of Oasis University",
+      "target": "关于“挣脱束缚”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch removes Dr. O'Deorain following the Venice Incident": {
+      "source": "Overwatch removes Dr. O'Deorain following the Venice Incident",
+      "target": "关于“挣脱束缚”的报道",
+      "status": "needs-review"
+    },
+    "New Generation of Inti Warriors to begin their training": {
+      "source": "New Generation of Inti Warriors to begin their training",
+      "target": "关于“天才 Child”的报道",
+      "status": "needs-review"
+    },
+    "Caribbean Coalition continues to decline following stricted government guidelines": {
+      "source": "Caribbean Coalition continues to decline following stricted government guidelines",
+      "target": "关于“天才 Child”的报道",
+      "status": "needs-review"
+    },
+    "Volskaya Industries funding pulled out, company continues to decline": {
+      "source": "Volskaya Industries funding pulled out, company continues to decline",
+      "target": "关于“天才 Child”的报道",
+      "status": "needs-review"
+    },
+    "Null Sector takes control of Kings Row": {
+      "source": "Null Sector takes control of Kings Row",
+      "target": "关于“起义”的报道",
+      "status": "needs-review"
+    },
+    "Mondatta taken hostage by Omnic Extremist": {
+      "source": "Mondatta taken hostage by Omnic Extremist",
+      "target": "关于“起义”的报道",
+      "status": "needs-review"
+    },
+    "Turing Green Completely Destroyed by the Null Sector Attack": {
+      "source": "Turing Green Completely Destroyed by the Null Sector Attack",
+      "target": "关于“介入行动”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch saves london, are the heroes back?": {
+      "source": "Overwatch saves london, are the heroes back?",
+      "target": "关于“介入行动”的报道",
+      "status": "needs-review"
+    },
+    "Mondatta denounces Null Sector as a terrorist group": {
+      "source": "Mondatta denounces Null Sector as a terrorist group",
+      "target": "关于“决心”的报道",
+      "status": "needs-review"
+    },
+    "Brittish government not picking Turing Green back up after tensions contineu": {
+      "source": "Brittish government not picking Turing Green back up after tensions contineu",
+      "target": "关于“决心”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch agent killed by his own wife?": {
+      "source": "Overwatch agent killed by his own wife?",
+      "target": "关于“丧偶”的报道",
+      "status": "needs-review"
+    },
+    "Talon kidnaps ballerina Prima donna": {
+      "source": "Talon kidnaps ballerina Prima donna",
+      "target": "关于“丧偶”的报道",
+      "status": "needs-review"
+    },
+    "Mysterious sniper kills politician in the middle of the day, panicked crowds unharmed": {
+      "source": "Mysterious sniper kills politician in the middle of the day, panicked crowds unharmed",
+      "target": "关于“无动于衷”的报道",
+      "status": "needs-review"
+    },
+    "Fourteen death following Overwatch attack on Samoa": {
+      "source": "Fourteen death following Overwatch attack on Samoa",
+      "target": "关于“失败 at 海上”的报道",
+      "status": "needs-review"
+    },
+    "Polynesian League Nations set to drop out of the UN": {
+      "source": "Polynesian League Nations set to drop out of the UN",
+      "target": "关于“失败 at 海上”的报道",
+      "status": "needs-review"
+    },
+    "Three hostages killed during Asunción Summit attack": {
+      "source": "Three hostages killed during Asunción Summit attack",
+      "target": "关于“被迫 退休”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch action leads to global security data being stolen": {
+      "source": "Overwatch action leads to global security data being stolen",
+      "target": "关于“被迫 退休”的报道",
+      "status": "needs-review"
+    },
+    "Beware of the Phreaks, a new underground movement corrupting our youth": {
+      "source": "Beware of the Phreaks, a new underground movement corrupting our youth",
+      "target": "关于“对抗 系统”的报道",
+      "status": "needs-review"
+    },
+    "Phreak rioters clash with Police in Paris": {
+      "source": "Phreak rioters clash with Police in Paris",
+      "target": "关于“对抗 系统”的报道",
+      "status": "needs-review"
+    },
+    "La Lupa earns yet another victory at the Colosseo games": {
+      "source": "La Lupa earns yet another victory at the Colosseo games",
+      "target": "关于“拉卢帕”的报道",
+      "status": "needs-review"
+    },
+    "MR TGQFFGCHRUIIR": {
+      "source": "MR TGQFFGCHRUIIR",
+      "target": "关于“覆盖”的报道",
+      "status": "needs-review"
+    },
+    "VGQKCTUS: DBRQJKOKM-KBCTUS FÄYJJCSTRTTY": {
+      "source": "VGQKCTUS: DBRQJKOKM-KBCTUS FÄYJJCSTRTTY",
+      "target": "关于“覆盖”的报道",
+      "status": "needs-review"
+    },
+    "Busan nearly leveled following Gwishin attack": {
+      "source": "Busan nearly leveled following Gwishin attack",
+      "target": "关于“MEKA机甲部队”的报道",
+      "status": "needs-review"
+    },
+    "Korea rebeals drone Exo-Force units": {
+      "source": "Korea rebeals drone Exo-Force units",
+      "target": "关于“MEKA机甲部队”的报道",
+      "status": "needs-review"
+    },
+    "Ana Amari goes missing during Poland Mission": {
+      "source": "Ana Amari goes missing during Poland Mission",
+      "target": "关于“失踪 行动”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch rescues scientists from Talon kidnapping": {
+      "source": "Overwatch rescues scientists from Talon kidnapping",
+      "target": "关于“失踪 行动”的报道",
+      "status": "needs-review"
+    },
+    "Talon attacks distabilize many communities across the Caribbean": {
+      "source": "Talon attacks distabilize many communities across the Caribbean",
+      "target": "关于“另一场 工作, 另一场 战场”的报道",
+      "status": "needs-review"
+    },
+    "Ex Coalition personnel caught dealing with Talon Agents": {
+      "source": "Ex Coalition personnel caught dealing with Talon Agents",
+      "target": "关于“另一场 工作, 另一场 战场”的报道",
+      "status": "needs-review"
+    },
+    "Talon troops seen terrorizing pacific Islands": {
+      "source": "Talon troops seen terrorizing pacific Islands",
+      "target": "关于“欢乐 朋友”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch declares Ana Amari as deceased": {
+      "source": "Overwatch declares Ana Amari as deceased",
+      "target": "关于“幽灵”的报道",
+      "status": "needs-review"
+    },
+    "Local Mother goes missing, Authorities working on finding her": {
+      "source": "Local Mother goes missing, Authorities working on finding her",
+      "target": "关于“消失”的报道",
+      "status": "needs-review"
+    },
+    "Reports of Null Sector activity slow down following  the Uprising": {
+      "source": "Reports of Null Sector activity slow down following  the Uprising",
+      "target": "关于“注定失败 Fail”的报道",
+      "status": "needs-review"
+    },
+    "Another wave of global hacks hits some of the largest companies in the planet": {
+      "source": "Another wave of global hacks hits some of the largest companies in the planet",
+      "target": "关于“阴谋”的报道",
+      "status": "needs-review"
+    },
+    "Who is Sombra? The Annonymous collective terrorizing the Web": {
+      "source": "Who is Sombra? The Annonymous collective terrorizing the Web",
+      "target": "关于“阴谋”的报道",
+      "status": "needs-review"
+    },
+    "Doomfist is finally defeated in Singapore": {
+      "source": "Doomfist is finally defeated in Singapore",
+      "target": "关于“紧闭 拳”的报道",
+      "status": "needs-review"
+    },
+    "Akande Ogundimu is set to be held at Watchpoint: Grímsvötn": {
+      "source": "Akande Ogundimu is set to be held at Watchpoint: Grímsvötn",
+      "target": "关于“审讯”的报道",
+      "status": "needs-review"
+    },
+    "Several Kill during Overwatch's Confrontation with Talon in Glassgow": {
+      "source": "Several Kill during Overwatch's Confrontation with Talon in Glassgow",
+      "target": "关于“附带 损害”的报道",
+      "status": "needs-review"
+    },
+    "Talon activity quiets down following Doomfist's arrest": {
+      "source": "Talon activity quiets down following Doomfist's arrest",
+      "target": "关于“重返 事务”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch HQ at Zurich suffers a terrorist attack": {
+      "source": "Overwatch HQ at Zurich suffers a terrorist attack",
+      "target": "关于“苏黎世 Attack”的报道",
+      "status": "needs-review"
+    },
+    "Jack Morrison and Gabriel Reyes are declared death during Zurich's rescue efforts": {
+      "source": "Jack Morrison and Gabriel Reyes are declared death during Zurich's rescue efforts",
+      "target": "关于“苏黎世 Attack”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch agent goes missing after the HQ explosion": {
+      "source": "Overwatch agent goes missing after the HQ explosion",
+      "target": "关于“自我 发现”的报道",
+      "status": "needs-review"
+    },
+    "Reports of Genji around the Nepalse villages continue": {
+      "source": "Reports of Genji around the Nepalse villages continue",
+      "target": "关于“自我 发现”的报道",
+      "status": "needs-review"
+    },
+    "The UN shuts down Overwatch follwing Petras hearings": {
+      "source": "The UN shuts down Overwatch follwing Petras hearings",
+      "target": "关于“佩特拉斯 法案 听证”的报道",
+      "status": "needs-review"
+    },
+    "Vivian Chase to testify at the Petras Courts": {
+      "source": "Vivian Chase to testify at the Petras Courts",
+      "target": "关于“佩特拉斯 法案 听证”的报道",
+      "status": "needs-review"
+    },
+    "The Daugther of the legendary Ana Amari to Join Helix Securities": {
+      "source": "The Daugther of the legendary Ana Amari to Join Helix Securities",
+      "target": "关于“守护天空”的报道",
+      "status": "needs-review"
+    },
+    "Helix Securities contracted to take over Watchpoints": {
+      "source": "Helix Securities contracted to take over Watchpoints",
+      "target": "关于“守护天空”的报道",
+      "status": "needs-review"
+    },
+    "Say hello to Overwatch: 2.0, meet Helix Securities": {
+      "source": "Say hello to Overwatch: 2.0, meet Helix Securities",
+      "target": "关于“守护天空”的报道",
+      "status": "needs-review"
+    },
+    "Mutated Bat wolves Escape the Ministry of Biology for the third time this week at Oasis University": {
+      "source": "Mutated Bat wolves Escape the Ministry of Biology for the third time this week at Oasis University",
+      "target": "关于“守护天空”的报道",
+      "status": "needs-review"
+    },
+    "Multiple reports of a grim reaper haunting the streets of the US beging to appear": {
+      "source": "Multiple reports of a grim reaper haunting the streets of the US beging to appear",
+      "target": "关于“准则 暴力”的报道",
+      "status": "needs-review"
+    },
+    "Talon Troops equipped with anti gravity tools raid local town": {
+      "source": "Talon Troops equipped with anti gravity tools raid local town",
+      "target": "关于“获释”的报道",
+      "status": "needs-review"
+    },
+    "Sightings of a man covered in cybernetics raiding several security sights across the world continue": {
+      "source": "Sightings of a man covered in cybernetics raiding several security sights across the world continue",
+      "target": "关于“另一种人生”的报道",
+      "status": "needs-review"
+    },
+    "Project: Echo is shut down following the Petras Hearings": {
+      "source": "Project: Echo is shut down following the Petras Hearings",
+      "target": "关于“停用”的报道",
+      "status": "needs-review"
+    },
+    "Rare Egyptian artifacts found by an annonymous source send to the Wayfinders for analysis": {
+      "source": "Rare Egyptian artifacts found by an annonymous source send to the Wayfinders for analysis",
+      "target": "关于“伯劳”的报道",
+      "status": "needs-review"
+    },
+    "Chaos reigns in Cairo after another active shotout believed to involve Talon members": {
+      "source": "Chaos reigns in Cairo after another active shotout believed to involve Talon members",
+      "target": "关于“伯劳”的报道",
+      "status": "needs-review"
+    },
+    "A mask Vigilante running rampant in Cairo seemignly targetting other criminals in the area": {
+      "source": "A mask Vigilante running rampant in Cairo seemignly targetting other criminals in the area",
+      "target": "关于“伯劳”的报道",
+      "status": "needs-review"
+    },
+    "Hana Song becomes Top Ranked Player in Mecha Guardian V": {
+      "source": "Hana Song becomes Top Ranked Player in Mecha Guardian V",
+      "target": "关于“顶尖 选手”的报道",
+      "status": "needs-review"
+    },
+    "D.va's team crushes the competition on the Mecha Guardian V world championship": {
+      "source": "D.va's team crushes the competition on the Mecha Guardian V world championship",
+      "target": "关于“顶尖 选手”的报道",
+      "status": "needs-review"
+    },
+    "Phreaks seen helping Deadlock steal from Arbalest gun supply": {
+      "source": "Phreaks seen helping Deadlock steal from Arbalest gun supply",
+      "target": "关于“找到 家庭”的报道",
+      "status": "needs-review"
+    },
+    "Reports of undergrownd body modders continue to increase across many cities": {
+      "source": "Reports of undergrownd body modders continue to increase across many cities",
+      "target": "关于“找到 家庭”的报道",
+      "status": "needs-review"
+    },
+    "Deadlock makes a comback in the New West following several deals with other large gangs": {
+      "source": "Deadlock makes a comback in the New West following several deals with other large gangs",
+      "target": "关于“流淌 家庭”的报道",
+      "status": "needs-review"
+    },
+    "Calado officies burn down after explosion in Rio": {
+      "source": "Calado officies burn down after explosion in Rio",
+      "target": "关于“更好的 世界”的报道",
+      "status": "needs-review"
+    },
+    "Vishkar to rebuild Rio's city center and favelas in the new Paraiso Project": {
+      "source": "Vishkar to rebuild Rio's city center and favelas in the new Paraiso Project",
+      "target": "关于“更好的 世界”的报道",
+      "status": "needs-review"
+    },
+    "Extremely loud explosions continue to be heard across the Outback": {
+      "source": "Extremely loud explosions continue to be heard across the Outback",
+      "target": "关于“宝藏”的报道",
+      "status": "needs-review"
+    },
+    "Aleksandra Zaryanova breaks Olympic weightlifting record with 512kgs": {
+      "source": "Aleksandra Zaryanova breaks Olympic weightlifting record with 512kgs",
+      "target": "关于“最强 女性 Alive”的报道",
+      "status": "needs-review"
+    },
+    "Ex Overwatch Hero seend across the European country side helping villages in need": {
+      "source": "Ex Overwatch Hero seend across the European country side helping villages in need",
+      "target": "关于“骑士精神”的报道",
+      "status": "needs-review"
+    },
+    "Gang violenece plagues the Alps country side": {
+      "source": "Gang violenece plagues the Alps country side",
+      "target": "关于“骑士精神”的报道",
+      "status": "needs-review"
+    },
+    "Vaira' Singhania promoted to Vice President of Development y Vishkar's Board Table": {
+      "source": "Vaira' Singhania promoted to Vice President of Development y Vishkar's Board Table",
+      "target": "关于“建立关系”的报道",
+      "status": "needs-review"
+    },
+    "Lumerico energy cost increasess, company planning on international ventures in spite of local complains": {
+      "source": "Lumerico energy cost increasess, company planning on international ventures in spite of local complains",
+      "target": "关于“建立关系”的报道",
+      "status": "needs-review"
+    },
+    "Peanut Butter Stock skyrockets after annonymous buyer purchases years worth of bulk in a single day": {
+      "source": "Peanut Butter Stock skyrockets after annonymous buyer purchases years worth of bulk in a single day",
+      "target": "关于“不再 孤独”的报道",
+      "status": "needs-review"
+    },
+    "Talon confrontation against the Playa Cartel leads to entire houses burning down": {
+      "source": "Talon confrontation against the Playa Cartel leads to entire houses burning down",
+      "target": "关于“暴力循环”的报道",
+      "status": "needs-review"
+    },
+    "Talon continues to expand its range of influence in the Caribbean according to Government intel": {
+      "source": "Talon continues to expand its range of influence in the Caribbean according to Government intel",
+      "target": "关于“暴力循环”的报道",
+      "status": "needs-review"
+    },
+    "Weightlifting Champion Aleksandra Zaryanova quits championship to enlist in the army": {
+      "source": "Weightlifting Champion Aleksandra Zaryanova quits championship to enlist in the army",
+      "target": "关于“西伯利亚 前线”的报道",
+      "status": "needs-review"
+    },
+    "Siberian Omnium reactivated, is this the start of a second Omnic Crisis?": {
+      "source": "Siberian Omnium reactivated, is this the start of a second Omnic Crisis?",
+      "target": "关于“西伯利亚 前线”的报道",
+      "status": "needs-review"
+    },
+    "Fareeha Amari stops the Anubis Outbreak": {
+      "source": "Fareeha Amari stops the Anubis Outbreak",
+      "target": "关于“Anubis 逃脱”的报道",
+      "status": "needs-review"
+    },
+    "Anubis escapes Helix's confinement": {
+      "source": "Anubis escapes Helix's confinement",
+      "target": "关于“Anubis 逃脱”的报道",
+      "status": "needs-review"
+    },
+    "Esports players drafted into experimental government program": {
+      "source": "Esports players drafted into experimental government program",
+      "target": "关于“游戏”的报道",
+      "status": "needs-review"
+    },
+    "New MEKA Squad stops the Gwishin Colossus from reaching Busan": {
+      "source": "New MEKA Squad stops the Gwishin Colossus from reaching Busan",
+      "target": "关于“游戏”的报道",
+      "status": "needs-review"
+    },
+    "Tracer seen helping local police in London in spite of Petra's accords": {
+      "source": "Tracer seen helping local police in London in spite of Petra's accords",
+      "target": "关于“街区 英雄”的报道",
+      "status": "needs-review"
+    },
+    "Tensions rising in the Brittish Underworld with Omnics rioting in the streets": {
+      "source": "Tensions rising in the Brittish Underworld with Omnics rioting in the streets",
+      "target": "关于“街区 英雄”的报道",
+      "status": "needs-review"
+    },
+    "Wayfinder digiste finds rare Vanadium isotope": {
+      "source": "Wayfinder digiste finds rare Vanadium isotope",
+      "target": "关于“钒 海滩”的报道",
+      "status": "needs-review"
+    },
+    "Oasis University to take case of the Vanadium cache": {
+      "source": "Oasis University to take case of the Vanadium cache",
+      "target": "关于“钒 海滩”的报道",
+      "status": "needs-review"
+    },
+    "Criminals delivered to the Polic office in Denmark by annonymous stranger": {
+      "source": "Criminals delivered to the Polic office in Denmark by annonymous stranger",
+      "target": "关于“赏金 猎人”的报道",
+      "status": "needs-review"
+    },
+    "Rumors of an underworld bounty hunter market grow in Europe": {
+      "source": "Rumors of an underworld bounty hunter market grow in Europe",
+      "target": "关于“赏金 猎人”的报道",
+      "status": "needs-review"
+    },
+    "Massive Omnic Amalgams are spotted near the Outback": {
+      "source": "Massive Omnic Amalgams are spotted near the Outback",
+      "target": "关于“传说 Junker Queen”的报道",
+      "status": "needs-review"
+    },
+    "Junker Caravans begin to assult small villages further away from the wasteland": {
+      "source": "Junker Caravans begin to assult small villages further away from the wasteland",
+      "target": "关于“传说 Junker Queen”的报道",
+      "status": "needs-review"
+    },
+    "Meet the next generation of Wuxing's Fire College": {
+      "source": "Meet the next generation of Wuxing's Fire College",
+      "target": "关于“火焰 明星”的报道",
+      "status": "needs-review"
+    },
+    "Overwatch agent spotted during a Talon Assault near Houston": {
+      "source": "Overwatch agent spotted during a Talon Assault near Houston",
+      "target": "关于“列车 跃行者”的报道",
+      "status": "needs-review"
+    },
+    "Talon agents found dead in a Haiti warehouse": {
+      "source": "Talon agents found dead in a Haiti warehouse",
+      "target": "关于“叛徒”的报道",
+      "status": "needs-review"
+    },
+    "Angelar Ziegler seen helping the needy in Venezuela": {
+      "source": "Angelar Ziegler seen helping the needy in Venezuela",
+      "target": "关于“叛徒”的报道",
+      "status": "needs-review"
+    },
+    "Summit Squad stops criminal operation inside of a deep cave system": {
+      "source": "Summit Squad stops criminal operation inside of a deep cave system",
+      "target": "关于“峰会小队”的报道",
+      "status": "needs-review"
+    },
+    "Operative Sierra Woods rescues dozens trapped in an Avalanche": {
+      "source": "Operative Sierra Woods rescues dozens trapped in an Avalanche",
+      "target": "关于“峰会小队”的报道",
+      "status": "needs-review"
+    },
+    "Protests in Rio continue due to Vishkar's failed promises": {
+      "source": "Protests in Rio continue due to Vishkar's failed promises",
+      "target": "关于“声波 执法”的报道",
+      "status": "needs-review"
+    },
+    "London Police to adapt Sonic anti Riot weaponry": {
+      "source": "London Police to adapt Sonic anti Riot weaponry",
+      "target": "关于“声波 执法”的报道",
+      "status": "needs-review"
+    },
+    "Angela Ziegler is seen saving children from the rubble in Cairo": {
+      "source": "Angela Ziegler is seen saving children from the rubble in Cairo",
+      "target": "关于“帮助 困境者”的报道",
+      "status": "needs-review"
+    },
+    "Helix continues to struggle against Talon raids in Egypt": {
+      "source": "Helix continues to struggle against Talon raids in Egypt",
+      "target": "关于“帮助 困境者”的报道",
+      "status": "needs-review"
+    },
+    "Stories of raiders across European Villages continue to increase": {
+      "source": "Stories of raiders across European Villages continue to increase",
+      "target": "关于“巨龙 屠龙者”的报道",
+      "status": "needs-review"
+    },
+    "Ex Overwatch agent Reinhardt Wilhelm is seen at an Omnic Protest": {
+      "source": "Ex Overwatch agent Reinhardt Wilhelm is seen at an Omnic Protest",
+      "target": "关于“巨龙 屠龙者”的报道",
+      "status": "needs-review"
+    },
+    "Titan unite seen Roaming near Kurjikstan, is the Omnic Crisis back": {
+      "source": "Titan unite seen Roaming near Kurjikstan, is the Omnic Crisis back",
+      "target": "关于“毁灭者”的报道",
+      "status": "needs-review"
+    },
+    "Torbjörn Lindholm credited for stopping Titan attack in Boklovo": {
+      "source": "Torbjörn Lindholm credited for stopping Titan attack in Boklovo",
+      "target": "关于“毁灭者”的报道",
+      "status": "needs-review"
+    },
+    "Hear the story of the Knight of old and his novel Squire": {
+      "source": "Hear the story of the Knight of old and his novel Squire",
+      "target": "关于“侍从”的报道",
+      "status": "needs-review"
+    },
+    "Armored Shieldmaiden protects civilians during a raid": {
+      "source": "Armored Shieldmaiden protects civilians during a raid",
+      "target": "关于“侍从”的报道",
+      "status": "needs-review"
+    },
+    "Rio in chaos as local Musician leads an uprising against Vishkar": {
+      "source": "Rio in chaos as local Musician leads an uprising against Vishkar",
+      "target": "关于“Here 倾听”的报道",
+      "status": "needs-review"
+    },
+    "Vishkar announces their staff will leave Brazil until tensions calm down": {
+      "source": "Vishkar announces their staff will leave Brazil until tensions calm down",
+      "target": "关于“Here 倾听”的报道",
+      "status": "needs-review"
+    },
+    "Synaesthesia Auditiva tickets sold out within minutes of going live": {
+      "source": "Synaesthesia Auditiva tickets sold out within minutes of going live",
+      "target": "关于“Here 倾听”的报道",
+      "status": "needs-review"
+    },
+    "Zurich Archive reveal Jack Morrison's SEP designation as \"Soldier: 76\"": {
+      "source": "Zurich Archive reveal Jack Morrison's SEP designation as \"Soldier: 76\"",
+      "target": "关于“治安侠”的报道",
+      "status": "needs-review"
+    },
+    "Man as a strong as a bear single handedly defeats Helix troops at Grand Mesa": {
+      "source": "Man as a strong as a bear single handedly defeats Helix troops at Grand Mesa",
+      "target": "关于“治安侠”的报道",
+      "status": "needs-review"
+    },
+    "MEKA Squad out of Comission following Gwishin attack": {
+      "source": "MEKA Squad out of Comission following Gwishin attack",
+      "target": "关于“射击 明星”的报道",
+      "status": "needs-review"
+    },
+    "MEKA Pilot D.VA single handedly stops Gwishin incursion and emerges without a scratch": {
+      "source": "MEKA Pilot D.VA single handedly stops Gwishin incursion and emerges without a scratch",
+      "target": "关于“射击 明星”的报道",
+      "status": "needs-review"
+    },
+    "Rouge Bastion Unit Reported roaming Germany": {
+      "source": "Rouge Bastion Unit Reported roaming Germany",
+      "target": "关于“最后 堡垒”的报道",
+      "status": "needs-review"
+    },
+    "London Underworld in disrepair, Omnics resort to stealing": {
+      "source": "London Underworld in disrepair, Omnics resort to stealing",
+      "target": "关于“地下英雄”的报道",
+      "status": "needs-review"
+    },
+    "Young Girl Claims that the fugitive Soldier: 76 saved her life in Dorado": {
+      "source": "Young Girl Claims that the fugitive Soldier: 76 saved her life in Dorado",
+      "target": "关于“英雄”的报道",
+      "status": "needs-review"
+    },
+    "Los Muertos Criminal Activity plagues the Streets of Mexico": {
+      "source": "Los Muertos Criminal Activity plagues the Streets of Mexico",
+      "target": "关于“英雄”的报道",
+      "status": "needs-review"
+    },
+    "Hashimoto Gangs stoped by a ghostly fox vigilante": {
+      "source": "Hashimoto Gangs stoped by a ghostly fox vigilante",
+      "target": "关于“狐之化身”的报道",
+      "status": "needs-review"
+    },
+    "Protests on the streets of Mexico against the King Viper rage on": {
+      "source": "Protests on the streets of Mexico against the King Viper rage on",
+      "target": "关于“完全披露”的报道",
+      "status": "needs-review"
+    },
+    "Portero Exonerated in spite of Sombra's disclosure": {
+      "source": "Portero Exonerated in spite of Sombra's disclosure",
+      "target": "关于“完全披露”的报道",
+      "status": "needs-review"
+    },
+    "Gun shots heart at the London Rooftops during Mondatta's Speech": {
+      "source": "Gun shots heart at the London Rooftops during Mondatta's Speech",
+      "target": "关于“刺杀”的报道",
+      "status": "needs-review"
+    },
+    "Mondatta Assassinated in Kings Row, Overwatch agent spotted on the scene": {
+      "source": "Mondatta Assassinated in Kings Row, Overwatch agent spotted on the scene",
+      "target": "关于“刺杀”的报道",
+      "status": "needs-review"
+    },
+    "Ex Overwatch personnel report a Recall Message by Winston, IJC investigating the case.": {
+      "source": "Ex Overwatch personnel report a Recall Message by Winston, IJC investigating the case.",
+      "target": "关于“召回”的报道",
+      "status": "needs-review"
+    },
+    "Talon troops spotted near WatchpointL Gibraltar": {
+      "source": "Talon troops spotted near WatchpointL Gibraltar",
+      "target": "关于“召回”的报道",
+      "status": "needs-review"
+    },
+    "Tracer wounded while stopping riots at the London Underworld": {
+      "source": "Tracer wounded while stopping riots at the London Underworld",
+      "target": "关于“伦敦 呼唤”的报道",
+      "status": "needs-review"
+    },
+    "Omnics plot to destroy the Underworld following Mondatta's death": {
+      "source": "Omnics plot to destroy the Underworld following Mondatta's death",
+      "target": "关于“伦敦 呼唤”的报道",
+      "status": "needs-review"
+    },
+    "Sensors catch a ghost signal turning on in Ecopoint: Antartica after nearly a decade of silence": {
+      "source": "Sensors catch a ghost signal turning on in Ecopoint: Antartica after nearly a decade of silence",
+      "target": "关于“崛起 光芒”的报道",
+      "status": "needs-review"
+    },
+    "Sinclair Pharmaceuticals suddenly beggins offering their products for free in Haiti": {
+      "source": "Sinclair Pharmaceuticals suddenly beggins offering their products for free in Haiti",
+      "target": "关于“未竟 事务”的报道",
+      "status": "needs-review"
+    },
+    "Reports of the mysterious Monterray Bay Creature continue, harbor patrol efforts expanded": {
+      "source": "Reports of the mysterious Monterray Bay Creature continue, harbor patrol efforts expanded",
+      "target": "关于“潜伏 水”的报道",
+      "status": "needs-review"
+    },
+    "The Fox Ninja attacks again, Hashimoto thugs arrested near Kanezaka": {
+      "source": "The Fox Ninja attacks again, Hashimoto thugs arrested near Kanezaka",
+      "target": "关于“守护者”的报道",
+      "status": "needs-review"
+    },
+    "Follow the story of the scientist lost to time with Mei's Adventure block": {
+      "source": "Follow the story of the scientist lost to time with Mei's Adventure block",
+      "target": "关于“生态 网络”的报道",
+      "status": "needs-review"
+    },
+    "Climatologist rescues endangered species nest in the Artic": {
+      "source": "Climatologist rescues endangered species nest in the Artic",
+      "target": "关于“生态 网络”的报道",
+      "status": "needs-review"
+    },
+    "How to prepare for the Superstorm hitting England with Dr. Mei Ling Zhou": {
+      "source": "How to prepare for the Superstorm hitting England with Dr. Mei Ling Zhou",
+      "target": "关于“生态 网络”的报道",
+      "status": "needs-review"
+    },
+    "Null Sector Invasion winding down following no global attacks": {
+      "source": "Null Sector Invasion winding down following no global attacks",
+      "target": "关于“和解”的报道",
+      "status": "needs-review"
+    }
+  }
+}

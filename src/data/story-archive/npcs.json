@@ -14,7 +14,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-cafc4e77999e"
     },
     {
       "name": "Dae-Hyun",
@@ -46,7 +47,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-dd70475c4547"
     },
     {
       "name": "King",
@@ -70,7 +72,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-b9a21f5e4c52"
     },
     {
       "name": "Myung",
@@ -86,7 +89,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-c5fb0f4e6a5d"
     },
     {
       "name": "Overlord",
@@ -110,7 +114,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-0670b72971cf"
     },
     {
       "name": "Boomslang",
@@ -126,7 +131,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-e74bd41e5ac0"
     },
     {
       "name": "Jackdaw",
@@ -150,7 +156,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-1b8eeeae968d"
     },
     {
       "name": "Revel",
@@ -198,7 +205,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-ee8b49786c52"
     },
     {
       "name": "Susannah",
@@ -222,7 +230,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-d0fae3419d08"
     },
     {
       "name": "Touch Up",
@@ -246,7 +255,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-2189ef485951"
     },
     {
       "name": "B.O.B",
@@ -270,7 +280,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-76aa85c41158"
     },
     {
       "name": "Bars",
@@ -294,7 +305,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-ae83c95fa296"
     },
     {
       "name": "Bez",
@@ -318,7 +330,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-0d94465657a9"
     },
     {
       "name": "Frankie",
@@ -342,7 +355,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-64afc068ddac"
     },
     {
       "name": "The Triplets",
@@ -366,7 +380,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-1f1588cfbfbb"
     },
     {
       "name": "Asa",
@@ -438,7 +453,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-c775f26ce95a"
     },
     {
       "name": "Kamori-san",
@@ -470,7 +486,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-093f55e7603e"
     },
     {
       "name": "Sojiro",
@@ -518,7 +535,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-718ad6911901"
     },
     {
       "name": "Toshiro",
@@ -606,7 +624,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-e8227c8b8623"
     },
     {
       "name": "Kuroura",
@@ -622,7 +641,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-e6b3878c5e2d"
     },
     {
       "name": "Pompamoto",
@@ -646,7 +666,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-36e3503ada02"
     },
     {
       "name": "Chikasa",
@@ -662,7 +683,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-f6bf047de3f9"
     },
     {
       "name": "Nobuto",
@@ -686,7 +708,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-f4fccedea53c"
     },
     {
       "name": "Ryota",
@@ -702,7 +725,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-6c65bc3643d6"
     },
     {
       "name": "Sakura",
@@ -718,7 +742,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-48b3cb041968"
     },
     {
       "name": "Geiger",
@@ -734,7 +759,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-f62273678696"
     },
     {
       "name": "Mason",
@@ -766,7 +792,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-0390666ff074"
     },
     {
       "name": "Meri",
@@ -790,7 +817,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-95f6970ebc06"
     },
     {
       "name": "Carmilla",
@@ -806,7 +834,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-403bfa293481"
     },
     {
       "name": "Magnus",
@@ -822,7 +851,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-d55704e9bf07"
     },
     {
       "name": "Maximus",
@@ -838,7 +868,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-8a2e9265112e"
     },
     {
       "name": "Titus",
@@ -854,7 +885,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-1d716054019f"
     },
     {
       "name": "Zephyrus",
@@ -870,7 +902,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-262730710fac"
     },
     {
       "name": "Chao",
@@ -926,7 +959,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-1d21af0169a9"
     },
     {
       "name": "Harold",
@@ -990,7 +1024,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-abacca7c0ee9"
     },
     {
       "name": "Jiayi",
@@ -1022,7 +1057,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-9839af77256a"
     },
     {
       "name": "Adawe",
@@ -1054,7 +1090,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-63d53d3a39f9"
     },
     {
       "name": "Athena",
@@ -1110,7 +1147,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-fc846eae6a32"
     },
     {
       "name": "Claudio",
@@ -1190,7 +1228,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-2c889310036e"
     },
     {
       "name": "Efi",
@@ -1230,7 +1269,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-8ab12d002f06"
     },
     {
       "name": "Gérard",
@@ -1262,7 +1302,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-15f51e8cf889"
     },
     {
       "name": "Hector",
@@ -1342,7 +1383,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-b1bed90a08b8"
     },
     {
       "name": "Liao",
@@ -1454,7 +1496,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-b17e1de84fde"
     },
     {
       "name": "Adeyemi",
@@ -1510,7 +1553,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-21ee8c24e487"
     },
     {
       "name": "Antonio",
@@ -1574,7 +1618,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-12962218c343"
     },
     {
       "name": "Chernobog",
@@ -1598,7 +1643,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-2dc7f8e37eb8"
     },
     {
       "name": "Maximillien",
@@ -1646,7 +1692,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-83875eb94a61"
     },
     {
       "name": "Ngumi",
@@ -1678,7 +1725,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-6eaf9a8304b0"
     },
     {
       "name": "Sanjay",
@@ -1726,7 +1774,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-087110ec87c9"
     },
     {
       "name": "Vialli",
@@ -1774,7 +1823,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-7c10cab09a9d"
     },
     {
       "name": "Lanet",
@@ -1798,7 +1848,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-20175fd4223e"
     },
     {
       "name": "Nameless",
@@ -1822,7 +1873,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-0ef62bf1bfd1"
     },
     {
       "name": "Zera",
@@ -1846,7 +1898,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-e46a3f2366b3"
     },
     {
       "name": "Alisa",
@@ -1870,7 +1923,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-a5d68dacc3fd"
     },
     {
       "name": "Anubis",
@@ -1974,7 +2028,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-3aa0d06671f7"
     },
     {
       "name": "Aurora",
@@ -2054,7 +2109,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-52f95225b502"
     },
     {
       "name": "Balderich",
@@ -2078,7 +2134,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-da2ba5f63153"
     },
     {
       "name": "Bhatt",
@@ -2126,7 +2183,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-d6f060b078ab"
     },
     {
       "name": "Katya",
@@ -2198,7 +2256,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-469fa82c9c69"
     },
     {
       "name": "Mondatta",
@@ -2238,7 +2297,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-0461547131b3"
     },
     {
       "name": "Naughton",
@@ -2326,7 +2386,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-d476d7c1ec7b"
     },
     {
       "name": "Osai",
@@ -2342,7 +2403,8 @@
           "thisEntryLane": "B",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-b2bfda17e3ee"
     },
     {
       "name": "Palak",
@@ -2374,7 +2436,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-d5e335b8c66a"
     },
     {
       "name": "Portero",
@@ -2430,7 +2493,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-4419377b8146"
     },
     {
       "name": "Benicio",
@@ -2454,7 +2518,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-15256e218846"
     },
     {
       "name": "Emily",
@@ -2470,7 +2535,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-cd8d02bfede6"
     },
     {
       "name": "Iggy",
@@ -2494,7 +2560,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-ecf478466079"
     },
     {
       "name": "Ingrid",
@@ -2526,13 +2593,15 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-7744d503dea9"
     },
     {
       "name": "Kace",
       "description": "No description available.",
       "relevantLocations": [],
-      "npcCategory": "Civilians"
+      "npcCategory": "Civilians",
+      "id": "npc-d5da1186fb6d"
     },
     {
       "name": "Kendra",
@@ -2564,7 +2633,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-20b59d70df1a"
     },
     {
       "name": "Lynx 17",
@@ -2628,7 +2698,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-9b1d9bccc945"
     },
     {
       "name": "Ming",
@@ -2652,7 +2723,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-a72c26e8c931"
     },
     {
       "name": "Sam",
@@ -2676,7 +2748,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-8dcfc43bc04c"
     },
     {
       "name": "Sven",
@@ -2740,7 +2813,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-33adf3328cb8"
     },
     {
       "name": "Trembley",
@@ -2764,7 +2838,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-81e0c335abba"
     },
     {
       "name": "Vincent",
@@ -2780,7 +2855,8 @@
           "thisEntryLane": "A",
           "showInCodex": true
         }
-      ]
+      ],
+      "id": "npc-27299a9a61a1"
     }
   ]
 }
