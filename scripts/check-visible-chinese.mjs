@@ -15,6 +15,9 @@ for (const [kind, rows] of Object.entries(content.records || {})) {
         if (row?.name?.target && !hasHan(row.name.target) && !officialAcronym) {
             pending.push(`${kind}:${row.name.source} -> ${row.name.target}`);
         }
+        if (row?.description?.target && !hasHan(row.description.target)) {
+            pending.push(`${kind}:${row.name?.source || ''}:description`);
+        }
     }
 }
 for (const [source, row] of Object.entries(ui.entries || {})) {

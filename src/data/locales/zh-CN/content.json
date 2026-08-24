@@ -1,4 +1,4 @@
-Warning: truncated output (original token count: 174022)
+Warning: truncated output (original token count: 176694)
 Total output lines: 9742
 
 {
@@ -16,7 +16,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On March 15th of 2015, Siebren de Kuiper was born. Growing up in the Netherlands fascinated by the universe and its mysteries, oblivious to the impact he would leave on the world, and the price he would ultimately pay for his hubris.",
-          "target": "",
+          "target": "2015年3月15日，西布伦·德·库伊珀出生。他在荷兰长大，痴迷于宇宙及其奥秘，却没有意识到自己将对世界造成怎样的影响，也没有预见最终要为这份傲慢付出何种代价。",
           "status": "needs-review"
         }
       },
@@ -29,7 +29,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On June 26th of 2015, Reinhardt Wilhelm was born to a working-class family in Stuttgrat, growing up dreaming of knights of old and their chivalry adventures. He would grow up to join the German Armed Forces to pursue his childhood dreams.",
-          "target": "",
+          "target": "2015年6月26日，莱因哈特·威尔海姆出生于斯图加特的工人家庭。他从小向往古老骑士及其骑士精神，成年后加入德国武装部队，追逐儿时的梦想。",
           "status": "needs-review"
         }
       },
@@ -42,7 +42,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On January 1st of 2017, Ana Amari was born to a line of distinguished army veterans in Cairo. Learning how to handle a rifle since very young, becoming a marksperson by high school. Once graduated she would join the El-Sa'ka forces.",
-          "target": "",
+          "target": "2017年1月1日，安娜·阿玛莉出生于开罗的军人世家。她很小就开始学习使用步枪，中学毕业时已成为出色的射手；毕业后，她加入了埃尔-萨卡部队。",
           "status": "needs-review"
         }
       },
@@ -55,7 +55,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On December 14th of 2018 Gabriel Reyes was born. Raised in Los Angeles by a family of hispanic descent, he would spend his early days helping the family in a convenience store. He would go on to graduate in criminology and pursue law enforcement as part of the LAPD.",
-          "target": "",
+          "target": "2018年12月14日，加布里埃尔·雷耶斯出生。他在洛杉矶的西语裔家庭中长大，小时候曾在家里的便利店帮忙；后来他取得犯罪学学位，加入洛杉矶警察局投身执法工作。",
           "status": "needs-review"
         }
       },
@@ -68,7 +68,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On September 21st of 2019 Torbjörn Lindholm was born in the city of Gothenburg. He had been a bright mind from an early age and had a clear career path in mind, as he pursued multiple advanced degrees at university.",
-          "target": "",
+          "target": "2019年9月21日，托比昂·林德霍姆出生于哥德堡。他自幼聪慧，很早便确立了明确的职业方向，并在大学攻读了多个高级学位。",
           "status": "needs-review"
         }
       },
@@ -81,7 +81,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "During the early years of the 21st century, the rapid climate change and growing populations will lead to a series of pandemics across the World. From yellow fever to dengue, pathogens are becoming an ever evolving problem.<br><br>But with hardship and challenges comes progress, and humanity was able to collaborate in speeding up vaccine development, allowing for massive leaps in the medical field, and a period of utopian levels of health and life expectancy.<br><br>As technology advanced, Dr. Elaine Esat would introduce the world to the marvels of cybernetics, empowering humans with mechanical organs and limbs that would later become a global standard, as companies such as Ogundimu Synergies Inc. and Omnica Corp quickly made a name for themselves in the global robotics sphere.",
-          "target": "",
+          "target": "21世纪初，气候迅速变化、人口持续增长，引发了一系列席卷全球的疫情。从黄热病到登革热，病原体不断演化，逐渐成为日益严峻的问题。<br><br>然而，艰难与挑战也带来了进步。人类开始协作，加快疫苗研发，医学领域因此取得巨大飞跃，健康水平和预期寿命一度达到近乎乌托邦的程度。<br><br>随着科技发展，伊莱恩·埃萨特博士向世界展示了赛博义体的奇迹，让人类能够使用机械器官和肢体。后来，这些技术成为全球标准；奥贡迪姆联合公司和全智机械公司等企业也迅速在全球机器人领域崭露头角。",
           "status": "needs-review"
         }
       },
@@ -94,7 +94,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "Dr. Leonel Namuaca was working on a revolutionary device which, thanks to nano-filtration systems, managed to greatly improve the cleansing of water from polluted and non-potable sources. Inspired by his life of struggle as climate change forced his family away from home, his purifiers quickly took over the world, helping to stop waterborne illness, and improving water efficiency in regions where it was scarce.",
-          "target": "",
+          "target": "莱昂内尔·纳穆阿卡博士研发了一种革命性装置。借助纳米过滤系统，它大幅提升了从受污染、不可饮用的水源中净化饮用水的效率。气候变化迫使他的家人背井离乡，这段经历激励他继续研究；他的净水器很快推广到世界各地，帮助遏制水源性疾病，并提高缺水地区的用水效率。",
           "status": "needs-review"
         }
       },
@@ -107,7 +107,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "Born on January 27th of 2021, John \"Jack\" Francis Morrison was raised by farmers, and grew up to become a rambunctious teen. When he was not helping on the farm, he spent his time playing football, and by his eighteenth birthday he would choose to enlist in the army, intending to put the strength and discipline from his years of athletics into good use.",
-          "target": "",
+          "target": "约翰·“杰克”·弗朗西斯·莫里森于2021年1月27日出生，在农场家庭中长大，逐渐成长为精力旺盛的少年。他不帮忙务农时就踢足球；18岁生日那天，他选择参军，希望将多年运动训练带来的力量与纪律投入军旅。",
           "status": "needs-review"
         }
       },
@@ -120,7 +120,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "As technology progressed, many fields of science quickly solved global issues such as illness and water scarcity, but it quickly became clear that the worsening climate of the planet would become the next major obstacle to surpass. Scientists all over the globe scrambled for ideas to produce cost-effective clean energy that could become a worldwide standard.\n\nDr. Justina Borda was one of the first to tackle this issue. A phycologist specialized in genetics, who sought to improve energy equity in her home of Colombia. Borda developed a strain of algae capable of thriving in low oxygen waters and photosynthesizing at disproportionate speeds. And after many attempts, she was able to get the energy produced by the algae to work alongside a Goldilocks Generator, taking the excess of electricity from the algae and essentially transforming any body of water into a solar panel.\n\nBorda's invention spread across the world rapidly, as rural communities quickly standardized its use, to the point that even the most remote corners of the world have bodies of water where their creation managed to propagate. As her invention became the norm, the public moved away from fossil fuels for their daily energy consumption. Borda kickstarted a green energy revolution, and as superstorms became all the more common, the wind energy industry followed, which ultimately led to a decrease in carbon emissions of more than 20 percent during this period, giving humanity hope for a better tomorrow.",
-          "target": "",
+          "target": "随着科技进步，许多科学领域迅速解决了疾病和水资源短缺等全球问题，但人们很快意识到，日益恶化的气候将成为下一个必须跨越的主要障碍。世界各地的科学家争分夺秒，试图研发一种成本可控、能够成为全球标准的清洁能源。\n\n专攻遗传学的藻类学家贾斯蒂娜·博尔达博士是最早迎战这一问题的人之一。她希望改善祖国哥伦比亚的能源公平，于是培育出一种能在低氧水域生存、并以异常速度进行光合作用的藻类。经过多次尝试，她让藻类产生的能源与黄金发电机协同工作，将多余电力转化为能源，几乎把任何水体都变成了太阳能电池板。\n\n博尔达的发明迅速传遍全球。农村社区很快将其标准化应用，甚至最偏远的地区也出现了能够繁衍这种藻类的水体。随着这项发明成为常态，公众逐渐摆脱化石燃料，转向日常清洁能源消费。博尔达开启了绿色能源革命；随着超级风暴日益频繁，风能产业也随之发展。这一时期的碳排放最终下降了20%以上，为人类的美好明天带来了希望。",
           "status": "needs-review"
         }
       },
@@ -133,7 +133,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "While humanity was fighting to stop climate change, its effects were already heavily affecting people all over the world, and it was just as important to find solutions for those problems as it was for those to come. Island nations suffered the most from climate change, as the rising sea level and pollution of the oceans put their lifestyle at risk. For years, the people of the Polynesian region requested the international community to take the issue more seriously, but the handling of the situation left a lot to be desired.<br><br>This eventually led to the creation of the Polynesian League, an intergovernmental alliance between New Zealand, the Cook Islands, Samoa and the recently independent Hawaii, where together they would find solutions to the issues affecting their region.",
-          "target": "",
+          "target": "人类努力遏制气候变化时，气候变化的影响已经严重波及世界各地。为这些问题寻找解决方案，与预防未来问题同样重要。海平面上升和海洋污染威胁着岛屿国家的生活方式，波利尼西亚地区受到的冲击尤其严重。多年来，当地民众不断请求国际社会更加重视这一问题，但处理结果始终不尽如人意。<br><br>最终，波利尼西亚联盟成立。这是一个由新西兰、库克群岛、萨摩亚以及刚刚独立的夏威夷组成的政府间联盟，各方共同寻找解决本地区问题的方法。",
           "status": "needs-review"
         }
       },
@@ -146,7 +146,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "Namuaca's work was later used by Michael Lomakema, who realized purification alone couldn't do much in the absence of water. And he engineered, alongside his college department in the Great Basin Desert, a home printable water extractor, which, combined with Namuaca's technology, allowed people to get clean water essentially out of tin air, extracted from any degree of humidity.<br><br>The work of these two men forever changed the world as we knew it, and would eventually be the key to taking humanity to the stars and beyond.",
-          "target": "",
+          "target": "纳穆阿卡的研究后来被迈克尔·洛马凯马采用。他意识到，没有水源，单靠净化技术无法解决问题，于是与大盆地沙漠地区所在大学的系所合作，研发出一种可在家中打印的取水装置。它与纳穆阿卡的技术结合后，可以从任何湿度的空气中提取洁净水，真正做到“凭空”取水。<br><br>这两位科学家的工作永远改变了人类熟悉的世界，最终也成为人类走向群星、探索更远宇宙的关键。",
           "status": "needs-review"
         }
       },
@@ -159,7 +159,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On January 12th of 2028, Vivian Chase and her twin sister Valentine were born, as daughters of ex-military parents. Unfortunately, Vivian was born with a rare autoimmune disease that caused her body to attack her own organs, which would force her to spend most of her childhood and teenage years bedridden. The time in the hospital gave Vivian a lot of time to read books and play strategy games, as she quickly grew interest in the military like her parents.<br><br>As her condition worsened and threatened her life, her family made the hard choice of admitting her into Dr. Esat's experimental program, where they would replace a vast majority of her body with cybernetics over the years. Vivian lived on, but it would further change the course of her life.",
-          "target": "",
+          "target": "2028年1月12日，维维安·蔡斯与双胞胎姐妹瓦伦丁出生于退役军人家庭。不幸的是，维维安患有罕见的自身免疫疾病，身体会攻击自己的器官，导致她童年和青少年时期大多卧病在床。住院期间，她有大量时间阅读书籍、玩策略游戏，也逐渐像父母一样对军事产生兴趣。<br><br>病情恶化并威胁生命后，家人艰难地决定让她接受埃萨特博士的实验项目。多年间，项目以赛博义体替换了她身体的大部分。维维安活了下来，但这也进一步改变了她的人生轨迹。",
           "status": "needs-review"
         }
       },
@@ -172,7 +172,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "While green energy was enough to sustain small towns and daily activities for most households, industry at large required a lot more power still, and to solve this, they turned to a familiar solution, nuclear power. While the infamous accidents from the previous decades like Chernobyl and Fukushima made it a hard sell, breakthroughs in fusion reactors allowed for the first Fusion plant to be brought up online, and after that it wouldn't be long before this became the standard for metropolitan areas, government research centers and large industrial facilities.",
-          "target": "",
+          "target": "绿色能源足以支撑小城镇和大多数家庭的日常活动，但整个工业体系仍需要更多电力。为了解决这个问题，人们重新采用了熟悉的方案：核能。尽管前几十年切尔诺贝利和福岛等臭名昭著的事故让核能难以推广，聚变反应堆的突破最终让第一座聚变电站上线。此后不久，聚变能源便成为大都市、政府研究中心和大型工业设施的标准配置。",
           "status": "needs-review"
         }
       },
@@ -185,7 +185,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On September 12th of 2028, somewhere in the middle of the Australian Outback, Mako Rutledge would be born to a humble family, surrounded by farmers and solar plants, like many others just hopping for a quiet life in the country, and to be left alone.",
-          "target": "",
+          "target": "2028年9月12日，马可·拉特利奇出生在澳大利亚内陆某处的一个朴素家庭。他在农民和太阳能电站的环绕下长大，和许多人一样，只希望在乡间过上安静的生活，不受外界打扰。",
           "status": "needs-review"
         }
       },
@@ -198,7 +198,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "In their search for solutions on the ecological criticism the Polynesian nations eventually landed on the Coral Restoration Initiative, a project led by Dr. Aleluia Taupega who, with the help of his students, created \"Montipora Taupega\", now known as Supercoral. This genetically enhanced coral was extremely resilient to the changing environment and quick to grow to extraordinary sizes. Once introduced, it quickly helped revitalize the coral reefs of the Pacific and, thanks to its unique metabolism, it helped clean the oceans from chemicals and microplastics. The trade-off was that as the Coral consumed any substances in its path, it grew so large it created massive island-like structures above water. While the view is unlike any other place on earth and one of deep ecological and touristic importance, the expanding size of the reefs also leads to the blocking of many trade routes, causing international inconvenience and scandal.",
-          "target": "",
+          "target": "波利尼西亚各国寻找生态危机解决方案时，最终启动了珊瑚修复计划。该项目由阿莱卢亚·陶佩加博士领导；他与学生们共同培育出“陶佩加鹿角珊瑚”，如今被称为超级珊瑚。这种经过基因强化的珊瑚极其耐受环境变化，并能快速生长到惊人的规模。引入海域后，它迅速帮助复苏太平洋珊瑚礁；独特的新陈代谢还可以吸收海水中的化学物质和微塑料，净化海洋。<br><br>代价是，珊瑚会吞噬沿途的各种物质，生长到足以在海面上形成巨大岛屿般的结构。珊瑚礁的景观独一无二，具有深远的生态和旅游价值，但不断扩张的礁体也堵塞了许多贸易航线，引发国际不便与争议。",
           "status": "needs-review"
         }
       },
@@ -211,7 +211,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "As supercoral grew in the Pacific, the people of the Atlantic faced similar problems as Polynesia once did. The coasts of Portugal were facing great erosion and violent waves as the ocean level rose and acidification worsened, but they would find a solution on their own thanks to the ingenuity of the Martins couple.\n\nCláudio Martins was a wealthy Portuguese entrepreneur, married to a Venezuelan ecological activist, Hector Martins. The pair were known for their inventions, and together they used their resources to propose to the Portuguese Government to begin the construction of a giant sea wall.\n\nThe Wall was to be made out of Durovidro, a synthetic material Cláudio himself had invented years earlier. Not only was it nearly as tough as a diamond, but it also had the unique quality of neutralizing acidity, which made it perfect for both solving the rising tides eroding the coast, and preserving the ecosystems around the area. The Durovidro Sea Wall was a massive success after its first prototype, and it slowly expanded over the years.",
-          "target": "",
+          "target": "超级珊瑚在太平洋生长的同时，大西洋沿岸也遭遇了与波利尼西亚相似的问题。海平面上升、海水酸化加剧，葡萄牙海岸正受到严重侵蚀和猛烈海浪冲击；马丁斯夫妇凭借才智找到了自己的解决方案。\n\n克劳迪奥·马丁斯是一位富有的葡萄牙企业家，他的伴侣赫克托·马丁斯则是来自委内瑞拉的生态活动家。两人都以发明创造闻名，他们利用自身资源，向葡萄牙政府提议修建一座巨型海堤。\n\n海堤采用杜罗玻璃制造，这种合成材料由克劳迪奥多年前发明。它不仅坚硬得近似钻石，还能中和酸性物质，既适合抵御侵蚀海岸的上涨潮汐，也能保护周边生态系统。杜罗玻璃海堤的首个原型大获成功，随后逐年扩建。",
           "status": "needs-review"
         }
       },
@@ -224,7 +224,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On April 4th of 2029, Moira O'Deorain was born. Growing up with a fascination for bugs and science, surrounded by several advancements in genetics at a very young age, it was not a surprise to anyone when she ended up at the University of Dublin, becoming a brilliant yet controversial geneticist.",
-          "target": "",
+          "target": "2029年4月4日，莫伊拉·奥德莱恩出生。她从小就对昆虫和科学着迷，身边又有许多基因学领域的新突破，因此后来进入都柏林大学，成为一名才华横溢却极具争议的遗传学家并不令人意外。",
           "status": "needs-review"
         }
       },
@@ -237,7 +237,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "The people of the Andean Mountains came up with their own solutions to clean energy. In the sacred valley of Peru, the Paraqina research group combined modern technology with the ancestral traditions and beliefs of the natives, funding heavy research into hydraulic and wind energy as well as agricultural techniques.\n\nBut by far their biggest accomplishment would come with the invention of solar threading, a unique way of harvesting condensed solar energy into beams of light. This technology was so strong that it was capable of giving power to nearly everything around the city of Runasapi and the surrounding areas. The group grew in numbers and research expanded into multiple other fields, eventually leading into cybernetics, where they found a way to engrave solar threads into human bodies, allowing people to directly harness the power of the sun onto themselves, and channel them into different tools. The few selected for this procedure would become the first of the mythical Inti Warriors, the protectors of the city, their technology and their new-found way of life in the isolated mountains of Peru.",
-          "target": "",
+          "target": "安第斯山脉的人们也找到了自己的清洁能源方案。在秘鲁的圣谷，帕拉奇纳研究小组将现代科技与当地原住民的祖传传统和信仰结合起来，大力研究水能、风能以及农业技术。\n\n但他们最伟大的成就，是发明了太阳织线：一种把凝聚的太阳能收集并转化为光束的独特方式。这项技术足以为鲁纳萨皮城及周边地区的几乎所有设施供能。研究小组不断壮大，研究范围也扩展到其他领域，最终涉足赛博义体。他们找到把太阳织线刻入人体的方法，使人能够直接吸收太阳能，并将其导入不同工具。少数接受这一手术的人成为首批神话般的因蒂勇士，守护着秘鲁孤立山城的城市、技术和新生活方式。",
           "status": "needs-review"
         }
       },
@@ -250,7 +250,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "With all the new technologies that were arising, academic institutions were constantly growing, as more people wanted to enter the many new technological fields that were opening, and one of the schools that quickly took the lead in the world would be Wuxing University. According to the academy's teachings, centuries ago, a wise family had dedicated themselves to the understanding and application of the traditional Wuxing philosophy, and the study of the building blocks of the world. With the years of accumulated knowledge, they founded what later became the University, where traditional wisdom was to pioneer new science, for students to have all the knowledge of the past available to guide their future.\n\nThe University, true to its name, splits its fields of study into five categories, relating to the phases of the Wuxing teachings.\nThe Fire College, for the study of martial arts and defensive strategies.\nThe Metal College, for robotics and technological engineering.\nThe Water College, for traditional medicine and applications into new medical advancements.\nThe Earth College, for agricultural and sustainability studies.\nAnd Wood College, for civil and environmental engineering.\n\nEach of these faculties played major roles in China's major advancements during the following decades, quickly increasing the College's prestige across the world.",
-          "target": "",
+          "target": "随着新技术不断涌现，学术机构持续壮大，越来越多的人希望进入层出不穷的新科技领域。其中，五星大学很快成为世界领先的学府之一。根据学院传承，数百年前，有一个智慧家族致力于理解和应用传统五行哲学，研究构成世界的基本要素。经过世代积累，他们创建了后来发展为五星大学的学院，让传统智慧开创新科学，也让学生能够以过去的知识指引未来。\n\n五星大学名副其实，将专业分为与五行教义相对应的五个学院：研究武术与防御策略的火学院；研究机器人与技术工程的金学院；研究传统医学及其现代应用的水学院；研究农业与可持续发展的土学院；以及研究城市与环境工程的木学院。\n\n在随后的几十年里，每个学院都为中国的重要进步发挥了关键作用，五星大学的声望也迅速传遍全球。",
           "status": "needs-review"
         }
       },
@@ -263,7 +263,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On May 25th of 2031, Akande Ogundimu was born in Oyo, Nigeria. He was the heir to Ogundimu Synergies Incorporated, which was making a name for itself in the field of cybernetics at the time. This background led to a mentality of conquest and progress in the young man, as he soon found himself learning a wide spectrum of martial arts, hoping to pursue a professional career as a fighter.",
-          "target": "",
+          "target": "2031年5月25日，阿坎德·奥贡迪姆出生于尼日利亚奥约。他是奥贡迪姆联合公司的继承人；当时，这家公司正在赛博义体领域崭露头角。这样的成长环境让年轻的阿坎德形成了征服与进取的心态，他很快开始学习广泛的武术，希望以格斗家为职业。",
           "status": "needs-review"
         }
       },
@@ -587,124 +587,7 @@ Total output lines: 9742
           "status": "needs-review"
         },
         "description": {
-          "source": "In order to survive in space, many logistics need to be solved and, much like before, the advancements made to accommodate the Colony would find many different uses across the world. Textile manufacturing for long-term space suits would be used by many workers down on earth due to their similar properties to Kevlar, saving many lives during the crisis. Medical advancements in radiation shielding lead to further research into cancer treatments, also applicable on Earth. A similar case happened for treatment of lower bone density and tissue rejuvenation. In the end, even with all of these discoveries, the key to the stars was found in older technology.\n\nDr. Wing Mui from Wancài Industries in Hong Kong would be responsible for developing advanced hydroponics systems that the Lunar Colony would use to source their breathable air. Using a combination of Namuaca's nano-filtration sheets and Lomakema's water extractor, powering them with a controlled population of Borda Algae, in the wastewater tanks. The result was a massive success, and approved for use in the colony. Mui would go on to be known as the woman who put potatoes on the moon and turned hydroponics into one of the greatest achievements in human history.",
-          "target": "",
-          "status": "needs-review"
-        }
-      },
-      "event-1ede748c14e5": {
-        "sourceHash": "e0869a71683cb2561564db8e187e11141ee5a232ab7a0b225d235fa78a233a36",
-        "name": {
-          "source": "Tekhartha Zenyatta is Made",
-          "target": "泰哈撒·禅雅塔诞生",
-          "status": "needs-review"
-        },
-        "description": {
-          "source": "On July 14th of 2045, Tekhartha Zenyatta will be created. As Omnica Corporation sped up production into domestic and public use Omnic Units, the machines became more and more multipurpose and standardized. Little is known about Zenyatta's past before the crisis. His many jobs or factories of origin often change each time the tale is told, but as is the case for many of his fellow Omnics, his true life would not quite start yet, until the day of the Awakening.",
-          "target": "",
-          "status": "needs-review"
-        }
-      },
-      "event-d6994d3210ac": {
-        "sourceHash": "bc70df10349a88099b40e6180ae2822351f9774c1ac7f0823bc38b361e7710d7",
-        "name": {
-          "source": "SST Labs Siege Automaton E54 is Made",
-          "target": "SST实验室攻城自动机E54诞生",
-          "status": "needs-review"
-        },
-        "description": {
-          "source": "Around the year 2046, the SST Laboratories would begin production of the Siege Automaton E54 Bastion Units. Machines originally created for peacekeeping, capable of reconfigurating themselves into many different modes. Their versatility and resilience would unknowingly make them the perfect choice for the bulk of the warbot army during the Omnic Crisis.\n\nOn an unknown day during these initial production batch, a faulty E54 unit, nowadays simply known as Bastion, was made, and while one in a million at the time, nobody knew how special this particular unit would be",
-          "target": "",
-          "status": "needs-review"
-        }
-      },
-      "event-0b757c6c4b70": {
-        "sourceHash": "56600e8a9d5d977219ebf3f3a0a3a037349e64ad02b7bf13123acb9e439b2ef8",
-        "name": {
-          "source": "Genesis",
-          "target": "创世纪",
-          "status": "needs-review"
-        },
-        "description": {
-          "source": "Over the years, Omnica Corporation had been caught under fire for many issues. Between the heavy criticism of the Ironclad guild, the massive spending and broken promises that came with many Omniums, and to top it off, they had reached a point of near perfection with their Omnic designs, where their models would barely every break down and most of the public weren't willing to buy an Omnic, already owning them. The company was in need of a big idea, one that could save them from collapse, and the answer to their troubles seemed to be Mina Liao.\n\nDr. Mina Liao was a prodigy and pioneer of neuroplastic artificial intelligence that had built continuous innovations in the field. She was selected by Omnica to develop the most advanced AI the world had ever seen. Liao's work was both revolutionary and controversial, as many feared this was pushing boundaries too far, but in the end she would reveal Omnica's crowning achievement, with the birth of Aurora.",
-          "target": "",
-          "status": "needs-review"
-        }
-      },
-      "event-02551084bd0a": {
-        "sourceHash": "8338f834c4285a8dd7a0876a2913c0404599641d80fdd80b4f1b9a07378da9f3",
-        "name": {
-          "source": "Vaira Singhania is Born",
-          "target": "瓦伊拉·辛哈尼亚出生",
-          "status": "needs-review"
-        },
-        "description": {
-          "source": "On August 28 of 2046, Vaira Singhania was born. As the maternal granddaughter of Vishkar's founder, she was expected to eventually inherit the family business, which had placed immense pressure upon her since she was young and quickly shaped her into a perfectionist negotiator, but she always struggled when it came to Hardlight manipulation, which caused constant judgment and disappointment in the family. \n\nFrom an early age, Vaira grew to resent those who did not appreciate her own merits, and took several measures to level the playing field with the competition. She eventually gained or gave herself a moniker in spite of those \"beneath\" her: Domina.",
-          "target": "",
-          "status": "needs-review"
-        }
-      },
-      "event-2569dad54723": {
-        "sourceHash": "197e5ea87c0a2ddfcbfb4d0061ab9cc03aa7ee56f109dbc8b04c01dd63b80080",
-        "name": {
-          "source": "Olivia Colomar is Born",
-          "target": "奥莉维亚·科罗马尔出生",
-          "status": "needs-review"
-        },
-        "description": {
-          "source": "On December 31st of 2046, Olivia Colomar is born. One of the millions orphaned by the crisis, left to fend for herself in a country left to ruin and riddled with political scandals. From an early age, Olivia learned a constant truth in her life: If you have the information, you control everything.",
-          "target": "",
-          "status": "needs-review"
-        }
-      },
-      "event-97a6c7dcb514": {
-        "sourceHash": "30ac922de165f23041108920828c0704226b0f5e96a10d75cf15e5ed4db5e4c9",
-        "name": {
-          "source": "Specimen 28 is Born",
-          "target": "28号样本出生",
-          "status": "needs-review"
-        },
-        "description": {
-          "source": "On June 6th of 2047, Specimen 28, later known as Winston, was born. He was selected, alongside other baby Silverback Gorillas to join a captive colony of varied primates that was to live on the Horizon Lunar Colony to aid in research and genetic experimentation. Specimen 28 displayed rapid brain development following the procedures, far more than any of his peers, and was taken under the wing of Dr. Harold Winston, who would teach him about science and tales of humanity, nourishing the gorilla's young developing mind with an immense curiosity for the blue marble outside his habitat window.",
-          "target": "",
-          "status": "needs-review"
-        }
-      },
-      "event-3f0501121c84": {
-        "sourceHash": "e483a326ac46db89bf7e716a66f2ef9408417a4924a3921e914b39ea10b5b97d",
-        "name": {
-          "source": "The Ironclad Guild",
-          "target": "铁甲 公会",
-          "status": "needs-review"
-        },
-        "description": {
-          "source": "Following his involvement in the SST Laboratories, Torbjörn would join many of his fellow engineers and found the Ironclad Guild, a Workshop meant for inventors to come together, and discuss their craft openly, sharing resources, techniques and tools to later develop their fields independently. Their mission was to create innovations that would improve the world, and become available to anyone who needs them, without restrictive patents.\n\nOvertime, however, the guild would attract many politically minded members, Torbjörn himself included. During his time on Ironclad, Lindholm would work on the Titan units, meant for peacekeeping and defense, much like his previous work on the Bastion units. But while working on these machines he continued to publically speak against AI, holding a hardline position agaisnt it, and he wasn't alone, as many other members of the guild felt the same and advocated for lobbying against Omnica Corporation, and advocating for right for repear, while more moderates argued for better guardrails, \n\nLindholm's adamant disdain for AI eventually became poison for his career, as he found himself unwelcomed in a majority of engineering firms that decided to push forward with AI and Omnics. Many members of the guild would become ostracized from their fields over their views, and siding with Lindholm was seen as career suicide. Torbjörn would return home, to dedicate himself to raising his family with his now wife, Ingrid. As the world moved forward into developing Omnics, away from his warnings.",
-          "target": "",
-          "status": "needs-review"
-        }
-      },
-      "event-3f0b97f8b854": {
-        "sourceHash": "c599792ba48ce3d0830a1d2f05b9dd66e9e02ee44634f70c839b2c08b79b2b33",
-        "name": {
-          "source": "Odessa Stone is Born",
-          "target": "奥德莎·斯通出生",
-          "status": "needs-review"
-        },
-        "description": {
-          "source": "On June 14th of 2047, Odessa Stone was born in a small outback settlement. She was one of six children, often fighting to prove her dominance. The life of the Stones would be marked by the crisis, and especially by the events that followed with the Australian government.",
-          "target": "",
-          "status": "needs-review"
-        }
-      },
-      "event-edf1c5a88a94": {
-        "sourceHash": "4f9716cb798e9f4987e5d980c42b4226637f58889f23c6e1f74fed4bb841e217",
-        "name": {
-          "source": "New Horizons",
-          "target": "新 地平线",
-          "status": "needs-review"
-        },
-        "description": {
-          "source": "At last, after years of development and research, Lucheng was able to finish the con…144022 tokens truncated…"status": "needs-review"
+          "source": "In order to survive in space, many logistics need to be solved and, much like before, the advancements made to accommodate the Colony would find many different uses across the world. Textile manufacturing for long-term space suits would be used by many workers down on earth due to their similar properties to Kevlar, saving many lives during the crisis. Medical advancements in radiation shielding lead to further research into cancer treatments, also applicable on Earth. A similar case happened for treatment of lower bone density and tissue rejuv…146694 tokens truncated…"status": "needs-review"
     },
     "headline-98d1f7501806": {
       "source": "Overwatch breaks into Anubis facility",
