@@ -1,4 +1,4 @@
-Warning: truncated output (original token count: 176694)
+Warning: truncated output (original token count: 177727)
 Total output lines: 9742
 
 {
@@ -276,7 +276,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On November 8 of 2034, Emre Sarioglu was born. A kind, social and stickler of the rules soul that would grow up to become a Local Hero, serving in the Special Forces for Turkey, where his natural leadership and sharp tactical mind shined. He made sure to build relationships with everyone around him, remaining close to his old squad mates even after years.",
-          "target": "",
+          "target": "2034年11月8日，埃姆雷·萨里奥卢出生。他性格善良、合群，又严格遵守规则，后来成为土耳其特种部队的一名地方英雄；他的天生领导力和敏锐的战术头脑在那里大放异彩。即使多年过去，他仍努力维系与老战友的关系。",
           "status": "needs-review"
         }
       },
@@ -302,7 +302,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On September 5th, 2036, Mei-Ling Zhou was born in Xi'an China. Growing up a shy and anxious young girl during such an environmentally turbulent time period led to her developing a strong belief in preserving the world for future generations.",
-          "target": "",
+          "target": "2036年9月5日，周美灵出生于中国西安。在环境动荡的时代长大，这个腼腆而容易焦虑的女孩逐渐坚信，必须保护世界，为后代留下未来。",
           "status": "needs-review"
         }
       },
@@ -328,7 +328,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On October 1st of 2037, Elizabeth Caledonia was born outside of Bellaire. Elizabeth grew up in the Lead Rose Manor, coming from a privileged family of old money. Her family worked in many fields, consulting powerful CEOs around the world, but were mainly known for their ownership of the Arbalest Arms Company, a 19th century weapon manufacturer.\n\nBecause of their busy schedule, the adults in the house barely ever paid attention to the little Elizabeth, leading to her often feeling alone and often getting into trouble getting back at her parents. The only one that was truly there for her was the family's butler, B.O.B., a Bouncer Omnic Unit, one of the earliest on the market.",
-          "target": "",
+          "target": "2037年10月1日，伊丽莎白·卡利多尼亚出生于贝莱尔郊外。她在铅玫瑰庄园长大，来自富裕的老钱家族。她的家人涉足多个领域，为世界各地的强大企业家提供咨询，但最为人所知的是拥有19世纪武器制造商阿巴勒斯特武器公司。由于大人们忙于工作，小伊丽莎白几乎得不到关注，经常感到孤独，也常用惹麻烦的方式报复父母。真正一直陪伴她的，只有家中的管家鲍勃——市场上最早的一批保镖型智械单元之一。",
           "status": "needs-review"
         }
       },
@@ -341,7 +341,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On November 3rd of 2038, Hanzo Shimada is born. The firstborn heir of Sojiro, head of the Shimada clan in Hanamura. An ancient family and clan of assassins that grew a criminal empire across Japan through arms trafficking and protection services to the people they ruled over.\n\nDue to his position, he trained since very young to take his father's role as the leader of the clan. He also had fond memories of his mother Rumiko at this age.",
-          "target": "",
+          "target": "2038年11月3日，岛田半藏出生。他是岛田组首领宗次郎的长子，也是花村这支古老刺客家族的继承人。岛田家族通过武器走私和向治下民众提供保护服务，在日本建立了犯罪帝国。由于身份使然，半藏从小便接受训练，准备接替父亲成为家族首领；那时，他也珍藏着与母亲留美子的美好回忆。",
           "status": "needs-review"
         }
       },
@@ -367,7 +367,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On May 13th of 2039, Angela Zeigler was born in Zurich. Medicine ran in the family, and during the crisis, her parents would often serve as volunteers in local hospitals to aid those in need. Sadly, however, both of them were killed in an air strike during these visits. Orphaned in dire times and at such a young age, this gave Angela a very strong and vocal distaste for war.",
-          "target": "",
+          "target": "2039年5月13日，安吉拉·齐格勒出生于苏黎世。医学世代相传；危机期间，她的父母经常作为志愿者在当地医院救助伤者。然而，两人都在一次前往医院的空袭中遇难。年幼的安吉拉在艰难时期成为孤儿，这让她对战争产生了强烈而公开的厌恶。",
           "status": "needs-review"
         }
       },
@@ -380,7 +380,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On July 31st of 2039, Cole Cassidy was born. Records of his early life are scarce and unreliable, as the man enjoyed the mystery atmosphere he leaned onto. It's believed he came from Texas, and like many others, got orphaned by the Crisis at an early age. Due to these dire circumstances, he never finished formal schooling, leading him to a job hoping to survive, and eventually a life of crime.",
-          "target": "",
+          "target": "2039年7月31日，科尔·卡西迪出生。由于他刻意维持神秘感，早年经历的记录稀少且不可靠。人们相信他来自得克萨斯州，并且像许多人一样，在年幼时因危机失去双亲。困顿的处境让他无法完成正规学业，只能靠工作求生，最终走上犯罪道路。",
           "status": "needs-review"
         }
       },
@@ -419,7 +419,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On March 12th, 2041, Jean-Baptiste Augustin is born. Baptiste was one of the 30 million children that the Crisis orphaned, growing in an orphanage at Port du Paix with his childhood friend, Roseline Mondésir. Dreaming that one day the two of them could build a clinic for their neighborhood.",
-          "target": "",
+          "target": "2041年3月12日，让-巴蒂斯特·奥古斯丁出生。巴蒂斯特是危机中失去家庭的3000万名儿童之一，他与童年好友罗丝琳·蒙代西尔一起在和平港的一家孤儿院长大，并梦想有一天为街区建起一所诊所。",
           "status": "needs-review"
         }
       },
@@ -445,7 +445,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On August 19th, 2041, Maugaloa Malosi was born in Apia, Samoa. His childhood was defined by a love for his country's natural beauty, especially with the rise of Supercoral, as well as a heavy disrespect for the law, which he got from his father. From an early age, Mauga learned that charisma opens doors, and violence gets answers.",
-          "target": "",
+          "target": "2041年8月19日，毛加洛阿·马洛西出生于萨摩亚阿皮亚。他的童年由对祖国自然美景的热爱定义，超级珊瑚的兴起尤其令他着迷；另一方面，他也从父亲那里继承了对法律的强烈不敬。毛加从小便明白，魅力可以打开大门，而暴力能够得到答案。",
           "status": "needs-review"
         }
       },
@@ -458,7 +458,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On October 28th of 2041, Genji Shimada was born in Hanamura, Japan. The second son of Sojiro Shimada, raised by the sword just like his older brother, Hanzo. An ambidextrous young boy, Sojiro gave him the nickname \"Sparrow\", becoming Genji's own Sparrowhawk feather calling card.\n\n Although Genji never showed the same level of conviction as his older brother, often slacking off and indulging in a playboy lifestyle. Even afterwards, Hanzo became very close to his father, especially after their mother Rumiko Shimada abandoned the family.",
-          "target": "",
+          "target": "2041年10月28日，岛田源氏出生于日本花村。他是宗次郎·岛田的次子，和哥哥半藏一样自幼习剑。源氏是个双手都很灵活的男孩，宗次郎给他取了“麻雀”这个昵称，后来也成为源氏使用的雀鹰羽毛标记。源氏不像哥哥那样坚定，常常偷懒，沉迷于花花公子的生活；即便如此，半藏与父亲仍十分亲近，尤其是在母亲留美子离开家族之后。",
           "status": "needs-review"
         }
       },
@@ -497,7 +497,7 @@ Total output lines: 9742
         },
         "description": {
           "source": "On November 19th, 2043, the young girl once known as Amélie Guillard was born in Annecy, France. Part of an influential family, growing up in the ancestral Chataeu Guillard in the rural areas of France, where the crumbling building accumulated cobwebs and spiders, which both fascinated and terrified her as a kid.\n\nAmelie's life was cold and filled with pressure from a conservative family, which expected her to live by aristocratic traditions. She would go on to become a well-accomplished ballet dancer in Paris.",
-          "target": "",
+          "target": "2043年11月19日，后来被称为艾米丽·吉拉德的女孩出生于法国阿讷西。她来自有影响力的家族，在法国乡间的祖传吉拉德城堡长大；这座年久失修的建筑布满蛛网，而蜘蛛既令她着迷，也令她害怕。艾米丽在保守家族的压力中度过冷清的童年，家人要求她遵循贵族传统。后来，她成为巴黎一名成就斐然的芭蕾舞者。",
           "status": "needs-review"
         }
       },
@@ -548,46 +548,7 @@ Total output lines: 9742
           "status": "needs-review"
         },
         "description": {
-          "source": "On September 6th of 2044, Freja Skov was born in Copenhagen. As the daughter of a diplomat in Denmark, she would go on to see how her mother's choices and work saved hundreds of lives during the coming Crisis. While Freja attended key meetings with her mother, she always wanted to have a more active role in saving people, rather than sitting behind a desk. As she grew older, she would pursue Criminology at university.",
-          "target": "",
-          "status": "needs-review"
-        }
-      },
-      "event-2ac0c37887a2": {
-        "sourceHash": "1a66397cbf13400c0fb5ba8f673b34de5e7282640f723aca88d9ad1d4c1f35df",
-        "name": {
-          "source": "Road to the Stars",
-          "target": "道路 群星",
-          "status": "needs-review"
-        },
-        "description": {
-          "source": "Like many other fields of science, astronomy had taken massive leaps over the years, with the monitoring of near-earth objects becoming so advanced, that it allowed humanity to avoid and divert the course of extinction-level asteroids and telescopes were becoming so accurate that many mysteries of old had been solved, and with those new ones arrived.\n\nAt the center of all of these developments was Lucheng Interstellar, a Chinese corporation that had envisioned humanity's future in the stars, developing plans for long-range space travel over the years. But before this was possible, they needed to pursue further research into the long-term effects of low gravity on living organisms. In order to do this, they partnered with many scientists across the world, including the Indian Space Research Organization, which had been developing massive mag-lev satellite launchers for years. Thanks to IRSO's launching tracks, Lucheng would be able to speed up the construction of their first major milestone in the stars, the Horizon Lunar Colony.",
-          "target": "",
-          "status": "needs-review"
-        }
-      },
-      "event-dbb779a0c671": {
-        "sourceHash": "37441a3f698933e19dc4568a05d41eee2af795508e794a79b66c2cc1bbe7159f",
-        "name": {
-          "source": "Fareeha Amari is Born",
-          "target": "法芮尔·阿玛莉出生",
-          "status": "needs-review"
-        },
-        "description": {
-          "source": "On April 15th, 2045, Fareeha Amari was born. Years earlier, the now legendary Sniper, Ana Amari met Sam English, a Canadian diplomat of First Nations descent, and dated casually in between their respective jobs, but would be caught by surprise when it turned out Ana was pregnant. The pair settled down in Cairo to take care of Fareeha.",
-          "target": "",
-          "status": "needs-review"
-        }
-      },
-      "event-38d2e06948c5": {
-        "sourceHash": "f7a989ac4bad6efb23e76931cf88ee486aec4feca3b88a67eee35d35cf736fe2",
-        "name": {
-          "source": "Space Race",
-          "target": "太空 竞赛",
-          "status": "needs-review"
-        },
-        "description": {
-          "source": "In order to survive in space, many logistics need to be solved and, much like before, the advancements made to accommodate the Colony would find many different uses across the world. Textile manufacturing for long-term space suits would be used by many workers down on earth due to their similar properties to Kevlar, saving many lives during the crisis. Medical advancements in radiation shielding lead to further research into cancer treatments, also applicable on Earth. A similar case happened for treatment of lower bone density and tissue rejuv…146694 tokens truncated…"status": "needs-review"
+          "source": "On September 6th of 2044, Freja Skov was born in C…147727 tokens truncated…"status": "needs-review"
     },
     "headline-98d1f7501806": {
       "source": "Overwatch breaks into Anubis facility",
