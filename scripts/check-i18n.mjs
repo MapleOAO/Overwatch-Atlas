@@ -30,7 +30,9 @@ const result = {
     missingRecords: [],
     staleRecords: [],
     pendingNames: [],
+    unreviewedNames: [],
     pendingDescriptions: [],
+    unreviewedDescriptions: [],
     headlineSources: 0,
     headlineOverlays: 0,
     pendingHeadlines: [],
@@ -50,7 +52,11 @@ for (const [kind, relativePath, key] of DATASETS) {
         }
         if (row.sourceHash !== hashRecord(record)) result.staleRecords.push(`${kind}:${record.id}`);
         if (!row.name?.target || row.name.target === record.name) result.pendingNames.push(`${kind}:${record.name}`);
+        if (row.name?.target && row.name.status !== 'reviewed') result.unreviewedNames.push(`${kind}:${record.name}`);
         if (record.description && !row.description?.target) result.pendingDescriptions.push(`${kind}:${record.name}`);
+        if (record.description && row.description?.target && row.description.status !== 'reviewed') {
+            result.unreviewedDescriptions.push(`${kind}:${record.name}`);
+        }
         if (kind === 'event') {
             for (const headline of Array.isArray(record.headlines) ? record.headlines : []) {
                 const sourceHeadline = String(headline || '').trim();
@@ -67,7 +73,9 @@ for (const [kind, relativePath, key] of DATASETS) {
 const errors = [...result.missingRecords, ...result.staleRecords];
 if (strict) errors.push(
     ...result.pendingNames.map((x) => `pending-name:${x}`),
+    ...result.unreviewedNames.map((x) => `unreviewed-name:${x}`),
     ...result.pendingDescriptions.map((x) => `pending-description:${x}`),
+    ...result.unreviewedDescriptions.map((x) => `unreviewed-description:${x}`),
     ...result.pendingHeadlines.map((x) => `pending-headline:${x}`),
 );
 console.log(JSON.stringify({ ...result, errorCount: errors.length, errors: errors.slice(0, 100) }, null, 2));

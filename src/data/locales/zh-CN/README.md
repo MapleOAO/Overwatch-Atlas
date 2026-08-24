@@ -8,3 +8,5 @@
 3. 运行 `npm run i18n:check`、`npm run i18n:official:check` 和 `npm run i18n:visible:check`。
 
 `reviewed` 仅用于已核对的官方词条；`needs-review` 是初稿，必须在官方页面、国服客户端或可信 Wiki 交叉确认后再提升状态。
+
+当前首轮已覆盖国服官网可核对的英雄／常用专名、界面标签、事件标题初稿和新闻标题占位；事件正文及未能找到国服原文的实体名称仍保留 `needs-review`，不会被误标为官方译文。完整交付前必须通过 `npm run i18n:check:strict`。

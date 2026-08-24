@@ -256,6 +256,13 @@ function makeField(source, target, status) {
     return { source: String(source || ''), target: String(target || ''), status };
 }
 
+function isOfficialName(source, kind) {
+    // Only direct recurring proper nouns from the verified CN glossary are
+    // promoted automatically. Event-title word substitutions and archive/NPC
+    // names remain needs-review until a CN source confirms the exact spelling.
+    return kind !== 'event' && Object.prototype.hasOwnProperty.call(NAMES, source);
+}
+
 fs.mkdirSync(OUT_DIR, { recursive: true });
 const content = {
     locale: 'zh-CN', version: 1, generatedFrom: 'upstream/main',
@@ -271,7 +278,7 @@ for (const [kind, relativePath, key] of DATASETS) {
         const name = String(record.name || record.displayName || record.title || '').trim();
         const description = String(record.description || '').trim();
         const translatedName = translateName(name, kind);
-        const nameStatus = translatedName === name ? 'needs-review' : 'reviewed';
+        const nameStatus = isOfficialName(name, kind) ? 'reviewed' : 'needs-review';
         content.records[kind][record.id] = {
             sourceHash: hashRecord(record),
             name: makeField(name, translatedName, nameStatus),
