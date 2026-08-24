@@ -12,8 +12,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
-      - master
+      - cn-main-clean
   workflow_dispatch:
 
 permissions:

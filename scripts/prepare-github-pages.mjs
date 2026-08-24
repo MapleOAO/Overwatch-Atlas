@@ -282,6 +282,21 @@ function removeDevOnlyArtifacts() {
 function validateStaticSite() {
     const errors = [];
 
+    if (staticImageFormat === 'webp') {
+        for (const relativeRoot of OPTIMIZED_IMAGE_DIRS) {
+            const absoluteRoot = path.join(OUT, relativeRoot);
+            if (!fs.existsSync(absoluteRoot)) continue;
+            const rasterLeftovers = listFiles(absoluteRoot).filter((file) =>
+                RASTER_EXTENSIONS.has(path.extname(file).toLowerCase()),
+            );
+            if (rasterLeftovers.length) {
+                errors.push(
+                    `${relativeRoot} still contains ${rasterLeftovers.length} raster file(s) after WebP build`,
+                );
+            }
+        }
+    }
+
     if (!fs.existsSync(path.join(OUT, '.nojekyll'))) {
         errors.push('Missing _site/.nojekyll');
     }
@@ -408,7 +423,9 @@ function printSummary() {
     const theater = JSON.parse(
         fs.readFileSync(path.join(OUT, 'src', 'data', 'dialogue-theater', 'conversations.json'), 'utf8'),
     );
+    const siteBytes = listFiles(OUT).reduce((sum, file) => sum + fs.statSync(file).size, 0);
     console.log(`  conversations.json: ${theater.conversations?.length ?? 0} conversations`);
+    console.log(`  static output size: ${(siteBytes / (1024 ** 3)).toFixed(2)} GiB`);
     console.log('  static deploy meta injected; dev-only paths excluded');
 }
 

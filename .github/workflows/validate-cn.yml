@@ -2,9 +2,9 @@ name: Validate CN overlay
 
 on:
   push:
-    branches: ["cn-main", "codex/**"]
+    branches: ["cn-main-clean", "codex/**"]
   pull_request:
-    branches: ["cn-main", "main"]
+    branches: ["cn-main-clean"]
 
 permissions:
   contents: read
@@ -23,4 +23,4 @@ jobs:
       - run: npm run i18n:check
       - run: npm run i18n:official:check
       - run: npm run i18n:visible:check
-
+      - run: npm run build:pages

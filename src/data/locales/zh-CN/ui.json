@@ -41,10 +41,10 @@
       "status": "reviewed",
       "source": "Session controls"
     },
-    "Main menu": {
-      "target": "主菜单",
+    "Rotation controls": {
+      "target": "旋转控制",
       "status": "reviewed",
-      "source": "Main menu"
+      "source": "Rotation controls"
     },
     "Transport and weather": {
       "target": "交通与天气",
@@ -57,9 +57,24 @@
       "source": "Pagination and navigation"
     },
     "Map view and rotation": {
-      "target": "地图与旋转",
+      "target": "地图视图与旋转",
       "status": "reviewed",
       "source": "Map view and rotation"
+    },
+    "Resources and archives": {
+      "target": "资源与档案",
+      "status": "reviewed",
+      "source": "Resources and archives"
+    },
+    "Atlas modes": {
+      "target": "档案馆模式",
+      "status": "reviewed",
+      "source": "Atlas modes"
+    },
+    "Main menu": {
+      "target": "主菜单",
+      "status": "reviewed",
+      "source": "Main menu"
     },
     "Open official Overwatch website": {
       "target": "打开《守望先锋》官方网站",
@@ -75,6 +90,11 @@
       "target": "守望先锋官网",
       "status": "reviewed",
       "source": "Overwatch Website"
+    },
+    "Atlas News": {
+      "target": "档案馆新闻",
+      "status": "reviewed",
+      "source": "Atlas News"
     },
     "Edit description": {
       "target": "编辑描述",
@@ -111,15 +131,550 @@
       "status": "reviewed",
       "source": "Back to previous entry"
     },
-    "List order": {
-      "target": "列表顺序",
+    "Event": {
+      "target": "事件",
       "status": "reviewed",
-      "source": "List order"
+      "source": "Event"
+    },
+    "Previous Event": {
+      "target": "上一个事件",
+      "status": "reviewed",
+      "source": "Previous Event"
+    },
+    "Previous event": {
+      "target": "上一个事件",
+      "status": "reviewed",
+      "source": "Previous event"
+    },
+    "Next Event": {
+      "target": "下一个事件",
+      "status": "reviewed",
+      "source": "Next Event"
+    },
+    "Next event": {
+      "target": "下一个事件",
+      "status": "reviewed",
+      "source": "Next event"
+    },
+    "Event display options": {
+      "target": "事件显示选项",
+      "status": "reviewed",
+      "source": "Event display options"
+    },
+    "Glitch effect": {
+      "target": "故障效果",
+      "status": "reviewed",
+      "source": "Glitch effect"
+    },
+    "Show Image": {
+      "target": "显示图片",
+      "status": "reviewed",
+      "source": "Show Image"
+    },
+    "Hide Image": {
+      "target": "隐藏图片",
+      "status": "reviewed",
+      "source": "Hide Image"
+    },
+    "Image On": {
+      "target": "图片已开启",
+      "status": "reviewed",
+      "source": "Image On"
+    },
+    "Image Off": {
+      "target": "图片已关闭",
+      "status": "reviewed",
+      "source": "Image Off"
+    },
+    "Event Image": {
+      "target": "事件图片",
+      "status": "reviewed",
+      "source": "Event Image"
+    },
+    "Event Image Overlay": {
+      "target": "事件图片叠层",
+      "status": "reviewed",
+      "source": "Event Image Overlay"
+    },
+    "Relevant locations": {
+      "target": "相关地点",
+      "status": "reviewed",
+      "source": "Relevant locations"
+    },
+    "Connections": {
+      "target": "关系",
+      "status": "reviewed",
+      "source": "Connections"
+    },
+    "Sources:": {
+      "target": "来源：",
+      "status": "reviewed",
+      "source": "Sources:"
+    },
+    "Sources": {
+      "target": "来源",
+      "status": "reviewed",
+      "source": "Sources"
+    },
+    "Faction type": {
+      "target": "阵营类型",
+      "status": "reviewed",
+      "source": "Faction type"
+    },
+    "NPC category": {
+      "target": "NPC 类别",
+      "status": "reviewed",
+      "source": "NPC category"
+    },
+    "Role": {
+      "target": "定位",
+      "status": "reviewed",
+      "source": "Role"
+    },
+    "Subrole": {
+      "target": "子定位",
+      "status": "reviewed",
+      "source": "Subrole"
+    },
+    "Hero role": {
+      "target": "英雄定位",
+      "status": "reviewed",
+      "source": "Hero role"
+    },
+    "Hero subrole": {
+      "target": "英雄子定位",
+      "status": "reviewed",
+      "source": "Hero subrole"
+    },
+    "Birthday": {
+      "target": "生日",
+      "status": "reviewed",
+      "source": "Birthday"
+    },
+    "Day": {
+      "target": "日",
+      "status": "reviewed",
+      "source": "Day"
+    },
+    "Month": {
+      "target": "月",
+      "status": "reviewed",
+      "source": "Month"
+    },
+    "Year": {
+      "target": "年",
+      "status": "reviewed",
+      "source": "Year"
+    },
+    "Month suggestions": {
+      "target": "月份建议",
+      "status": "reviewed",
+      "source": "Month suggestions"
+    },
+    "Description": {
+      "target": "描述",
+      "status": "reviewed",
+      "source": "Description"
+    },
+    "Lifetime range": {
+      "target": "生涯时间段",
+      "status": "reviewed",
+      "source": "Lifetime range"
+    },
+    "Born / founded at": {
+      "target": "出生／成立于",
+      "status": "reviewed",
+      "source": "Born / founded at"
+    },
+    "Until": {
+      "target": "截至",
+      "status": "reviewed",
+      "source": "Until"
+    },
+    "This entry": {
+      "target": "当前条目",
+      "status": "reviewed",
+      "source": "This entry"
+    },
+    "Secondary countries": {
+      "target": "关联国家／地区",
+      "status": "reviewed",
+      "source": "Secondary countries"
+    },
+    "No biography written yet for this hero.": {
+      "target": "尚未撰写该英雄的简介。",
+      "status": "reviewed",
+      "source": "No biography written yet for this hero."
+    },
+    "No connections recorded for this entry.": {
+      "target": "该条目暂无关系记录。",
+      "status": "reviewed",
+      "source": "No connections recorded for this entry."
+    },
+    "No connections recorded for this hero.": {
+      "target": "该英雄暂无关系记录。",
+      "status": "reviewed",
+      "source": "No connections recorded for this hero."
+    },
+    "Location biographies are not available yet.": {
+      "target": "地点简介暂不可用。",
+      "status": "reviewed",
+      "source": "Location biographies are not available yet."
+    },
+    "Add": {
+      "target": "添加",
+      "status": "reviewed",
+      "source": "Add"
+    },
+    "+ Add": {
+      "target": "+ 添加",
+      "status": "reviewed",
+      "source": "+ Add"
+    },
+    "Delete entry": {
+      "target": "删除条目",
+      "status": "reviewed",
+      "source": "Delete entry"
+    },
+    "Save file": {
+      "target": "保存文件",
+      "status": "reviewed",
+      "source": "Save file"
+    },
+    "Export JSON": {
+      "target": "导出 JSON",
+      "status": "reviewed",
+      "source": "Export JSON"
+    },
+    "Import JSON": {
+      "target": "导入 JSON",
+      "status": "reviewed",
+      "source": "Import JSON"
+    },
+    "Merge JSON": {
+      "target": "合并 JSON",
+      "status": "reviewed",
+      "source": "Merge JSON"
+    },
+    "List": {
+      "target": "列表",
+      "status": "reviewed",
+      "source": "List"
+    },
+    "Canvas": {
+      "target": "画布",
+      "status": "reviewed",
+      "source": "Canvas"
+    },
+    "Intel": {
+      "target": "情报",
+      "status": "reviewed",
+      "source": "Intel"
+    },
+    "Event Management": {
+      "target": "事件管理",
+      "status": "reviewed",
+      "source": "Event Management"
+    },
+    "Show controls": {
+      "target": "显示控件",
+      "status": "reviewed",
+      "source": "Show controls"
+    },
+    "Hide controls": {
+      "target": "隐藏控件",
+      "status": "reviewed",
+      "source": "Hide controls"
+    },
+    "Add Event": {
+      "target": "添加事件",
+      "status": "reviewed",
+      "source": "Add Event"
     },
     "Search & filters": {
       "target": "搜索与筛选",
       "status": "reviewed",
       "source": "Search & filters"
+    },
+    "Search:": {
+      "target": "搜索：",
+      "status": "reviewed",
+      "source": "Search:"
+    },
+    "Filters:": {
+      "target": "筛选：",
+      "status": "reviewed",
+      "source": "Filters:"
+    },
+    "Country:": {
+      "target": "国家／地区：",
+      "status": "reviewed",
+      "source": "Country:"
+    },
+    "Use filter selection": {
+      "target": "使用筛选面板选择",
+      "status": "reviewed",
+      "source": "Use filter selection"
+    },
+    "Per page:": {
+      "target": "每页：",
+      "status": "reviewed",
+      "source": "Per page:"
+    },
+    "Show all": {
+      "target": "显示全部",
+      "status": "reviewed",
+      "source": "Show all"
+    },
+    "Clear": {
+      "target": "清除",
+      "status": "reviewed",
+      "source": "Clear"
+    },
+    "Loading": {
+      "target": "加载中",
+      "status": "reviewed",
+      "source": "Loading"
+    },
+    "Loading Status": {
+      "target": "加载状态",
+      "status": "reviewed",
+      "source": "Loading Status"
+    },
+    "Loading Codex…": {
+      "target": "正在加载关系图……",
+      "status": "reviewed",
+      "source": "Loading Codex…"
+    },
+    "Zoom In": {
+      "target": "放大",
+      "status": "reviewed",
+      "source": "Zoom In"
+    },
+    "Zoom Out": {
+      "target": "缩小",
+      "status": "reviewed",
+      "source": "Zoom Out"
+    },
+    "Reset zoom and view": {
+      "target": "重置缩放与视图",
+      "status": "reviewed",
+      "source": "Reset zoom and view"
+    },
+    "Choose view": {
+      "target": "选择视图",
+      "status": "reviewed",
+      "source": "Choose view"
+    },
+    "Pick how the timeline opens.": {
+      "target": "选择时间线的打开方式。",
+      "status": "reviewed",
+      "source": "Pick how the timeline opens."
+    },
+    "Cancel": {
+      "target": "取消",
+      "status": "reviewed",
+      "source": "Cancel"
+    },
+    "World": {
+      "target": "世界",
+      "status": "reviewed",
+      "source": "World"
+    },
+    "Codex": {
+      "target": "关系图谱",
+      "status": "reviewed",
+      "source": "Codex"
+    },
+    "Story": {
+      "target": "故事",
+      "status": "reviewed",
+      "source": "Story"
+    },
+    "Gallery": {
+      "target": "档案馆",
+      "status": "reviewed",
+      "source": "Gallery"
+    },
+    "Dialogue Theater": {
+      "target": "对话剧场",
+      "status": "reviewed",
+      "source": "Dialogue Theater"
+    },
+    "Data Workshop": {
+      "target": "数据工坊",
+      "status": "reviewed",
+      "source": "Data Workshop"
+    },
+    "Official Archive": {
+      "target": "官方档案",
+      "status": "reviewed",
+      "source": "Official Archive"
+    },
+    "Read Undivided": {
+      "target": "阅读《无界》",
+      "status": "reviewed",
+      "source": "Read Undivided"
+    },
+    "See the Latest": {
+      "target": "查看最新内容",
+      "status": "reviewed",
+      "source": "See the Latest"
+    },
+    "Read the Undivided webtoon on WEBTOON": {
+      "target": "在 WEBTOON 阅读《无界》漫画",
+      "status": "reviewed",
+      "source": "Read the Undivided webtoon on WEBTOON"
+    },
+    "Listen to Character Interactions": {
+      "target": "聆听角色互动",
+      "status": "reviewed",
+      "source": "Listen to Character Interactions"
+    },
+    "Browse Factions, Characters and Places": {
+      "target": "浏览阵营、角色与地点",
+      "status": "reviewed",
+      "source": "Browse Factions, Characters and Places"
+    },
+    "Links to official Overwatch sites and media": {
+      "target": "官方《守望先锋》网站与媒体链接",
+      "status": "reviewed",
+      "source": "Links to official Overwatch sites and media"
+    },
+    "Visualize the story through a 3D globe or 2D map": {
+      "target": "通过 3D 地球或 2D 地图查看故事",
+      "status": "reviewed",
+      "source": "Visualize the story through a 3D globe or 2D map"
+    },
+    "Study how every detail connects": {
+      "target": "查看每个细节之间的联系",
+      "status": "reviewed",
+      "source": "Study how every detail connects"
+    },
+    "Experience the Narrative in Order": {
+      "target": "按顺序体验故事",
+      "status": "reviewed",
+      "source": "Experience the Narrative in Order"
+    },
+    "Learn about every Hero and their Journey": {
+      "target": "了解每位英雄及其旅程",
+      "status": "reviewed",
+      "source": "Learn about every Hero and their Journey"
+    },
+    "Jump to the newest story event": {
+      "target": "跳转至最新故事事件",
+      "status": "reviewed",
+      "source": "Jump to the newest story event"
+    },
+    "Latest story event": {
+      "target": "最新故事事件",
+      "status": "reviewed",
+      "source": "Latest story event"
+    },
+    "Select all": {
+      "target": "全选",
+      "status": "reviewed",
+      "source": "Select all"
+    },
+    "Delete selected": {
+      "target": "删除所选",
+      "status": "reviewed",
+      "source": "Delete selected"
+    },
+    "Check vs archives": {
+      "target": "与档案对比",
+      "status": "reviewed",
+      "source": "Check vs archives"
+    },
+    "Clear all": {
+      "target": "全部清除",
+      "status": "reviewed",
+      "source": "Clear all"
+    },
+    "Node bg:": {
+      "target": "节点背景：",
+      "status": "reviewed",
+      "source": "Node bg:"
+    },
+    "Reset look to defaults": {
+      "target": "恢复默认外观",
+      "status": "reviewed",
+      "source": "Reset look to defaults"
+    },
+    "Drag mode": {
+      "target": "拖拽模式",
+      "status": "reviewed",
+      "source": "Drag mode"
+    },
+    "Network mode": {
+      "target": "网络模式",
+      "status": "reviewed",
+      "source": "Network mode"
+    },
+    "Unsaved changes": {
+      "target": "未保存的更改",
+      "status": "reviewed",
+      "source": "Unsaved changes"
+    },
+    "Save Codex": {
+      "target": "保存关系图谱",
+      "status": "reviewed",
+      "source": "Save Codex"
+    },
+    "Targeted selection": {
+      "target": "定向选择",
+      "status": "reviewed",
+      "source": "Targeted selection"
+    },
+    "Link selections": {
+      "target": "连接所选项",
+      "status": "reviewed",
+      "source": "Link selections"
+    },
+    "Apply": {
+      "target": "应用",
+      "status": "reviewed",
+      "source": "Apply"
+    },
+    "Break": {
+      "target": "断开",
+      "status": "reviewed",
+      "source": "Break"
+    },
+    "Merge": {
+      "target": "合并",
+      "status": "reviewed",
+      "source": "Merge"
+    },
+    "Dev Mode": {
+      "target": "开发者模式",
+      "status": "reviewed",
+      "source": "Dev Mode"
+    },
+    "Phrase": {
+      "target": "台词",
+      "status": "reviewed",
+      "source": "Phrase"
+    },
+    "Dialogues": {
+      "target": "对话",
+      "status": "reviewed",
+      "source": "Dialogues"
+    },
+    "Chatters": {
+      "target": "说话者",
+      "status": "reviewed",
+      "source": "Chatters"
+    },
+    "No description available.": {
+      "target": "暂无描述。",
+      "status": "reviewed",
+      "source": "No description available."
+    },
+    "List order": {
+      "target": "列表顺序",
+      "status": "reviewed",
+      "source": "List order"
     },
     "Search": {
       "target": "搜索",
@@ -151,31 +706,6 @@
       "status": "reviewed",
       "source": "By flag / country name, comma-separated..."
     },
-    "Use filter selection": {
-      "target": "使用当前筛选项",
-      "status": "reviewed",
-      "source": "Use filter selection"
-    },
-    "Per page:": {
-      "target": "每页：",
-      "status": "reviewed",
-      "source": "Per page:"
-    },
-    "Show all": {
-      "target": "显示全部",
-      "status": "reviewed",
-      "source": "Show all"
-    },
-    "Clear": {
-      "target": "清除",
-      "status": "reviewed",
-      "source": "Clear"
-    },
-    "Add Event": {
-      "target": "添加事件",
-      "status": "reviewed",
-      "source": "Add Event"
-    },
     "Export": {
       "target": "导出",
       "status": "reviewed",
@@ -185,71 +715,6 @@
       "target": "导入",
       "status": "reviewed",
       "source": "Import"
-    },
-    "Merge": {
-      "target": "合并",
-      "status": "reviewed",
-      "source": "Merge"
-    },
-    "Loading Status": {
-      "target": "加载状态",
-      "status": "reviewed",
-      "source": "Loading Status"
-    },
-    "Event Image": {
-      "target": "事件图片",
-      "status": "reviewed",
-      "source": "Event Image"
-    },
-    "Show Image": {
-      "target": "显示图片",
-      "status": "reviewed",
-      "source": "Show Image"
-    },
-    "Previous event": {
-      "target": "上一个事件",
-      "status": "reviewed",
-      "source": "Previous event"
-    },
-    "Next event": {
-      "target": "下一个事件",
-      "status": "reviewed",
-      "source": "Next event"
-    },
-    "Zoom In": {
-      "target": "放大",
-      "status": "reviewed",
-      "source": "Zoom In"
-    },
-    "Zoom Out": {
-      "target": "缩小",
-      "status": "reviewed",
-      "source": "Zoom Out"
-    },
-    "Reset zoom and view": {
-      "target": "重置缩放与视图",
-      "status": "reviewed",
-      "source": "Reset zoom and view"
-    },
-    "Relevant locations": {
-      "target": "相关地点",
-      "status": "reviewed",
-      "source": "Relevant locations"
-    },
-    "Connections": {
-      "target": "关系",
-      "status": "reviewed",
-      "source": "Connections"
-    },
-    "Sources": {
-      "target": "来源",
-      "status": "reviewed",
-      "source": "Sources"
-    },
-    "No description available.": {
-      "target": "暂无描述。",
-      "status": "reviewed",
-      "source": "No description available."
     }
   }
 }

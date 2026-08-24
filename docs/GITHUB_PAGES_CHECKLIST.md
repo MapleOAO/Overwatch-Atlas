@@ -14,7 +14,7 @@ Unlike Windows, GitHub Pages serves files from a **case-sensitive** filesystem. 
 
 ## CI vs `_site/`
 
-- **Recommended**: **Settings → Pages → Source: GitHub Actions**. Pushes to `main` / `master` run `.github/workflows/deploy.yml`, which executes **`npm run build:pages`** (regenerates `src/data/manifest.json`, copies a clean tree into **`_site/`**, injects `<meta name="timeline-deploy" content="static">` into the built `index.html`, and writes **`.nojekyll`** in the artifact).
+- **Recommended**: **Settings → Pages → Source: GitHub Actions**. Pushes to `cn-main-clean` run `.github/workflows/deploy.yml`, which executes **`npm run build:pages`** (regenerates `src/data/manifest.json`, copies a clean tree into **`_site/`**, injects `<meta name="timeline-deploy" content="static">` into the built `index.html`, and writes **`.nojekyll`** in the artifact).
 - **`_site/`** is **gitignored** — do not commit it. The workflow builds it on every deploy.
 - **Before you push**, run **`npm run build:pages`** locally once to confirm the build passes and the manifest matches your assets (same command CI uses).
 

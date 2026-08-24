@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: cn-main
+          ref: cn-main-clean
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
@@ -34,9 +34,8 @@ jobs:
       - uses: peter-evans/create-pull-request@v7
         with:
           branch: automation/upstream-sync-${{ github.run_id }}
-          base: cn-main
+          base: cn-main-clean
           title: "chore: sync upstream into CN overlay"
           commit-message: "chore: sync upstream into CN overlay"
           body: |
             自动同步 `upstream/main`。中文覆盖层通过稳定 ID 和 sourceHash 适配，上游冲突需人工复核。
-

@@ -5,7 +5,7 @@
 本项目从 `upstream/main` 创建中文分支。`upstream` 只作为源项目的更新渠道，`origin` 只作为中文产品仓库；不从旧的废弃 `main` 分支复制代码、数据或提交历史。
 
 ```text
-upstream/main ──同步──> cn-main ──发布──> origin
+upstream/main ──同步──> cn-main-clean ──发布──> origin
                          └─ zh-CN overlay
 ```
 
@@ -33,6 +33,8 @@ npm run content:ids:check
 npm run i18n:check
 npm run i18n:official:check
 npm run i18n:visible:check
+# CI 会再执行完整的 GitHub Pages 构建（含 WebP 转码）
+npm run build:pages
 # 完整翻译交付前再运行：
 npm run i18n:check:strict
 ```
@@ -44,4 +46,3 @@ npm run i18n:check:strict
 - `scripts/_cache/` 是本地采集缓存，已从版本控制移除并永久忽略。
 - GitHub Pages 构建只在 `_site` 将图片转为 WebP；源树保留 PNG/JPEG，方便从上游合并。
 - 构建脚本会替换静态引用、注入版本标记并验证关键 JSON；本地开发不改变源素材。
-
